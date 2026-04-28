@@ -194,21 +194,13 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [9.24 Dispenser Software Upgrade or Replacement](#924-dispenser-software-upgrade-or-replacement)
 
-
-
-
-
-
-
-
-
 <font size ="5">
 
-
+[**10.0 Dispenser Calibration**](#100-dispenser-calibration)
 
 <font size ="3">
 
-
+[10.1 Meter Calibration](#)
 
  
 
@@ -845,9 +837,35 @@ To install the new C5000 software
 -	Press the K-Factor board button on the K-Factor board to clear the caib from the display and sync the K-Factor board settings will the C5000 processor board.
 -	Check the dispenser operation Checking Dispenser Operation.
  
+<BR>
 
+# 10.0 Dispenser Calibration
 
+# 10.1 Meter Calibration
 
+Calibrating the meter involves:
+Comparing the dispensers stated amount dispensed to actual amount dispensed. 
+Adjusting the K-Factor if accuracy is not within the required tolerance.  
+
+NOTE: The K-Factor for each new dispenser is factory set and usually does not need to be changed. 
+To test the meter accuracy:
+Record the dispenser’s current density factor and set it to read out in kg Density Factor (d5F).
+	Test the meter accuracy using Calibration Test Fill Procedure - Method 1 or Calibration Test Fill Procedure - Method 2.
+To calculate the meter K-Factor:
+	Make sure that the dispenser is idle.
+	Press and release the K-Factor button on the K-Factor board until the K-Factor is displayed
+
+Calculate the new K-Factor with the following formula:
+New K Factor=existing K Factor×(True quantity)/(Displayed amount)
+For example:
+Existing K Factor=0.98
+Displayed amount=5.80
+True quantity=6.00kg
+New K Factor=0.98×  6.00/5.80=1.0138(4dp)
+
+To input dispenser settings:
+	Input the new meter K-factor.
+	Set the density factor back to its original value. (dSF).
 
 
 
