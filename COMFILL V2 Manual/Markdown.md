@@ -343,6 +343,8 @@ The Comfill V2 can be used for different applications, as it is both a pump and 
 
 # Safety
 
+<BR>
+
 Please adhere to the following safety precautions at all times when working on the Compac Comfill V2.<BR>
 Failure to observe these safety precautions could result in damage to the Comfill V2, injury, or death.<BR>
 Ensure that you read and understand all safety precautions before installing, servicing or operating the Compac Comfill V2.
@@ -388,6 +390,8 @@ Technicians should be able to safely operate and diagnose a Comfill V2 with the 
 <BR>
 
 # Internal Layout
+
+![image](line.png)
 
 ![image](12.1.1_ComfillV2_layout.png)
 <BR>
@@ -2283,16 +2287,7 @@ Note: This is a complete list of all the available END OF SALE Indicators and co
 
 
 
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
