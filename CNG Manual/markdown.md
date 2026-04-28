@@ -86,9 +86,16 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="5">
 
-[**1.0 Safety**](#10-commissioning)
+[**1.0 Safety**](#10-safety)
 
 <font size ="3">
+
+[1.1 System Design](#11-system-design)
+
+[1.2 Mechanical Safety](#12-mechanical-safety)
+
+[1.3 Electrical Safety](#13-electrical-safety)
+
 
 <font size ="5">
 
@@ -204,9 +211,55 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [10.2 Pressure Transducer Calibration](#102-pressure-transducer-calibration) 
 
+[10.3 Ambient Temperature Sensor Calibration](#103-ambient-temperature-sensor-calibration)
+
+
 # 1.0 Safety
 
+**DANGER PRECAUTIONS**<BR>
+
+You must adhere to the following safety precautions at all times when working on the Compac equipment.<BR>
+Failure to observe these safety precautions could result in damage to the dispenser, injury, or death.<BR>
+Make sure that you read and understand all safety precautions before operating the Compac equipment<BR>
+Failure to take adequate safety precautions could result in explosion, injury and loss of life.
+
+# 1.1 System Design
+Ensure the system design does not allow the dispenser inlet pressure to exceed its rating.<BR>
+The dispenser does not include any safeties to protect against excessive inlet pressure.<BR>
+If necessary, suitable protective devices should be fitted prior to the dispenser inlet.
+
+# 1.2 Mechanical Safety
+
+Observe the following mechanical precautions:<BR>
+
+- Never tighten a fitting under pressure, even if a fitting or joint is leaking. Always depressurise the line first.
+- Never disassemble a fitting under pressure. Always depressurise the line first.
+- Be very careful when disassembling frozen pipework, as gas pressure may be trapped and suddenly released. Always depressurise the line before using.
+- Never reuse any O-ring seals that have been in a high pressure gas atmosphere and then exposed to air. These o-rings swell and cannot be reused. Always make sure you have a new seal kit available to replace the seals before disassembly.
+- Make sure that all internal surfaces are cleaned and that sliding surfaces are lightly greased with O-ring lubricant before reassembly. Dust and dirt entering components reduce the life span of the components and can affect operation.
+- Ensure the service area is thoroughly cleaned before initiating service on CNG components. Dust and dirt entering the components reduce the life span of the component and affect future operations. 
+
+# 1.3 Electrical Safety
+
+Observe the following electrical precautions:<BR>
+
+- Always turn off the power to the CNG Dispenser before removing the box lid. Never touch wiring or components inside the CNG Dispenser with the power on.
+- Never power up the CNG dispenser with the flameproof box lid removed.
+- Always turn off the power to the dispenser before upgrading software or replacing components.
+- Always take basic anti-static precautions when working on the electronics, i.e., wearing a wristband with an earth strap. 
+
 # 2.0 Introduction
+
+The Compac CNC dispenser is designed to provide safe and reliable dispensing of CNG fuels.<BR>
+They are available in either single or dual hose configurations and with different flow rates.<BR> 
+
+Compac CNG dispensers are controlled by a C5000 board which has many programmable features to suit your individual operation.<BR>
+
+This manual contains the information required to operate and maintain your dispenser. Due to ongoing improvements and customised designs, there may be software features that are not available on your particular unit.<BR>
+
+For clarity, this manual will refer to the "Dollars" display. If you do not use dollars please substitute this for your local currency. 
+
+![image](15.2.1_CNG_Laser.png)
 
 # 3.0 Refuelling Modes
 
@@ -214,7 +267,85 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 # 5.0 Commissioning - Electrical
 
+This procedure outlines how to perform an electrical operational test before carrying out full mechanical commissioning, making sure that the dispenser is functioning correctly.<BR>
+Check for any damage that may have occurred in transit. Check all terminals, plugs, and chips to make sure that they are securely in place.<BR> 
+
+**NOTE:** *Damage to electronics occurs most commonly from vibration and jarring.* 
+
+Before beginning this test, check that no gas pressure has been applied to the dispenser inlets.<BR>
+The factory set-up information should be programmed into the dispenser, but all K-factor and Parameter switch settings should be checked and confirmed before commissioning tests are carried out.
+
+To perform an electrical operational test:<BR>
+
+1.	Make sure that the inlet shut-off valves are closed (these are the valves in the inlet lines at the base of the dispenser, but they are not part of the dispenser).
+
+2.	Turn on the power supply to the dispenser. 
+The displays and backlighting will illuminate, and the displays read hold.
+The dispenser is in a ready state once the hold is finished, and the display shows 0.00.
+
+3.	With the dispenser in a ready state.
+Press the Start button. 
+The display will show 888888 and the solenoids energise, initiating a fill. On the K factor board check that the output leds T1 T2 and T3 turn on, indicating a signal is being sent to the triacs to open the solenoid valves.
+The diagnostic LED (D9) flashes quickly when the start button is pushed or the nozzle removed from the holster to initiate a fill. When the button is released or nozzle returned to the holster it will return to the normal state and flash slowly.
+
+4.	Verify solenoid operation by listening for a click, or by using a screwdriver tip or some other metallic tool to check for a magnetic field present on the solenoid coils.
+The solenoids will switch off after 10 seconds. This is a default time-out setting in the software for situations when there is no gas flow registered. 
+
+5.	Press the stop button. The solenoids switch off and the fill ends. 
+When you release the stop button, the dispenser resets and returns to a ready state.
+
 # 6.0 Commissioning - Mechanical
+
+At the mechanical commissioning stage, the dispenser should not be pressurised.<BR>
+
+**NOTE:** *If you find any leaks during commissioning, immediately close all the valves and de-gas the dispenser.*<BR>
+
+To perform a mechanical test:
+<BR>
+1.	Make sure that the inlet shut-off valves are closed. (These are the valves in the inlet lines at the base of the dispenser, but they are not part of the dispenser.)
+2.	Check all dispenser fittings, especially the inlet connections, to make sure that they are tight.<BR>
+
+**DANGER:** Always de-gas the lines before tightening any fittings. Never tighten fittings while they are under pressure.<BR>
+
+3.	Check that the outlet supply valve to hose 1 on the side of the dispenser (or hose 2 if you are working on side 2) is closed and the nozzle valve is closed.<BR>
+
+4.	Turn on the dispenser and wait for it to power up.<BR>
+
+The dispenser initially displays **PA:uSE**. When it is ready, **0.00** is displayed.<BR>
+
+5.	Press the START button.<BR>
+
+**NOTE:** *If you are commissioning a dual hose dispenser, press the Start button on either side. This opens the dispenser's solenoids. The dispenser automatically shuts off after approximately one minute if no flow is detected.*<BR>
+
+6.	Slowly open the inlet shut-off valves until the dispenser pressure gauge reads **5 bar**. Close the inlet shut-off valves and listen for leaks. If you hear leakage, shut off the inlets immediately. If the dispenser shuts off during this process, shut off the inlet valves, restart the dispenser, and continue.<BR>
+
+7.	Allow the dispenser to time out on the 1-minute no-flow timer and shut the solenoid valves, or, manually shut it down and close the solenoid valves by pressing the STOP button.<BR>
+
+8.	Press the 5tart button on the dispenser and repeat steps 6 and 7 at **25 bar, 125 bar** and **250 bar**(if applicable).
+
+**NOTE:** *If you are commissioning a dual hose dispenser, only press the Start button for one of the hoses.*<BR>
+
+9.	Press the START button<BR>
+
+10.	Slowly open the outlet isolation valve on the side of the dispenser until the dispenser pressure gauge reads **5 bar**. 
+Close the outlet isolation valve and listen for leaks. If you hear leakage, shut the valve immediately.
+
+If the dispenser shuts off during this process, then shut the outlet supply valve, restart the dispenser, and continue.<BR>
+
+11.	Allow the dispenser to time out on the 1-minute no-flow timer and shut the solenoid valves, or, manually shut it down and close the solenoid valves by pressing the STOP button.<BR>
+
+12.	Repeat steps 9 to 11 at **25 bar, 125 bar** and **250 bar**(if applicable).<BR>
+
+Repeat steps 9 to 12 for the second hose on a dual hose dispenser.<BR>
+
+The dispenser and hose(s) are now fully pressurised.<BR>
+
+13.	Use soapy water to check all fittings (including the hose fittings) for leaks.<BR>
+
+**DANGER:** Always de-gas the lines before tightening any fittings. Never tighten fittings while they are under pressure.<BR>
+
+14.	Complete a few fills on a test cylinder, checking for leaks or unusual operation.
+
 
 # 7.0 Dispenser set up
 
@@ -932,6 +1063,19 @@ To set pressure probe calibration points:<BR>
 -	Set the uA1h (high pressure probe 1 calibration point) to 200. If there are 2 pressure transducers per side set Ua2h (high pressure probe 2 calibration point) as well
 -	Check current calibrated pressure is the same as the Pressure gauge 
 
+# 10.3 Ambient Temperature Sensor Calibration
+
+Calibrating the Ambient Temperature Sensor involves:
+-	Comparing the dispensers stated temperature to the actual temperature. 
+-	Adjusting the ambient temperature reading if it is found to be incorrect.
+
+To test the sensor accuracy:<BR>
+
+Using a calibrated temperature meter, determine the temperature of the body of the dispenser Ambient temperature sensor.<BR>
+Access the current dispenser ambient temperature reading.
+To adjust the dispenser reading:
+
+Adjust the dispenser’s ambient temperature reading to match that of the calibrated temperature meter.
 
 
 
@@ -946,18 +1090,42 @@ To set pressure probe calibration points:<BR>
 
 
 
+# MODBUS
 
+MODBUS Registers
 
+|Register|Type|Access|Designation|Operational|Notes
+|-|-|-|-|-|-
+0100|	U16|	RO|	Operation Flags|	YES	
+0101|	U16|	RO|	Unit Pric	YES	
+0102|	U32|	RO|	Current Quantity|	YES|	3dp implied
+0104|	U32|	RO|	Current Amount|	YES|	2dp implied
+0106|	BCD12|	RO|	Hose Quantity|	YES|	00+ 5 BYTES BCD
+0109|	BCD12|	RO|	Hose Amount|	YES|	00+ 5 BYTES BCD
+0112|	U16|	RO|	Pressure|	YES|	Live, Transducer
+0113|	U16|	RO|	Flow rate|	YES|	Live, kg/min 2dp (3dp is available with native I32)
+0114|	U16|	RO|	Error Flags|	YES|	
+0115|	I16|	RO|	Ambient Temperature|		YES|	Live from onboard T/P Board sensor
+0116|	I16|	RO|	Gas Temperature|	YES|	Live from MODBUS meter 
+0117|	BCD8|	RO|	Hose Quantity per electronic tote|	YES|	2dp implied
+0124|	U16|	RO|	End of sale indicator| 	YES|	Last end of delivery
+0125|	U32|	RO|	Quantity|	YES|	Last end of delivery, 3dp
+0127|	U32|	RO|	Amount| 	YES|	Last end of delivery, 3dp
+0129|	I16|	RO|	Gas Temperature|	YES|	Last end of delivery, 1dp
+0130|	U16|	RO|	Pressure|	YES|	Start of last delivery, 0dp
+0131|	U16|	RO|	Pressure|	YES|	End of last delivery, 0dp
+0200|	U16|	RW|	Dispenser lock|	YES|	0 = free; 1 = locked. Acts as a nozzle up reason to prevent fill or stop fill. These things to right are no longer in use ->Setting the C4000 B code to 1xxx will continue to apply the lock status after dispenser re-power, else the dispenser will re-power in stand-alone mode
+0201|	U16|	RW|	Unit Price|	YES|	0.00->655.35, 2dp implied. Size limited by U16 register. Stored as U32, 3dp.
+0202|	U16|	RW|	Target Fill Pressure|	YES|	0-350, bar 0dp
+0203|	U16|	RW|	Max fill pressure|	YES|	0-350.0, bar 1dp. Internally sets overpressure cutoff (Max pressure setting is now redundant
+0204|	U16|	RW|	Sequence rate Low to Med bank|	YES|	0,1,2 (fast, med, slow). internally does not exist, sets global bank switch over rate! Only Side 1 changes. Side 2 is ignored to stop toggling of shared global setting. Backwards compatible with existing tool if 10,20,30 (10,2.0,3.0) etc is sent, sets the closest setting (1.0kg slow, 3.0kg med, 5.0kg fast)
+0205|	U16|	RW|	Sequence rate Med to High bank|	NO|	Register is not linked to config. Use 204 to change sequencing speed.
+0206|	U32|	RW|	Density Factor (NEW)|	YES|	Density factor, 4dp (10000 -> 1.0000)
+0208|	U16|	RW|	Virtual switch||		0 (0b00) no switch pressed. 1 (0b01) start. 2 (0b10) stop. 3 (0b11) Start & stop.
 
+# Compac MODBUS timing diagram
 
-
-
-
-
-
-
-
-
+The following Compac MODBUS timing diagram specifies the Start Interval Time  
 
 
 
