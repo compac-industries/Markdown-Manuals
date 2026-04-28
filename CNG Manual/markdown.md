@@ -186,6 +186,18 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [9.20 Power Supply Fuse Replacement](#920-power-supply-fuse-replacement)
 
+[9.21 Power Supply Replacement](#921-power-supply-replacement)
+
+[9.22 Processor Board Replacement](#922-processor-board-replacement)
+
+[9.23 Temperature Pressure Board Replacement](#923-temperature-pressure-board-replacement) 
+
+[9.24 Dispenser Software Upgrade or Replacement](#924-dispenser-software-upgrade-or-replacement)
+
+
+
+
+
 
 
 
@@ -770,7 +782,69 @@ To install the new C5000 processor board:
 
 **NOTE:** It necessary to recalibrate the dispenser.
 
+# 9.23 Temperature Pressure Board Replacement 
 
+Before you start, obtain the following replacement parts<BR>
+
+Replacement Temperature and Pressure board part number: **F-CP-C5K-CNG-TP**
+
+To remove the temperature pressure board:
+-	De-gas the dispenser.
+-	Switch off the power supply to the dispenser.
+
+**DANGER:** Never remove any electrical components without first switching off the power to the dispenser. Failure to turn off the power could result in an electric shock.
+
+-	Access the temperature pressure board. 
+
+**CAUTION:** Take basic anti-static precautions by wearing a wristband with an earth strap.
+
+Unplug all wiring from the temperature pressure board and remove the board from its position.
+To install the new temperature pressure board:
+-	Put the new board in place of the old one and plug all the wiring back in the same order as before. 
+-	Make sure the Dip switches are the same as the board that was taken out
+-	Turn the power to the dispenser back on.
+-	Check Dispenser operation. Checking Dispenser Operation.  
+
+**NOTE:** It should not be necessary to re-calibrate the dispenser unless a pressure transducer or temperature probe needs to be replaced.
+
+# 9.24 Dispenser Software Upgrade or Replacement
+You can upgrade the dispenser software via USB Stick. Make sure the USB stick is formatted as FAT32 and has the new dispenser software loaded on it.
+
+**CAUTION:** Before working on the dispenser electronics, take basic anti-static precautions by wearing a wristband with an earth strap.<BR>
+
+To record set-up data and tote information:
+-	Access the K-Factor board by opening the cover behind the main display. 
+-	Record all the set-up data by accessing the Parameter switch and the K-Factor switch. Refer to Parameter Switch Settings and K-Factor Switch Settings to obtain this information.
+
+The following data is required from the Parameter switch :
+	Dispenser pump price.
+	Dispenser pump number.
+	Dispenser Setting
+	Software Program number, if you are upgrading to a new version. 
+
+The following data is required from the K-Factor switch:
+	The K-Factor. There is a value for side A and side B in dual hose dispensers.
+	Configuration Code C.
+	The Density Factor.
+
+-	Record the tote information by pressing the nozzle switch or start button quickly five times
+ 
+To install the new C5000 software
+-	Switch off the power supply to the dispenser.
+
+**DANGER:** Never remove any electrical components without first switching off the power to the dispenser. Failure to turn off the power could result in an electric shock.
+
+-	Remove the flameproof box lid to gain access to the C5000 Processor board.
+-	Install the USB stick for the software that you want to install. If there is a coms or GPIO card installed on the C5000 processor board, you might have to remove it.
+-	Reinstalled the lid on the flameproof box
+
+**DANGER:** Before replacing the lid on the flameproof box, make sure that the O-ring is not damaged, and is seated properly in its groove. If the O-ring is damaged and needs replacing, replace it with an O-ring of the same size and specification (**176 N70**). 
+
+-	Switch on the power supply to the dispenser.
+-	The Display will display hold. The display will change from hold to calib, this mean that the software has been upgraded.
+-	Press the K-Factor board button on the K-Factor board to clear the caib from the display and sync the K-Factor board settings will the C5000 processor board.
+-	Check the dispenser operation Checking Dispenser Operation.
+ 
 
 
 
