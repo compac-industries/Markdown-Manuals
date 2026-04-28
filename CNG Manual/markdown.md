@@ -200,9 +200,9 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
-[10.1 Meter Calibration](#)
+[10.1 Meter Calibration](#101-meter-calibration)
 
- 
+[10.2 Pressure Transducer Calibration](#102-pressure-transducer-calibration) 
 
 # 1.0 Safety
 
@@ -910,6 +910,55 @@ To carry out the Calibration Test Fill Procedure Method 2:
 -	Compare the Master Meter read-out (Dispensed Quantity) with the dispenser display (Displayed Quantity).
 
 If the results are not within 0.5% of each other, you will need to change the calibration, as per the Calculate and Set the New K-Factor section above.
+
+# 10.2 Pressure Transducer Calibration 
+
+Calibrating the dispenser pressure transducers is done by setting the Pressure probe calibration points.<BR>
+The following procedure is how to set these points.
+
+**NOTE:** *The pressure transducers are calibrated at the factory and usually do not require recalibration.*
+
+To set pressure probe calibration points:<BR>
+
+-	Degas the dispenser and close all outlet isolation valves
+-	Turn on the gas to the dispenser. 
+-	Remove the nozzle from its holster or press the start button, allowing gas to pass through the dispenser.
+-	Slowly open the outlet isolation valve and watch as the pressure gauge begins to rise. Shut the valve when the reading is approximately 10 bar.
+-	Hang up the nozzle or press the stop button.
+-	Set the uA1L (low pressure probe 1 calibration point)to 10. If there are 2 pressure transducers per side set uA2L (low pressure probe 2 calibration point) as well
+-	Remove the nozzle from its holster again or press the start button.
+-	Increase the gauge pressure to approximately 200 bar.
+-	Hang up the nozzle or press the STOP button.
+-	Set the uA1h (high pressure probe 1 calibration point) to 200. If there are 2 pressure transducers per side set Ua2h (high pressure probe 2 calibration point) as well
+-	Check current calibrated pressure is the same as the Pressure gauge 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
