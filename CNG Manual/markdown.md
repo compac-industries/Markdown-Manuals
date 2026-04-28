@@ -843,31 +843,73 @@ To install the new C5000 software
 
 # 10.1 Meter Calibration
 
-Calibrating the meter involves:
-Comparing the dispensers stated amount dispensed to actual amount dispensed. 
-Adjusting the K-Factor if accuracy is not within the required tolerance.  
+Calibrating the meter involves:<BR>
 
-NOTE: The K-Factor for each new dispenser is factory set and usually does not need to be changed. 
-To test the meter accuracy:
-Record the dispenser’s current density factor and set it to read out in kg Density Factor (d5F).
-	Test the meter accuracy using Calibration Test Fill Procedure - Method 1 or Calibration Test Fill Procedure - Method 2.
+- Comparing the dispensers stated amount dispensed to actual amount dispensed.<BR> 
+- Adjusting the K-Factor if accuracy is not within the required tolerance.  
+
+**NOTE:** *The K-Factor for each new dispenser is factory set but the Dispenser must be calibrated on site.*<BR> 
+
+To test the meter accuracy:<BR>
+Record the dispenser’s current density factor and set it to read out in kg Density Factor (d5F).<BR>
+
+- Test the meter accuracy using either Calibration Test Fill Procedure Method 1 or Calibration Test Fill Procedure Method 2.<BR>
+
 To calculate the meter K-Factor:
-	Make sure that the dispenser is idle.
-	Press and release the K-Factor button on the K-Factor board until the K-Factor is displayed
+- Make sure that the dispenser is idle.
+- Press and release the **K-Factor** button on the K-Factor board until the K-Factor is displayed
 
-Calculate the new K-Factor with the following formula:
-New K Factor=existing K Factor×(True quantity)/(Displayed amount)
-For example:
-Existing K Factor=0.98
-Displayed amount=5.80
-True quantity=6.00kg
-New K Factor=0.98×  6.00/5.80=1.0138(4dp)
+Calculate the new K-Factor with the following formula:<BR>
+
+New K Factor=existing K Factor×(Dispensed quantity)/(Displayed quantity)<BR>
+
+Example:<BR>
+
+Existing K Factor=0.98 <BR>
+Displayed quantity=5.80<BR>
+Dispensed quantity=6.00kg<BR>
+New K Factor=0.98×(6.00/5.80) =1.0138 (4dp)
 
 To input dispenser settings:
-	Input the new meter K-factor.
-	Set the density factor back to its original value. (dSF).
+- Input the new meter K-factor.
+- Set the density factor back to its original value. (dSF).
 
+**Calibration Test Fill Procedure Method 1**
 
+Method 1 of checking calibration involves filling a gas bottle and comparing the read-out scale reading with the dispenser display reading.
+
+Before you start, make sure you have:<BR>
+
+-	Certified weighing scales with a read-out accuracy of +/- 20 g or better and a range of  0 – 120 kg
+-	A CNG cylinder with a fill and release valve
+
+To carry out the Calibration Test Fill Procedure Method 1:
+
+-	Put the CNG cylinder on the scales.
+-	Empty the CNG cylinder by venting it to the atmosphere.
+
+**DANGER:** Always vent cylinders in a safe manner and safe location.
+
+-	Zero the TARE read-out on the scales. 
+-	Fill the CNG cylinder from the Dispenser. 
+-	Compare the read-out weight (Dispensed Quantity) on the scales with the dispenser display (Displayed Quantity).
+
+If the results are not within 0.5% of each other, you will need to change the calibration, as per the Calculate and Set the New K-Factor section above.
+
+**Calibration Test Fill Procedure Method 2**
+ 
+Method 2 of checking calibration involves filling a vessel and comparing a Master Meter reading with the dispenser display readings.<BR>
+This method assumes that the master meter is sufficiently accurate and reliable enough to be considered a good reference.<BR>
+Before you start, make sure you have a Master Meter<BR>
+
+To carry out the Calibration Test Fill Procedure Method 2:
+-	Plug the dispenser refuelling probe into the Master Meter, and then plug the master meter refuelling probe into a vehicle to fill.
+-	Turn on the Master Meter valve, if applicable, and reset to zero.
+-	Fill the vehicle from the dispenser. 
+-	Turn off the dispenser refuelling valve and Master Meter valve, if applicable. 
+-	Compare the Master Meter read-out (Dispensed Quantity) with the dispenser display (Displayed Quantity).
+
+If the results are not within 0.5% of each other, you will need to change the calibration, as per the Calculate and Set the New K-Factor section above.
 
 
 
