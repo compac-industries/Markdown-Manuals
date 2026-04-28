@@ -739,18 +739,19 @@ To install the new C5000 power supply:
 # 9.22 Processor Board Replacement
 
 Before you start, obtain the following replacement parts 
--	Replacement C5000 Processor part number F-CP-C5K-PROCES
+-	Replacement C5000 Processor part number **F-CP-C5K-PROCES**
 
 To remove the C5000 processor board:
 -	De-gas the dispenser.
--	If possible, record all the set-up data by accessing the Parameter switch and the K-Factor switch. The Software Set-Up and Upgrade section contains details on obtaining this information. 
+-	If possible, record all the set-up data by accessing the **Parameter** switch and the **K-Factor** switch. The Software Set-Up and Upgrade section contains details on obtaining this information. 
 -	Switch off the power supply to the dispenser.
 
-DANGER: Never remove any electrical components without first switching off the power to the dispenser. Failure to turn off the power could result in an electric shock.
+**DANGER:** Never remove any electrical components without first switching off the power to the dispenser.<BR>
+Failure to turn off the power could result in an electric shock.
 
 -	Remove the flameproof box lid to gain access to the C5000 Processor board.
 
-CAUTION: Take basic anti-static precautions by wearing a wristband with an earth strap. 
+**CAUTION:** Take basic anti-static precautions by wearing a wristband with an earth strap. 
 
 -	Undo the screws that hold any coms or GPIO board into the C5000 processor board.
 -	Undo the screws that hold the C5000 processor board in the flameproof box and remove the C5000 processor board.
@@ -761,13 +762,13 @@ To install the new C5000 processor board:
 -	Do up the screws for any coms or GPIO board into the C5000 processor board.
 -	Reinstalled the lid on the flameproof box
 
-DANGER: Before replacing the lid on the flameproof box, make sure that the O-ring is not damaged, and is seated properly in its groove. If the O-ring is damaged and needs replacing, replace it with an O-ring of the same size and specification (176 N70). 
+**DANGER:** Before replacing the lid on the flameproof box, make sure that the O-ring is not damaged, and is seated properly in its groove. If the O-ring is damaged and needs replacing, replace it with an O-ring of the same size and specification (176 N70). 
 
 -	Switch on the power supply to the dispenser.
 -	Press the K-factor button on the K-Factor board to sync the settings in the K-Factor board with the C5000 processor board 
 -	Check dispenser operation
 
-NOTE: It necessary to recalibrate the dispenser.
+**NOTE:** It necessary to recalibrate the dispenser.
 
 
 
