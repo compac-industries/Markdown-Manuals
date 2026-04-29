@@ -136,7 +136,7 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
-[7.1 Parameter Switch](#71-parameter-switch)
+[**7.1 Parameter Switch**](#71-parameter-switch)
 
 [7.1.1 How to View the Software Version](#711-how-to-view-the-software-version)
 
@@ -155,6 +155,12 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 [7.1.8 Assigning a number to slave display](#718-assigning-a-number-to-slave-display)
 
 [7.1.9 Changing the Custom Display Configuration](#719-changing-the-custom-display-configuration)
+
+[7.1.10 Electronic Totes](#7110-electronic-totes)
+
+[**7.2 K-Factor Switch**](#72-k-factor-switch)
+
+
 
 
 <font size ="5">
@@ -599,8 +605,57 @@ For example, the following code would enable temperature and flowrate to be show
 ![image](4.1.9_Parameter_Custom_Display_dc.png)
 
 
+# 7.1.10 Electronic Totes
+
+The dispenser records electronic totes for price and dollars.
+To view the electronic totes, continue pressing the parameter switch until the following display is shown:
+
+![image](4.1.11_Parameter_Litre_Tote_LA.png) 
+
+The bottom row is a continuation of the top row. For example, the above display should be read as 00310556.61.
+The side (A or B) will be shown in the unit price display.
+Dollars totals are also recorded, which can be viewed by continually pressing the parameter switch.
+
+![image](4.1.12_Parameter_Dollar_Tote.png) 
+
+The electronic totes can also be viewed by pressing the # key five times on the main display, as long as the unit is not in a transaction.
+Each tote will be shown for ten seconds before the next tote is displayed.
+
+# 7.2 K-Factor Switch
+
+The K-Factor switch is located on the C5000 K-factor board. It is used to access and set up options on the dispenser. 
+
+![image](15.8.1_CNG_Kfactorboard.png)
+
+**K-Factor Settings**<BR>
+A summary of the K-Factor settings can be seen below.<BR>
+Information on these settings and how to change them can be found on the following pages. 
 
 
+| Setting                  | Price Display                   | Litres Display                                      |
+|-----------------------|---------------------------------|------------------------------------------------------|
+| Dispenser settings    | **c-A** or **c-B**              | *******                                  |
+| Meter ID              | **id-A** or **id-b**            | ******                                  |
+| Meter Temperature calibration| **E-A** or **E-b**             | **\*\*.\***                                         |
+| Meter Density calibration   | **d15-a** or **d15-b**          | **\*\*\*.\***                                       |
+|Target fill pressure          |                                 |**FPA** ***                 |
+|Overfill pressure|	**0PA**|	***. *
+|CNG Setting	cNG	*******
+|Density factor	D5f	*.****
+|Ambient temperature	E	**.*
+|Pressure probe 1 low calibration point|	uA1L|	*\*.\*\*\*\**
+|Pressure probe 1 high calibration point|	ua1H|	*. ****
+|Pressure probe 2 low calibration point|	uA2L|	*. ****
+|Pressure probe 2 high calibration point|	uA2H|	*. ****
+|Overpressure time	Deb	**.*
+|Maximum flow		QA **** or qb ****
+|K-Factor              | **FA** or **Fb**                | **\*\*\*.\*\*\***                                 |
+|Configuration code    | **c**                           | **\*\*\*\*\*\*\***                                  |
+|Comms                 | **cc**                          | **\*\*\***                                        |
+|Solenoid delay        |                                 | **SdA** *** or **Sdb** ***                    |
+|Preset cutoff         |                                 | **PcA***.** or **Pcb***.**                  |
+|Preset rounding       |                                 | **PrLA***.** or **PrLb***.** **PrHA***.** or **PrHb***.**|
+|Flow time out         |                                 | **n-A** *** or **n-b** ***                    |
 
 
 
