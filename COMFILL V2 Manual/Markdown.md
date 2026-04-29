@@ -389,8 +389,6 @@ Technicians should be able to safely operate and diagnose a Comfill V2 with the 
 <BR>
 <BR>
 
-![image](line.png)
-
 
 # Internal Layout
 

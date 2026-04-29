@@ -6,7 +6,7 @@
 
 # C5000 CNG Dispenser Installation and Service Manual  
 
-updated 28 April 2026
+updated 29 April 2026
 <font size="3">
 
 # Conditions of Use  
@@ -135,6 +135,25 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 [**7.0 Dispenser set up**](#70-dispenser-set-up)
 
 <font size ="3">
+
+[7.1 Parameter Switch](#71-parameter-switch)
+
+[7.1.1 How to View the Software Version](#711-how-to-view-the-software-version)
+
+[7.1.2 Changing the Pump Number](#712-changing-the-pump-number)
+
+[7.1.3 Unit Price](#713-unit-price)
+
+[7.1.4 Pump settings](#714-pump-settings)
+
+[7.1.5 Minimum Flow Rate](#715-minimum-flow-rate) 
+
+[7.1.6 Maximum Flow Rate](#716-maximum-flow-rate)
+
+
+
+
+
 
 <font size ="5">
 
@@ -348,6 +367,140 @@ The dispenser and hose(s) are now fully pressurised.<BR>
 
 
 # 7.0 Dispenser set up
+
+# 7.1 Parameter Switch
+
+The Parameter switch is located on the K factor board behind the main display and allows you to adjust the unit price, hose number, Pump settings high low cut off and display setting.<BR>
+
+The Parameter switch also enables you to view the Dispenser Software Version and End of Sale Indicators.
+
+![image](15.8.1_CNG_Kfactorboard.png)
+
+Menu Options<BR>
+
+Listed below is the order in which the **Parameter** switch menu options are presented.<BR>
+There are different menu options depending on the current setting of the C configuration code.<BR> 
+The * indicates that you can achieve the displayed menu option, regardless of what the indicated part is set to.<BR>
+You may need to change the C configuration in order to access the parameter code you require.
+
+Setting|Price Display|Litres Display
+|------|------|------
+Software Version|	P**.**. **      |	P**.**. **
+Pump Number|| 	Pna *** or Pnb ***
+Pump Settings||		bA **** or bb ****
+Low-flow cut off||		LFA***
+High-flow cut off||		HFA ***
+Heat of compression|| 		hcA**
+b Setting||		b****
+Slave display||		dS****
+Custom display||	dc****
+|||dP
+|||du
+Last Sale|	**. ** |	A ***. * or b ***. *
+Electronic Totes|	LA **** or dA ****|L****.**
+||Lb **** or dA ****|d****.**
+
+
+# 7.1.1 How to View the Software Version<BR>
+
+Pressing the parameter switch once will show the software version. 
+
+![image](4.1.1_Parameter_Software_version_PO.png)
+
+The dispenser will then run through a segment test.
+
+# 7.1.2 Changing the Pump Number<BR>
+
+If the parameter switch is continually depressed, the following menu to change the pump number will appear. <BR>
+Each side must be numbered between 1-99.
+
+**NOTE:** Entering a pump number 0 will disable the pump.to the pump controller
+See Using the Dispenser Menus to edit these settings. Use the procedure for both side A and B.
+
+![image](4.1.2_Parameter_pump_number_PnA.png)
+
+# 7.1.3 Unit Price
+
+The unit price (PA) is used to calculate the total value of the quantity dispensed.<BR>
+The unit price can be different on each side of a dual hose dispenser.<BR>
+The unit price can be set at the dispenser or set remotely via a POS or controller
+
+![image](4.1.3_Parameter_price_PA.png)
+
+**NOTE:** If the unit price is not set Error 3 will be displayed and the dispenser will not operate.<BR>
+
+To set the unit price:
+- Make sure that the dispenser is idle, with the nozzle in its holster.
+- Press and release the Parameter switch until the required unit price is displayed (PA).
+- Enter in the unit price. 
+
+**NOTE:** Each press of the **Parameter** switch passes you over a digit in a setting, making the digit blink.<BR>
+Holding the switch down for more than a second changes whichever digit is currently displayed.<BR>
+If you want to pass over a setting without changing any digits, keep pressing and releasing the switch.<BR>
+
+Let the menu time out so that the value and quantity amounts are displayed.
+
+# 7.1.4 Pump settings
+
+The bA setting is where you can set the dispenser in to standalone mode.<BR>
+Standalone mode means that the dispenser doesn’t communicate to a controller or POS.<BR>
+
+If the dispenser is in authorisation mode the dispenser will not start even if there is no controller or POS connected.
+
+**Note:** *If the dispenser is communicating to a controller or POS it will not operatate in standalone mode. To put the dispenser in to standalone while still connected to the controller or POS set the **CC** setting to **cc0000** setting*
+
+![image](15.8.2_CNG_bA.png)
+
+# 7.1.5 Minimum Flow Rate  
+
+The minimum flow rate (LFA and LFb) is the low flow cut-off at the end of the fill.<BR> 
+LFA is the minimum flow rate of side A of the dispenser.<BR>
+LFb is the minimum flow rate of side B of the dispenser.<BR>
+These values are adjustable and can be set between 0.5-99 kg⁄min.<BR>
+
+**CAUTION:** Do not set the minimum flow rate so that it is equal to or above the maximum flow rate.<BR>
+
+**To Adjust the Minimum Flow Rate**<BR>
+
+- Make sure that the dispenser is idle, with the nozzle in its holster.
+- Press and release the Parameter  switch until the required minimum flow rate is displayed. (LFA or LFb)
+- Enter the new minimum flow rate.
+
+**NOTE:** Each press of the Parameter switch passes you over a digit in a setting, making the digit blink.<BR>
+Holding the switch down for more than a second changes whichever digit is currently displayed.<BR>
+If you want to pass over a setting without changing any digits, keep pressing and releasing the switch.
+NOTE: The Compac factory default setting is 1.0 kg⁄min.
+
+Let the menu time out so that the value and quantity amounts are displayed.
+
+![image](4.1.6_Parameter_Low_Flow-Cut_LFA.png)
+
+# 7.1.6 Maximum Flow Rate
+
+The maximum flow rate (HFA and HFb) is the high flow cut-off for when the flow through the dispenser is too high.<BR>
+
+HFA is the maximum flow rate of side A of the dispenser.<BR>
+HFb is the maximum flow rate of side B of the dispenser.<BR>
+
+These values are adjustable and can be set between 1-9999 kg⁄min.<BR>
+
+**CAUTION:** Do not set the maximum flow rate so that it is equal to or below the minimum flow rate.
+
+**To Adjust the Maximum Flow Rate**
+	
+- Make sure that the dispenser is idle, with the nozzle in its holster
+- Press and release the Parameter switch until the required maximum flow rate is displayed. (HFA or HFb)
+- Enter the new maximum flow rate.
+
+**NOTE:** Each press of the Parameter switch passes you over a digit in a setting, making the digit blink.<BR>
+Holding the switch down for more than a second changes whichever digit is currently displayed.<BR>
+If you want to pass over a setting without changing any digits, keep pressing and releasing the switch. 
+
+**NOTE:** The Compac factory default setting is 40 kg⁄min for Car Dispensers and 60 kg⁄min for High flow or Bus dispensers.
+
+Let the menu time out so that the value and quantity amounts are displayed.
+
+![image](4.1.7_Parameter_High_Flow_Cut_HFA.png)
 
 # 8.0 Operation
 
