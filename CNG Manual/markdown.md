@@ -150,9 +150,11 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [7.1.6 Maximum Flow Rate](#716-maximum-flow-rate)
 
+[7.1.7 Changing the b Setting](#717-changing-the-b-setting)
 
+[7.1.8 Assigning a number to slave display](#718-assigning-a-number-to-slave-display)
 
-
+[7.1.9 Changing the Custom Display Configuration](#719-changing-the-custom-display-configuration)
 
 
 <font size ="5">
@@ -502,7 +504,131 @@ Let the menu time out so that the value and quantity amounts are displayed.
 
 ![image](4.1.7_Parameter_High_Flow_Cut_HFA.png)
 
+# 7.1.7 Changing the b Setting
+The b setting is currently only used for LCD dimming. Set the b configuration code as desired.
+
+|	Setting       |Digit             |    Function                                             |
+|---------------|------------------|---------------------------                                 |
+|b|2nd digit|0 = disabled
+| |         |1 = disabled
+
+![image](15.8.3_CNG-b.png)
+
+# 7.1.8 Slave Display configuration
+
+Slave displays are the displays that are additional to the K-factor board display.<BR>
+You can have up to 4 slave displays connected to one C5000.<BR>
+These displays can be configured as one of the following:<BR>
+
+•	Clone of the main display. This will display what is on the A side display but not error check the LCD<BR>
+•	Side A will display what is on the A side display but will error check the LCD<BR>
+•	Side B. will display what is on the B side display but will error check the LCD<BR>
+•	disabled.<BR> 
+
+
+Slave display configuration is a two-step process.
+1.	Assign the correct number to the slave display by changing the slave display board dip switches. 
+2.  Change DS setting to assign a side to the slave display 
+
+Slave display numbers can be set with dip switch 2 and 3 on the slave display board.<BR>
+Use the following table as a guide to configure the slave displays 
+
+![image](9.2.1_Slave_Display_Dip-switches.png)
+
+|Slave Display   |Switch 1      |Switch 2   |Switch 3|
+|----------------|--------------|-----------|--------|
+|1               |OFF           |OFF        |OFF     |
+|2               |OFF           |OFF        |ON      |
+|3               |OFF           |ON         |OFF     |
+|4               |OFF           |ON         |ON      |    
+
+
+The first digit from the right correlates to slave display 1, and so on.
+In this example,<BR>
+slave display 1 – clone<BR>
+slave display 2 – disabled<BR>
+slave display 3 - side A<BR>
+slave display 4 - side B.<BR>
+
+Note: Each digit can have 4 different values, each value has a different meaning.
+
+
+![image](4.1.8_Parameter_Slave_Display_dS.png)
+
+|Setting|Digit      |Indication                    |
+|-------|-----------|------------------------------|
+|dS     |1st digit  |**Slave display 4**           | 
+|       |           |0 = Disabled                  |
+|       |           |1 = Clone                     |
+|       |           |2 = Side A                    |
+|       |           |3 = Side B                    |
+|dS     |2nd digit  |**Slave display 3**           | 
+|       |           |0 = Disabled                  |
+|       |           |1 = Clone                     |
+|       |           |2 = Side A                    |
+|       |           |3 = Side B                    |
+|dS     |3rd digit  |**Slave display 2**           | 
+|       |           |0 = Disabled                  |
+|       |           |1 = Clone                     |
+|       |           |2 = Side A                    |
+|       |           |3 = Side B                    |
+|dS     |4th digit  |**Slave display 1**           | 
+|       |           |0 = Disabled                  |
+|       |           |1 = Clone                     |
+|       |           |2 = Side A                    |
+|       |           |3 = Side B                    |
+
+
+![image](15.8.4_CNG_slave.png)
+
+# 7.1.9 Changing the Custom Display Configuration
+
+The custom display configuration can be used to show additional information on the unit price display.<BR>
+The additional information that can be shown includes the density, temperature, flowrate, and reset batch.<BR>
+This can be configured with the dc setting.<BR>
+Each digit corresponds to a custom display option.<BR>
+Setting a digit to 1, as opposed to 0, enables the custom display. The digits represent the following options:
+
+Digit 1: Reset batch
+Digit 2: Temperature display
+Digit 3: Density display
+Digit 4: Flowrate display
+
+For example, the following code would enable temperature and flowrate to be shown on the custom display. 
+
+![image](4.1.9_Parameter_Custom_Display_dc.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 8.0 Operation
+
+
+
+
+
+
 
 # 9.0 Servicing
 
