@@ -40,41 +40,47 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 ## Table of Contents
 
-[Overview](#overview)
+[1.0 Overview](#10-overview)
 
-[Registration](#registration)
+[2.0 Registration](#20-registration)
 
-[Logging on](#logging-on)
+[3.0 Logging on](#30-logging-on)
 
-[Home Page](#home-page)
+[4.0 Home Page](#40-home-page)
 
-[Sites Page](#sites-page)
+[5.0 Sites Page](#50-sites-page)
 
-[Transaction Page](#transaction-page)
+[6.0 Transaction Page](#60-transactions-page)
 
-[Products Page](#products-page)
+[7.0 Products Page](#70-products-page)
 
-[Price Schedule Page](#price-schedule-page)
+[8.0 Price Schedule Page](#80-card-management)
 
-[Card Management](#card-management)
+[9.0 Card Management](#90-create-card)
 
-[User Management](#user-management)
+[9.1 Create Card](#91-create-card)
 
-[Monitor Page](#monitor-page)
+[10.0 User Management](#100-user-management)
 
-# Overview
+[11.0 Monitor Page](#110-monitor-page)
+
+[12.0 Appendix](#120-appendix)
+
+# 11.1 Declined PIN OnlineAuth Response Codes
+
+# 1.0 Overview
 This document provides a high-level overview of CompacOnline V2 and is intended to assist users in navigating the portal.<BR>
 
 Access to CompacOnline V2 requires valid login credentials. The availability of features described in this document may vary depending on the access level assigned by Compac and your Administrator. For further information, please contact your Compac representative.
 
 <BR>
 
-# Registration
+# 2.0 Registration
 Users who are added to CompacOnline will receive an invitation email to set up their account. Follow the link in the email to complete the registration process.
 
 <BR>
 
-# Logging on
+# 3.0 Logging on
 After completing registration, access CompacOnline by visiting https://portal.compaconline.com/ and log in with your credentials.
 
 ![image](11.1.1_CompacOnlineV2_Login.png)
@@ -82,7 +88,7 @@ After completing registration, access CompacOnline by visiting https://portal.co
 Contact your Compac Representative if SSO(Single Sign On) is required to be set up to access CompacOnline Portal.<BR>
 <BR>
 
-# Home Page
+# 4.0 Home Page
 Once logged in, you will be presented with the Home page. Options are found on the left-hand side of the page.
 
 ![image](11.1.2_CompacOnlineV2_Home_Page.png)
@@ -132,7 +138,7 @@ You can only see permission groups that have the same or less permissions than y
 
 <BR>
 
- # Sites Page
+ # 5.0 Sites Page
 
 Sites created under the Organisation is listed on this page. To view or edit site specific information and configuration, select the site required.
 Note: Editing the site config will trigger a config/systems download to the device.
@@ -244,7 +250,7 @@ The following features can be added on receipts:
 <BR>
 <BR>
 
-# Transactions Page
+# 6.0 Transactions Page
 
 This page will display all transactions happened under the current Organisation. This will include the transactions processed using Mobile App. App transactions can be identified with a different reference number. E.G.: CP2339.
 
@@ -345,7 +351,7 @@ Select **Export** to start exporting the transactions.
 <BR>
 <BR>
 
-# Products Page
+# 7.0 Products Page
 
 This page will display all current products that have been added to the Organisation
 
@@ -371,7 +377,7 @@ Each price schedule can be applied to a single or multiple sites within the Orga
 <BR>
 <BR>
 
-# Card Management
+# 8.0 Card Management
 
 - **BIN Ranges** - This page displays the current card bin range that the Organisation can process.
 
@@ -391,7 +397,36 @@ Account cards can be added individually using Create New button or through Bulk 
 
    - Create New – Each card can be configured to a specific site, multiple sites or all sites under the Organization. Card can be configured to be restricted to products, to an expiry date, to a PIN. If PIN needs to be reset by user at terminal, this can be configured. Card related details can be entered under Card “Tags”.
 
-![image](11.5.3_CompacOnlineV2_Cards_3.png)
+<BR>
+
+# 9.1 Create Card
+To create or add a Card, the user must have sufficient permissions enabled.<BR>
+
+**Adding a Card in CompacOnline V2**
+1.	Log in to CompacOnline portal
+2.	From the sidebar, select Card Management and select Cards from the drop down list
+3.	Under Cards, select **Create New** button
+
+![image](11.5.15_CompacOnlineV2_Cards_15.png)
+
+4.	 Enter the required details:<BR>
+
+- BIN Range - select the BIN Range this card will belong to<BR>
+- PAN - Once the BIN Range is selected, enter the remainder of the card number<BR>
+- Sites - select the sites this card will be accepted<BR>
+- Allowed Products - select the products that this card is linked to applicable BIN Range<BR>
+- Expiry Date - set the expiry date of the card<BR>
+- PIN Configuration - select Add PIN to enable PIN for this card<BR>
+
+![image](11.5.16_CompacOnlineV2_Cards_16.png)
+
+- PIN field - Enter desired PIN for the card. If the PIN field is left empty, The Reset On Next Use must be enabled<BR>
+- Reset On Next Use - this option will reset the current PIN of the card for the cardholder to enter a new PIN. If PIN already set, have to enter original PIN before setting new PIN. Unless, when editing a card, the pin already exists and is not changed in the same action as reset on next use is selected, the user will be able to set the new pin without knowing the previous pin
+Note: In V2, there is no limit on how many times an incorrect PIN is used. The transaction will always decline with Incorrect PIN if an incorrect pin is used.<BR>
+
+•	**Enabled** - Option to enable the card<BR>
+
+5.	Select Save button to save
 
    - Bulk Card Upload <BR>
 Click on Card Manangment/Cards
@@ -439,7 +474,7 @@ Click on down-arrow to view details.
 
 ![image](11.5.14_CompacOnlineV2_Cards_14.png)
 
-# User Management 
+# 10.0 User Management 
 
 - **Permission Groups** - Permission Group defines whether this group of users have access to specific functions.<BR>
 You can set up different permission groups based on the different operation requirements for your users. For example.<BR>
@@ -478,7 +513,7 @@ Inviting a *Guest* user, select the drop down option
 
 This function will enable users that already has access to other sites in the Organisation be added to the new site as a guest user.
 
-# Monitor Page
+# 11.0 Monitor Page
 
 - Events - All events and notifications triggered from a site will be available on this page e.g. Terminal Configuration changes, <BR>
 card swipes and Online/Offline states.
@@ -514,7 +549,9 @@ Now to add a specific alert, select "Alert Rules" and select "Create New".
 Add the required details e.g. Site; Triggers and the notification method and select Save.<BR>
 Once an alert rule is triggered, a notification will be sent through email or sms.
 
+# 12.0 Appendix
 
+# 12.1 Declined PIN OnlineAuth Response Codes
 
 
 
