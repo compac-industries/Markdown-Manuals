@@ -78,7 +78,7 @@ Every effort has been made to ensure the accuracy of this document. However, it 
 
 [6.3 Certification](#63-certification)
 
-[6.4 Closing the flameproof box lid](#64-closing-the-flameproof-box-lid)
+[6.4 Opening the flameproof box lid](#64-opening-the-flameproof-box-lid)
 
 [6.5 Calibration](#65-calibration)
 
@@ -226,13 +226,13 @@ This document is also available for download from the Compac website www.compac.
 
 ![imag](16.2.1_KG100PSD_fpbox.png)
 
-•	This power supply and display is suitable for use in Class I Zone 1 hazardous locations and provides outputs suitable for Class I Zone 1 hazardous locations.<BR> 
-•	The group classification is Group IIA. This includes suitability for propane, petrol, methane, ethanol, etc.<BR>
-•	The surface temperature classification is T4 - maximum surface temperature of 135°C.<BR>
-•	The ambient operating temperature range is  40°C to +70°C<BR>
-•	The operating atmospheric pressure range is 60 kPa to 110 kPa (approximate altitude <4500m)<BR>
-•	With the use of an appropriate gland, and when mounted with a KG100 Meter (with CI545) this enclosure provides a degree of protection of IP65.<BR>
-•	Maximum voltage Um: 250 V (this is a safety limit – not an operating rating). Um applies to non‑intrinsically safe circuits, specifically the Mains input (J100), 12 VDC input (J101), and RS485 interface (J300). It does not apply to intrinsically safe circuits or connectors.<BR>
+- This power supply and display is suitable for use in Class I Zone 1 hazardous locations and provides outputs suitable for Class I Zone 1 hazardous locations.<BR> 
+- The group classification is Group IIA. This includes suitability for propane, petrol, methane, ethanol, etc.<BR>
+- The surface temperature classification is T4 - maximum surface temperature of 135°C.<BR>
+- The ambient operating temperature range is  40°C to +70°C<BR>
+- The operating atmospheric pressure range is 60 kPa to 110 kPa (approximate altitude <4500m)<BR>
+- With the use of an appropriate gland, and when mounted with a KG100 Meter (with CI545) this enclosure provides a degree of protection of IP65.<BR>
+- Maximum voltage Um: 250 V (this is a safety limit – not an operating rating). Um applies to non‑intrinsically safe circuits, specifically the Mains input (J100), 12 VDC input (J101), and RS485 interface (J300). It does not apply to intrinsically safe circuits or connectors.<BR>
 
 # 6.2 Cable entries
 
@@ -250,61 +250,61 @@ If a thread adapter is necessary, use only an appropriately certified adapter.<B
 The KG100PSD is in compliance with:<BR>
 
 **IEC Standards:**<BR>
-•	IEC 60079-0 ed 7.0 (2017)<BR>
-•	IEC 60079-1 ed 7.0 (2014)<BR>
-•	IEC 60079-11 ed 7.0 (2023)<BR>
+- IEC 60079-0 ed 7.0 (2017)<BR>
+- IEC 60079-1 ed 7.0 (2014)<BR>
+- IEC 60079-11 ed 7.0 (2023)<BR>
 
-**EN Standards**
-•	EN IEC 60079-0:2018<BR>
-•	EN 60079-1:2014<BR>
-•	EN IEC 60079-11:2024<BR>
+**EN Standards**<BR>
+- EN IEC 60079-0:2018<BR>
+- EN 60079-1:2014<BR>
+- EN IEC 60079-11:2024<BR>
 
 The KG100PSD has IECEx and ATEX certification. The label shown will be attached to the display fascia.<BR>
 
 This equipment has been constructed in accordance with the safety requirements of relevant industrial standards. 
 
-# Opening the flameproof box lid
-•	Always disconnect power (isolate all circuits).<BR>
-•	Remove the lid using a hook spanner.<BR>
+# 6.4 Opening the flameproof box lid
+- Always disconnect power (isolate all circuits).<BR>
+- Remove the lid using a hook spanner.<BR>
 
 ![image](16.2.3_KG100PSD_spanner.png)
 
-# 6.4 Closing the flameproof box lid
+# Closing the flameproof box lid
 
-•	Ensure the o-ring is sitting correctly in the o-ring groove of the lid.<BR>
-•	Ensure the threaded surfaces are clean, free of debris, and undamaged.<BR>
-•	Align the lid with the enclosure threads carefully to avoid cross-threading.<BR>
-•	Rotate the lid clockwise by hand until resistance is felt.<BR>
-•	Use hook spanner for final tightening and tighten until the lid is fully seated against the enclosure body.<BR>
+- Ensure the o-ring is sitting correctly in the o-ring groove of the lid.<BR>
+- Ensure the threaded surfaces are clean, free of debris, and undamaged.<BR>
+- Align the lid with the enclosure threads carefully to avoid cross-threading.<BR>
+- Rotate the lid clockwise by hand until resistance is felt.<BR>
+- Use hook spanner for final tightening and tighten until the lid is fully seated against the enclosure body.<BR>
 
 # 6.5 Calibration
 
 The display cover is secured with four M4 screws. Each screw has a hole in its head for threading a sealing wire, which prevents tampering after calibration.<BR>
 
 To adjust calibration:<BR>
-•	If present, remove the sealing wire and then unscrew the four M4 screws securing the display lid.<BR>
-•	Remove the display lid along with the glass window and O-ring to access switch SW200.<BR>
-•	Press switch SW200. The CAL indicator will illuminate, confirming that calibration mode is active.<BR>
-•	Use the external button on the top or bottom of the power supply enclosure to adjust the calibration.<BR>
-•	When reinstalling the display lid, make sure its orientation aligns with the display.<BR>
+- If present, remove the sealing wire and then unscrew the four M4 screws securing the display lid.<BR>
+- Remove the display lid along with the glass window and O-ring to access switch SW200.<BR>
+- Press switch SW200. The CAL indicator will illuminate, confirming that calibration mode is active.<BR>
+- Use the external button on the top or bottom of the power supply enclosure to adjust the calibration.<BR>
+- When reinstalling the display lid, make sure its orientation aligns with the display.<BR>
 
 # 6.6 Display Orientation
 
 This meter supports two power supply positions: beneath the meter or on top. For gas measurements, the power supply is typically at the bottom. To accommodate both configurations, the display can be rotated 180°.<BR>
 
 Steps to rotate the display:<BR>
-•	If present, remove the sealing wire and then unscrew the four M4 screws securing the display lid.<BR>
-•	Remove the display lid along with the glass window and O-ring.<BR>
-•	Unscrew the four screws securing the display PCB (CI543).<BR>
-•	Lift the top board disconnecting the connector linking the top and bottom boards.<BR>
-•	Rotate the top board 180°, and reinstall it, ensuring the connector pins align correctly.<BR>
-•	Note: The display window is offset within the lid. When reinstalling, make sure the opening aligns with the display. If the display is rotated, the lid must also be rotated 180° to match.
+- If present, remove the sealing wire and then unscrew the four M4 screws securing the display lid.<BR>
+- Remove the display lid along with the glass window and O-ring.<BR>
+- Unscrew the four screws securing the display PCB (CI543).<BR>
+- Lift the top board disconnecting the connector linking the top and bottom boards.<BR>
+- Rotate the top board 180°, and reinstall it, ensuring the connector pins align correctly.<BR>
+- Note: The display window is offset within the lid. When reinstalling, make sure the opening aligns with the display. If the display is rotated, the lid must also be rotated 180° to match.
 
 # 6.7 Installation
 
-•	Ensure that any limitations specified on the relevant certificates for the certified glands or adapters used in the assembly, are observed.<BR>
-•	Use appropriately rated glands and adapters if the IP65 rating of the equipment is to be maintained.<BR>
-•	Connect the power supply to only one input:<BR>
+- Ensure that any limitations specified on the relevant certificates for the certified glands or adapters used in the assembly, are observed.<BR>
+- Use appropriately rated glands and adapters if the IP65 rating of the equipment is to be maintained.<BR>
+- Connect the power supply to only one input:<BR>
 - J100 for a mains supply (100–240 VAC, 50/60 Hz, 2 A), or<BR>
 - J101 for a 12 VDC supply (0.5 A).<BR>
 
@@ -320,9 +320,9 @@ When the mains input is being used, the main incoming earth should be connected 
 **Earthing with 12Vdc Input**<BR>
 
 When the 12Vdc input is being used the enclosure still needs to be earthed. This can be done in several ways:<BR>
-•	it is recommended to run a separate protective earth wire in the cable and connect this to the internal earthing facility, or<BR>
-•	connect an external earth to the external earthing facility on the enclosure, or<BR> 
-•	use the -ve wire of the 12V supply as the protective earth wire but then ensure it is suitably bonded to earth at the source and connected to the internal earthing facility.<BR>
+- It is recommended to run a separate protective earth wire in the cable and connect this to the internal earthing facility, or<BR>
+- Connect an external earth to the external earthing facility on the enclosure, or<BR> 
+- Use the -ve wire of the 12V supply as the protective earth wire but then ensure it is suitably bonded to earth at the source and connected to the internal earthing facility.<BR>
 
 **External Earth Facility**<BR>
 
@@ -334,13 +334,13 @@ If there is a requirement for electrical bonding, then the external earthing fac
 
 ![image](16.2.5_KG100PSD_terminal.png)
 
-•	All wiring must be carried out in accordance with the relevant code of practice and/or instructions e.g., IEC 60079-14 or EN 60079-14<BR>
-•	All mains wiring must have a cross-sectional area of 0.5 to 4 mm2.<BR>
-•	The voltages shown on the label must not be exceeded.<BR>
-•	The wiring used should be suitable for 80°C.<BR>
-•	The wiring insulation must extend to within 1 mm of the metal face of the terminal.<BR>
-•	All wiring must be suitably insulated for the maximum voltage.<BR>
-•	Not more than one single or multi-stranded conductor shall be connected into each terminal unless the conductors have been pre-joined in an appropriate manner (e.g., with an insulated crimped bootlace ferrule)<BR>
+- All wiring must be carried out in accordance with the relevant code of practice and/or instructions e.g., IEC 60079-14 or EN 60079-14<BR>
+- All mains wiring must have a cross-sectional area of 0.5 to 4 mm2.<BR>
+- The voltages shown on the label must not be exceeded.<BR>
+- The wiring used should be suitable for 80°C.<BR>
+- The wiring insulation must extend to within 1 mm of the metal face of the terminal.<BR>
+- All wiring must be suitably insulated for the maximum voltage.<BR>
+- Not more than one single or multi-stranded conductor shall be connected into each terminal unless the conductors have been pre-joined in an appropriate manner (e.g., with an insulated crimped bootlace ferrule)<BR>
 
 ![image](16.2.6_KG100PSD_power.png)
 
@@ -391,7 +391,7 @@ There is a ribbon cable cemented into the internal wall of the enclosure. This c
 
 This equipment is designed to have a KG100 meter with CI545 plugged onto the DSub15 connector. In future other meters may be able to connect to this equipment.<BR>
 
-![image]()
+![image](16.2.8_KG100PSD_sub15.png)
 
 # 6.12 I.S. Output
 
@@ -406,7 +406,6 @@ The output parameters for this intrinsically safe supply are shown below.
 |       |Lo = 50 µH | 	≥|	Li| 	Li  = 50 µH
 |       |PO = 1 W   |	≤|	Pi| 	Pi = 1.1 W
 |5, 8, 9, & 15|Earth| |Common Earth 
-
 
 
 **Conditions of use pertaining to the certification of this equipment**<BR>
