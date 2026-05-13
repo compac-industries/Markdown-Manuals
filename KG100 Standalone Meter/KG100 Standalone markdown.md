@@ -6,7 +6,7 @@
 
 # KG100 Standalone Meter Manual  
 
-Updated 12 May 2026
+Updated 13 May 2026
 
 
 **Conditions of Use**  
