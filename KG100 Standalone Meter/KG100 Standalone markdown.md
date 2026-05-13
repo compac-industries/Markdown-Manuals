@@ -440,7 +440,7 @@ There are two Calibration methods
 
 # 7.1 Calibration Method 1
 
-**Method 1 – Calibrate with SA (Standalone) Module Installed<BR>**
+**Method 1 – Calibrate with SA (Standalone) Module Installed**<BR>
 
 Connect the SA module to the meter and use the SA display reading as the register value for calibration.<BR>
 
