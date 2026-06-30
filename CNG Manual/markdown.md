@@ -1,12 +1,12 @@
 
-![image](9.1.1_Compac_IRS_frontpage.png)
+![image](Compac_front_page.png)
 
 
 <font size="5">
 
 # C5000 CNG Dispenser Installation and Service Manual  
 
-updated 29 April 2026
+updated 16 June 2026
 <font size="3">
 
 # Conditions of Use  
@@ -39,9 +39,19 @@ Every effort has been made to ensure the accuracy of this document. However, it 
 
 # Specifications
 
-## Models Covered
+## C5000 CNG Dispenser Models Covered
 
-> **Note:** Do not use this manual for earlier models. Contact Compac for archived manuals if required.
+|Models covered|Standard|High Flow|Ultra-High Flow
+|--------------|--------|---------|---------------
+|Laser |L-CNG15 |L-CNG50 |L-CNG80 
+|      |L-CNGD15 |L-CNGD50 |L-CNGD80 
+|      |         |L-CNG50-15 |L-CNG80-15
+Legend |LGDCNG15 |LGDCNG50 |LGDCNG80-15
+|      |LGDCNGD15 |LGDCNGD50 |LGDCNGD80
+|      |         |LGDCNG50-15 |LGDCNG80-15
+
+> **Note:** Do not use this manual for earlier models or Compac CNG Dispensers with C4000 electronics.<BR>
+Contact Compac for archived manuals if required.
 
 # Validity
 
@@ -49,7 +59,7 @@ Compac Industries Limited reserves the right to revise or change product specifi
 
 # Manufactured By
 
-The Compac CNG Dispenser is designed and manufactured by Compac Industries Limited
+The Compac C5000 CNG Dispenser is designed and manufactured by Compac Industries Limited
 
 52 Walls Road, Penrose, Auckland 1061, New Zealand
 
@@ -129,36 +139,140 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
-
 <font size ="5">
 
-[**7.0 Dispenser set up**](#70-dispenser-set-up)
+[**7.0 Dispenser settings**](#70-dispenser-settings)
 
 <font size ="3">
 
+[7.0.1 Dispenser set up master list of settings](#701-dispenser-set-up-master-list-of-settings) 
+
 [**7.1 Parameter Switch**](#71-parameter-switch)
 
-[7.1.1 How to View the Software Version](#711-how-to-view-the-software-version)
+[7.1.1 Software Version](#711-software-version)
 
-[7.1.2 Changing the Pump Number](#712-changing-the-pump-number)
+[7.1.2 Pump Number **PnA**](#712-pump-number-pna)
 
-[7.1.3 Unit Price](#713-unit-price)
+[7.1.3 Current Pressure](#713-current-pressure) 
 
-[7.1.4 Pump settings](#714-pump-settings)
+[7.1.4 Standalone setting **bA**](#714-ba-standalone-setting)
 
-[7.1.5 Minimum Flow Rate](#715-minimum-flow-rate) 
+[7.1.5 Unit Price **PrA**](#715-unit-price-pra)
 
-[7.1.6 Maximum Flow Rate](#716-maximum-flow-rate)
+[7.1.6 Minimum Flow Rate **LFA**](#716-minimum-flow-rate-lfa) 
+
+[7.1.7 Maximum Flow Rate **HFA**](#717-maximum-flow-rate-hfa)
 
 [7.1.7 Changing the b Setting](#717-changing-the-b-setting)
 
-[7.1.8 Assigning a number to slave display](#718-assigning-a-number-to-slave-display)
+[7.1.8 Heat of Compression **HCA**](#718-heat-of-compression-hca)
 
-[7.1.9 Changing the Custom Display Configuration](#719-changing-the-custom-display-configuration)
+[7.1.9 **b** setting](#719-b-setting)
 
-[7.1.10 Electronic Totes](#7110-electronic-totes)
+[7.1.10 Slave Display configuration **dS**](#7110-slave-display-configuration-ds)
+
+[7.1.11 Custom Display Configuration **dC**](#7111-custom-display-configuration-dc)
+
+[7.1.12 Custom Display configuration **dP**](#7112-custom-display-configuration-dp)
+
+[7.1.13 Custom Display configuration **du**](#7113-custom-display-configuration-du)
+
+[7.1.14 Electronic Totalizers](#7114-electronic-totalizers)
 
 [**7.2 K-Factor Switch**](#72-k-factor-switch)
+
+[7.2.1 Dispenser settings **C-A**](#721-dispenser-settings-c-a) 
+
+[7.2.2 Meter ID **id-A**](#722-meter-id-id-a)
+
+[7.2.3 Meter Temperature Calibration **E-A**](#723-meter-temperature-calibration-e-a) 
+
+[7.2.4 Meter Density Calibration **dIS-A**](#724-meter-density-calibration-dis-a)
+
+[7.2.5 **LdA**](#725-lda)
+
+[7.2.6 **Hose-b**](#726-hose-b)
+
+[7.2.7 Display settings **Disp**](#727-display-settings-disp)
+
+[7.2.8 Target fill pressure **FPA**](#728-target-fill-pressure-fpa)
+
+[7.2.9 **hPA**](#729-hpa)
+
+[7.2.10 Overfill pressure **OPA**](#7210-overfill-pressure-opa)
+
+[7.2.11 CNG setting **cn9 C**](#7211-cng-setting-cn9-c)
+
+[7.2.12 **uALu tA**](#7212-ualu-ta)
+
+[7.2.13 CNG Region **Cn9r9n**](#7213-cng-region-cn9r9n)
+
+[7.2.14 Density Factor **dSF**](#7214-density-factor-dsf)
+
+[7.2.15 Ambient Temperature **E-Anb**](#7215-ambient-temperature-e-anb)
+
+[7.2.16 Low Pressure point calibration **uA1L**](#7216-low-pressure-point-calibration-ua1l)
+
+[7.2.17 Low Pressure point calibration **ub1L**](#7217-low-pressure-point-calibration-ub1l)
+
+[7.2.18 Low Pressure point calibration **uA1H**](#7218-low-pressure-point-calibration-ua1h)
+
+[7.2.19 Low Pressure point calibration **ub1H**](#7219-low-pressure-point-calibration-ub1h)
+
+[7.2.20 Overfill time **deb**](#7220-overfill-time-deb)
+
+[7.2.21 **SdEL**](#7221-sdel)
+
+[7.2.22 **9A**](#7222-9a) 
+
+[7.2.23 K Factor **FA**](#7223-k-factor-fa)
+
+[7.2.24 C Configuration **C**](#7224-c-configuration-c)
+
+[7.2.25 Comms protocol **cc**](#7225-comms-protocol-cc)
+
+[7.2.26 **nbC0n5**](#7226-nbc0n5)
+
+[7.2.27 **Sd A**](#7227-sd-a)
+
+[7.2.28 **PcutA**](#7228-pcuta)
+
+[7.2.29 **Pr1A**](#7229-pr1a)
+
+[7.2.30 **PrHA**](#7230-prha)
+
+[7.2.31 **nA**](#7231-na)
+
+[7.2.32 GPIO setting **9pi0**](#7232-gpio-setting-9pi0)
+
+[7.2.33 GPIO Pu setting **9pi0 Pu**](#7233-gpio-pu-setting-9pi0-pu)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -374,7 +488,98 @@ The dispenser and hose(s) are now fully pressurised.<BR>
 14.	Complete a few fills on a test cylinder, checking for leaks or unusual operation.
 
 
-# 7.0 Dispenser set up
+# 7.0 Dispenser settings
+
+# 7.0.1 Dispenser set up master list of settings
+
+This table lists all the settings on the Parameter and K factor switches for CNG applications<BR>
+Where applicable, the Compac factory default settings for a new standard dual hose CNG dispenser are noted<BR>
+Some settings only appear when the dispenser is configured for dual hose<BR>
+Some settings such as the Price, Pump number and K factor will need to be changed when the Dispenser is installed
+
+**Parameter Switch**
+
+|Setting|Description|Single or dual hose|Dual hose Factory default|
+|-------|-----------|-------------------|---------------|
+|Pn A|Pump number side A||01|
+|Pn b|Pump number side B|dual hose only|02|
+|LPr-A|Current Pressure side A|||
+|LPr-b|Current Pressure side B|dual hose only||
+|b-A|Standalone setting side A||0000|
+|b-b|Standalone setting side B|dual hose only|0000|
+|Pr A|Price side A||001.000|
+|Pr b|Price side B|dual hose only|001.000|
+|LFA|Low Flow cutoff side A||01.0|
+|LFb|Low Flow cutoff side B|dual hose only|01.0|
+|HFA|High Flow cutoff side A||0075|
+|HFb|High Flow cutoff side B||0075|
+|HCA|Heat of Compression side A||0000
+|HCb|Heat of Compression side B|dual hose only|0000|
+|b|LCD dimming||0000
+|dS|Slave display configuration||0003
+|dC|not applicable for CNG||00000
+|dp|not applicable for CNG||0000
+|A|not applicable for CNG||1.0|
+|b|not applicable for CNG||1.0|
+|LA|Totalizer side A|||
+|Lb|Totalizer side b|dual hose only||
+
+<BR>
+
+**K factor switch**
+|Setting|Description|Single or dual hose|Factory default settings|
+|-------|-----------|-------------------|---------------|
+|C-A|Dispenser setting side A||0000264| 
+|C-B|Dispenser setting side B|dual hose only|0000264|
+|Id-A|Meter side A ID||
+|Id-B|Meter side B ID|dual hose only|
+|E-A|Meter side A temperature||
+|E-b|Meter side B temperature|dual hose only||
+|DIS-A|Density side A||0001.0| 
+|DIS-B|Density side B|dual hose only |0001.0
+|LdA|||0|
+|Hose-b|||0.00|
+|Disp|Display settings||0033220
+|FpA|Target fill pressure side A||200|
+|Fpb|Target fill pressure side B|dual hose only|200|
+|hPA|High pressure cutoff side A||200
+|hPb|High pressure cutoff side B|dual hose only|200
+|OPA|Overfill pressure cutoff side A||300|
+|OPA|Overfill pressure cutoff side B|dual hose only|300
+|Cn9 C|CNG specific settings||1100315|
+|uALu tA|||0.00|
+|uALu tb|||0.00|
+|Cn9 r9n|||0000|
+|dSF|Density factor||1.0000|
+|E-Anb|Ambient temperature||ambient temperature|
+|uA1L|Low pressure point calibration side A||
+|ub1L|Low pressure point calibration side B|dual hose only||
+|uA1H|High pressure point calibration side A||
+|ub1H|High pressure point calibration side B|dual hose only||
+|deb|Overfill pressure time||99.0|
+|Sdel||||
+|9A|Maximum Flow side A|||
+|9b|Maximum Flow side B|dual hose only||
+|FA|K factor side A||1.0000|
+|Fb|K factor side B|dual hose only|1.0000|
+|C|Configuration code||0000602|
+|cc|comms protocol||0011(Compac) or 0013 (Gilbarco)|
+|nb COn5|not applicable||000|
+|SdA|not applicable||000|
+|Sdb|not applicable|dual hose only|000|
+|Pcut A|not applcable||0.00|
+|Pcut b|not applicable|dual hose only|0.00| 
+ Pr1A|not applicable||0.00|
+|Pr1b|not applicable|dual hose only|0.00|
+|PrHA|not applicable||0.00|
+|PrHb|not applicable|dual hose only|0.00|
+|nA|not applicable||000|
+|nb|not applicable|dual hose only|000|
+|9pi0|GPIO settings||0000|
+|9pi0 Pu|GPIO settings||0000|
+
+<BR>
+
 
 # 7.1 Parameter Switch
 
@@ -409,7 +614,7 @@ Electronic Totes|	LA **** or dA ****|L****.**
 ||Lb **** or dA ****|d****.**
 
 
-# 7.1.1 How to View the Software Version<BR>
+# 7.1.1 Software Version<BR>
 
 Pressing the parameter switch once will show the software version. 
 
@@ -417,7 +622,7 @@ Pressing the parameter switch once will show the software version.
 
 The dispenser will then run through a segment test.
 
-# 7.1.2 Changing the Pump Number<BR>
+# 7.1.2 Pump Number PnA <BR>
 
 If the parameter switch is continually depressed, the following menu to change the pump number will appear. <BR>
 Each side must be numbered between 1-99.
@@ -427,7 +632,20 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](4.1.2_Parameter_pump_number_PnA.png)
 
-# 7.1.3 Unit Price
+# 7.1.3 Current Pressure 
+
+# 7.1.4 Standalone setting bA
+
+The bA setting is where you can set the dispenser in to standalone mode.<BR>
+Standalone mode means that the dispenser doesn’t communicate to a controller or POS.<BR>
+
+If the dispenser is in authorisation mode the dispenser will not start even if there is no controller or POS connected.
+
+**Note:** *If the dispenser is communicating to a controller or POS it will not operatate in standalone mode. To put the dispenser in to standalone while still connected to the controller or POS set the **CC** setting to **cc0000** setting*
+
+![image](15.8.2_CNG_bA.png) <BR>
+
+# 7.1.5 Unit Price PrA
 
 The unit price (PA) is used to calculate the total value of the quantity dispensed.<BR>
 The unit price can be different on each side of a dual hose dispenser.<BR>
@@ -448,18 +666,7 @@ If you want to pass over a setting without changing any digits, keep pressing an
 
 Let the menu time out so that the value and quantity amounts are displayed.
 
-# 7.1.4 Pump settings
-
-The bA setting is where you can set the dispenser in to standalone mode.<BR>
-Standalone mode means that the dispenser doesn’t communicate to a controller or POS.<BR>
-
-If the dispenser is in authorisation mode the dispenser will not start even if there is no controller or POS connected.
-
-**Note:** *If the dispenser is communicating to a controller or POS it will not operatate in standalone mode. To put the dispenser in to standalone while still connected to the controller or POS set the **CC** setting to **cc0000** setting*
-
-![image](15.8.2_CNG_bA.png)
-
-# 7.1.5 Minimum Flow Rate  
+# 7.1.6 Minimum Flow Rate LFA 
 
 The minimum flow rate (LFA and LFb) is the low flow cut-off at the end of the fill.<BR> 
 LFA is the minimum flow rate of side A of the dispenser.<BR>
@@ -483,7 +690,7 @@ Let the menu time out so that the value and quantity amounts are displayed.
 
 ![image](4.1.6_Parameter_Low_Flow-Cut_LFA.png)
 
-# 7.1.6 Maximum Flow Rate
+# 7.1.7 Maximum Flow Rate HFA
 
 The maximum flow rate (HFA and HFb) is the high flow cut-off for when the flow through the dispenser is too high.<BR>
 
@@ -520,7 +727,28 @@ The b setting is currently only used for LCD dimming. Set the b configuration co
 
 ![image](15.8.3_CNG-b.png)
 
-# 7.1.8 Slave Display configuration
+
+# 7.1.8 Heat of Compression HCA
+
+This can be set to allow for the increased temperature in the tank due to heat of compression.
+In low flow car filling applications, this may not be required.
+In high flow applications such as filling Buses and trucks, this would typically be set to approximately 30 degrees
+
+# 7.1.9 b setting
+
+The b setting is currently only used for LCD dimming. Set the b configuration code as required.
+
+|Setting|Digit      |Indication                    |
+|-------|-----------|------------------------------|
+|b      |1st digit  |**not used**                  |
+|       |2nd digit  |**LCD Dimming**               |
+|       |           |0 = Disabled                  |
+|       |           |1 = Enabled                   |
+|       |3rd digit  |**not used**                  |
+|       |4th digit  |**not used**                  |
+
+
+# 7.1.10 Slave Display configuration dS
 
 Slave displays are the displays that are additional to the K-factor board display.<BR>
 You can have up to 4 slave displays connected to one C5000.<BR>
@@ -587,7 +815,7 @@ Note: Each digit can have 4 different values, each value has a different meaning
 
 ![image](15.8.4_CNG_slave.png)
 
-# 7.1.9 Changing the Custom Display Configuration
+# 7.1.11 Custom Display Configuration dC
 
 The custom display configuration can be used to show additional information on the unit price display.<BR>
 The additional information that can be shown includes the density, temperature, flowrate, and reset batch.<BR>
@@ -604,8 +832,15 @@ For example, the following code would enable temperature and flowrate to be show
 
 ![image](4.1.9_Parameter_Custom_Display_dc.png)
 
+# 7.1.12 Custom Display configuration dP
 
-# 7.1.10 Electronic Totes
+For CNG Dispensers, leave this set to 0000
+
+# 7.1.13 Custom Display configuration du
+
+For CNG Dispensers, leave this set to 0000
+
+# 7.1.14 Electronic Totalizers
 
 The dispenser records electronic totes for price and dollars.
 To view the electronic totes, continue pressing the parameter switch until the following display is shown:
@@ -656,30 +891,229 @@ Information on these settings and how to change them can be found on the followi
 |Preset cutoff         |                                 | **PcA***.** or **Pcb***.**                  |
 |Preset rounding       |                                 | **PrLA***.** or **PrLb***.** **PrHA***.** or **PrHb***.**|
 |Flow time out         |                                 | **n-A** *** or **n-b** ***                    |
+|GPIO                  |GPiO                             | **** 
+|GPIO pulse value      |GPiOPu                           | *****               
+|CNG Region setting    |cnGrGn                           | ****
+
+<BR>
+
+# 7.2.1 Dispenser settings C-A 
+
+C-A and C-B are used to change the dispenser settings including the meter type, variant and minimum delivery.
+To get to the C-A and C-B, press the K-Factor switch once while the dispenser is in an idle state.
+The menu shown is for side A – if side B is required, continue depressing the K-Factor switch until the same menu for side B is reached and follow the same set up instructions.
+
+**Caution:** These settings are likely to have been set correctly in the Compac factory. Only change if required. See following pages for information on these settings.
+
+**CNG specific C-A and C-B settings table**
+
+|Setting     |Digit             |Function                                             |
+|---------------|------------------|---------------------------                                 |
+|C-A or C-B     | 1st Digit        | 
+|               | 2nd digit        | 
+|               | 3rd digit        | 
+|               | 4th digit	       | 
+|               | 5th digit        |**Quantity Settings - KG100 Meter only**
+|               |                  |2 = Mass (CNG only)
+|               | 6th Digit        |**Variant Settings**
+|               |                  |6 = CNG
+|               | 7th Digit        |**Meter settings**
+|               |                  |4 = KG100 Meter 
 
 
 
+# 7.2.2 Meter ID id-A 
+
+All KG100 meters have a specific ID which must match the ID recorded in the dispenser settings.<BR>
+This is a 6-digit number which can be found on the meter.
+If the IDs do not match, the dispenser will return a **calib** error .
+
+![image]
+
+To set the meter id Each press of the K-Factor switch passes you over a digit, making the digit blink.<BR>
+Holding the switch down for more than a second changes whichever digit is currently displayed.<bR>
+If you want to pass over a setting without changing any digits, keep pressing and releasing the switch.
+
+# 7.2.3 Meter Temperature Calibration E-A 
+
+The temperature calibration can be used to adjust the temperature being retrieved from the meter, if this is not the actual temperature of the product being dispensed.<BR>
+The actual temperature of product being dispensed should be entered in this menu.<BR>
+This will be used to adjust new temperatures returned from the meter. 
+
+![image]
+
+# 7.2.4 Meter Density Calibration dIS-A
+
+The density calibration can be used to adjust the density being retrieved from the meter, if this is not the actual density of the product being dispensed.<BR> 
+The actual density of product at 15 °C being dispensed should be entered in this menu. This will be used to adjust new densities returned from the meter.
+
+![image]
 
 
+# 7.2.5 LdA
+
+# 7.2.6 Hose-b
+
+# 7.2.7 Display settings Disp
+
+The "DISP" setting is a 7 digit configuration code that is used to select what to display on the upper, lower and price displays, along with the DP (Decimal Point) when configured as a CNG dispenser.
+
+Digits are numbered 1 to 7 starting from the left hand side
+
+These are the defaault settings are for a standard CNG Dispenser. <BR>
+The Decimal Point may need to be changed to suit the market
+
+**Standard CNG Dispenser display code** = 0033220
+
+|Display        |Data     |DP  |
+|---------------|---------|----|
+|TOP (UPPER)    |AMOUNT   |2DP |
+|BOTTOM (LOWER) |QUANTITY |3DP |
+|PRICE          |PRICE    |2DP |  
+
+|Digit             |Function                     |Available DP options | 
+|------------------|-----------------------------|---------------------|
+|1st digit         |Upper display                |                     | 
+|2nd digit         |Upper display DP             |0 (default 2dp),1,2  |  
+|3rd digit         |Lower display                |                     |
+|4th digit         |Lower display DP             |0 (default 2dp)1,2,3 |
+|5th Digit         |Price Display                |                     |
+|6th Digit         |Price Display DP             |0 (default 3dp)1,2,3 |                     
+|7th Digit         |**Not currenty used for CNG**|                     | 
 
 
+# 7.2.8 Target fill pressure FPA
+
+The target fill pressure is the pressure that the dispenser will fill the tank to.<BR>
+The dispenser will use the start fill pressure and the flow rate throughout the fill the dynamically work out the pressure in the tank.<BR>
+When the dispenser pressure reaches this the fill will end.
+
+![image]
+
+# 7.2.9 hPA
 
 
+# 7.2.10 Overfill pressure OPA
+
+The Overfill pressure is the pressure that the dispenser will end the fill at.<BR>
+This setting is used with the **deb** setting(time is seconds over the overfill pressure) to adjust the final fill pressure.
+
+![image]
+
+# 7.2.11 CNG setting cn9 C
+
+|Digit        |Digit              |    Function               |
+|--------------|-------------------|---------------------------|
+|              |1st digit           
+
+# 7.2.12 uALu tA
+
+# 7.2.13 CNG Region Cn9r9n
+
+# 7.2.14 Density Factor dSF
+
+The density factor (d5F) is used to set the format of the quantity that is displayed.<BR>
+For KG, a density factor of 1.000 is used. For other units of measure, different density factors are required.
+
+![image]
 
 
+To determine the correct density factor for the unit of measure you would like to use on the read-out, consider the following:
+1. The dispenser read-out displays the measured quantity in KG divided by the density factor
+2. When the required unit of measure is kg the density factor should be set to 1.<BR>
+In this case the display will show the measured quantity in kg
+3. When another unit of measure is required, the density factor should be set to the ratio between the required unit of measure and kgs.<BR>
+In this case the display will show the measured quantity (kg) / density factor (unit of measure/kg)
 
+# 7.2.15 Ambient Temperature E-Anb
 
+# 7.2.16 Low Pressure point calibration uA1L
 
+# 7.2.17 Low Pressure point calibration ub1L
 
+# 7.2.18 Low Pressure point calibration uA1H
 
+# 7.2.19 Low Pressure point calibration ub1H
 
+# 7.2.20 Overfill time deb
+
+# 7.2.21 SdEL
+
+# 7.2.22 9A 
+
+# 7.2.23 K Factor FA
+
+# 7.2.24 C Configuration C
+
+# 7.2.25 Comms protocol cc
+
+Use the following table to setup COMMS as required.
+
+![image](3.1.8_Kfactor_Comms_CC.png)
+
+|Setting        |Digit              |    Function               |
+|---------------|-------------------|---------------------------|
+|CC             |1st digit          |**Unused**                 | 
+|               |2nd digit          |**Mode**                   |
+|               |                   |1 = 5 digit                |
+|               |                   |0 = 6 digit                |
+|               |3rd digit          |**Channel**                |
+|               |                   |0                          |
+|               |                   |1 = default channel        |
+|               |                   |2                          |
+|               |4th digit          |**Pump Protocol**          |
+|               |                   |0 = Disabled               |
+|               |                   |1 = Compac                 |
+|               |                   |2 = PEC                    |
+|               |                   |3 = Gilbarco               |                               
+
+Change the Protocol and the mode to match the controller’s settings. Channel 1 is the default channel for dispensers (channel number should always match the with the comms board terminal block used).
+E.g. CC = 0113  Gilbarco on Channel 1, 5 Digit mode
+
+# 7.2.26 nbC0n5
+
+Not applicable to CNG. Factory default setting is **000** <BR>
+Do not change
+
+# 7.2.27 Sd A
+
+Not applicable to CNG. Factory default setting is **000** <BR>
+Do not change
+
+# 7.2.28 PcutA
+
+Not applicable to CNG. Factory default setting is **0.00** <BR>
+Do not change
+
+# 7.2.29 Pr1A
+
+Not applicable to CNG. Factory default setting is **0.00** <BR>
+Do not change
+
+# 7.2.30 PrHA
+
+Not applicable to CNG. Factory default setting is **0.00** <BR>
+Do not change
+
+# 7.2.31 nA
+
+Not applicable to CNG. Factory default setting is **000** <BR>
+Do not change
+
+# 7.2.32 GPIO setting 9pi0
+
+This is only used for Triscan type Pulse applications with a GPIO board
+
+# 7.2.33 GPIO Pu setting 9pi0 Pu
+
+This is only used for Triscan type Pulse applications with a GPIO board
 
 
 
 
 # 8.0 Operation
 
-
+>
 
 
 

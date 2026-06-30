@@ -167,6 +167,17 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="5">
 
+[**10.0 Troubleshooting**](#100-troubleshooting)
+
+<font size ="3">
+
+[10.1 Modulated Valve](#101-modulated-valve)
+
+<font size ="5">
+
+[**11.0 Software versions**](#110-software-versions)
+
+<font size ="3">
 
 # 1.0 Product Identification
 
@@ -380,8 +391,22 @@ B   |B config setting |0000
 dS  |Slave Display setting |0002
 dC  |Custom Display |0000
 nuCC|Modulated valve setting |0001
+nu HFr|Target Flow Rate |800
 dP  |Decimal place |0000
 du  |  |0000
+
+Further information regarding the **nuCC** setting<BR>
+
+**Factory default Valve Modulation settings**<BR>
+
+The MR800S has default PID Modulated Valve settings loaded at time of manufacture <BR> 
+To reload these settings, For example, if they were changed using the advanced Valve settings function but you want to go back to the default settings: 
+- Cycle through the parameters using the Parameter button.
+- Set the nuCC parameter to 1xxx.<BR>
+**Note 1:** The value will not visibly change, but the unit will emit a long beep to confirm the action. <BR>
+**Note 2:** When the deaults are reloaded, the Target Fow rate **nu HFr** will be set to 500lpm to ensure that the dispenser will operate. <BR>
+You can then increase the Target FLow Rate in the Parameter Switch settings to find th optimumm flowrate that the Dispenser will operate at. Refer to to the troubleshooting sectin of this manual for more information on the Target Flow Rate setting  
+
 
 # 5.2.1 Changing the Pump Number
 If the parameter switch is continually depressed, the following menu to change the pump number will appear.<BR>
@@ -654,7 +679,6 @@ Advanced Modulated Valve settings
 
 |Setting             |Description       |Default              |
 |--------------------|------------------|---------------------| 
-nu HFr |	Target flow rate |	800
 nu nfl |	Medum flow rate  |	110
 nu ru.t|	Ramp up time	 |  8.00
 nu rd.t|	Ramp down time   |	11.00
@@ -663,4 +687,33 @@ nu ti  |    PID i setting	 |  060
 nu td  |	PID d setting	 |  060
 nu nP.u|	Minimum time a solenoid valve should be pulsed for |	0.01
 nu Pu.u|	PWM width        |	0.50
+
+<BR>
+
+# 10.0 Troubleshooting
+
+# 10.1 Modulated Valve
+
+Refer to the Advance Modulated Valve settings in section 9 to access these parameters 
+
+|Symptom|Possible cause|Action
+|-------|--------------|-------
+|Valve keeps ticking and does not reach the target flow rate|The target flow rate may be too high, or the pump pressure may be insufficient.| Try decreasing the target flow rate.
+|Ramping too fast| The ramp-up time may be set too low. |Increase the ramp-up time (nu ru.t), or
+| | The PWM width (nu Puu) may be too large. |Reduce it.
+|Valve attempts to close (ticking) but responds slowly |The target flow rate may be too close to the maximum flow rate. |Reduce the target flow rate (nu HFr) by approximately 50 L/min.
+|Valve starts ramping too early |Check the time at low flow setting. |Ensure it is not set to 00. If a value is set, try reducing it.
+
+# 11.0 Software versions
+
+**Important**<BR>
+
+The MR800S has special versions of software installed in both the C5K Processor board and K-factor board as follows:
+
+- C5K_Processor_2.3.28.9
+- K-factor firmware: CI502-K-FACTOR_BOARD_1.0.0.52
+
+If ordering replacement C5K Processor or K-factor board as spare parts, please quote the Dispenser serial number to ensure that the parts are supplied with the correct software installed. 
+
+
 
