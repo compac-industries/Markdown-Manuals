@@ -36,6 +36,17 @@ It exceeds OIML standards for accuracy and is rated for inlet pressures up to 35
 |Accuracy on CNG|To latest OIML R139 Standard|
 |Material Specification|All wetted parts Stainless Steel|
 
+<BR>
+
+# Dimensions
+
+![image](17.1.1_KG100_dims.png)
+
+
 
 # Electrical Approvals
 The Compac KG100 Coriolis Mass Flow Meter has IECEx and ATEX approvals for installation in a hazardous area 
+
+- IECEx Certificate of Conformity **IECEx ExTC 18.0016X**
+
+- ATEX **TUV 18 ATEX 8330 X**
