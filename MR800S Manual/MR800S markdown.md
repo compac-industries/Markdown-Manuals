@@ -7,12 +7,12 @@
 
 ![image](17.0.1_MR800S_image.png)
 
-Updated 27 May, 2026
+Updated 21 July, 2026
 
 **Conditions of Use**
 <font size ="3">
 
-- Please read this manual completely before working on, or making adjustments to, the Compac equipment<BR>
+- Please read this manual completely before working on, or making adjustments to Compac equipment<BR>
 - Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.<BR> 
 - Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.<BR>
 - Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment<BR>
@@ -206,9 +206,7 @@ As a marine model, it has stainless steel pipework and stainless-steel chassis f
 
 # 2.0 Footprint
 
-![image](MAD0194B_01_B_Master_PN4W_800LPM_Dispenser_Modulating_Control_TCS_Bottom_Entry_Inlet.png)
-
-![image](MAD0272A-01-A.png)
+![image](MAD0195A_revA_05_06_2026_COM650_800LPM_Dispenser.png)
 
 # 3.0 Installation
 
