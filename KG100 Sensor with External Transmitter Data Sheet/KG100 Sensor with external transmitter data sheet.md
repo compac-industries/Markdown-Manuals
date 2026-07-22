@@ -1,6 +1,6 @@
 
-<p align="center"> <img src="compac.png" alt="Centered Image" width="400">
-</p>
+
+![image](compac.png)
 
 <BR>
 
