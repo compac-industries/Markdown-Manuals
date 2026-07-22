@@ -730,8 +730,10 @@ The b setting is currently only used for LCD dimming. Set the b configuration co
 
 # 7.1.8 Heat of Compression HCA
 
-This can be set to allow for the increased temperature in the tank due to heat of compression.
-In low flow car filling applications, this may not be required.
+This can be set to allow for the increased temperature in the tank due to heat of compression.<BR>
+
+In low flow car filling applications, this may not be required.<BR>
+
 In high flow applications such as filling Buses and trucks, this would typically be set to approximately 30 degrees
 
 # 7.1.9 b setting
@@ -1002,13 +1004,40 @@ This setting is used with the **deb** setting(time is seconds over the overfill 
 
 # 7.2.11 CNG setting cn9 C
 
-|Digit        |Digit              |    Function               |
-|--------------|-------------------|---------------------------|
-|              |1st digit           
+|Digit     |Function               |Options              |
+|----------|-----------------------|---------------------|
+|1st digit |Repeat fill guard time | 0 = none            |     
+|          |                       | 1 = 30 secs         |        
+|2nd digit |Gas type               | 1 = CNG             | 
+|3rd digit |Sequencing speed       | 0 = Fast (5kg/min)  |
+|          |                       | 1 = Normal (3kg/min)|
+|          |                       | 2 = Slow (1kg/min)  |        
+|4th digit |Valve type             | 0 = Air downstream  |
+|          |                       | 1 = Air downstream  | 
+|          |                       | 2 = Solenoid downstream |
+|          |                       | 3 = Solenoid downstream |
+|5th digit |Number of banks        | 0 = single          | 
+|          |                       | 1 = Single          |
+|          |                       | 2 = dual            |
+|          |                       | 3 = triple          |
+|6th digit |Pressure Probes        | 0 = single          |                      
+|          |                       | 1 = Single          | 
+|          |                       | 2 = Dual probes     | 
+|          |                       | 3 = NONE            |
+|7th digit |Fill Mode              | 0 = Mechanical Regulator |
+|          |                       | 1 = Mechanical Regulator with temperature compensated goal |
+|          |                       | 2 = elec reg basic |
+|          |                       | 3 = elec normal    |       
+|          |                       | 4 = elec advanced  |
+|          |                       | 5 = elec pinnacle  |     
 
 # 7.2.12 uALu tA
 
 # 7.2.13 CNG Region Cn9r9n
+
+The "CNG-RGN" setting is a 4 digit config code that is used to apply region-specific settings.
+
+The factory default setting is 0000
 
 # 7.2.14 Density Factor dSF
 
@@ -1113,7 +1142,7 @@ This is only used for Triscan type Pulse applications with a GPIO board
 
 # 8.0 Operation
 
->
+
 
 
 
@@ -1850,13 +1879,331 @@ Adjust the dispenser’s ambient temperature reading to match that of the calibr
 
 
 
+# Technical Specifications
+
+Operating Conditions:
+
+Compac CNG Dispensers (excluding hose assembly) are desgned to operate within the atmospheric environment.<BR>
+
+Gas parameters are outlined below
+
+CNG Dispensers require the following operating conditions
+
+|Parameter |Condition| 
+|----------|---------|
+|Air Temperatue range |- 25 °C to + 55 °C |
+|Air humidity range   |10% to 95% |
+|Gas type             |High pressure natural gas (CNG)|
+|Gas temperature      |- 40 °C to + 80 °C (continuous)|
+|                     |- 55 °C to + 80 °C (intermittent)|
+|Maximum water Dew Point |- 32°C at 250bar|
+
+**General specifications**
+
+Power Requirements are 230V +/-10%, 50Hz, 2A
+
+|Specific specifications|Standard model|High Flow Model| Ultra High Flow Model|
+|-----------------------|--------------|---------------|----------------------|
+|**Flow** (The maximum flow rate is not only determined<BR> by the type of dispenser<BR> but also depends on the size of the refuelling hose,<BR> the model of the breakaway,<BR> the type of refuelling nozzle, and the vehicle coupling.) |1 – 15 kg /min |1-50 kg /min |1 – 80 kg /min
+|**Pressure Rating**<BR>(350 bar options utilise air actuated valves<BR> and require a compressed air supply.) |275 bar <BR> (350 bar option) |275 bar <BR>(350 bar option) |350 bar
+|**Accuracy** |+/- 1.0% |+/- 1.0% |+/- 1.0%
+|**Meter** |Compac KG100 <BR> Coriolis Mass flow |Compac KG100 <BR> Coriolis Mass flow |Compac KG100 <BR> Coriolis Mass flow
+**Internal Pipework** |1/2” |1/2” |1/2” or 3/4"|
+|**Refuelling hose** |3/8” |1/2” | 1/2” or 3/4"|
+|**In-line breakaways** |Various available |Various available |Heavy Duty|
+|**Refuelling valve** | NGV1 or NZ 7/16" probe | NGV1 or NGV2 |NGV2 |
+|**Master (without <BR> hoses or high masts**) |600W x 400D x 1220H |600W x 400D x 1220H |600W x 400D x 1220H|
+|**Laser (without <BR> hoses or high masts**) |830W x 450D x 1608H |830W x 450D x 1608H |830W x 450D x 1608H|
+|**Legend (without hoses)** | 850W x 425D x 2355H |850W x 425D x 2355H |850W x 425D x 2355H
+|**Minimum flow cut off** |0.5 -10 kg/min (settable) |0.5 -10 kg/min (settable) |0.5 -10 kg/min (settable) |
+|**Maximum flow cut off** |10 - 99  kg/min (settable) |10 - 99  kg/min (settable) |10 - 99  kg/min (settable)
+
+<BR>
+
+# Component Specifications
+
+See below for information on components.
+
+|Equipment Item |Compac Code |Specifications |Description |
+|---------------|------------|---------------|------------|
+|**Coalescing filters**| |Grade 10 Coalescing Filter |The coalescing filters are designed to trap dirt, moisture, oil,<BR> and other debris that may damage the valve seals.<BR> A Grade 10 coalescing filter will remove 95% of liquid aerosols <BR> in the 0.3 to 0.6 micron range.
+|**Compac filter/<BR>check valve** | FCVCI-12-SS |3/4” SAE female inlet.<BR> 2 x 3/4” SAE female outlets. 350 bar max. |The filter/check valve prevents back-flow from the high storage to the medium and low storage, and from the medium storage to the low storage. <BR>The valve has a metal to metal seat and should not leak or require servicing.
+|**Solenoid valve** |SCI-12-SS |3/4” SAE female inlet. <BR> 3/4" SAE female outlet. <BR> 275 bar max. |The high flow solenoid valve is designed to control the flow of gas in a CNG Dispenser. <BR> Between the inlet and outlet, the valve opens with a differential pressure of more than 275 bar.|
+|**Regulator valve** |RCI-12-SS |3 x 3/4" SAE female inlets. <BR> 3/4" SAE female outlet. <BR> 275 bar max |The regulator is a high flow valve, designed to limit the outlet pressure of the dispenser. <BR> In the **fixed pressure** dispenser, the regulator limits the final fill pressure to 200 bar. <BR> In the **temperature compensated** dispenser, the regulator acts as a safety device to limit the amount of over-pressure if the main solenoid fails to shut off at the correct pressure. 
+|**NZ probe** | 7/16" NZ Probe 1-15 kg/min |1/4" NPT port. | In New Zealand, the probe complies with NZS 5425.1. <BR> In Australia, the probe complies with AS/NZS 2739.
+|**Nozzles** | OPW CT1000 1-50 kg/min |9/16" SAE inlet port <BR> 200 bar max. |Nozzles allow refuelling for high pressure NGV applications.|
+|            |OPW CT5000 1-80 kg/min |7/8" SAE inlet port 250 bar max. | Nozzles allow refuelling for high pressure NGV applications.
+|**Inline breakaways**|OPW ILB- 1 <BR>1-50 kg/min | 9/16" SAE inlet & outlet ports. <BR>250 bar max.<BR> 150 to 200 lbs. <BR>(668 to 890 N) <BR> breakaway force. |Inline breakaway with reconnectable design. <BR> Corrosion-Resistant with high flow quick fuelling of large storage vehicles.
+|            |OPW ILB-5 <BR>1-80 kg/min |7/8" SAE inlet & outlet ports. <BR> 310 bar max.<BR> 150 to 200 lbs.<BR> (668 to 890 N)<BR>breakaway force. |Inline breakaway with reconnectable design. <BR> Corrosion-Resistant with high flow quick fuelling of large storage vehicles.
+|**Isolation ball valve** |||Parker 2-way 8 series ball valve
+|**Backlit LCD Display** |Compac 7D1 ||The display has seven digits for amount, seven digits for quantity and five digits for unit price.  
+**Analogue Pressure Gauge** |||Dual scale, class 1 pressure gauges are available with psi and either bar, MPa, or kPa. <BR> CE Approved
+**CNG Hose** ||Single and twin line <BR>3/8", 1/2" or 3/4". |The hose is specifically designed to dissipate static electrical build-up and wear resistance.
+
+# Hydraulic Layout
+
+
+# Dispenser Fittings
+
+Aside from some NPT fittings located in the utility manifold, all fittings used in a Compac CNG Dispenser are SAE. <BR>Some SAE fittings are adjustable to allow for rotational positioning of components such as solenoids. <BR>Nipples, tees, and elbows are used, but the procedure is the same for each.
+
+Fitting replacement and servicing:<BR>
+
+When replacing, disassembling or tightening fittings:
+1.	De-gas the dispenser 
+2.	Switch off the power supply to the dispenser.
+
+**DANGER:** Never remove any electrical components without first switching off the power to the dispenser.<BR> Failure to turn off the power could result in an electric shock.
+
+3.	Make sure that your work area (including the vice, workbench, tool storage area, and floor) are totally clean of particles or previous work.<BR> Cleanliness and correct assembly practice can avoid most seal problems. 
+4.	Make sure that the gas inlet pipes are properly supported before connection.
+5.	Refer to one of the following procedures, depending on the fitting that you are using:
+- Connect Threaded SAE Fittings
+- Connect Adjustable threaded SAE Fittings 
+- Connect Compression Fittings 
+
+**Connecting SAE Fittings**
+1.	Inspect the components ensuring that the threads and sealing faces are clean and undamaged.
+2.	Lubricate the O-ring with a light oil.
+3.	Screw the components together by hand until the O-ring touches the face of the port.
+4.	Tighten the fitting firmly with a suitable spanner.
+
+**CAUTION:** Never use thread tape on SAE parallel fittings.
+
+**Connecting Adjustable SAE fittings**
+
+1.	Inspect the components ensuring that the threads and sealing faces are clean and undamaged.
+2.	Lubricate the O-ring with a light oil. 
+3.	Back off the lock nut fully so that the O-ring and washer are on the plain shank of the fitting. 
+4.	Screw the components together by hand until the O-rings touch the faces of the ports.
+5.	Position the components to the desired alignment.
+6.	Hold the fitting in position and firmly tighten the lock nut.
+
+**CAUTION:** Never use thread tape on SAE parallel fittings.
+
+![imge](15.10.1_CNG_adj_nipples.png)
+
+**Connecting Compression Tube Fittings**
+1.	Ensure the end of the tube is square, not deformed, clean and free from burrs inside and out.
+2.	Remove the nut from the fitting and ensure the two ferrules are present and correctly orientated.
+3.	Replace the nut and insert the tube ensuring it is located hard up against the internal shoulder of the fitting.
+4.	Pre-swage the tube by tightening the nut by hand and then a further 1 1/4" turns.
+5.	Disassemble the fitting and inspect the pre-swaging. The ferrules should square and unable to be removed from the tube. 
+6.	Reassemble the fitting, tightening it by hand and then a further 1/4" turns with the appropriate spanner.
+
+**NOTE:** Correctly made tube should not need to be sprung into position.
+
+# Electrical Drawings
+
+**CNG Dispenser typical Electrical Schematic**
+
+![image](15.10.2_CNG_elect_schematic.png)
+
+# Power supply
+
+The C5000 power supply is found within the flameproof box, located on the unit.<BR>
+The power supply contains the processor board, comms interface board and the terminal board. 
+
+![image](2.1.1_Power_Supply_in_FPbox.png)
+
+
+# Incoming mains
+
+Incoming mains connections should be brought in to the terminal board.<BR>
+An emergency stop connection, if desired, can also be wired into the terminal board, shown below.<BR> This will be in place of the normal loop between the triac and main phases. Wires have standard colours which are shown. <BR>
+In case these are unclear, the colours are as follows:<BR>
+- Incoming mains phase: Brown
+- Incoming mains neutral: Blue
+- Incoming mains earth: Green/Yellow
+<BR>
+
+![image](1.1.1_Mains_connections.png)
+
+# Solid State Relays (Triacs)
+There are 7 separate solid state relays (small triacs) on the C5000 terminal board.<BR> 
+The output terminals for these triacs are T1 to T7. See below for information about the use of these outputs.
+
+|Terminal name|Function|
+|-------------|--------|
+|T1|Solenoid Low Bank Side A |
+|T2|Solenoid Medium Bank Side A |
+|T3|Solenoid High Bank Side A |
+|T4|Solenoid Low Bank Side B |
+|T5|Solenoid Medium Bank Side B|
+|T6|Solenoid High Bank Side B|
+|T7|Auxiliary Output for Fill Active|
+
+**Auxiliary Output for Fill active and Beacon lights**<BR>
+
+In Single Hose CNG Dispensers, the 230V low current output T7 is turned ON for the duration of the fill.<BR>
+
+This can be used to switch a contactor or relay to operate an external light to indicate a fill is in progress (example a Beacon Light)<BR>
+
+**GPIO wiring for remote push to start**<BR>
+
+In this application the start signal will wire to IN1 terminal on the J1 connector. The signal from the PLC should be at least a 0.5 second 3  to 24 volt DC pulse.<BR>
+
+The end of fill indicator is wired to the OUT terminal on the J2 connector. <BR>
+This is an open collector output. Depending on the PLC you might have to install pullup resistors on the input to the PLC.<BR>
+
+The Output pulse signal is to be wired to the OUT terminal on the J2 connector. Like the end of fill indicator, the output is and open collector. 
+
+![image](15.10.3_CNG_GPIO.png)
+
+# C5000 K-Factor board
+
+The Compac C5000 K-Factor board is the Main Calculator in the Compac Dispenser.<BR>
+It communicates with the KG100 meter to get the current mass and returns it to the C5000 Processor board. It also reads the Start and stop buttons for both sides (side A and side B).<BR>
+The Compac C5000 K-Factor board also is a user interface enabling the setup operation of the dispenser<BR>
+These set-up interfaces (located on the drawing) are:<BR>
+- The Parameter switch.
+- The K-Factor switch.
+
+![image](2.1.3_Kfactor_board.png)
+
+# Temperature Pressure Board
+The Temperature pressure board is responsible for the following tasks:<BR>
+•	Communication to the slave display<BR>
+•	Reading the Gas temperature probe<BR>
+•	Reading the ambient temperature<BR>
+•	Reading the Pressure transducer<BR> 
+•	Communication to the C5000 Processor board<BR>
+
+![image](15.10.4_CNG_temp_pres.png)
+
+
+# Spare Parts
+
+The following lists contain the most commonly used spare parts and kits for Servicing Compac Dispensers.<BR> They are not an exhaustive list of all possible parts for current or historical Dispensers. If a part you want to order is not listed, please contact the Compac spare parts department for a complete listing.<BR>
+Please quote the Dispenser serial number to ensure that you are supplied the correct parts<BR>
+Part numbers in the list below are for standard -25°C Dispensers. 
+Special parts are required for -40°C rated Dispensers. These are not included in the list below
+
+|Location|Part number|Description|
+|--------|-----------|-----------|
+|Flameproof box|F-CP-C5K-COMMS|Comms board|
+|A|F-CP-C5K-CNG-TP|Temperature Pressure board CI507
+|A|F-CP-C5K-DSPY7D1|Main LCD Display|
+|A|F-CP-C5K-KFACT|K-Factor board CI502|
+|A|F-BA-TOTE-A-K|Electromechanical Totalizer|
+|B|FC-GAUGE-0001|Pressure Gauge 100mm bar and psi -25°C|
+|B|FC-GAUGE-0006|Pressure Gauge 100mm Mpa and psi -25°C|
+|C|FC-VALVE-0001|Outlet Isolation Valve|
+|D|FC-PBSW-ESTOP|Stop Switch|
+|D|FC-PBSW-START|Start Switch|
+|Flameproof box|F-CP-C5K-PROCES|C5K Processor board|
+|Flameproof box|F-CP-C5K-PS|C5000 Power Supply|
+|Flameproof box|F-CP-C5K-TERM|Terminal board|
+|Hydraulics|F-D-MTR350-C5|C5K KG100 Mass Flow Meter|
+|Hydraulics|FC-COIL-0005|Coil for Compac Solenoid| 
+|Seal kits|FC-SK-0001|Solenoid seal kit|
+|Seal kits|FC-VALVE-PSTN-0001|Solenoid piston| 
+|Seal kits|FC-SK-0002|Regulator seal kit|
+|Seal kits|FC-FIL-0001|Filter element and oring|
+
+![image](15.10.5_CNG_spare_parts.png)
 
 
 
+# Troubleshooting
+
+This **troubleshooting** section outlines issues that you may encounter when using the dispenser, and provides recommended actions.<BR>
+For sites where the temperature falls below –10°C, power should only be removed from the dispenser for servicing.
+
+**For all problems not listed here please contact your service agent**
+
+|Problem|Likely cause|Recommended action|
+|-------|------------|------------------|
+|The C5000 electronics are not working.<BR> The indicator LEDs are off and nothing <BR>happens when you lift the nozzle<BR> (i.e., no beeps or 888888s are displayed). |Unacceptable voltage spikes are causing<BR> the fuses on the C5000 to blow.|Fit a voltage-stabilising UPS to the dispenser.<BR> Contact your service agent.
+| |There is low input voltage. |Turn the dispenser off and then on again.<BR>Check power supply to dispenser.
+|A display LCD segment is always<BR>on or always off |Display is faulty. |Contact your service agent
+|When the Start button is pressed, the dispenser <BR> does not display the 88888s and reset for the next fill. |The dispenser number has not been set. |Set the dispenser number.|
+||The Start button or nozzle switch is faulty, stuck, or broken.| Check that the nozzle switch is operating correctly and is not broken.<BR> Check the nozzle switch mechanism is free to move in and out.<BR>Contact your service agent.
+||The connection between the forecourt controller <BR> and dispenser communications connection is faulty. |Check the forecourt controller.<BR> Contact your service agent.
+|The dispenser is under filling the vehicle | The pressure in the storage cascades is lower than target filling pressure.|This is not a dispenser fault. <BR>If cascade pressure is above target filling pressure, please contact your service agent.
+|The preset display is flashing after a fill. |The preset amount has been exceeded. <BR> **NOTE:** The preset display will stop flashing when the next fill is started |If problem continues contact your service agent.|
+|The dispenser stops at 9999.99, 99999.9, <BR> or 999999 units according to where the decimal point is set.|The dispenser will stop dispensing if either the money or the quantity displays ever reach these values.| Hang up the nozzle to reset the display and restart.<BR>This is not a dispenser fault
 
 
+# End of Sale Indicators
+
+The End of Sale indicator (EOS) allows you to determine the reason why the last fill ended.<BR>
+This can be very useful for fault finding and diagnostics.
+
+To View the End of Sale indicators:<BR>
+- Press and release the Parameter switch until the required hose number is displayed.<BR>
+- The number in the unit price display is the end of sale indicator for the hose number shown<BR>
+See the table below for the meaning of the number displayed.<BR>
+
+|Number|Meaning|Checks|
+|------|-------|------|
+|1|Nozzle switch de-activated (does not apply to push to start dispensers).
+|2|Preset or temperature compensated value reached. <BR>**Normal end of sale message for temperature compensated<BR> and Fast Fill dispensers.**|
+|3|Fill timed out. Start button pressed, or nozzle lifted, without flow.|Check inlet gas pressure.<BR><BR> Check solenoid operation.<BR> Refer Solenoid Problems<BR><BR>Check nozzle and breakaway for blockages.|
+|4|The dispenser was stopped by a remote device such as a Point of Sale (POS)<BR> or Compac Controller.|Check that the point of sale is not sending a stop command<BR> and is correctly configured.|
+|5|Maximum display value reached.|Check display resolution (Sr) setting. Refer Display Resolution
+|7|An error has occurred.  The error will be shown on the main display.|Check error code reason.<BR> Refer Error Codes
+|8|Outputs sequenced normally and dispenser finished on the low flow cutoff setting.<BR> **Normal end of sale message for regulator controlled dispensers** |
+|12|Parity error on main display. <BR>This is caused by a fault in the display or a bad connection in the display wiring loom.|Check displays are dry and all connections tight.<BR>Try swapping with another display if available.
+|14|Main display not detected. This is caused by a fault in the display or a bad connection in the display wiring loom.|See above.|
+|20|The pressure at the first measurement was within 20bar of the calculated maximum pressure.|Check for blockage in the fuel delivery hose, breakaway or vehicle pipework.|
+|21|The pressure at the second measurement exceeded the calculated maximum pressure.|Check for blockage in the fuel delivery hose, breakaway or vehicle pipework.
+|22|The pressure at the third measurement exceeded the calculated maximum pressure. |Check for blockage in the fuel delivery hose, breakaway or vehicle pipework.
+|25|5top switch operated.| Check the stop switch wiring and switch operation. Refer CNG Dispenser Electrical Schematic|
+|26|Twin pressure sensor values (when fitted) do not agree.|Check pressure sensor calibration.|
+|30|Maximum flow rate exceeded.|
+|31|Over-pressure switch has been activated.|
+|32|Dispenser on Hold. (No fuel will be dispensed).|
+
+# Error Codes
+
+These are all the Error codes available in the C5000. Some are product specific so will not be found in all applications.
 
 
+|Error Code      | Fuel specific | Possible causes                                | Suggested action  
+-----------------| --------------| -----------------------------------------------| ---------------- 
+**Er 3 <BR> Err 3**   |No             |Price not set in the Dispenser <BR> Pump number not set in the Dispenser                 |1. If the Dispenser is connected to a Site Controller, the price on the Dispenser should be set to 0.00 and the pricing should be sent from the Controller <BR> 2. If the Dispenser is not connected to a Site Controler (ie. it is operating in standalone mode), then the price must be set in the Dispenser. <BR> Set the hose number in the dispenser
+**Er 8 <BR> Err 8**   |No             |Excessive reverse flow                          |Check that product is not flowing back into the tank once the delivery has finished. This can occur if the non-return valves on site are leaking
+**Er 9 <BR> Err 9**   |No             |The Flow Meter is in an illegal state           |Re-power the Dispenser <BR> Check Meter cable for loose wires or bad connections <BR> Replace the Meter or the Encoder board on the Meter   
+**Err91**           |No             |Meter sequence error                            |If 3rd party Meter, check the wiring
+**Er 10 <BR> Err 10** |No             |Memory Error. Configuration data lost or corrupted|Re-configure Dispenser. If problem persists, replace Memory or Processor Board             
+**Er 12 <BR> Err 12** |No             |Display error                                   |Replace Display
+**Err 13**          |No             |Slave board has restarted                       |Power or Hardware failure
+**Err 14**          |No             |K Factor board offline                          |Check the Bus Connections and C5K Power Supply
+**Err 15**          |No             |K Factor board has restarted                    |Power or Hardware failure
+**Err 16**          |No             |K Factor board is not talking to the LCD Display|Check wiring <BR> Replace the K factor board or LCD Display       
+**Err 31**          |No             |Transaction has ended but fuel is still flowing |The Solenoid is leaking. Repair or replace solenoid
+**Er 41 <BR> Err 41** |No             | Pump not communicating with Controller          |1. If only one pump on the site is not communicating with the Controller, then the fault is likely to be in the pump. <BR> a. Check the comms wire connection on the comms board <BR> b. Check the diagnostic LEDs on the comms board in the Dispenser to diagnose cause <BR> c. Check the configuration and setup in the Dispenser <BR> 2. If all pumps are not communicating, check the comms wire connections on the comms board <BR> a. Check comms cables between the Dispenser and the Controller <BR> b. check setup and operation of the Controller
+**Er 50**           |NO               |Meter not communicating with Dispenser electronics|a. Check Meter connections <BR> b. Check Dispenser configuration <BR> c. Check that the Meter ID setup in the configuration matches the Meter ID
+**Er 52**            | No             | Meter error | If the problem persists after repowering the unit, replace the meter.
+**Er 53**            | LPG / Adblue / DEF / CNG |Meter stopped ibrating | Repower the unit. This error might display when the dispenser is powered up. In this case it is normal. If the problem persists, replace the meter
+**Er 54**            | No           | Temperature sensor failure | Repower the unit. If the problem persists, replace the meter
+**Er 55**            | CNG          | Meter not ready.  | Wait for meter to calibrate itself. The KG100 meter is in startup mode. If the problem persists, repower the unit.
+**Er 61**            | LPG / Adblue / DEF / CNG | Error 61 happens because the Meter was not able to zero  This can be due to a leak in the line or crystals accumulated in the Meter. <BR> Check for leaks / crystallization. Purge the line. <BR> If that does not reset the Error 61, pull the Meter out and pour hot water on it to dissolve any crystals inside the Meter. <BR> If the problem persists, replace the Meter.
+**Er 62**            |LPG / Adblue / DEF / CNG | Meter could not reset the batch (Could not zero the transaction values when nozzle was lifted to start a new transaction)                                                                                                 | Try restarting the Meter. If the problem persists, Replace the meter.
+**Er 71**            |LPG / Adblue / DEF | V50 meter is set but variant is not selected  | Configure Device to either AdBlue / DEF or LPG
+**Abd**              |No             |Display offline / Display Fault | Check the connections to all displays. <BR> Check the configuration of the  slave boards (If slave displays are connected) Check and/or replace the display
+**CNG 157**          |CNG            |The Dispenser expected no flow. Potential Solenoid Valve leak                                    | Repair / rekit Solenoid
+**CNG 158**          |CNG            |Tank volume predictor uncertainty | Check for leaks in the Dispenser hose or fittings
+**CNG 159**          |CNG            |Temperature Probe out of range | Re-calibrate Temperature Probe
+**CNG 160**          |CNG            |Pressure Probe alignment error. There is more than 10bar difference between the two probes       | Re-calibrate Pressure Probes (Dispensers with two Pressure Probes per hose)
+**CNG 161**          |CNG            |Temperature Compensation calculation is uncertain |  No suggested action 
+**CNG 162**          |CNG            |Generic CNG error with a number of potential causes |  No suggested action 
+**CNG 164**          |CNG            |Pressure Probe error|  Check / replace / re-calibrate Pressure Probe.
+**CNG 200**          |CNG            |The Dispenser is detecting unauthorised flow | Gas is flowing without the Start switch having been pressed to start a fill
+**hoLd**             |No             |There are two types of HOLD error. There is a “Soft” HOLD err or that resets after the unit is re-powered and a “Hard” HOLD error that does not reset after the unit is re-powered. Display may also show Error 14 on display     | Re-power the unit. Does the HOLD error reset? <BR> If the HOLD error resets but the problem persists, then the SD card may be corrupt and require replacement. Refer to the SD replacement procedure document. <BR> If the HOLD error did not reset, then there is a possible hardware fault in the Power Supply PCB / Processor PCB board / K factor PCB board / other PCB board or Bus cable.
+**Calib c**          |No             | K-Factor data integrity failure, or the processor board has been replaced                       |  To reset, break the K factor switch seal and momentarily press
+**Calib p**          |No             |The K-Factor board has been swapped/replaced   |  To reset, break the K factor switch seal and momentarily press
+**Calib**            |No             |The unit needs calibration, usually due to a hardware change   | Check the K-Factor, temperature and density calibration
+**Calib f**          |No             |K-Factor is not set or is 00.0000     | Calibrate the unit and set the K factor
+**Air**              |No             |1. Air is in the system. 2. Density out of range 3. Coil amplitude too low while meter is operating, displayed until next sale is started | Make sure pump is running. Check tank and pipework for leaks. Purge system. Increase the Solenoid delay on the K-Factor switch
+**Orun**             |No             |Preset amount Overrun – flow above preset  | Check that solenoid is closing. Increase the preset cutoff
+**5ump**             |No             |Sump error – liquid detected in the sump   | Empty the sump. Check the dispenser for leaks. Check for water etc getting into the sump.
+**Ga5**              |LPG            |For LPG, the density being returned from the meter is too low  | Calibrate meter density using the K-Factor switch
+**ABDL**             |No             |Display LCD error | There is a problem with the K Factor Board talking to the LCD. Check cables, plugs etc. If problem persists, replace K Factor board / LCD Display
+**Er FLO**           |No             |Excess Flow        | Maximum flow rate exceeded, Increase Maximum flow rate setting or restrict flow
+**ErPrSt**           |No             |The preset entered is below the MMQ   | Enter a preset above (or equal to) the MMQ
+**Er dEn**           |LPG            |Density or Temperature out of Range | Calibrate meter density using the K-Factor switch  Calibrate meter temperature using the K-Factor switch
 
 # MODBUS
 
@@ -1895,7 +2242,7 @@ MODBUS Registers
 
 The following Compac MODBUS timing diagram specifies the Start Interval Time  
 
-
+![image](15.10.6_CNG_modbus_timing.png)
 
 
 
