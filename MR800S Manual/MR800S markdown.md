@@ -1,13 +1,13 @@
 
 ![image](Compac_front_page.png)
 
-<font size ="4.5">
+<font size ="5">
 
-# Installation Manual for the Compac Ultra MR800S Dispenser
+# Compac Ultra MR800S Dispenser<BR> Installation & Service Manual
 
 ![image](17.0.1_MR800S_image.png)
 
-Updated 21 July, 2026
+Updated 4 August, 2026
 
 **Conditions of Use**
 <font size ="3">
@@ -29,7 +29,7 @@ Updated 21 July, 2026
 
 **Models covered**
 
-This manual is specifically for the Compac MR800S Ultra Dispenser and should not be used for any other model
+This manual is specifically for the Compac **MR800S Ultra Dispenser** and should not be used for any other model
 
 **Validity**
 <font size ="3">
@@ -89,11 +89,11 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [4.1 Incoming Mains](#41-incoming-mains)
 
-[4.2 Comms connections](#42-comms-connections)
+[4.2 Terminal Board connections](#42-terminal-board-connections)
 
-[4.3 K-Factor Board](#43-k-factor-board)
+[4.3 Comms connections](#43-comms-connections)
 
-[4.4 Terminal Board connections](#44-terminal-board-connections)
+[4.4 K-Factor Board](#44-k-factor-board)
 
 <font size ="5">
 
@@ -101,9 +101,11 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
+[**5.1.0 Default factory settings**](#510-default-factory-settings)
+
 [**5.1 K-Factor settings**](#51-k-factor-settings) 
 
-[5.1.1 Changing the K factor F](#511-changing-the-k-factor-f)
+[5.1.1 Changing the K-factor](#511-changing-the-k-factor)
 
 [5.1.2 Changing the Solenoid Delay](#512-changing-the-solenoid-delay)
 
@@ -200,9 +202,9 @@ MR=single hose|MR40 = one hose @ 40l/min|P = Pump|Blank = standard|
 MMR=multi hose|MMR40=two hoses @ 40 l/min|S = Dispenser|Avi = Aviation|
 | |MMR80-40 = side A 80 lpm, side B = 40 lpm||Marine = Marine|
 
-For example: **MMR 80-40S Marine** is a two-hose unit.<BR>
-Hose side A is 80 l/min, side B is 40 l/min with external pumps.<BR>
-As a marine model, it has stainless steel pipework and stainless-steel chassis for marine conditions.
+For example: **MR800S** is a single hose unit.<BR>
+It is an 800lpm dispenser suitable for use with an external pump.<BR>
+
 
 # 2.0 Footprint
 
@@ -286,7 +288,11 @@ follows:<BR>
 
 <BR>
 
-# 4.2 Comms connections
+# 4.2 Terminal Board connections
+
+![image](17.1.1_MR800S_schematic.png)
+
+# 4.3 Comms connections
 The comms I/O is controlled by the connections to the CI501 Comms board which is piggy backed on the Power Supply inside the flame-proof enclosure.<BR>
 
 Refer to the following diagram for connecting RS485, RS232, Compac or Gilbarco pumps. The shown switch should be set to the desired setting. <BR>
@@ -302,44 +308,55 @@ Use the following table to configure these switches. Switch 300 is for channel 1
 
 ![image](9.3.1_CI501_Dip_Switches.png)
 
-# 4.3 K-Factor Board
+# 4.4 K-Factor Board
 
 Both the Parameter switch and K-Factor switch are found on the K-Factor board. Meters and air switches are also connected to this board. See below for the location of these.
 
 ![image](2.1.3_Kfactor_board.png)
 
 
+# 5.0 Setting up the C5000 in the MR800S
 
-## K-Factor Settings
-The settings that can be accessed from the K-Factor switch are shown below.
-Not all of these will need to be changed during installation as default settings are installed during manufacture. 
+# 5.1.0 Default factory settings
 
-| Setting               | Dscription          | Default  |
+The MR800S is configured at time of manufacture with the following default settings.<BR>
+Some settings including the K-Factor, solenoid delay, pump number and price may need to be changed when commissioning the Dispenser as required for the site.
+
+**Default K-Factor switch settings**
+
+| Setting               | Dscription          |Factory default  |
 |-----------------------|---------------------|----------|
-CA    |C pump settings side A | 0000003
-qA    |Maximum flow rate side A |0800
-F     |K Factor side A              |003.7000 (TCS meter 700-35SPA2DX with Compac encoder)
-C     |Configuration code    | 	0000011 (Litres only display)
-CC    |Comms      |   0011 (Compac) 0013 (Gilbarco)
-dpA   |Decimal place side A         |0000
-SdA   |Solenoid Delay side A |000
-PCA   |Amount of liters in bypass mode |1.00
-PrL   |Preset low side A |0.00
-PrH   |Preset High Side A |0.00
+c_A    |Dispenser setting| 0000003
+q_A    |Maximum flow rate|0800
+F_A     |K Factor side A |009.4060 (COM650  Meter)
+C     |Configuration setting | 	0000011 (Litres only display)
+CC    |Comms |   0011 (Compac comms)
+dP A   |Decimal place side A |0010
+Sd_A   |Solenoid Delay side A |000
+Pc_A  |Preset cutoff |2.0
 n-A   |No flow timeout |120
 GPiO  |GPIO Settings |0000
 gPiO Pu |Gpio Settings |00000
 
-# 4.4 Terminal Board connections
+**Default Parameter Switch settings**
 
-![image](17.1.1_MR800S_schematic.png)
+|Setting             |Description       |Factory default              |
+|--------------------|------------------|---------------------| 
+Pn_A |Pump number |01
+PA  |Price for Side A |01.000
+bA  |B pump settings side A |0500
+LFA |Low flow cut off side A |0.00
+HFA |Hig FLow cut off side A |0000
+HCA |High-Flow Preset |02
+B   |B config setting |0000
+dS  |Slave Display setting |0000
+dC  |Custom Display |0000
+nuCC|Modulated valve setting |0001
+nu HFr|Target Flow Rate |800
+dP  |Decimal place |0000
+du  |  |0000
 
-
-# 5.0 Setting up the C5000 in the MR800S
-
-# 5.1 K-Factor settings 
-
-# 5.1.1 Changing the K factor F
+# 5.1.1 Changing the K-factor
 
 The K-Factor is used to calibrate product flow. It is a ratio of litres dispensed per revolution of the meter. The K-Factor may need to be calibrated after periods of time. 
 To calibrate the pump, dispense fuel into a certified measuring container and compare the display value with the one dispensed.
@@ -354,7 +371,7 @@ To calculate the correct K-Factor from the information above; firstly record the
 
 =Existing K Factor x 2
 
-See Using the Dispenser Menus to edit these settings. Use the procedure for both side A and B.
+See Using the Dispenser Menus to edit these settings. 
 
 ![image](3.1.6_Kfactor_Kfactor_FA.png)
 
@@ -377,8 +394,8 @@ To change the solenoid delay, depress the K-Factor switch repeatedly until the f
 The settings that can be accessed from the parameter switch are shown below.<BR>
 Not all of these will need to be changed during installation as default settings are installed during manufacture. 
 
-|Setting             |Description       |Default              |
-|--------------------|------------------|---------------------| 
+|Setting             |Description       |
+|----------------|---------------------| 
 PnA |Pump number |00
 PA  |Price for Side A |01.000
 bA  |B pump settings side A |1500
@@ -400,10 +417,10 @@ Further information regarding the **nuCC** setting<BR>
 The MR800S has default PID Modulated Valve settings loaded at time of manufacture <BR> 
 To reload these settings, For example, if they were changed using the advanced Valve settings function but you want to go back to the default settings: 
 - Cycle through the parameters using the Parameter button.
-- Set the nuCC parameter to 1xxx.<BR>
+- Set the **nuCC** parameter to 1xxx.<BR>
 **Note 1:** The value will not visibly change, but the unit will emit a long beep to confirm the action. <BR>
-**Note 2:** When the deaults are reloaded, the Target Fow rate **nu HFr** will be set to 500lpm to ensure that the dispenser will operate. <BR>
-You can then increase the Target FLow Rate in the Parameter Switch settings to find th optimumm flowrate that the Dispenser will operate at. Refer to to the troubleshooting sectin of this manual for more information on the Target Flow Rate setting  
+**Note 2:** When the defaults are reloaded, the Target Fow rate **nu HFr** will be set to 500lpm to ensure that the dispenser will operate. <BR>
+You can then increase the Target Flow Rate in the Parameter Switch settings to find the optimumm flowrate that the Dispenser will operate at. Refer to to the troubleshooting sectin of this manual for more information on the Target Flow Rate setting  
 
 
 # 5.2.1 Changing the Pump Number
@@ -708,10 +725,10 @@ Refer to the Advance Modulated Valve settings in section 9 to access these param
 
 The MR800S has special versions of software installed in both the C5K Processor board and K-factor board as follows:
 
-- C5K_Processor_2.3.28.9
-- K-factor firmware: CI502-K-FACTOR_BOARD_1.0.0.52
+- C5K_Processor_2.3.28.9 (or later version)
+- K-factor firmware: CI502-K-FACTOR_BOARD_1.0.0.52 (or later version)
 
-If ordering replacement C5K Processor or K-factor board as spare parts, please quote the Dispenser serial number to ensure that the parts are supplied with the correct software installed. 
+If ordering a replacement C5K Processor or K-factor board as a spare part, please quote the Dispenser serial number to ensure that the parts are supplied with the correct software installed. 
 
 
 
