@@ -1,10 +1,10 @@
 
-![image](9.1.1_Compac_IRS_frontpage.png)
+![image](Compac_front_page.png)
 
 
-<font size ="5.5">
+<font size ="6">
 
-# Comfill V2 and Comfill LITE Installation and Service Manual
+# Comfill V2 and Comfill LITE <BR> Installation and Service Manual
 Updated 5 August 2026
 
 **Conditions of Use**
