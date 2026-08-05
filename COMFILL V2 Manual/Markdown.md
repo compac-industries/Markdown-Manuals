@@ -2286,7 +2286,8 @@ These are all the Error codes available in the C5000. Some are product specific 
 **Er 61**            | LPG / Adblue / DEF / CNG | Error 61 happens because the Meter was not able to zero  This can be due to a leak in the line or crystals accumulated in the Meter. <BR> Check for leaks / crystallization. Purge the line. <BR> If that does not reset the Error 61, pull the Meter out and pour hot water on it to dissolve any crystals inside the Meter. <BR> If the problem persists, replace the Meter.
 **Er 62**            |LPG / Adblue / DEF / CNG | Meter could not reset the batch (Could not zero the transaction values when nozzle was lifted to start a new transaction)                                                                                                 | Try restarting the Meter. If the problem persists, Replace the meter.
 **Er 71**            |LPG / Adblue / DEF | V50 meter is set but variant is not selected  | Configure Device to either AdBlue / DEF or LPG
-**Abd**              |No             |Display offline / Display Fault | Check the connections to all displays.Check the configuration of the  slave boards (If slave displays are connected) Check and/or replace the display
+**Abd**              |No             |Display offline / Display Fault | Check the connections to all displays.
+|                    |               |      |Check the configuration of the  slave boards (If slave displays are connected) Check and/or replace the display
 **CNG 157**          |CNG            |The Dispenser expected no flow. Potential Solenoid Valve leak                                    | Repair / rekit Solenoid
 **CNG 158**          |CNG            |Tank volume predictor uncertainty | Check for leaks in the Dispenser hose or fittings
 **CNG 159**          |CNG            |Temperature Probe out of range | Re-calibrate Temperature Probe
