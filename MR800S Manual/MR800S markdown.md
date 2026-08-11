@@ -5,12 +5,13 @@
 
 # Compac Ultra MR800S Dispenser
 # Installation & Service Manual
+Updated 12 August, 2026
 
 <BR>
 
 ![image](17.0.1_MR800S_image.png)
 
-Updated 12 August, 2026
+
 
 **Conditions of Use**
 <font size ="3">
