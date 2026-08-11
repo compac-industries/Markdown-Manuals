@@ -7,7 +7,7 @@
 
 ![image](17.0.1_MR800S_image.png)
 
-Updated 4 August, 2026
+Updated 12 August, 2026
 
 **Conditions of Use**
 <font size ="3">
@@ -472,7 +472,7 @@ Some are product specific so will not be found in all applications.
 
 |Error Code      | Fuel specific | Possible causes                                | Suggested action  
 -----------------| --------------| -----------------------------------------------| ---------------- 
-**Er 3 <BR> Err 3**   |No             |Price or Pump number not set in the Dispenser         |(a) If the Dispenser is connected to a Site Controller, the price on the Dispenser should be set to 0.00 and the pricing should be sent from the Controller.(b)If the Dispenser is not connected to a Site Controler (ie. it is operating in standalone mode), then the price must be set in the Dispenser. (c) Set the hose number in the dispenser
+**Er 3 or Err 3**   |No             |Price or Pump number not set in the Dispenser         |(a) If the Dispenser is connected to a Site Controller, the price on the Dispenser should be set to 0.00 and the pricing should be sent from the Controller.(b)If the Dispenser is not connected to a Site Controler (ie. it is operating in standalone mode), then the price must be set in the Dispenser. (c) Set the hose number in the dispenser
 **Er 8 <BR> Err 8**   |No             |Excessive reverse flow                          |Check that product is not flowing back into the tank once the delivery has finished. This can occur if the non-return valves on site are leaking
 **Er 9 <BR> Err 9**   |No             |The Flow Meter is in an illegal state           |(a)Re-power the Dispenser (b) Check Meter cable for loose wires or bad connections (c) Replace the Meter or the Encoder board on the Meter   
 **Err91**           |No             |Meter sequence error                            |If 3rd party Meter, check the wiring
