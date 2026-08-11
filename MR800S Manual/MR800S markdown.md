@@ -3,7 +3,8 @@
 
 <font size ="5">
 
-# Compac Ultra MR800S Dispenser<BR> Installation & Service Manual
+# Compac Ultra MR800S Dispenser
+# Installation & Service Manual
 
 <BR>
 
