@@ -5,6 +5,8 @@
 
 # Compac Ultra MR800S Dispenser<BR> Installation & Service Manual
 
+<BR>
+
 ![image](17.0.1_MR800S_image.png)
 
 Updated 12 August, 2026
@@ -466,7 +468,7 @@ The power output from onsite generators can cause power spikes that may damage e
 
 # 7.0 Error Messages
 
-These are all the Error codes available in the C5000 for liquid fuels (does not include CNG specific errors).<BR>
+These are all the Error codes available in the C5000.<BR>
 Some are product specific so will not be found in all applications.
 
 
