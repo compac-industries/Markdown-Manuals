@@ -4,9 +4,9 @@
 
 <font size ="6">
 
-# Comfill V2 and Comfill LITE 
+# Comfill V2, Comfill LITE, Comfill V2 Ex
 # Installation and Service Manual
-Updated 12 August 2026
+Updated 24 August 2026
 
 Comfill V2
 
@@ -17,6 +17,9 @@ Comfill LITE
 
 ![image](ComfillLITE.png)
 
+Comfill V2 Ex
+
+![image](ComfillV2Ex1.png)
 
 **Conditions of Use**
 <font size ="3">
@@ -40,7 +43,10 @@ Comfill LITE
 **Validity**
 <font size ="3">
 
-This manual covers both the Comfill V2 and Comfill LITE
+This manual covers the following
+- Comfill V2
+- Comfill LITE
+- Comfill V2 Ex
 
 Compac Industries Limited reserves the right to revise or change product specifications at any time.<BR>
 This publication describes the state of the product at the time of publication and may not reflect the product at all times in the past or in the future.
@@ -61,35 +67,31 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="6">
 
-[**Safety**](#safety)
+[**1.0 Safety**](#10-safety)
 
-[**1.0 Introduction**](#10-introduction)
+[**2.0 Introduction to the Comfill models**](#20-introduction-to-the-comfill-models)
 
 <font size ="3">
 
-[1.1 Comfill V2](#11-comfill-v2)
+[**2.1 Comfill V2**](#21-comfill-v2)
 
-[1.2 Comfill LITE](#12-comfill-lite)
+[**2.2 Comfill LITE**](#22-comfill-lite)
+
+[**2.3 Comfill V2 Ex**](#23-comfill-v2-ex)
+
+[2.3.1: Ex Volume Register for Bulk Refuelling](#231-ex-volume-register-for-bulk-refuelling)
 
 <font size ="6">
 
-[**2.0 Comfill V2 technical drawings**](#20-comfill-v2-technical-drawings)
+[**3.0 Comfill Technical Drawings**](#30-comfill-technical-drawings)
 
 <font size ="3">
 
-[2.1 Comfill V2 footprint](#21-comfill-v2-footprint)
+[3.1 Comfill V2 Footprint and Layout](#31-comfill-v2-footprint-and-layout)
 
-[2.2 Comfill V2 layout](#22-comfill-v2-layout)
+[3.2 Comfill LITE Footprint and Layout](#32-comfill-lite-footprint-and-layout)
 
-<font size ="6">
-
-[**3.0 Comfill LITE technical drawings**](#30-comfill-lite-technical-drawings)
-
-<font size ="3">
-
-[3.1 Comfill LITE footprint](#31-comfill-lite-footprint)
-
-[3.2 Comfill LITE layout](#32-comfill-lite-layout)
+[3.3 Comfill V2 Ex Technical Drawings](#33-comfill-v2-ex-technical-drawings)
 
 <font size ="6">
 
@@ -109,57 +111,73 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
-[5.1 Mechanical Installation](#51-mechanical-installation)
+[**5.1 Mechanical Installation**](#51-mechanical-installation)
 
-[5.2 Glanding](#52-glanding)
+[5.1.1 Mounting](#511-mounting)
 
-[5.3 Perspex Guard](#53-perspex-guard)
+[5.1.2 Glanding](#512-glanding)
 
-[5.4 SIM Card](#54-sim-card) 
+[5.1.3 Perspex Guard](#513-perspex-guard)
 
-[5.5 Modem Antenna](#55-modem-antenna) 
+[**5.2 Connecting Power, Motors and Solenoids**](#52-connecting-power-motors-and-solenoids) 
 
-[5.6 DIN Rail Connections](#56-din-rail-connections)
+[5.2.1 Terminal Board 230V version Mains and Motor connections](#521-terminal-board-230v-version-mains-and-motor-connections)
 
-[5.7 Connecting a Compac Encoder](#57-connecting-a-compac-encoder)
+[5.2.2 Wiring in an Emergency Stop Switch or Overfill Protection System](#522-wiring-in-an-emergency-stop-switch-or-overfill-protection-system)
 
-[5.8 Connecting a Compac V50 Meter](#58-connecting-a-compac-v50-meter)
+[5.2.3 Triac Wiring for Motors up to 1Kw](#523-triac-wiring-for-motors-up-to-1kw)
 
-[5.9 Connecting a Piusi meter](#59-connecting-a-piusi-meter)
+[5.2.4 Connecting Motors over 1KW](#524-connecting-motors-over-1kw)
 
-[5.10 Connecting a Reed Switch Meter](#510-connecting-a-reed-switch-meter)
+[5.2.5 Connecting External pumps such as Submersible or Transfer Pumps](#525-connecting-external-pumps-such-as-submersible-or-transfer-pumps)
 
-[5.11 Connecting a Veeder Root Pulser Meter](#511-connecting-a-veeder-root-pulser-meter)
+[5.2.6 Standard Solenoid connections for Comfill V2 and Comfill LITE](#526-standard-solenoid-connections-for-comfill-v2-and-comfill-lite)
 
-[5.12 Connecting a Macnaught meter](#512-connecting-a-macnaught-meter) 
+[5.2.7 Modulated Control Valve Solenoid connections](#527-modulated-control-valve-solenoid-connections) 
 
-[5.13 Connecting a Tank Gauging Controller](#513-connecting-a-tank-gauging-controller)
+[5.2.8 C5000 Power Supply in flame-proof box](#528-c5000-power-supply-in-flame-proof-box)
 
-[5.14 Connecting a 4-20mA Tank Probe](#514-connecting-a-4-20ma-tank-probe)
+[**5.3 Connecting Meters and Encoders**](#53-connecting-meters-and-encoders)
 
-[5.15 Connecting to a Compac C4000 FUTRA Pump](#515-connecting-to-a-compac-c4000-futra-pump)
+[5.3.1 DIN Rail Connections](#531-din-rail-connections)
 
-[5.16 Encoder interface for 3rd party encoders](#516-encoder-interface-for-3rd-party-encoders)
+[5.3.2 Connecting a Compac Encoder](#532-connecting-a-compac-encoder)
 
-[5.17 K Factor board](#517-k-factor-board)
+[5.3.3 Connecting a Compac V50 Meter](#533-connecting-a-compac-v50-meter)
 
-[5.18 PINpad board](#518-pinpad-board)
+[5.3.4 Connecting a Piusi meter](#534-connecting-a-piusi-meter)
 
-[5.19 Terminal Board 230V version Mains and Motor](#519-terminal-board-230v-version-mains-and-motor)
+[5.3.5 Connecting a Reed Switch Meter](#535-connecting-a-reed-switch-meter)
 
-[5.20 Triac Wiring](#520-triac-wiring)
+[5.3.6 Connecting a Veeder Root Pulser Meter](#536-connecting-a-veeder-root-pulser-meter)
 
-[5.21 Motors over 1KW](#521-motors-over-1kw)
+[5.3.7 Connecting a Macnaught meter](#537-connecting-a-macnaught-meter) 
 
-[5.22 Connecting to external pumps](#522-connecting-to-external-pumps)
+[5.3.8 Encoder interface for 3rd party encoders](#538-encoder-interface-for-3rd-party-encoders)
 
-[5.23 Terminal Board 12 or 24 VDC version](#523-terminal-board-12-or-24-vdc-version)
+[**5.4 Connecting Tank Gauging**](#54-connecting-tank-gauging) 
 
-[5.24 Terminal Board 12 or 24 VDC version with Solar charged Battery](#524-terminal-board-12-or-24-vdc-version-with-solar-charged-battery)
+[5.4.1 Connecting a Tank Gauging Controller to a Comfill V2](#541-connecting-a-tank-gauging-controller-to-a-comfill-v2)
+
+[5.4.2 Connecting 4-20mA Tank Probes to a Comfill V2 or Comfill LITE](#542-connecting-4-20ma-tank-probes-to-a-comfill-v2-or-comfill-lite)
+
+[**5.5 Connecting a C4000 FUTRA Pump to a Comfill V2 or Comfill LITE**](#55-connecting-a-c4000-futra-pump-to-a-comfill-v2-or-comfill-lite)
+
+[**5.6 SIM card and Modem antenna for Comfill V2 and Comfill LITE**](#56-sim-card-and-modem-antenna)
+
+[5.6.1 SIM Card](#561-sim-card) 
+
+[5.6.2 Modem Antenna](#562-modem-antenna) 
+
+[**5.7 K Factor and PINPad board connections**](#57-k-factor-and-pinpad-board-connections)
+
+[5.7.1 K Factor board](#571-k-factor-board)
+
+[5.7.2 PINPad board](#572-pinpad-board)
 
 <font size ="6">
 
-[**6.0 Comms settings (applies to Comfill V2 only)**](#60-comms-settings-applies-to-comfill-v2-only)
+[**6.0 CI533 Comms board settings**](#60-ci533-comms-board-settings)
 
 [**7.0 System Software**](#70-system-software)
 
@@ -265,7 +283,7 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="6">
 
-[**9.0 CompacOnsite**](#90-compaconsite)
+[**9.0 CompacOnsite for Comfill V2 and Comfill LITE**](#90-compaconsite-for-comfill-v2-and-comfill-lite)
 
 <font size ="3">
 
@@ -368,14 +386,43 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [**13.0 Troubleshooting**](#130-troubleshooting)
 
+<font size ="3">
+
+<font size ="6">
 
 [**14.0 Error Codes and EOS**](#140-error-codes-and-eos)
 
 <font size ="3">
 
-<BR>
+<font size ="6">
 
-# Safety
+[**15.0 Valve Modulation**](#150-valve-modulation)
+
+<font size ="3">
+
+[15.1 Core-functionality](#151-core-functionality)
+
+[15.2 C5000 Terminal board mapping](#152-c5000-terminal-board-mapping)
+
+[15.3 Solenoid truth table](#153-solenoid-truth-table)
+
+[15.4 Flow State table](#154-flow-state-table)
+
+[15.5 Ideal vs real flow rate graph](#155-ideal-vs-real-flow-rate-graph)
+
+[15.6 Modulated valve configurable settings](#156-modulated-valve-configurable-settings)
+
+[15.7 Pinpad Settings Navigation](#157-pinpad-settings-navigation)
+
+[15.8 Tuning to correctly hit a preset amount](#158-tuning-to-correctly-hit-a-preset-amount)
+
+[15.9 Advanced settings](#159-advanced-settings)
+
+[15.10 Valve Modulation Troubleshooting](#1510-valve-modulation-troubleshooting)
+
+<font size ="3">
+
+# 1.0 Safety
 
 <BR>
 
@@ -423,16 +470,16 @@ Technicians should be able to safely operate and diagnose a Comfill V2 with the 
 <BR>
 <BR>
 
-# 1.0 Introduction
+# 2.0 Introduction to the Comfill models
 
-# 1.1 Comfill V2
+# 2.1 Comfill V2
 
 The Comfill V2 enables unattended refuelling at unmanned sites such as truck stops, marinas an aviation sites where the driver, skipper or pilot can pay for fuel by HID, Mifare Card / Tag, Distributor / White cards or with a PIN number.<BR>
 It is compact and suitable for outdoor installation. The Comfill V2 has two card bases that can be customised to allow specific distributor cards access. The unit can be set up from the unit itself or can be set up online from CompacOnline.<BR>
 The Comfill V2 is a versatile unit and supports both V50 and Encoder meters. Tank levels can be monitored with Compac, Fafnir, Vega, Veeder-Root and Virtual tank gauges. The Comfill V2 supports two configurations, both single and dual, and therefore can control either one or two pumps from one unit.<BR>
 The Comfill V2 can be used for different applications, as it is both a pump and a Fuel Management System (FMS). This means the Comfill V2 can be used to either authorise and control external pumps, or to dispense fuel using internal controlled pumps.
 
-# 1.2 Comfill LITE
+# 2.2 Comfill LITE
 
 A lightweight option for dispensing and monitoring fuel, no extra bells and whistles.<BR>
 Comfill Lite is housed in durable plastic casing with a transparent lid, and can be mounted straight onto your tank.<BR>
@@ -447,37 +494,56 @@ It is a more stripped-back, cost-effective solution.<BR>
 4. Supports up to two 4-20mA tank probes but does not support Tank Controllers (eg Veederroot, Fafnit etc)
 5. There is no Backlit LCD Display to show Litres. Instead Litres are shown on the PINPad dot matrix display)
 
+# 2.3 Comfill V2 Ex
+
+The COMFILL V2 Ex can be built in many special configurations to suit the application:
+
+# 2.3.1: Ex Volume Register for Bulk Refuelling
+
+**Overview:**<BR>
+The Comfill V2 Ex Volume Register for Bulk Meter Refuelling does not have a built-in Fuel Management System that a Comfill V2 or Comfill LITE hase. <BR>
+Instead, it connects to either a Compac Communicator Controller or Compac Gateway Controller using the Pump comms.
+
+It is approved for installation in a hazardous area                       
+
+When connected to a Compac Controller, it can be configured for 7 digit comms whoch allows fills including preset up to 97,000 litres
+
+It can be configured for Valve Modulation.
+
+Authorisation is by Mag stripe card.
+
+
 <BR>
 
-# 2.0 Comfill V2 technical drawings
+# 3.0 Comfill Technical Drawings
 
-# 2.1 Comfill V2 footprint
+# 3.1 Comfill V2 Footprint and Layout
 
 ![image](12.1.2_ComfillV2_footprint.png)
-
-# 2.2 Comfill V2 layout
-
-<BR>
 
 ![image](12.1.1_ComfillV2_layout.png)
 
 <BR>
 
-# 3.0 Comfill LITE technical drawings
-
-# 3.1 Comfill LITE footprint
+# 3.2 Comfill LITE Footprint and Layout
 
 ![image](12.99.0_LITE_footprint.png)
 
-# 3.2 Comfill LITE layout
-
 ![image](12.99.0_LITE_layout.png)
+
+<BR>
+
+# 3.3 Comfill V2 Ex Technical Drawings
+
+
+
+
 
 
 # 4.0 Pre-installation
 
 # 4.1 Zone requirements
-**DANGER: The Compac Comfill V2 is NOT approved for installation in a hazardous area. Please consult the site's zone drawings to find the exact positions of the hazardous areas for the particular site.**<BR>
+**DANGER: The Compac Comfill V2 and Comfill LITE are NOT approved for installation in a hazardous area. Please consult the site's zone drawings to find the exact positions of the hazardous areas for the particular site.**<BR>
 
 For adequately ventilated fuel dispensing sites (not including CNG/NGV), in most cases the following will apply:<BR>
 - The unit is not designed to be constantly exposed to the elements. A shelter should be installed to protect it.<BR>
@@ -533,6 +599,8 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 
 # 5.1 Mechanical Installation
 
+# 5.1.1 Mounting
+
 The Comfill V2 can be mounted from the rear or the bottom of the unit. Refer to Footprints for locations of the mounting holes.<BR>
 To mount the unit, the following will be supplied:
 
@@ -547,7 +615,7 @@ The Comfill V2 is suitable for outdoor installation.<BR>
 M8x25 screws are recommended for mounting from the rear of the unit and are suitable for mounting to surfaces up to 10mm thick.<BR>
 M8x16 screws are recommended for mounting from the bottom of the unit and are suitable for mounting to surfaces up to 4mm thick.<BR>
 
-# 5.2 Glanding
+# 5.1.2 Glanding
 
 The following grommets will be supplied with either the Comfill V2 and the Comfill LITE:
 
@@ -561,9 +629,9 @@ The gland access is as follows:
 
 ![image](12.1.3_ComfillV2_glands.png)
 
-# 5.3 Perspex Guard
+# 5.1.3 Perspex Guard
 
-A Perspex guard is supplied with the unit and will need to be removed to access the terminal board and baseboard.<BR>
+A Perspex guard is supplied with the Comfill V2 and Comfill LITE and will need to be removed to access the terminal board and baseboard.<BR>
 The location of the guard is as shown: 
 <BR>
 
@@ -578,34 +646,99 @@ An 8mm nut driver will be appropriate for removing and reattaching the Perspex g
 <BR>
 **NOTE:** *Always reattach fuse covers after working on the Comfill V2 unit.*
 <BR>
+
+# 5.2 Connecting Power, Motors and Solenoids 
+
 <BR>
 
-# 5.4 SIM Card 
+# 5.2.1 Terminal Board 230V version Mains and Motor connections
 
-To install the sim card, the modem needs to be removed from the gear plate.
+The external incoming mains and motor connections will need to be connected onsite.<BR>
+The motor will need to be connected for both side A and side B as shown.
 
-![image](12.1.6_ComfillV2_sim_card.png)
+|Motor|Phase terminal|Neutral Terminal|Earth 
+|-----|-----|-----|-----|
+|Motor Side A|TB7|Neutral|Earth Busbar
+|Motor Side B|TB6|Neutral|Earth busbar
 
-As shown, the left gear plate must be removed from the main gear plate. The modem can then be removed.<BR>
-On the back of the modem, there is a small square panel. Remove the panel and insert the sim card.<BR>
-Replace the modem and gear plate.<BR>
-Ensure that the modem is connected to the processor board.<BR>
-The LAN input on the modem should connect to the ethernet input on the processor board.
 
-# 5.5 Modem Antenna
+![image](12.4.1_ComfillV2_Motor.png)
 
-Depending on ordering and requirements, one of two options of modem antennae will be supplied.<BR>
-The installer will be required to attach this to the modem.<BR>
-The two options of supplied aerial are:
+Wire the incoming mains into the terminal board.<BR>
+The incoming mains wiring is as follows. Wires have standard colours which are shown.<BR>
+In case these are unclear, the colours are as follows:<BR>
 
-- High Gain Broomstick antenna with a 5m lead
-- High Gain shorter antenna to be attached to the base, with a 2m lead
+•	Incoming mains phase: Brown<BR>
+•	Incoming mains neutral: Blue<BR>
+•	Incoming mains earth: Green/Yellow<BR>
 
-An IP67 plastic rated gland will be supplied for optional antenna glanding.
+# 5.2.2 Wiring in an Emergency Stop Switch or Overfill Protection System
+
+If wiring in an Emergency connection, it should be connected in place of the triac phase / mains phase loop. This will cut power to all outputs on the terminal board. 
+
+If both an Emergency Stop Switch and Overfill Protection System are fitted, they should be wired in series so that either being activated will isolate power to the outputs
+
+
+![image](12.4.2_ComfillV2_Estop.png)
+
+# 5.2.3 Triac Wiring for Motors up to 1Kw
+
+Triac Wiring (For motors up to 1KW)(For motors up to 1KW)
+The triac wiring will be pre-installed and, in most cases, will not need to be changed.<BR>
+The wires are colour coded with standard colours. In case these are not clear, the colours are as follows:
+
+|Wire colour code|Terminal Board|Triac Spade Terminal
+|-----|-----|-----
+|Red|Triac Phase|Phase
+|Orange|MTR Relay(LOW)|Gate
+White|MTR (1KW MAX)|Load
+
+The correct orientation of the triac is important for wiring. Wire the triac(s) to the terminal board terminals using 0.75𝑚𝑚2  coloured wires and link the Mains Phase and Triac Phase using a 1.5𝑚𝑚2 red wire.
+
+Comfill V2 can support up to two 1KW single phase motors via the triac outputs. 
+
+![image](12.4.3_ComfillV2_Triac_wiring.png)
+
 <BR>
 <BR>
 
-# 5.6 DIN Rail Connections
+# 5.2.4 Connecting Motors over 1KW
+The external pump connections are as shown below. Wire in the required side(s).
+
+![image](12.4.4_ComfillV2_Motors_over_1KW.png)
+
+# 5.2.5 Connecting External pumps such as Submersible or Transfer Pumps
+
+For third party pump motors over 1KW, the contactor coil needs to be connected to the “MTR RELAY (LOW)” terminal and neutral terminal beside it.<BR>
+
+The MTR relay (low) output is 230VAC and it can supply up to 0.5A. However, the total output from 7 triac outputs (T1-T7) must not exceed 1A.
+
+Connect the Nozzle and meter connections to the DIN rail as necessary (Refer to the “K-Factor board” for the DIN rail terminals diagram to connect nozzles and meters).
+
+# 5.2.6 Standard Solenoid connections for Comfill V2 and Comfill LITE
+
+For 40lpm and 80lpm Comfill V2 and Comfill LITE units with solenoids, connect as shown   
+
+![image](1.3.1_Typical_wiring_Dispensers.png)
+
+# 5.2.7 Modulated Control Valve Solenoid connections 
+
+For Comfill units connected to Modulated control Valves, connect the Upstream and Downstream Solenoids as shown 
+
+![image](13.1.4_modulation_elec.schematic.png)
+
+# 5.2.8 C5000 Power Supply in flame-proof box 
+
+In the Comfill V2 Ex, the C5000 Power Supply with Processor board and Comms board in housed in the same flame-proof box as in a standard Pump or Dispenser.<BR>
+Power and Comms cable to be glanded into the flame proof box
+
+![image](2.1.1_Power_Supply_in_FPbox.png)
+
+<BR>
+
+# 5.3 Connecting Meters and Encoders
+
+# 5.3.1 DIN Rail Connections
 When the Comfill V2 arrives onsite, all internal wiring will already be connected. Incoming external cables will have to be inserted through the glands and then connected to the back of the DIN rail. The nozzle switch and meter will be connected to the DIN rail. The connections are as shown:
 
 ![image](12.1.7_ComfillV2_DIN_rail.png)
@@ -613,7 +746,7 @@ When the Comfill V2 arrives onsite, all internal wiring will already be connecte
 The Comfill V2 supports Compac encoders, Compac V50 Meters and most third-party meters.<BR>
 Some third-party meters require 10 kΩ resistors to be connected. In case of this, 6x 10kΩ resistors will be supplied with the Comfill V2 unit.
 
-# 5.7 Connecting a Compac Encoder
+# 5.3.2 Connecting a Compac Encoder
 
 The Compac encoder connects to the DIN rail via a six-core (only five cores used) data cable.<BR>
 The five cores used are:<BR>
@@ -627,11 +760,11 @@ Where B0, B1 & B2 are the three opto-sensor connections. Not all of these may be
 
 To reverse the rotation of the encoder sensing, the B0 & B2 wires should be reversed. The error message for reverse rotation is Err 8.
 
-# 5.8 Connecting a Compac V50 Meter
+# 5.3.3 Connecting a Compac V50 Meter
 
 V50 meters can be connected directly to the K-Factor board. Refer to K-Factor Board for the location of the meter plug.
 
-# 5.9 Connecting a Piusi meter
+# 5.3.4 Connecting a Piusi meter
 
 A Piusi K700 Modular Pulse Meter has three data cores.<BR>
 
@@ -645,7 +778,7 @@ If connecting a Piusi meter, the data cores should be connected as following:<BR
 ![image](12.1.8_ComfillV2_Piusi_Meter.png)
 
 
-# 5.10 Connecting a Reed Switch Meter
+# 5.3.5 Connecting a Reed Switch Meter
 
 If connecting a Reed switch type meter:<BR>
 Reed switch type meters require three signal connections and one earth connection as shown:
@@ -656,7 +789,7 @@ Reed switch type meters require three signal connections and one earth connectio
 
 <BR>
 
-# 5.11 Connecting a Veeder Root Pulser Meter
+# 5.3.6 Connecting a Veeder Root Pulser Meter
 
 **Dual Channel:**
 
@@ -695,7 +828,7 @@ Dual channel overlapping signals are not supported.*
 <BR>
 <BR>
 
-# 5.12 Connecting a Macnaught meter 
+# 5.3.7 Connecting a Macnaught meter 
 
 Macnaught meter is a Hall Effect single channel meter
 
@@ -715,60 +848,7 @@ Refer to section on **Encoder interface for 3rd party encoders** for further inf
 
 **NOTE:** *Ensure the wiring is shorted on the meter end, not the Comfill V2 end.*
 
-# 5.13 Connecting a Tank Gauging Controller
-
-**Important note when installing Tankgauging:**
-If tank gauging is connected to the Comfill V2, then the LFD 485 option (refer to Custom settings in Local Setup section ) must be set to DISABLED, as they both use the same channel. <BR>
-
-If the “LFD 485” option is ENABLED, the tank gauging connection will continuously drop out
-
-Tank gauging is optional. If a tank gauge is ordered, extra terminals will be on the DIN rail.<BR>
-If connecting a Tank Gauging Controller, connected it to the terminal block marked **TANKGNG** as shown:
-
-
-![image](12.1.14_ComfillV2_Tank_controller.png)
-
-**NOTE:** Configuration may change during production. Terminal blocks may not be in the same order in every unit.
-
-<BR>
-
-# 5.14 Connecting a 4-20mA Tank Probe
-
-Connect the 4-20mA Probe for Tank 1 to the **+ve** and **-ve** Terminals marked **TANK #1 4-20mA**
-
-![image](12.1.15_ComfillV2_4_20_mA-probe.png)
-
-If there are two Tanks, connect the second 4-20mA Probe to the **+ve** and **-ve** Terminals marked **TANK #2 4-20mA**
-
-
-# 5.15 Connecting to a Compac C4000 FUTRA Pump
-Installing a COMFILL V2 Fuel Management system on a Compac Pump / Dispenser with “FUTRA” Fuel Management system (2002 to 2010)
-
-The “FUTRA” Fuel Management system is no longer supported
-Due to software and hardware incompatibility, it is not possible to convert a Compac Pump / Dispenser with “FUTRA” Fuel Management system to standard current loop comms to connect to the COMFILL V2
-
-In this case, the built-in pump functionality in the new COMFILL V2 is used
-The C4000 electronics, PINPad, Cardreader, Modem and LCD Display in the existing /Dispenser becomes redundant 
-
-Use of the following components in the existing Pump/Dispenser are retained and wired back into the new COMFILL V2 effectively giving the customer a new pump<BR>
-
-•	COM50 / COM125 Flow Meter<BR>
-•	Pump Motor ( Pump models only)<BR>
-•	Solenoid (Dispenser models only)<BR> 
-•	Nozzle holder with nozzle Switch<BR>
-
-The COMFILL V2 then becomes both the PUMP and Controller with Fuel Management System including Internet connectivity to CompacOnline. 
-
-**Notes:**
-The Nozzle cable and COM50/COM125 cable will be in a blue cable sleeve and will need to be separated.
-Remove the Cardreader from the existing pump and fit the blanking plate supplied in its place
-Refer to “Triac Wiring (For motors up to 1KW)” section to connect Motor to Side A
-
-![image](12.1.16_ComfillV2_C4000_Futra.png)
-
-<BR>
-
-# 5.16 Encoder interface for 3rd party encoders
+# 5.3.8 Encoder interface for 3rd party encoders
 
 ![image](12.1.17_ComfillV2_CI266A.png)
 
@@ -808,8 +888,92 @@ The pull-up resistors are internal to the pulser/meter.
 
 ![image](12.1.20_ComfillV2_3chCompac5vpulser.png)
 
+# 5.4 Connecting Tank Gauging 
 
-# 5.17 K Factor board
+# 5.4.1 Connecting a Tank Gauging Controller to a Comfill V2
+
+**Important note when installing Tankgauging:**
+If tank gauging is connected to the Comfill V2, then the LFD 485 option (refer to Custom settings in Local Setup section ) must be set to DISABLED, as they both use the same channel. <BR>
+
+If the “LFD 485” option is ENABLED, the tank gauging connection will continuously drop out
+
+Tank gauging is optional. If a tank gauge is ordered, extra terminals will be on the DIN rail.<BR>
+If connecting a Tank Gauging Controller, connected it to the terminal block marked **TANKGNG** as shown:
+
+
+![image](12.1.14_ComfillV2_Tank_controller.png)
+
+**NOTE:** Configuration may change during production. Terminal blocks may not be in the same order in every unit.
+
+<BR>
+
+# 5.4.2 Connecting 4-20mA Tank Probes to a Comfill V2 or Comfill LITE
+
+Connect the 4-20mA Probe for Tank 1 to the **+ve** and **-ve** Terminals marked **TANK #1 4-20mA**
+
+![image](12.1.15_ComfillV2_4_20_mA-probe.png)
+
+If there are two Tanks, connect the second 4-20mA Probe to the **+ve** and **-ve** Terminals marked **TANK #2 4-20mA**
+
+
+# 5.5 Connecting a C4000 FUTRA Pump to a Comfill V2 or Comfill LITE
+
+Installing a COMFILL V2 Fuel Management system on a Compac Pump / Dispenser with “FUTRA” Fuel Management system (2002 to 2010)
+
+The “FUTRA” Fuel Management system is no longer supported
+Due to software and hardware incompatibility, it is not possible to convert a Compac Pump / Dispenser with “FUTRA” Fuel Management system to standard current loop comms to connect to the COMFILL V2
+
+In this case, the built-in pump functionality in the new COMFILL V2 is used
+The C4000 electronics, PINPad, Cardreader, Modem and LCD Display in the existing /Dispenser becomes redundant 
+
+Use of the following components in the existing Pump/Dispenser are retained and wired back into the new COMFILL V2 effectively giving the customer a new pump<BR>
+
+•	COM50 / COM125 Flow Meter<BR>
+•	Pump Motor ( Pump models only)<BR>
+•	Solenoid (Dispenser models only)<BR> 
+•	Nozzle holder with nozzle Switch<BR>
+
+The COMFILL V2 then becomes both the PUMP and Controller with Fuel Management System including Internet connectivity to CompacOnline. 
+
+**Notes:**
+The Nozzle cable and COM50/COM125 cable will be in a blue cable sleeve and will need to be separated.
+Remove the Cardreader from the existing pump and fit the blanking plate supplied in its place
+Refer to “Triac Wiring (For motors up to 1KW)” section to connect Motor to Side A
+
+![image](12.1.16_ComfillV2_C4000_Futra.png)
+
+<BR>
+
+# 5.6 SIM card and Modem antenna
+
+# 5.6.1 SIM Card 
+
+To install the sim card, the modem needs to be removed from the gear plate.
+
+![image](12.1.6_ComfillV2_sim_card.png)
+
+As shown, the left gear plate must be removed from the main gear plate. The modem can then be removed.<BR>
+On the back of the modem, there is a small square panel. Remove the panel and insert the sim card.<BR>
+Replace the modem and gear plate.<BR>
+Ensure that the modem is connected to the processor board.<BR>
+The LAN input on the modem should connect to the ethernet input on the processor board.
+
+# 5.6.2 Modem Antenna
+
+Depending on ordering and requirements, one of two options of modem antennae will be supplied.<BR>
+The installer will be required to attach this to the modem.<BR>
+The two options of supplied aerial are:
+
+- High Gain Broomstick antenna with a 5m lead
+- High Gain shorter antenna to be attached to the base, with a 2m lead
+
+An IP67 plastic rated gland will be supplied for optional antenna glanding.
+<BR>
+Connect the Nozzle and meter connections to the DIN rail as necessary (Refer to the “K-Factor board” for the DIN rail terminals diagram to connect nozzles and meters).
+
+# 5.7 K Factor and PINPad board connections
+
+# 5.7.1 K Factor board
 
 **K-Factor Board connections**
 The K-Factor board connections shown are internal and will already be connected.<BR>
@@ -820,7 +984,7 @@ If connecting a V50 meter, connect directly to the meter input instead of the DI
 <BR>
 <BR>
 
-# 5.18 PINpad board
+# 5.7.2 PINPad board
 
 The PIN Pad board is wired to the PIN pad and the Wiegand or HID reader. These connections are internal and pre-installed.<BR>
 
@@ -838,68 +1002,6 @@ If the dipswitch position is changed, the unit must be repowered for the changes
 Switches 2 and 3 are not currently used.
 
 ![image](12.2.1_ComfillV2_Pinpad_board.png)
-
-<BR>
-
-# 5.19 Terminal Board 230V version Mains and Motor
-
-The external incoming mains and motor connections will need to be connected onsite.<BR>
-The motor will need to be connected for both side A and side B as shown.
-
-|Motor|Phase terminal|Neutral Terminal|Earth 
-|-----|-----|-----|-----|
-|Motor Side A|TB7|Neutral|Earth Busbar
-|Motor Side B|TB6|Neutral|Earth busbar
-
-
-![image](12.4.1_ComfillV2_Motor.png)
-
-Wire the incoming mains into the terminal board.<BR>
-The incoming mains wiring is as follows. Wires have standard colours which are shown.<BR>
-In case these are unclear, the colours are as follows:<BR>
-
-•	Incoming mains phase: Brown<BR>
-•	Incoming mains neutral: Blue<BR>
-•	Incoming mains earth: Green/Yellow<BR>
-
-If wiring in an emergency connection, it should be connected to the triac-phase loop. Cutting this loop will cut power to all outputs on the terminal board. An emergency stop switch should be installed.
-
-![image](12.4.2_ComfillV2_Estop.png)
-
-# 5.20 Triac Wiring 
-
-Triac Wiring (For motors up to 1KW)(For motors up to 1KW)
-The triac wiring will be pre-installed and, in most cases, will not need to be changed.<BR>
-The wires are colour coded with standard colours. In case these are not clear, the colours are as follows:
-
-|Wire colour code|Terminal Board|Triac Spade Terminal
-|-----|-----|-----
-|Red|Triac Phase|Phase
-|Orange|MTR Relay(LOW)|Gate
-White|MTR (1KW MAX)|Load
-
-The correct orientation of the triac is important for wiring. Wire the triac(s) to the terminal board terminals using 0.75𝑚𝑚2  coloured wires and link the Mains Phase and Triac Phase using a 1.5𝑚𝑚2 red wire.
-
-Comfill V2 can support up to two 1KW single phase motors via the triac outputs. 
-
-![image](12.4.3_ComfillV2_Triac_wiring.png)
-
-<BR>
-<BR>
-
-# 5.21 Motors over 1KW
-The external pump connections are as shown below. Wire in the required side(s).
-
-![image](12.4.4_ComfillV2_Motors_over_1KW.png)
-
-# 5.22 Connecting to external pumps
-
-For third party pump motors over 1KW, the contactor coil needs to be connected to the “MTR RELAY (LOW)” terminal and neutral terminal beside it.<BR>
-
-The MTR relay (low) output is 230VAC and it can supply up to 0.5A. However, the total output from 7 triac outputs (T1-T7) must not exceed 1A.
-
-Connect the Nozzle and meter connections to the DIN rail as necessary (Refer to the “K-Factor board” for the DIN rail terminals diagram to connect nozzles and meters).
-
 
 # 5.23 Terminal Board 12 or 24 VDC version
 Power Requirements for the 12V DC Comfill V2 are as follows:
@@ -956,7 +1058,13 @@ COMFILL V2 and Modem have sufficient power and voltage to start up.
 
 <BR>
 
-# 6.0 Comms settings (applies to Comfill V2 only)
+# 6.0 CI533 Comms board settings  
+
+**Note:** 
+1. The CI533 Comms board is only used in the Comfill V2.
+2. The Comms board in a Comfill V2 Ex is the CI501
+3. There is no Comms board in a COmfill LITE
+
 In the ComfillV2, the CI533 Comms interface PCB board is piggy-backed on top of the Processor Board<BR>
 
 A 15 core multicore loom connects the CI533 Comms board to the DIN Terminal Rail where all the  site connections are made.<BR>
@@ -1636,7 +1744,7 @@ Select TANKS from the main menu and select  TANK A or TANK B.
 5.	The product can be set by pressing 4 and selecting an established product. 
 6.	Safe fill level can be changed by pressing 1 and entering the new value in litres.<BR>
 
-# 9.0 CompacOnsite
+# 9.0 CompacOnsite for Comfill V2 and Comfill LITE
 
 # 9.1 Login
 
@@ -2197,6 +2305,8 @@ D100 = Power 12V
 D101 = Power 5V
 D103 = Power 9V
 
+<BR>
+
 # 12.5 Modem LEDs
 
 The COMFILL V2 comes with a Comset modem, which has indicating LEDs to display the status of the modem.<BR>
@@ -2269,7 +2379,8 @@ Order of LEDs on the Modem is as follows:
 |                        |Pump Error|Use another pump and check if transactions are recorded; if so, contact pump service agent	
 |Tank gauging connection continuously drops out|LFD 485 option is set to ENABLED|Set LFD 485 to DISABLED. Refer to Custom Display settings in Local Setup	
 		
-	
+<BR>
+
 # 14.0 Error Codes and EOS
 
 These are all the Error codes available in the C5000. Some are product specific so will not be found in all applications.
@@ -2321,6 +2432,8 @@ These are all the Error codes available in the C5000. Some are product specific 
 **ErPrSt**           |No             |The preset entered is below the MMQ   | Enter a preset above (or equal to) the MMQ
 **Er dEn**           |LPG            |Density or Temperature out of Range | Calibrate meter density using the K-Factor switch  Calibrate meter temperature using the K-Factor switch
 
+<BR>
+
 # END OF SALE Indicators
 
 The purpose of the END OF SALE Indicator to give the reason why the last fill ended.
@@ -2357,7 +2470,183 @@ Note: This is a complete list of all the available END OF SALE Indicators and co
 |                             | 30                 | Controller initiated stop 
 **DENSITY**                      | 35                 | The Density was out of range 
 
+<BR>
 
+
+# 15.0 Valve Modulation 
+
+# 15.1 Core-functionality
+
+A Compac C5000 processor supports the control of up to 2 dual-solenoid driven diaphragm valves.
+
+Flow control through the main valve is achieved through height regulation of the valves diaphragm. This is indirectly controlled through solenoid valves linked upstream and downstream of the valve. These solenoids can increase, decrease or lock the diaphragm height depending on their states to respectively increase, decrease or hold the flow rate through the main valve steady.
+ 
+Figure 1 Control Valve Schematic
+
+![image](17.0.2_MR800S_modvalve_pid.png)
+
+With solenoid valves configured as per figure 1 above, using a normally open solenoid upstream and a normally closed valve downstream, the valve will decrease flow when both solenoids are de-energized. This ensures a safe failure mode should power to the dispenser be lost during a fill. 
+
+With the main valve shut, the 2 solenoid valves are also used as a bypass circuit for bypass flow (trickle flow) to carefully reach a desired preset cutoff volume. The flow rate of this circuit is dependent on the size of piping and the solenoid valve used but is approximately 3-6 liters per minute.
+
+# 15.2 C5000 Terminal board mapping
+ 
+Solenoids should be wired to the following terminals on the C5000 terminal board. <BR>
+The mapping of these terminals cannot be changed.
+
+|Side A||Side B||
+|------|-|------|-|
+Terminal|	Controls|	Terminal|	Controls
+T2|	Upstream solenoid|	T5|	Upstream solenoid
+T3|	Downstream solenoid|	T6|	Downstream solenoid
+
+# 15.3 Solenoid truth table
+
+Using a normally open upstream solenoid and a normally closed downstream solenoid, the terminal-solenoid truth table is as follows.
+
+|Terminal-Solenoid truth table| | | |
+|-----------------------------|-|-|-|
+Solenoid|	Polarity|	Terminal state|	Solenoid state
+|Upstream |Normally open |HIGH |CLOSED
+| | |LOW |OPEN
+|Downstream|Normally closed|HIGH |OPEN
+| | |LOW |CLOSED
+
+# 15.4 Flow State table
+ 
+Flow regulation through the valve using control of the solenoids is as follows.
+
+|Flow state table | | | | |
+|-----------------|-|-|-|-|
+|Flow state	|Upstream solenoid terminal |Downstream solenoid terminal |Upstream solenoid-valve state |Downstream solenoid-valve state
+|Increase flow |HIGH |HIGH |CLOSED |OPEN
+|Decrease flow |LOW |LOW |OPEN |CLOSED
+|Hold flow steady |HIGH |LOW |CLOSED |CLOSED
+|Bypass (trickle flow) |LOW |HIGH |OPEN |OPEN
+
+
+# 15.5 Ideal vs real flow rate graph
+
+The system transitions through the following states during dispensing.
+
+1. Ramp to high flow
+2. Hold constant high flow
+3. Ramp down to medium flow
+4. Hold medium flow
+5. Switch to the bypass circuit (trickle flow)
+
+
+![image](17.0.3_MR800S_flowgraph.png)
+
+Figure 2 - Ideal vs real flow rate during dispensing
+
+Figure 2 shows an exaggerated example of the flow rate profile for a typical fill (orange) compared to the desired flow rate profile generated inside the C5000 (red). An internal PID controller is used to follow the desired flow-rate profile which has configurable settings dependent on the valve type used. For control of valves not supported by Compac, these control settings may need to be changed to ensure the following error from the desired flow profile is kept to a minimum.
+
+# 15.6 Modulated valve configurable settings
+
+The following settings are applicable for setting up a modulated valve. <BR>
+Preset settings (change in pinpad or kfactor menu)
+|Setting |Unit |Recommend value (recommended range) |Notes
+|--------|-----|------------------------------------|-----
+|H Cut |Seconds |4 (4-10) |*Treated as a unit of time rather than volume as is standard.
+|P Cut |Litres |1.75 (1.5-3.5) |Remaining dispense volume before transitioning to the bypass (trickle flow) circuit
+
+Valve settings (requires a pinpad to change)
+|Setting |Unit |Recommend value (recommended range) |Notes
+|--------|-----|------------------------------------|-----
+|High flow rate target |Litres/min |400 (must be above medium)|	 
+|Medium flow rate target |Litres/min |110 (90-120) | |	 
+|Ramp up time |Seconds |8.00 (8.00-15.00) |	Ramp up time from no flow to the high flow rate target. increase for large valves|
+|Ramp down time |Seconds |11.00 (10.00-15.00) |	Ramp down time from high flow to the medium flow rate target. *(warning, if setting is too low, the PID controller may struggle resulting in an undershoot of the medium flow rate target)*|
+|kP |Unitless |90 (80-200) |Proportional gain. Increase if the system is slow to respond|
+|kI |Unitless |60 (30-100) |Integral gain. Increase if the system is not being pulled to the target high or medium flow rate target)
+|kD	|Unitless |60 (10-100) |Derivative gain. Increase to minimize undershooting/overshooting set point targets and dampen the system. May result in instability If a noisy flow meter is being used with little averaging.
+|Minimum pulse width |Seconds |0.01 (0.01-0.1) |Minimum time a solenoid valve should be pulsed for
+|PWM width |Seconds |1.4 (0.5-1.5) |PID update rate and the maximum time a solenoid valve will be turned on for. This is the rate at which the system re-evaluates the output drive/duty level.
+
+# 15.7 Pinpad Settings Navigation
+
+Valve settings accessed via the pinpad can be found under Hardware -> Next page -> Modulated valve “MOD VALV”. <BR>
+The first page shown features commonly changed flow parameters whereas the second page shows less-frequently changed settings for the internal PID controller.
+
+![image](17.0.4_MR800S_PP1.png)
+
+![image](17.0.5_MR800S_PP2.png)
+
+![image](17.0.6_MR800S_PP3.png)
+
+![image](17.0.7_MR800S_PP4.png) 
+
+![image](17.0.8_MR800S_PP5.png)
+
+# 15.8 Tuning to correctly hit a preset amount
+ 
+The following settings are recommended to be tuned from their defaults during the commissioning process to correctly hit the preset and to minimize the time spent flowing through the bypass (trickle flow) circuit.
+
+- H Cut <BR>
+
+This is treated as a unit of time to account for lag in the system due to nonlinearities in controlling a diaphragm valve.<BR>
+For a 2” valve flowing at approximately 400LPM it can take many seconds before the valve starts to respond to a solenoid input. <BR>
+It is recommended that this setting be increased until stable flow rate at the medium flow rate target occurs for a few seconds before switching over to the bypass (trickle flow) circuit.
+
+- P Cut <BR>
+
+This is the remaining dispensing volume before the system switches over to the bypass (trickle flow) circuit.<BR>
+Once met, the valve will shut leaving the bypass circuit open. This should be increased until the valve is fully shut and running on the bypass circuit for the last 0.5L before reaching the preset. If this setting is too low, the system may over run the preset.<BR>
+If the setting is too low, the system may timeout due to the low flow rate.
+
+![image](17.0.9_MR800S_preset.png)
+
+Precautions when adjusting
+ 
+The following settings affect the system stability and should be changed taking great precautions.
+
+- kP
+- kI
+- kD
+- Minimum pulse width
+- PWM width
+- Medium flow rate*
+ 
+*The medium flow rate target should be treated with a minor precaution as if this is too low nonlinearities in the system make the valve difficult to control.<BR>
+For a 2” diaphragm valve this is approximately 80 L/min.
+
+# 15.9 Advanced settings
+
+The Compac Ultra MR800S has default settings for the Modulated Valve installed at time of manufacture.
+In most installations, no changes will be required to the default advanced settings and the dispenser will operate correctly.
+
+The Advanced settings are in a separate menu that is not visible which needs to be enabled to allow changes to be made.
+
+If you enable advanced settings you will get extra settings after the modulated valve setting “nuCC".<BR>
+To enable this, you need to set the nuCC to XX21
+
+Advanced Modulated Valve settings
+
+|Setting             |Description       |Default              |
+|--------------------|------------------|---------------------| 
+nu nfl |	Medum flow rate  |	110
+nu ru.t|	Ramp up time	 |  8.00
+nu rd.t|	Ramp down time   |	11.00
+nu tP  |	PID P setting	 |  090
+nu ti  |    PID i setting	 |  060
+nu td  |	PID d setting	 |  060
+nu nP.u|	Minimum time a solenoid valve should be pulsed for |	0.01
+nu Pu.u|	PWM width        |	0.50
+
+<BR>
+
+# 15.10 Valve Modulation Troubleshooting
+
+Refer to the Advance Modulated Valve settings in section 15.9 to access these parameters 
+
+|Symptom|Possible cause|Action
+|-------|--------------|-------
+|Valve keeps ticking and does not reach the target flow rate|The target flow rate may be too high, or the pump pressure may be insufficient.| Try decreasing the target flow rate.
+|Ramping too fast| The ramp-up time may be set too low. |Increase the ramp-up time (nu ru.t), or
+| | The PWM width (nu Puu) may be too large. |Reduce it.
+|Valve attempts to close (ticking) but responds slowly |The target flow rate may be too close to the maximum flow rate. |Reduce the target flow rate (nu HFr) by approximately 50 L/min.
+|Valve starts ramping too early |Check the time at low flow setting. |Ensure it is not set to 00. If a value is set, try reducing it.
 
 
  
