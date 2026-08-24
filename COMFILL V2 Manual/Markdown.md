@@ -99,7 +99,7 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
-[4.1 Zone requirements](#41-zone-requirements)
+[4.1 Zone requirements and Electrical Approvals](#41-zone-requirements-and-electrical-approvals)
 
 [4.2 Static Electricity Precautions](#42-static-electricity-precautions)
 
@@ -542,8 +542,17 @@ Authorisation is by Mag stripe card.
 
 # 4.0 Pre-installation
 
-# 4.1 Zone requirements
-**DANGER: The Compac Comfill V2 and Comfill LITE are NOT approved for installation in a hazardous area. Please consult the site's zone drawings to find the exact positions of the hazardous areas for the particular site.**<BR>
+# 4.1 Zone requirements and Electrical Approvals
+
+**Electrical Approvals**
+
+The Compac **Comfill V2** and **Comfill LITE** are **NOT** approved for installation in a hazardous area.<BR>
+Please consult the site's zone drawings to find the exact positions of the hazardous areas for the particular site.**<BR>
+
+The Compac **Comfill V2 Ex** has **ATEX** and **IECEx** approvals for installation in a hazardous area<BR>
+Latest copies of these approvals can be downloaded from the Compac Website
+The IECEx Approval number is tamped on a label on the C5000 Flame proof box 
+
 
 For adequately ventilated fuel dispensing sites (not including CNG/NGV), in most cases the following will apply:<BR>
 - The unit is not designed to be constantly exposed to the elements. A shelter should be installed to protect it.<BR>
