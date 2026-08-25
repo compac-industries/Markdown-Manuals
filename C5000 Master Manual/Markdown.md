@@ -1,57 +1,22 @@
 
 
-![image](9.1.1_Compac_IRS_frontpage.png)
+![image](Compac_front_page.png)
 
-<font size ="5">
+<font size ="6">
 
-# C5000 Master Manual
+# C5000 Manual
+Updated 26 August 2026
+
+
+Laser 
+
+![image](Laser.png)
+
+Master
+
+![image](Master.png)
 
 <font size ="3">
-
-
-
-# Specifications
-
-## Models Covered
-
-> **Note:** Do not use this manual for earlier models. Contact Compac for archived manuals if required.
-
-# Validity
-
-Compac Industries Limited reserves the right to revise or change product specifications at any time. This publication describes the state of the product at the time of publication and may not reflect the product at all times in the past or in the future.
-
-# Manufactured By
-
-The Compac C5000 is designed and manufactured by Compac Industries Limited
-
-52 Walls Road, Penrose, Auckland 1061, New Zealand
-
-P.O. Box 12-417, Penrose, Auckland 1641, New Zealand
-
-Phone: + 64 9 579 2094
-
-
-**Email:** [techsupport@compac.co.nz](mailto:techsupport@compac.co.nz)
-
-**Website:** [http://www.compac.co.nz](http://www.compac.co.nz)
-
-Copyright ©2015 Compac Industries Limited, All Rights Reserved
-
-# Document Control
-
-## Document Information
-
-**Manual Title:** C5000 Master Manual
-
-**Current Revision Author(s):** Trevor Watt
-
-**Original Publication Date:** 20 September 2021
-
-**Last updated:** 4 March 2026
-
-**Authorised By:** Emily Sione
-
-**File Name:** C5000 Master Manual
 
 # Conditions of Use
 
@@ -81,123 +46,217 @@ Unless otherwise noted, references to brand names, product names, or trademarks 
 
 Every effort has been made to ensure the accuracy of this document. However, it may contain technical inaccuracies or typographical errors. Compac Industries Limited assumes no responsibility for and disclaims all liability of such inaccuracies, errors, or omissions in this publication.
 
+
+<font size ="5">
+
+**Validity**
+<font size ="3">
+
+This manual covers the Compac C5000 electronics as used in Compac Pumps and Dispensers
+
+Compac Industries Limited reserves the right to revise or change product specifications at any time.<BR>
+This publication describes the state of the product at the time of publication and may not reflect the product at all times in the past or in the future.
+
+**Manufactured by:**<BR>
+The Compac C5000 is designed and manufactured by Compac Industries Limited<BR>
+52 Walls Road, Penrose, Auckland 1061, New Zealand<BR>
+P.O. Box 12-417, Penrose, Auckland 1641, New Zealand<BR>
+Phone: + 64 9 579 2094<BR>
+Fax: + 64 9 579 0635<BR>
+Email: techsupport@compac.co.nz<BR>
+www.compac.co.nz<BR>
+Copyright ©2015 Compac Industries Limited, All Rights Reserved
+<BR>
+<BR>
+
+
+
+
 ## Table of Contents
 
-[**1 Safety**](#1-safety)
+<font size ="5">
 
-[**2 Electrical Installation**](#2-electrical-installation)
+[**1.0 Safety**](#10-safety)
 
-[C5000 Power Supply 230v Mains connections](#c5000-power-supply-230v-mains-connections)
+<font size ="3">
 
-[Cable and Mains Power Requirements](#cable-and-mains-power-requirements)
+<font size ="5">
 
-[K-Factor board](#k-factor-board)
+[**2.0 C5000 Power Supply**](#20-c5000-power-supply)
 
-[Typical wiring](#typical-wiring)
+<font size ="3">
 
-[**3 COMMS connections and settings**](#3-comms-connections-and-settings)
+[2.1 Cable and Mains Power Requirements](#21-cable-and-mains-power-requirements)
 
-[3-1 COMPAC and PEC COMMS](#3-1-compac-and-pec-comms)
+[2.2 Incoming mains](#22-incoming-mains)
 
-[3-2 GILBARCO COMMS](#3-2-gilbarco-comms) 
+[2.3 Typical wiring](#23-typical-wiring)
 
-[3-3 DART COMMS](#3-3-dart-comms)
+[2.4 Comms connection](#24-comms-connection)
+
+<font size ="5">
+
+[**3.0 K Factor board**](#30-k-factor-board)
+
+<font size ="3">
+
+[**4.0 K-Factor Switch settings**](#40-k-factor-switch-settings)
+
+[4.1 Changing the C-A and C-b Dispenser settings](#41-changing-the-c-a-and-c-b-dispenser-settings)
+
+[4.2 Changing the V50 Meter ID](#42-changing-the-v50-meter-id) 
+
+[4.3 Changing the Temperature Calibration E-A and E-b](#43-changing-the-temperature-calibration-e-a-and-e-b)
+
+[4.4 Changing the Density Calibration dIS-A](#44-changing-the-density-calibration-dis-a)
+
+[4.5 Changing the Maximum Flow rate 9A and 9b](#45-changing-the-maximum-flow-rate-9a-and-9b)
+
+[4.6 Changing the K factor FA and Fb](#46-changing-the-k-factor-fa-and-fb)
+
+[4.7 Default K Factor setting](#47-default-k-factor-setting)
+
+[4.8 Changing Configuration C](#48-changing-configuration-c)
+
+[4.9 Changing COMMS CC](#49-changing-comms-cc)
+
+[4.10 Changing the Display Decimal Points](#410-changing-the-display-decimal-points)
+
+[4.11 Changing the Solenoid Delay SdA](#411-changing-the-solenoid-delay-sda)
+
+[4.12 Changing the Preset cutoff](#412-changing-the-preset-cutoff)
+
+[4.13 Changing the Preset Rounding](#413-changing-the-preset-rounding)
+
+[4.14 Changing the Flow Time Out](#414-changing-the-flow-time-out)
+
+<font size ="5">
+
+[**5.0 Parameter Switch Settings**](#50-parameter-switch-settings)
+
+<font size ="3">
+
+[5.1 How to view the Software Version](#51-how-to-view-the-software-version)
+
+[5.2 Changing the pump number](#changing-the-pump-number)
+
+[5.3 Changing the price](#changing-the-price)
+
+[5.4 Changing the Pump settings](#54-changing-the-pump-settings)
+
+[5.4.1 Changing the High Preset Cut](#541-changing-the-high-preset-cut)
+
+[5.4.2 Standard Mode](#542-standard-mode)
+
+[5.4.3 Purge Mode](#543-purge-mode)
+
+[5.4.4 Preset Options](#544-preset-options)
+
+[5.5 Changing the Low-flow Cutoff](#55-changing-the-low-flow-cutoff)
+
+[5.6 Changing the High-flow Cutoff](#56-changing-the-high-flow-cutoff)
+
+[5.7 Changing the b setting](#57-changing-the-b-setting)
+
+[5.8 Changing the Slave Display Configuration](#58-changing-the-slave-display-configuration)
+
+[5.9 Changing the Custom Display Configuration](#59-changing-the-custom-display-configuration)
+
+[5.10 How to view the Last Sale](#510-how-to-view-the-last-sale)
+
+[5.11 How to view Electronic Totes](#511-how-to-view-electronic-totes)
+
+[5.12 Enabling Amount or Quantity Preset](#512-enabling-amount-or-quantity-preset)
+
+<font size ="5">
+
+[**5.0A Preset Board DIP Switch settings**](#50a-preset-board-dip-switch-settings)
+
+<font size ="3">
+
+<font size ="5">
+
+[**6.0 GPIO board applications**](#60-gpio-board-applications)
+
+<font size ="3">
+
+[6.1 GPIO board set up for Pulse Input from a Flow Meter](#61-gpio-board-set-up-for-pulse-input-from-a-flow-meter)  
+
+[6.2 GPIO board set up in Input Switch mode](#62-gpio-board-set-up-in-input-switch-mode)
+
+[6.3 GPIO board set up in Pulse Output mode](#63-gpio-board-set-up-in-pulse-output-mode)
+
+<font size ="5">
+
+[**7.0 Commissioning**](#commissioning)
+
+<font size ="3">
+
+[7.1 Electrical](#71-electrical)
+
+[7.2 Mechanical](#72-mechanical)
+
+<font size ="5">
+
+[**8.0 LED Diagnostics**](#80-led-diagnostics)
+
+<font size ="3">
+
+[8.1 CI501 comms board](#81-ci501-comms-board)
+
+[8.2 C5K Processor Board](#82-c5k-processor-board)
+
+[8.3 K Factor board](#83-k-factor-board)
+
+[8.4 K Factor Board Output LEDs](#84-k-factor-board-output-leds)
+
+<font size ="5">
+
+[**9.0 Troubleshooting Guide**](#troubleshooting-electrical-problems)
+
+<font size ="3">
+
+[9.1 Electrical problems](#electrical-problems)
+
+[9.2 Mechanical problems](#mechanical-problems)
+
+<font size ="5">
+
+[**10.0 C5K Software upgrade**](#software-upgrade)
+
+<font size ="3">
+
+[10.1 Dispenser Software Upgrade/Replacement](#101-dispenser-software-upgradereplacement)
+
+[10.2 How to install new C5K software](#102-how-to-install-new-c5k-software)
+
+<font size ="5">
+
+[**11.0 Generator Power**](#110-generator-power)
 
 
 
-[**4 K-Factor Switch settings**](#4-k-factor-switch-settings)
+<font size ="5">
 
-[Changing the C-A and C-b Dispenser settings](#changing-the-c-a-and-c-b-dispenser-settings)
+[**12.0 CI533 COMMS connections and settings**](#120-ci533-comms-connections-and-settings)
 
-[Changing the V50 Meter ID](#changing-the-v50-meter-id) 
+<font size ="3">
 
-[Changing the Temperature Calibration E-A and E-b](#changing-the-temperature-calibration-e-a-and-e-b)
+[12.1 COMPAC and PEC COMMS](#121-compacpec-comms)
 
-[Changing the Density Calibration dIS-A](#changing-the-density-calibration-dis-a)
+[12.2 GILBARCO COMMS](#122-gilbarco-comms) 
 
-[Changing the Maximum Flow rate 9A and 9b](#changing-the-maximum-flow-rate-9a-and-9b)
+[12.3 DART COMMS](#123-dart-comms)
 
-[Changing the K factor FA and Fb](#changing-the-k-factor-fa-and-fb)
+<font size ="5">
 
-[Default K Factor setting](#default-k-factor-setting)
+[**13.0 Error Codes and End of Sale Indicators**](#130-error-codes-and-end-of-sale-indicators)
 
-[Changing Configuration C](#changing-configuration-c)
-
-[Changing COMMS CC](#changing-comms-cc)
-
-[**5 Parameter Switch Settings**](#5-parameter-switch-settings)
-
-[How to view the Software Version](#how-to-view-the-software-version)
-
-[Changing the pump number](#changing-the-pump-number)
-
-[Changing the price](#changing-the-price)
-
-[Changing the Pump settings](#changing-the-pump-settings)
-
-[Changing the High Preset Cut](#changing-the-high-preset-cut)
-
-[Pump settings on Parameter switch explained](#pump-settings-on-parameter-switch-explained)
-
-[Changing the Low-flow Cutoff](#changing-the-low-flow-cutoff)
-
-[Changing the High-flow Cutoff](#changing-the-high-flow-cutoff)
-
-[Changing the b setting](#changing-the-b-setting)
-
-[Changing the Slave Display Configuration](#changing-the-slave-display-configuration)
-
-[Assigning a number to slave display](#assigning-a-number-to-slave-display) 
-
-[Changing the Custom Display Configuration](#changing-the-custom-display-configuration)
-
-[How to view the Last Sale](#how-to-view-the-last-sale)
-
-[How to view Electronic Totes](#how-to-view-electronic-totes)
-
-[Enabling Amount or Quantity Preset](#enabling-amount-or-quantity-preset)
-
-[Preset Board DIP Switch settings](#preset-board-dip-switch-settings)
-
-[**GPIO board applications**](#gpio-board-applications)
-
-[1 GPIO board set up for Pulse Input from a Flow Meter](#1-gpio-board-set-up-for-pulse-input-from-a-flow-meter)  
-
-[2 GPIO board set up in Input Switch mode](#2-gpio-board-set-up-in-input-switch-mode)
-
-[3 GPIO board set up in Pulse Output mode](#3-gpio-board-set-up-in-pulse-output-mode)
-
-[**Commissioning**](#commissioning)
-
-[Electrical](#electrical)
-
-[Mechanical](#mechanical)
-
-[**LED Diagnostics**](#led-diagnostics)
-
-[C5K Processor Board](#c5k-processor-board)
-
-[K Factor board](#k-factor-board)
-
-[K Factor Board Output LEDs](#k-factor-board-output-leds)
-
-[**Troubleshooting electrical problems**](#troubleshooting-electrical-problems)
-
-[Electrical problems](#electrical-problems)
-
-[Mechanical problems](#mechanical-problems)
-
-[**Software upgrade**](#software-upgrade)
-
-[Generator Power](#generator-power)
-
-[**Error Codes**](#error-codes)
-
-[**END OF SALE Indicators**](#end-of-sale-indicators)
+<font size ="3">
 
 <BR>
 
-# 1-0 Safety
+# 1.0 Safety
 
 ### PRECAUTIONS
 - Always follow safe operating procedures, any national or local regulations, and site-specific instructions.
@@ -224,14 +283,20 @@ Observe the following electrical precautions:
 
 <BR>
 
-# 2 Electrical Installation
+# 2.0 C5000 Power Supply
+ 
+# Power Supply
+The C5000 Power Supply is found within the flameproof box, located on the unit. 
+The Power Supply enclosure also contains the Processor board, Terminal board and Comms board
+which are piggy-backed on top of the Power Supply. 
 
-## C5000 Power Supply
+![image](2.1.1_Power_Supply_in_FPbox.png)
 
 The C5000 may be supplied unmounted for use in applications such as controlling mechanical registers in a bulk dispensing area or mounted on a truck for mobile dispensing.  
 When installing the C5000 power supply, please observe the following instructions.
 
-### Cable Entries
+**Cable Entries**
+
 There are fourteen cable entries:  
 - Five along the top of each of the long sides  
 - Three along one short side of the box  
@@ -246,107 +311,105 @@ Blank all unused entries with certified **M20 Ex 'd' blanking plugs**.
 Do **not** use thread adaptors with blanking plugs.  
 All cables must carry appropriate certification for the required application.
 
----
+**Area of Use**
 
-### Area of Use
 Correctly installed, the power supply is suitable for use in **Zone 1 areas** as defined in **IEC 60079-14**, group classification **IIA**, temperature classification **T4**, ambient temperature range **-25°C to 55°C**.  
 With the o-ring fitted in the base and the use of appropriate glands, the enclosure provides protection to **IP66**.
+Correctly installed, the power supply is suitable for use in Zone 1 areas as defined in IEC 60079-14, group classification IIA, temperature classification T4, ambient temperature range -25 to 55 degrees Celsius.
+<BR>
 
-## Location
+With the o-ring fitted in the base and the use of appropriate glands, the enclosure provides protection to IP66.
+
+**Location**
+
 Mount the power supply in a **horizontal position**, isolated from vibration and sheltered from excess water spray.  
 Failure to do this may void the warranty.
 
-## Installation
+**Installation**
+
 Fasten the power supply using the four **M6 tapped holes** in the base.  
 - Hole centres: **185 mm x 105 mm**  
 - Minimum thread engagement: **9 mm**  
 - Maximum thread engagement: **14 mm**
 
-## Wiring
+**Wiring**
 - Wiring must be carried out in accordance with the relevant code of practice.  
 - All terminal wiring must have a cross section area of **0.5 mm² to 4 mm²**.  
 - Wiring used should be suitable for **80°C**.  
 - Insulation must extend to within **1 mm** of the metal face of the terminal.  
 - Not more than one single or multi-stranded wire should be connected to the terminals unless they have been pre-joined in an appropriate manner.
 
-## Installation Procedure
+**Procedure**
 1. Ensure the unit is isolated from the power source.  
 2. Remove the sixteen **M10 x 20 stainless steel cap screws** and remove the lid.  
 3. Feed all wires into the box via an appropriate gland and connect.  
    - The Earth wire from the power lead must be earthed to the casing using a proper terminal.  
 4. Replace the lid making sure the gasket is in place and clean and that no wires have been pinched.
 
-## External Earthing
+**External Earthing**
+
 Where required, earth the C5000 Power Supply using an earth wire with a cross-sectional area at least equal to the largest conductor.  
 The earth wire is attached to the integrated point.
 
 <BR>
 
-# Cable and Mains Power Requirements
+# 2.1 Cable and Mains Power Requirements
 
-## Cable Requirements
-### Power
-- **Cable Type:** 3 Core Steel Wire Armour Cable, 2.5 mm²  
-- **Voltage:** 220–240 V, 50 Hz, ±10%  
-- **Core Details:**  
-  - Core 1: 230 V Supply (Active)  
-  - Core 2: Neutral  
-  - Core 3: Earth  
+Cable requirements are as follows:
+
+**Power**
+
+3 Core Steel Wire Armour Cable, 2.5 mm²  
+220–240 V, 50 Hz, ±10%  
+Core 1: 230 V Supply (Active)  
+Core 2: Neutral  
+Core 3: Earth  
 
 **Dispensers:**  
 - 25 W idle  
 - 300 W with all solenoids active  
 
-**Submersible Pump(s):**  
-- Suitable cable for 230 V solenoid switching current  
-- 300 mA maximum load  
-- *Do not wire submersible pumps directly to C5000 power supply.*
+Submersible Pump(s): Suitable cable for 230 V solenoid switching current. 300 mA maximum load  
+Do not wire submersible pumps directly to C5000 power supply.
 
-### Pumps
-- **C5000 Power Label:** 110–240 Vac, 50/60 Hz, 15 A  
-- This rating caters for start-up current of two motors (e.g., MR160P).  
-- Mains supply must support up to 15 A.  
-- Actual usage:  
-  - 2 × 750 W motors + 2 × dual solenoids (<30 W each) + electronics (<300 W)  
+**Pumps**
+
+The C5000 Power Label states a rating of 110–240 Vac, 50/60 Hz, 15 A  
+This is to cater for the start-up current of two motors (as in the case of an MR160P).  
+The Mains supply will need to be able to supply up to 15A but the actual power that it uses is   
+2× 750W motors + 2× dual solenoids (<30 W each) + the electronics (<300 W)  
 - **Examples:**  
   - MR80P (1 × 750 W motor): <1.1 kW with motor and solenoid active  
   - MR160P (2 × 750 W motors): <2 kW with both motors and solenoids active  
 
-## Comms
+**Comms**
 - **Cable Type:** 2 Core Steel Wire Armour Cable, 1.5 mm²  
 - **Max Length:** 100 m  
 - **Voltage:** 12 V current loop  
-- Ensure at least 2 m cable tail for both incoming 230 V and comms cables to reach C5000 flameproof box.  
+- Make sure that there is at least a 2m cable tail for both incoming underground 230V and comms cables to reach the C5000 flameproof box.  
 - If using generator power, refer to the *Generator Power* section.  
 
 <BR>
 
-# C5000 Power Supply 230v Mains connections
-- Connections should be brought into the terminal board.  
-- Optional: Emergency stop connection can replace the normal loop between triac and main phases.  
-- **Wire Colours:**  
-  - Incoming mains phase: **Brown**  
-# Power Supply
-The C5000 Power Supply is found within the flameproof box, located on the unit. 
-The Power Supply enclosure also contains the Processor board, Terminal board and Comms board
-which are piggy-backed on top of the Power Supply. 
+# 2.2 Incoming mains
+Incoming mains connections should be brought in to the terminal board.
+An emergency stop connection, if desired, can also be wired into the terminal board, shown below.<BR>
+This will be in place of the normal loop between the triac and main phases.<BR>
+Wires have standard colours which are shown. In case these are unclear, the colours are as follows:<BR>
 
-![image](2.1.1_Power_Supply_in_FPbox.png)
+- Incoming mains phase: Brown<BR>
+- Incoming mains neutral: Blue<BR>
+- Incoming mains earth: Green/Yellow<BR>
 
-# K-Factor board
+![image](1.1.1_Mains_connections.png)
 
-Both the Parameter switch and K-Factor switches are located on the K-Factor board. Meters and air switches are also connected to this board. See below for the location of these.
-
-![image](2.1.3_Kfactor_board.png)
-
-
-# Typical Wiring
+# 2.3 Typical Wiring
 
 **Caution:**
 The following diagrams are typical only and will vary between different models.
 Check the installation instructions for the exact model that you are working on 
 
-## Pumps
+**Pumps**
 
 The following diagrams show the typical wiring required for C5000 pumps.
 
@@ -356,7 +419,7 @@ Solenoids for side A and B are optional and can be wired in if preset and prepay
 
 ![image](1.2.1_Typical_wiring-Pumps.png)
 
-## Triac Wiring
+**Triac Wiring**
 
 The triac wiring is pre-installed and, in most cases, will not need to be changed. However, the wiring is shown here to aid triac replacement or other service procedures. These are colour coded with standard colours. In case these are not clear, the colours are as follows:
 
@@ -367,28 +430,19 @@ The triac wiring is pre-installed and, in most cases, will not need to be change
 ![image](1.2.2_Typical_wiring_Triacs.png)
 
 
-## Dispensers
+**Dispensers**
 
 When using the C5000 electronics for dispenser application, as well as connecting the incoming mains, the external pump contactors will have to be connected to the terminal board.
 
 Solenoids for side A and B are optional and can be wired in if preset and prepay options are desired.
 
-![image](1.3.1_Typical_wiring_Dispensers.png)  - Incoming mains neutral: **Blue**  
-  - Incoming mains earth: **Green/Yellow**  
+![image](1.3.1_Typical_wiring_Dispensers.png)  
 
-![image](1.1.1_Mains_connections.png)
+<BR>
 
+# 2.4 Comms connection
 
-
-# 3 COMMS connections and settings
-
-**Important note:**
-There are two types of Comms Interface boards used in the C5000
-
-CI501 - This is used in standard Pumps and Dispensers that are connected to either Compac or Third Party Contollers   
-CI533 - This is used when the C5K is acting as the controller such as in PT1, ComfillV2 and Fillmaster
-
-## CI501 Comms Board
+ The CI501 Comms board is used in Compac Pumps and Dispensers that are connected to either Compac or Third Party Contollers<BR>
 
 The comms I/O is controlled by the connections to the Comms board. Refer to the following diagram for connecting RS485, RS232, Compac or Gilbarco pumps. The shown switch should be set to the desired setting. 
 
@@ -399,323 +453,20 @@ Use the following table to configure these switches. Switch 300 is for channel 1
 
 ![image](9.3.1_CI501_Dip_Switches.png) 
 
-
-## CI533 Comms board
-
-![image](2.1.4_CI533-Comms_board.png)
-
-
-In C5000 Compac Pumps and Dispensers, the CI533 Comms interface PCB board is piggy-backed on top of the Processor Board
-
-In a COMFILL or PT1, A 15 core multicore loom connects the CI533 Comms board to the DIN Terminal Rail where all the  site connections are made. The DIN Rail which is clearly labelled.
-All site connections are made directly on the DIN rail.
-No site connections are required directly onto the CI533 Comms board.
-
-### CI533 COMMS board functions
-
-The CI533 Comms board has two functions.
-
-1.	Enables the C5000 to communicate with Compac, Gilbarco and Wayne Pumps and Dispensers.
-
-2.	It has a Tank-gauging interface to connect to either 2x 4-20m Tank Probes or a 3rd party Tank controller ( Veeder-Root or Calibri)  via RS232
-
-### CI533 COMMS channels
-
-There are three Comms channels
-
-Channel 1. CH1 can be configured for the following protocol options using Switch SW1
-
-•	COMPAC standard current loop comms
-
-•	COMPAC Comms over RS485
-
-•	Wayne DART protocol over RS485
-
-If Compac Comms over RS485 for long distances is required (ie greater than 100 metres), set CH1 to RS485 and configure CH1 for Compac in the COMFILL or PT1 settings. Refer to Local setup / Pumps / Comms
-
-For Wayne DART protocol, configure CH1 for RS485 and configure CH1 in  Local setup / Pumps / Comms for Wayne DART protocol
-
-There is an ENABLE switch SW_P1 to turn CH1 ON. A Green LED indicates that the CH1 is ON
-
-When communicating with a Pump or Dispenser, the Tx and Rx red LEDS will flash
-
-### SW_P1 
-This switch is normally left in the ON position
-
-Channel 2 CH2 can be configured for the following protocol options using Switch SW2
-
-•	COMPAC protocol over RS485
-
-
-•	GILBARCO protocol
-
-•	Wayne DART protocol over RS485
-
-If Compac Comms over RS485 for long distances is required (ie greater than 100 metres, set CH2 to RS485 and configure CH2 for Compac in the COMFILL or PT1 settings. Refer to Local setup / Pumps / Comms
-
-For Wayne DART protocol, configure CH2 for RS485 and configure CH2 in  Local setup / Pumps / Comms for Wayne DART protocol
-
-There is an ENABLE switch SW_P2 to turn CH2 ON. A Green LED indicates that the CH2 is ON
-
-When communicating with a Pump or Dispenser, the Tx and Rx red LEDS will flash
-
-### SW_P2
-This switch is normally left in the ON position
-
-Channel 3 CH3 can be configured for either RS232 or RS485 using Switch S61
-
-CH3 is exclusively used for Tank Gauging Controllers eg Veeder-Root or Calibri
-
-Only RS232 is currently supported on CH3 so the Tank Controller should also be setup for RS232
-
-CI533 Comms board Dipswitch settings
-
-These are the Dip-switch settings for Compac, Gilbarco, Wayne DART and RS485 Comms
-
-### SW1 
-CH1 Channel 1
-
-1 = Compac ( standard Current Loop) comms
-
-2 = RS485
-
-### SW2 
-CH2 Channel 2
-
-1 = Gilbarco
-
-2 = RS485
-
-### S61 
-– CH3 Channel 3 selector switch
-
-ON = RS232
-
-OFF = RS485
-
-### SW62 
-This switch is used for current loop systems on channel 1 (e.g. Gilbarco, Wayne). Adjust the switch according to the current (mA) of the site protocol as required. There are three current options.
-
-Wayne = 45
-
-Gilbarco AUS = 30
-
-Gilbarco USA = 20
-
-CH3 Term, SW1_R and SW2_R
-
-These switches are used for an end of line termination resistor for RS485 applications.
-
-They are not currently supported and should be left in the OFF position
-
-# 3-1 COMPAC and PEC COMMS 
-
-version V1.0 09-08-2021
-## Connections
-
-The following are the connections and switch settings for Compac/PEC comms on the CI533A. 
-
-Note that Channel 2 is free to be used as Gilbarco or Dart
-
-
-![image](5.1.1_Compac_comms_1.png)
-
-
-Also, you need to make sure that the Channel that you are using is switched on. When the channel is on, the led indercater will be on.
-
-![image](5.1.2_Compac_comms_2.png)
-
-
-## Configuration / Setup
-
-To set up pumps talking Gilbarco right click on the Site and the click on edit site.
-Then click on the pumps tab
-
-![image](5.1.3_Compac_comms_3.png)
-
-### Setup the pump as follows
-
-Pump number: The number of the pump that you will select when prompted
-
-Pump ID: This is the ID set in the pump (normally set the same as the pump number)
-
-Channel: Compac/PEC is always on Channel 1
-
-Pump Type: Set the Pump type “Compac12 ”,“Compac24”, “PEC12” and “PEC12\_6digit” Depending on what the Dispenser is set to
-
-Flow timeout: This is the time in seconds after the C5000 says “Ready for delivery” before the c5000 times out and cannels the 
-authorisation
-
-Then, click the “Add” button
-
-![image](5.1.4_Compac_comms_4.png)
-
-### Setup the Hoses
-
-Assign the grades and the hoses on the pump
-
-![image](5.1.5_Compac_comms_5.png)
-
-After the pump is setup in the admin tool, you have to flag the site to update the pump
-Setup. 
-
-To do this right click on the site and click “Flag status”. Then click “Update Pumps”
-
-![image](5.1.6_Compac_comms_6.png)
-
-You then can check the events to see if the pumps have been updated
-
-![image](5.1.7_Compac_comms_7.png)
-
-
-## Extra Compac/PEC settings
-There are some pumps that need specific settings. 
-
-Below is the symptom and the pump type to use. 
-
-If you are changing a setting, you MUST reset the C5000 after making the change
-
-
-Symptom|Setting to use
-------|------|
-The Dispenser seems to keep trying to price change or the price is displayed as $4.123 and it should be $1.234|If PEC12 change to Compac12 and if Compac12 change to PEC12
-Compac dispenser. When you enter the auth $10 the pump is stopping at 10 litres because some Compac dispensers only do litres preset|Add the setting below this makes the C5000 work out the litres equivalent and sends it to the pump
-
-![image](5.1.8_Compac_comms_8.png)|![image](5.1.9_Compac_comms_9.png)
-
-
-# 3-2 GILBARCO COMMS 
-version V1.0 9/08/2021
-
-## Connections
-
-The following is the connections and switch setting for Gilbarco on the CI533A. Note that Channel 1 is free to be used as Compac or Dart
-
-![image](5.2.1_Gilbarco_comms_1.png)
-
-Also need to make sure that the Channel that you are using is switched on. When the channel is on the led indicator will be on.
-
-![image](5.2.2_Gilbarco_comms_2.png)
-
-
-## Configuration / Setup
-
-To set up pumps talking Gilbarco right click on the Site and the click on edit site.
-Then click on the pumps tab
-
-![image](5.2.3_Gilbarco_comms_3.png)
-
-### Setup the pump
-
-Pump number: The number of the pump that you will select when prompted
-
-Pump ID: This is the ID set in the pump (normally set the same as the pump number)
-
-Channel: Gilbarco is always on Channel 2
-
-Pump Type: Set the Pump type “GILBARCO_V2_6D” or “GILBARCO_V2_5D” Depending on what the Dispenser is set to
-
-Flow timeout: This is the time in seconds after the C5000 says “Ready for delivery” before the c5000 times out and cannels the authorisation
-
-Then click the “Add” button
-
-![image](5.2.4_Gilbarco_comms_4.png)
-
-
-### Setup the Hoses
-Assign the grades the hoses on the pump
-
-![image](5.2.5_Gilbarco_comms_5.png)
-
-After the pump is setup in the admin tool yoy have to flag the site it update the pump
-Setup.to do this right click on the site and click “Flag status”. Then click “Update Pumps”
-
-![image](5.2.6_Gilbarco_comms_6.png)
-
-You then can check the events to see if the pumps have been updated
-
-![image](5.2.7_Gilbarco_comms_7.png)
-
-## Extra Gilbarco Settings
-
-The C5000 is setup to automatically set the correct Gilbarco protocol. But sometimes the dispenser is a little different. In these cases, we have special Gilbarco protocol versions.
-
-GILBARCO_V2_5D_Preset2D
-
-GILBARCO_V2_5D_Preset4D
-
-GILBARCO_V2_6D_Preset2D
-
-GILBARCO_V2_6D_Preset4D
-
-GILBARCO_V1_5D_Preset2D
-
-GILBARCO_V1_5D_Preset4D
-
-GILBARCO_V1_6D_Preset2D
-
-GILBARCO_V1_6D_Preset4D
-
-Compac Pumps Running Gilbarco need to be set to “GILBARCO_V1_5D_Preset2D” or “GILBARCO_V1_6D_Preset2D”
- 
- 
-# 3-3 DART COMMS
-version V1.0 09-08-2021
-
-The following is the connections and switch setting for Dart on the CI533A Ch1 and Ch2
-
-![image](5.3.1_Dart_comms_1.png)
-
-Also need to make sure that the Channel that you are using is switched on. When the channel is on the led indicator will be on.
-
-![image](5.3.2_Dart_comms_2.png)
-
-
-## Configuration / Setup
-
-To set up pumps talking Dart right click on the Site and the click on edit site.
-
-Then click on the pumps tab
-
-![image](5.3.3_Dart_comms_3.png)
-
-### Setup the pump
-
-Pump number: The number of the pump that you will select when prompted
-
-Pump ID: This is the ID set in the pump (normally set the same as the pump number)
-
-Channel: The Channel that the pumps are connected to on the CI533 see above
-
-Pump Type: set the Pump type “DRESSER WAYNE DART”
-
-Flow timeout: This is the time in seconds after the C5000 says “Ready for delivery” before the c5000 times out and cannels the authorisation
-
-Then click the “Add” button
-
-![image](5.3.4_Dart_comms_4.png)
-
-### Setup the Hoses
-
-Assign the grades to the hoses on the pump
-
-![image](5.3.5_Dart_comms_5.png)
-
-After the pump is setup in the admin tool yoy have to flag the site it update the pump
-Setup.to do this right click on the site and click “Flag status”. Then click “Update Pumps”
-
-![image](5.3.6_Dart_comms_6.png)
-
-You then can check the events to see if the pumps have been updated
-
-![image](5.3.7_Dart_comms_7.png)
-
-
 <BR>
 <BR>
 
+# 3.0 K Factor board
 
-# 4 K-Factor Switch settings
+**K-Factor Board**<BR>
+
+Both the Parameter switch and K-Factor switches are found on the K-Factor board.<BR>
+Meters and air switches are also connected to this board. See below for the location of these.
+
+
+![image](2.1.3_Kfactor_board.png)
+
+# 4.0 K-Factor Switch settings
 
 A summary of the K-Factor settings can be seen below. Information on these settings and how to change them can be found on the following pages
 
@@ -735,12 +486,27 @@ A summary of the K-Factor settings can be seen below. Information on these setti
 | Preset rounding       |                                 | **PrLA***.** or **PrLb***.** **PrHA***.** or **PrHb***.**|
 | Flow time out         |                                 | **n-A** *** or **n-b** ***                    |
  
+**Using the Dispenser Menus**
+When changing settings on the dispenser, pressing the K-Factor switch in quick succession cycles between the options available.<BR>
+The location of this switch can be found on page 7. Each press of the button will cycle between the digits.<BR>
+When going through the menus, each menu will cycle through the digits twice for ease of operation.<BR>
 
+When a digit is flashing, hold down the relevant switch to increment this digit.<BR>
+Release the switch on the desired value.<BR>
 
-# Dispenser Settings
+The system timeout is 10 seconds.
 
+**Dispenser Settings**
 
-# Changing the C-A and C-b Dispenser settings
+The following table shows how to change the dispenser settings, such as the meter type,
+variant and minimum delivery.<BR>
+To get to the following menu, depress the K-Factor switch once when not in a transaction.<BR>
+The menu shown is for side A – if side B is required, continue depressing the K-Factor switch until the same menu for side B is reached and follow the same set up instructions.<BR>
+
+These settings will likely be set in the factory. Only change the following settings if required. See
+following pages for information on these settings.
+
+# 4.1 Changing the C-A and C-b Dispenser settings
 
 
 ![image](6.1.1_GPIO_screenshot_CA.png)
@@ -776,23 +542,28 @@ The menu shown is for side A – if side B is required, continue depressing the 
 |               |                  |5 = GPIO Meter input
 
 
-## Meter Settings
+**Meter Settings**
 
-This setting corresponds to the type of meter plugged in to the dispenser. Options 1-3 are for an encoder meter and depend on the channel setting of this meter. Encoder meters are used for petrol and diesel, while V50 meters (option 4) are used for LPG and AdBlue. Some settings (such as temperature and density calibration) are only available for V50 and therefore will not appear if the meter type is not set to V50.
+This setting corresponds to the type of meter plugged in to the dispenser.<BR>
+Options 1-3 are for an encoder meter and depend on the channel setting of this meter.<BR>
+Encoder meters are used for petrol and diesel, while V50 meters (option 4) are used for LPG and AdBlue.<BR>
+Some settings (such as temperature and density calibration) are only available for V50 and therefore will not appear if the meter type is not set to V50.
 
-## Variant Settings
+**Variant Settings**
 
-This setting should be changed depending on the product – set the variant to 0 for liquid fuels such as petrol or diesel. Set the variant to 4 for diesel emissions fluid (AdBlue). Set the variant to 5 for LPG.
+This setting should be changed depending on the product – set the variant to 0 for liquid fuels such as petrol or diesel.<BR>
+Set the variant to 4 for diesel emissions fluid (AdBlue).<BR>
+ Set the variant to 5 for LPG.
 
-## Quantity Settings
+**Quantity Settings**
 
 This setting is what quantity will be shown on the main display when fuel is being dispensed. This is only valid for V50 meters and is ignored for encoder meters which always display Litres uncompensated.
 
-## Air Settings
+**Air Settings**
 
 Air switches can be turned on or off to trigger this error, depending on this setting.
 
-## Minimum Measurable Quantity (MMQ)
+**Minimum Measurable Quantity (MMQ)**
 
 Minimum measured quantity (MMQ) is the minimum amount of fuel that can be dispensed and measured. The MMQ is calculated with the following equation:
 
@@ -830,9 +601,11 @@ So the quantity dispensed will not show until more than 0.08L has been dispensed
 
 
 
-# Changing the V50 Meter ID
-All V50 Meters have a specific ID which must match the ID recored in the Dispenser settings
+# 4.2 Changing the V50 Meter ID
+All V50 Meters have a specific ID which must match the ID recored in the Dispenser settings<BR>
+
 This is a 6 digit number which can be found written on the V50 Meter
+
 80206 as in the image below is an example of a Meter ID 
 
 If the IDs do not match, the Dispenser will return an error
@@ -844,7 +617,7 @@ See using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](3.1.2_Kfactor_V50MeterID_id-A.png)
 
-# Changing the Temperature Calibration E-A and E-b
+# 4.3 Changing the Temperature Calibration E-A and E-b
 
 The Temperature calibration can be used to adjust the Temperature being retrieved from the meter, if this is not the actual Temperature of the product being dispensed, then the actual temperature of product being dispensed should be entered in this menu. This will be used to adjust new temperatures returned from the meter. 
 See Using the Dispenser Menus to edit these settings. Use the procedure for both side A and B.
@@ -853,7 +626,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 As only V50 meters return temperature readings, this option is only for V50 operation and will not appear if the meter is not set to V50
 
-# Changing the Density Calibration dIS-A
+# 4.4 Changing the Density Calibration dIS-A
 
 The density calibration can be used to adjust the density being retrieved from the meter, if this is not the actual density of the product being dispensed. The actual density of product at 15 °C being dispensed should be entered in this menu. This will be used to adjust new densities returned from the meter. 
 See Using the Dispenser Menus to edit these settings. Use the procedure for both side A and B.
@@ -863,14 +636,14 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 As only V50 meters return density readings, this option is only for V50 operation and will not appear if the meter is not set to V50
 
-# Changing the Maximum Flow rate 9A and 9b
+# 4.5 Changing the Maximum Flow rate 9A and 9b
 
 If this setting is left at 0000, the maximum flow rate, or Qmax, is 40 litres/minute by default. When changing the maximum flow, note that the high flow cutoff, low flow cutoff (LPG only), MMQ, and preset rounding are calculated from the maximum flow.
 See Using the Dispenser Menus to edit these settings. Use the procedure for both side A and B.
 
 ![image](3.1.5_Kfactor_Max_Flow_9A.png)
 
-# Changing the K factor FA and Fb
+# 4.6 Changing the K factor FA and Fb
 
 The K-Factor is used to calibrate product flow. It is a ratio of litres dispensed per revolution of the meter. The K-Factor may need to be calibrated after periods of time. 
 To calibrate the pump, dispense fuel into a certified measuring container and compare the display value with the one dispensed.
@@ -890,7 +663,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 ![image](3.1.6_Kfactor_Kfactor_FA.png)
 
 
-# Default K Factor setting
+# 4.7 Default K Factor setting
 
 All Compac Meters have a default K Factor setting which is set at tiem of manufacture of the Compac Product that it is installed in.
 
@@ -903,13 +676,14 @@ Default K Factors for Compac Meters used in compac equipment are as follows
 |COM50|0.6450|Petrol/Diesel|
 |COM125|1.1125|Petrol/Diesel|
 |COM250|2.1600|Petrol/Diesel|
+|COM650|009.4060|Petrol/Diesel|
 |V40|1.000|Adblue DEF|
 |V50|1.000|Adblue DEF|
 |V50|1.000|LPG-if dispensing in Litres|
 |KG80 and KG100|0.2500|CNG|
 
 
-# Changing Configuration C
+# 4.8 Changing Configuration C
 
 The Dispenser has settings for each side (as previously shown) as well as configuration settings for the entire unit.
 Use the following diagram to set the unit up as desired.
@@ -943,37 +717,37 @@ Use the following diagram to set the unit up as desired.
 |               |                  |5 - Dual HSB               |  
 
 
-## Hardware Variant
+**Hardware Variant**
 The hardware variant refers to the type of dispenser and should always be set to 0 – Dispenser for dispenser application.
 
-## Card Totals
+**Card Totals**
 Card totals record the delivery totals for given cards. This is enabled by default but can be disabled if desired.
 
-## Pump Mode
+**Pump Mode**
 The dispenser can be switched between retail or commercial, depending on the application.
 
-## Pump Settings
+**Pump Settings**
 Each setting is a different configuration with different hardware. See below for descriptions of these configurations.
 For all pump settings, the main display shows information on side A. Slave displays will need to be configured to show side B.
 
 ![image](9.2.6_Main_Kfactor_display.png)
 
-## Single Pump or Dispenser
+**Single Pump or Dispenser**
 In single mode, one outlet is used to dispense one product. The price per litre window for side B is not used. 
 In this setting, only side A settings will appear in the menus.
 
-## Dual Pump or Dispenser
+**Dual Pump or Dispenser**
 In Dual mode, the dispenser or pump has two outlets which can be used separately, at the same time. Each outlet can be configured separately. Two separate products can be used. Side A supports high flow.
 
-## Dual 160 Dispenser
+**Dual 160 Dispenser**
 In Dual 160 mode, the dispenser has two outlets, however they must dispense the same product. Either outlet can support high flow and both outlets can be used simultaneously. 
 Dual 160 mode can only be used in dispenser application, and not for pump application.
 
-## Dual HLB Pump or Dispenser
+**Dual HLB Pump or Dispenser**
 In Dual HLB mode, the dispenser or pump has two outlets which can be used separately, at the same time. Each outlet can be configured separately. Two separate products can be used. Side B supports high flow.
 
 
-# Changing COMMS CC
+# 4.9 Changing COMMS CC
 
 Use the following table to setup COMMS as required.
 
@@ -985,6 +759,7 @@ Use the following table to setup COMMS as required.
 |               |2nd digit          |**Mode**                   |
 |               |                   |1 = 5 digit                |
 |               |                   |0 = 6 digit                |
+|               |                   |2 = 7 digit                | 
 |               |3rd digit          |**Channel**                |
 |               |                   |0                          |
 |               |                   |1 = default channel        |
@@ -998,7 +773,7 @@ Use the following table to setup COMMS as required.
 Change the Protocol and the mode to match the controller’s settings. Channel 1 is the default channel for dispensers (channel number should always match the with the comms board terminal block used).
 E.g. CC = 0113  Gilbarco on Channel 1, 5 Digit mode
 
- # Changing the Display Decimal Points
+ # 4.10 Changing the Display Decimal Points
 
 In some countries, the decimal place needs to be configured because of the currency in that country.
 
@@ -1038,14 +813,14 @@ Settings are from left to right (1st setting is on the left):
 
 
 ### Example
-If **dP A** is set to `1921`, the display will appear as:
-- `000000` → Amount ($) = 0dp
-- `0000.00` → Quantity (Litres) = 2dp
-- `000.0` → Amount/Quantity ($/litre) = 1dp
+If **dP A** is set to 1921, the display will appear as:
+- 000000 → Amount ($) = 0dp
+- 0000.00 → Quantity (Litres) = 2dp
+- 000.0 → Amount/Quantity ($/litre) = 1dp
 
 This setup is used in **Vanuatu**. 
 
-# Changing the Solenoid Delay SdA
+# 4.11 Changing the Solenoid Delay SdA
 
 Pumps have two solenoids for product flow. If the solenoids are unavailable, the pump preset should also be unavailable.   
 The solenoid delay is the time between when the motor starts, and when the solenoids start at the beginning of a transaction.  
@@ -1055,7 +830,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](3.1.10_Kfactor_Solenoid_Delay_SdA.png)
 
-# Changing the Preset cutoff
+# 4.12 Changing the Preset cutoff
 
 Preset cutoff is used to deliver an accurate amount of fuel.  
 When dispensing fuel, two solenoids are used for fuel flow.  
@@ -1066,7 +841,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](3.1.11_Kfactor_Preset_Cut-off_PCA.png)
 
-# Changing the Preset Rounding
+# 4.13 Changing the Preset Rounding
 
 The dispensed amount of fuel can be rounded to the preset if within the preset rounding parameters.  
 If the preset rounding is left as zero, the preset rounding will be calculated from the MMQ. 
@@ -1106,7 +881,7 @@ Use the procedure for both side A and B.
 ![image](3.1.13_Kfactor_Preset_rounding_PrHA.png)
 
 
-# Changing the Flow Time Out
+# 4.14 Changing the Flow Time Out
 The flow time out is the amount of time it takes for the transaction to time out after flow stops, if the nozzle is not hung up.  
 The default depends on the dispenser mode.  
 If the dispenser is in LPG mode, the default time out will be 10 seconds.  
@@ -1120,7 +895,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](3.1.14_Kfactor_Flow_Cut-off_n-A.png)
 
-# 5 Parameter Switch Settings
+# 5.0 Parameter Switch Settings
 The following table summarises the parameter switch settings.  
 Information on these settings and how to change them can be found on the following pages.
 NOTE: The configuration settings must be set before parameter settings can be accessed.
@@ -1150,7 +925,7 @@ When a digit is flashing, hold down the relevant switch to increment this digit.
 Release the switch on the desired value.
 The system timeout is 10 seconds.
 
-# How to view the Software Version
+# 5.1 How to view the Software Version
 
 Pressing the parameter switch once will show the software version. 
 
@@ -1158,16 +933,16 @@ Pressing the parameter switch once will show the software version.
 
 The dispenser will then run through a segment test.
 
-# Changing the Pump Number
+# 5.2 Changing the Pump Number
 If the parameter switch is continually depressed, the following menu to change the pump number will appear. Each side must be numbered between 1-99.
 
-NOTE: Entering a pump number 0 will disable the pump.
+**NOTE:** *Entering a pump number 0 will disable the pump.*
 
 See Using the Dispenser Menus to edit these settings. Use the procedure for both side A and B.
 
 ![image](4.1.2_Parameter_pump_number_PnA.png)
 
-# Changing the Price
+# 5.3 Changing the Price
 
 The price must be set before the dispenser can be used, otherwise an error will be returned.  
 Set the price in dollars per litre.  
@@ -1175,7 +950,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](4.1.3_Parameter_price_PA.png)
 
-# Changing the Pump settings
+# 5.4 Changing the Pump settings
 
 The pump can have different modes, which can be set using the table diagram below.  
 See below for information on these modes.  
@@ -1203,11 +978,11 @@ Use the procedure for both side A and B. If the dispenser is in multi product mo
 |       |           |8 = Auto-Authorisation             |
 
 
-# Changing the High Preset Cut
+# 5.4.1 Changing the High Preset Cut
 The settings HCA and HCB are used in high flow applications as an extra flow control.  
 This setting is the number of litres before the preset that the output will switch off.  
 It is used when extra high flow control is needed.  
-The PCA and the PCB settings have a maximum setting, up to 9.99 litres, where-as the HCA and HCB can be set to a maximum of 99 litres.
+The PCA and the PCB settings have a maximum setting, up to 9.99 litres, where-as the HCA and HCB can be set to a maximum of 99 litres.<BR>
 In the MR400S, it is used to control the 2” extra High flow valve but this setting could also be used to control an extra high flow valve in a Volume Register application.  
 In an MR400S dispenser, HCA is normally set to 20.
 
@@ -1217,25 +992,25 @@ In an MR400S dispenser, HCA is normally set to 20.
 
 # Pump settings on Parameter switch explained
 
-## Standard Mode
+# 5.4.2 Standard Mode
 
 In standard mode, the main display will show:
 
-Top row: Transaction total in dollars
+- Top row: Transaction total in dollars
 
-Second row: Compensated litres for LPG, or uncompensated litres for non-LPG, dispensed by default, but can be changed in Dispenser Settings
+- Second row: Compensated litres for LPG, or uncompensated litres for non-LPG, dispensed by default, but can be changed in Dispenser Settings
 
 The unit price window will display the price per litre.
 
 
-## Purge Mode
+# 5.4.3 Purge Mode
 
 Test mode can be used for all calibrated runs with the exception of vapour tests.  
 When in purge mode, the following is displayed on the main display:
 
-Top row: Purge
+- Top row: Purge
 
-Second row: Uncompensated litres dispensed
+- Second row: Uncompensated litres dispensed
 
 If the meter setting is set to V50 meter, the unit price window will alternate between showing temperature and density at 15 °C.  
 If the density is outside of the compensation range, then the observed density will be displayed.  
@@ -1246,7 +1021,7 @@ If the meter settings are set to encoder meter, the unit price display will show
 In purge mode, all display suppression is turned off.
 
 
-## Preset Options
+# 5.4.4 Preset Options
 
 A preset in dollars or litres can be set. Before a transaction, type in a desired preset value.  
 There are three options for setting a preset:
@@ -1270,7 +1045,7 @@ Continue entering the desired preset to override this.
 If entering a preset before lifting the nozzle, and a value below the MMQ is entered, an error code will be returned.
 
 
-# Changing the Low-flow Cutoff
+# 5.5 Changing the Low-flow Cutoff
 A flow range is needed for each pump to dispense an accurate amount of product.  
 If too much or too little fuel is dispensed, the meter can not accurately measure the dispensed fuel and therefore should cut off and display an end of sale message.  
 The low-flow cutoff will end the transaction (without an error code) if flow drops below this value.  
@@ -1284,7 +1059,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](4.1.6_Parameter_Low_Flow-Cut_LFA.png)
 
-# Changing the High-flow Cutoff
+# 5.6 Changing the High-flow Cutoff
 
 The high-flow cutoff will stop transactions if the flowrate exceeds this value, and will return an error.  
 For LPG operation the default value for the high flow cutoff is 1.5x the maximum flow. For example, if the maximum flow was 40L/min (the default):
@@ -1297,7 +1072,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 ![image](4.1.7_Parameter_High_Flow_Cut_HFA.png)
 
-# Changing the b setting
+# 5.7 Changing the b setting
 
 The b setting is currently only used for LCD dimming. Set the b configuration code as desired.
 
@@ -1310,7 +1085,7 @@ The b setting is currently only used for LCD dimming. Set the b configuration co
 |       |3rd digit  |**not used**                  |
 |       |4th digit  |**not used**                  |
 
-# Changing the Slave Display Configuration
+# 5.8 Changing the Slave Display Configuration
 
 Slave displays can be configured as, a clone of the main display, to show side A, or to show side B.  
 Otherwise, it can be disabled. Slave display configuration is a two-step process.
@@ -1351,7 +1126,7 @@ Slave display 4 - side B.
 
 *Note: Each digit can have 4 different values, each value has a different meaning.*
 
-# Assigning a number to slave display 
+**Assigning a number to slave display** 
 
 ![image](9.2.1_Slave_Display_Dip-switches.png)
 
@@ -1363,7 +1138,7 @@ Slave display 4 - side B.
 |4               |OFF           |ON         |ON      |    
 
 
-# Changing the Custom Display Configuration
+# 5.9 Changing the Custom Display Configuration
 
 The custom display configuration can be used to show additional information on the unit price display.  
 The additional information that can be shown includes the density, temperature, flowrate, and reset batch.  
@@ -1382,7 +1157,7 @@ For example: The following code would enable temperature and flowrate to be show
 
 ![image](4.1.9_Parameter_Custom_Display_dc.png)
 
-# How to view the Last Sale
+# 5.10 How to view the Last Sale
 
 To view the last sale details, continue pressing the parameter switch until the following display is shown.  
 This will only show up if the dispenser is in V50 mode.
@@ -1395,7 +1170,7 @@ The left most character of the density reading indicates the nozzle side.
 There is a reading for side A and B.  
 Last sale is useful for the calibration of LPG where the dispenser is set to compensated mode, but the uncompensated quantity is required
 
-# How to view Electronic Totes
+# 5.11 How to view Electronic Totes
 
 The dispenser records electronic totes for price and dollars.  
 To view the electronic totes, continue pressing the parameter switch until the following display is shown:
@@ -1413,9 +1188,9 @@ The electronic totes can also be viewed by pressing the # key five times on the 
 Each tote will be shown for ten seconds before the next tote is displayed.  
 **NOTE:** Electronic totes and mechanical totes are disabled in purge mode.
 
-# Enabling Amount or Quantity Preset
+# 5.12 Enabling Amount or Quantity Preset
 
-## Enable from CompacOnline Admin tool
+**Enable from CompacOnline Admin tool**
 Follow these steps:  
 
 |Step number |Instruction|  
@@ -1427,7 +1202,7 @@ Follow these steps:
 
 ![image](9.2.2_Enabling_Preset_Qty_or_Amount.png)
 
-## Changing presets between Amount and Quantity
+**Changing presets between Amount and Quantity**
 This can be achieved in two ways: 
 1.	Using the Pinpad on the COM5
 2.	Through Parameter settings on K-Factor board
@@ -1446,7 +1221,7 @@ Using the Pinpad on the COM5 to configure Preset
 Parameter Settings on K-Factor board – navigate to Pump Settings
 -	Change preset setting 0 or 1
 
-## Changes to Prompts displayed
+**Changes to Prompts displayed**
 When changing between Amount or Quantity, the prompt display will be updated accordingly.
 
 ![image](4.1.13_Parameter_Preset_bA.png)
@@ -1477,15 +1252,63 @@ Setting the Preset to Quantity:
 
 ![image](9.2.4_Preset_Max_litres.png)
  
-# Preset Board DIP Switch settings
+# 5.0A Preset Board DIP Switch settings
 
 Use the diagram below to to determine which layout applies and set the dipswitch accordingly on the Preset board.
 
 ![image](9.2.5_Preset_Dip_Switches.png)
 
-# GPIO Board applications
+<BR>
+<BR>
 
-## GPIO K Factor settings  
+# 6.0 GPIO Board applications
+
+
+# 6.1 GPIO board set up for Pulse Input from a Flow Meter 
+
+Overview 
+The Pulse input is designed to interface the Compac dispenser to a third party meter.  
+The Pulse input can be up to 35 VDC.  
+There are 2 settings that need to be set to enable the C5000 for third party meter input.  
+The first is in the CA/CB setting. CA/CB needs to be set to CA XXXXXX5.  
+The Pulse input can be configured for the following meter types:  
+Type 1 - Single channel  
+Type 2 - Two channel quadrature  
+Type 3 - Three channel
+ 
+
+## CA/CB Setting for third party input
+To tell the C5000 to read meter pulses from the GPIO board, set the last (7th) digit on the right of CA/CB to 5.  
+This digit disables the meter input on the K Factor board and tells the C5000 to read pulses from the GPIO board
+
+![image](6.1.1_GPIO_screenshot_CA.png)
+
+|	Setting       |Digit             |    Function                                             |
+|---------------|------------------|---------------------------                                 |
+|C-A or C-B     | 1st Digit        |**Minimum Measured Quantity Coefficient** – MUST be 1, 2 or 5|
+|               | 2nd digit        |**Minimum Measured Quantity Exponent** – Must be a valid digit- see below
+|               | 3rd digit        |**Not used**
+|               | 4th digit	       |**Air Switch settings**
+|               |                  |0 = Normally open – turn air switch ON for error        
+|               |                  |1 = Normally closed – turn air switch OFF for error 
+|               | 5th digit        |**Quantity Settings - V50 Meter only**
+|               |                  |0 = Litres Compensated 
+|               |                  |1 = Litres Uncompensated
+|               |                  |2 = Mass (CNG only)
+|               | 6th Digit        |**Variant Settings**
+|               |                  |0 = Non-LPG
+|               |                  |4 = AdBlue (Diesel Emissions Fluid or DEF)
+|               |                  |5 = LPG
+|               |                  |6 = CNG 
+|               | 7th Digit        |**Meter settings**
+|               |                  |1 = 1 Channel Encoder
+|               |                  |2 = 2 Channel Encoder 
+|               |                  |3 = 3 Channel Encoder
+|               |                  |4 = V50 or KG100 Meter
+|               |                  |5 = GPIO Meter input
+
+
+**GPIO K Factor settings**  
 The GPIO settings in the K factor board is where you set the GPIO specific settings.  
 This table is common to all GPIO board applicaions 
 The below table shows details of all the options available for each setting. 
@@ -1530,56 +1353,13 @@ The below table shows details of all the options available for each setting.
 |                  |2 = 2 Channel Encoder             |
 |                  |3 = 3 Channel Encoder             |
 |                  |4 = Switch Input                  |  
-# 1 GPIO board set up for Pulse Input from a Flow Meter 
-
-Overview 
-The Pulse input is designed to interface the Compac dispenser to a third party meter.  
-The Pulse input can be up to 35 VDC.  
-There are 2 settings that need to be set to enable the C5000 for third party meter input.  
-The first is in the CA/CB setting. CA/CB needs to be set to CA XXXXXX5.  
-The Pulse input can be configured for the following meter types:  
-Type 1 - Single channel  
-Type 2 - Two channel quadrature  
-Type 3 - Three channel
- 
-
-## CA/CB Setting for third party input
-To tell the C5000 to read meter pulses from the GPIO board, set the last (7th) digit on the right of CA/CB to 5.  
-This digit disables the meter input on the K Factor board and tells the C5000 to read pulses from the GPIO board
-
-![image](6.1.1_GPIO_screenshot_CA.png)
-
-|	Setting       |Digit             |    Function                                             |
-|---------------|------------------|---------------------------                                 |
-|C-A or C-B     | 1st Digit        |**Minimum Measured Quantity Coefficient** – MUST be 1, 2 or 5|
-|               | 2nd digit        |**Minimum Measured Quantity Exponent** – Must be a valid digit- see below
-|               | 3rd digit        |**Not used**
-|               | 4th digit	       |**Air Switch settings**
-|               |                  |0 = Normally open – turn air switch ON for error        
-|               |                  |1 = Normally closed – turn air switch OFF for error 
-|               | 5th digit        |**Quantity Settings - V50 Meter only**
-|               |                  |0 = Litres Compensated 
-|               |                  |1 = Litres Uncompensated
-|               |                  |2 = Mass (CNG only)
-|               | 6th Digit        |**Variant Settings**
-|               |                  |0 = Non-LPG
-|               |                  |4 = AdBlue (Diesel Emissions Fluid or DEF)
-|               |                  |5 = LPG
-|               | 7th Digit        |**Meter settings**
-|               |                  |1 = 1 Channel Encoder
-|               |                  |2 = 2 Channel Encoder 
-|               |                  |3 = 3 Channel Encoder
-|               |                  |4 = V50 or KG100 Meter
-|               |                  |5 = GPIO Meter input
 
 
-
-
-## Third Party Meter wiring
+**Third Party Meter wiring**
 
 There are different types of meters with different numbers of channels. The below is the meter type and how to wire them to the GPIO Board.
 
-### Single Channel Reed Switch Meter
+**Single Channel Reed Switch Meter**
 When connecting to a reed switch type meter you connect the GPIO 5-volt to the reed switch and then all 3 inputs to the other terminal on the meter.
 
 ![image](6.1.2_GPIO_3rd_party_meter_reed.png)
@@ -1587,7 +1367,7 @@ When connecting to a reed switch type meter you connect the GPIO 5-volt to the r
 <BR>
 <BR>
 
-### 12 Volt Two Channel Meter
+**12 Volt Two Channel Meter**
 The two Channel 12 volt meter is not powered from the GPIO Board.  
 Instead it is powered by its own power supply. Depending on the meter, pullup resistors may need to be added
 
@@ -1596,7 +1376,7 @@ Instead it is powered by its own power supply. Depending on the meter, pullup re
 <BR>
 <BR>
 
-### 5 volt Two Channel Meter 
+**5 volt Two Channel Meter** 
 The 2 channel 5 volt meter is powered from the GPIO board.  
 This means that the meter doesn’t need power from an external source.  
 Depending on the meter, pullup resistors may need to be added.  
@@ -1607,23 +1387,69 @@ For 5 volts the pull up resister should be 820Ω
 <BR>
 <BR>
 
-# 2 GPIO board set up in Input Switch mode
+# 6.2 GPIO board set up in Input Switch mode
 
 Overview 
 The “Nozzle“ input is to act as a control allow or not allow the dispenser to be started.  
 It is as if there is a switch in series with the real nozzle switch. with means that both nozzles need to be made for the dispenser to start.
 
-## Input Switch setting
+**GPIO K Factor settings**  
+The GPIO settings in the K factor board is where you set the GPIO specific settings.  
+This table is common to all GPIO board applicaions 
+The below table shows details of all the options available for each setting. 
+
+![image](6.1.0_GPIO_settings.png)
+
+|Digit             |    Function                      |
+|------------------|----------------------------------|
+|1st Digit         |**Duty Cycle Setting**            |
+|                  |0 = 50%                           |
+|                  |1 = 10%                           |
+|                  |2 = 20%                           |  
+|                  |3 = 30%                           |
+|                  |4 = 40%                           |
+|                  |5 = 50%                           |
+|                  |6 = 60%                           |
+|                  |7 = 70%                           |
+|                  |8 = 80%                           |
+|                  |9 = 90%                           |
+|2nd Digit         |**Input settings Pulse frequency**|
+|                  |0 = 1Khz                          |
+|                  |1 = 100Hz                         |
+|                  |2 = 200Hz                         |
+|                  |3 = 300Hz                         |
+|                  |4 = 400Hz                         |
+|                  |5 = 500Hz                         |
+|                  |6 = 600Hz                         |
+|                  |7 = 700Hz                         |
+|                  |8 = 800Hz                         |
+|                  |9 = 900Hz                         |
+|                  |A = 1KHz                          |
+|                  |b = 1.1KHz                        |
+|                  |c = 1.2KHz                        |
+|                  |d = 1.3KHz                        |
+|3rd Digit         |**Output settings**               |
+|                  |0 = 0 Off                         |
+|                  |1 = Volume (Litres/KGs)           |
+|                  |2 = Amount (Dollars)              |
+|4th Digit         |**Input settings**                |
+|                  |0 = 0 Off                         |
+|                  |1 = 1 Channel Encoder             |
+|                  |2 = 2 Channel Encoder             |
+|                  |3 = 3 Channel Encoder             |
+|                  |4 = Switch Input                  |  
+
+**Input Switch setting**
 
 The setting on the K Factor board to enable the “nozzle Switch“ is GPIO XXX4.  That is, the 4th digit = 4 
 When the switch input is enabled, the dispenser will not start a transaction until the GPIO nozzle input is high and the nozzle input on the k factor board is high (lifted) as well.  
 Note that if the nozzle is lifted on the K-factor board and the GPIO Nozzle input is low (not shorted) the Diag LED on the K factor board won’t flash. In saying that if you want to troubleshoot the nozzle without the GPIO nozzle input you can disable the switch input by setting the GPIO setting to GPIO XXX0.
 
-## Input Switch wiring
+**Input Switch wiring**
 
 The GPIO nozzle input is wired in to the GPIO board in the flameproof box. The below figure shows the GPIO board and the location of the connectors
 
-Side A connector is labelled J1
+Side A connector is labelled J1 <BR>
 Side B connector is labelled J2
 
 
@@ -1631,7 +1457,7 @@ Side B connector is labelled J2
 
 There are different ways to connect the GPIO Nozzle input to an external device and the specific way will depend on the application 
 
-### Relay Switch wiring
+**Relay Switch wiring**
 
 In this application an external relay is used to enable the GPIO nozzle input.  
 5 volts from the +V is fed into the relay and the output of the relay feeds back into the GPIO board via the IN1 terminal as shown below.  
@@ -1643,7 +1469,7 @@ Use a relay means you can use any voltage AC or DC you just have to source the c
 <BR>
 <BR>
 
-## External DC Voltage
+**External DC Voltage**
 In this application, an external DC voltage is applied to enable the GPIO nozzle input.  
 This DC voltage can be between 3 to 50 volts DC.  
 The ISO_G1 is connected to the Ground connection of the DC voltage source and the Positive side is connected to IN1.
@@ -1656,9 +1482,10 @@ Note that in the figure below the DC voltage sauce can be from a control system 
 <BR>
 <BR>
 
-# 3 GPIO board set up in Pulse Output mode
+# 6.3 GPIO board set up in Pulse Output mode
 
-Overview 
+**Overview**<BR>
+
 The Pulse output is designed to interface the Compac dispenser to a 3 party Controller/POS without the need to talk a communication protocol.  
 The Pulse output has the following parameters that can be changed  
 •	Frequency  
@@ -1666,41 +1493,97 @@ The Pulse output has the following parameters that can be changed
 •	Output pulses for volume or amount  
 •	The Value of a pulse
 
-## Output 
-The output setting enables the GPIO board to output pulses. It also sets whether the output pulses are representing volume(litre/Kg’s) or amount(dollars). Majority of applications will set the pulses to represent volume
+**GPIO K Factor settings**  
+The GPIO settings in the K factor board is where you set the GPIO specific settings.  
+This table is common to all GPIO board applicaions 
+The below table shows details of all the options available for each setting. 
+
+![image](6.1.0_GPIO_settings.png)
+
+|Digit             |    Function                      |
+|------------------|----------------------------------|
+|1st Digit         |**Duty Cycle Setting**            |
+|                  |0 = 50%                           |
+|                  |1 = 10%                           |
+|                  |2 = 20%                           |  
+|                  |3 = 30%                           |
+|                  |4 = 40%                           |
+|                  |5 = 50%                           |
+|                  |6 = 60%                           |
+|                  |7 = 70%                           |
+|                  |8 = 80%                           |
+|                  |9 = 90%                           |
+|2nd Digit         |**Input settings Pulse frequency**|
+|                  |0 = 1Khz                          |
+|                  |1 = 100Hz                         |
+|                  |2 = 200Hz                         |
+|                  |3 = 300Hz                         |
+|                  |4 = 400Hz                         |
+|                  |5 = 500Hz                         |
+|                  |6 = 600Hz                         |
+|                  |7 = 700Hz                         |
+|                  |8 = 800Hz                         |
+|                  |9 = 900Hz                         |
+|                  |A = 1KHz                          |
+|                  |b = 1.1KHz                        |
+|                  |c = 1.2KHz                        |
+|                  |d = 1.3KHz                        |
+|3rd Digit         |**Output settings**               |
+|                  |0 = 0 Off                         |
+|                  |1 = Volume (Litres/KGs)           |
+|                  |2 = Amount (Dollars)              |
+|4th Digit         |**Input settings**                |
+|                  |0 = 0 Off                         |
+|                  |1 = 1 Channel Encoder             |
+|                  |2 = 2 Channel Encoder             |
+|                  |3 = 3 Channel Encoder             |
+|                  |4 = Switch Input                  |  
+
+**Output** 
+The output setting enables the GPIO board to output pulses.<BR>
+It also sets whether the output pulses are representing volume(litre/Kg’s) or amount(dollars). Majority of applications will set the pulses to represent volume<BR>
 Note you cannot have meter input enabled at the same time.
 
-## Frequency 
+**Frequency** 
 The Frequency output setting sets the maximum speed of the output pulses.  
 The Default setting of 0 sets the frequency to 1KHz.  
-This setting combined with the Value per pulse setting sets the maximum flow rate of the dispenser.  
-For example  
+This setting combined with the Value per pulse setting sets the maximum flow rate of the dispenser. <BR>
+
+**Refer to the following example:**<BR>
+
 Frequency set to 1KHz (1000 pulses/sec)  
 Pulses per value are set to 00001 (10ml/pulse)  
-That means the maximum flow rate the dispenser can do before the output pulses lag behind is 
-maximum flow=maxium frequency × pulses per value 
-maximum flow=1000Hz × 10ml 
-maximum flow=10000 ml per second
-maximum flow=600 l per minute
+
+That means the maximum flow rate the dispenser can do before the output pulses lag behind is calculated as follows:<BR> 
+
+maximum flow=maximum frequency × pulses per value<BR>
+maximum flow=1000Hz × 10ml<BR> 
+maximum flow=10000 ml per second<BR>
+maximum flow=600 litres per minute<BR>
+
 
 The default setting of 1KHz should be sufficient for most applications.  
 In applications where the maximum flow rate is lower and the 3rd party controller is only able to read pulses at a lower frequency then a lower frequency output can be selected.  
-Note that if the flow rate exceeds the maximum pulse output the next transaction will not be allowed until the pulses have completed being outputted.  
+**Note** If the flow rate exceeds the maximum pulse output the next transaction will not be allowed until the pulses have completed being outputted.  
 
-## Duty Cycle
+**Duty Cycle**
 
 The duty cycle setting gives the ability to set the percentage of the pulse high and low.  
-The default setting is 50%. The pulse length is determined by the following formula.  
+The default setting is 50%.<BR>
+The pulse length is determined by the following formula.  
+
 For example  
-If the Duty cycle is set to 50% and the Frequency is set to 1KHz (1000 pulses/sec)  
-Duty Cycle=Pulse Width (sec)×Frequency (Hz)×100
-50= Pulse Width (sec)  ×1000×100 
-50/100=Pulse Width (sec)  ×1000
-0.5/1000=Pulse Width (sec)  
-500 microseconds=Pulse Width (sec)
+- Duty cycle is set to 50%<BR>
+- Frequency is set to 1KHz (1000 pulses/sec)<BR>  
+*Duty Cycle=Pulse Width (sec)×Frequency (Hz)×100*<BR>
+*50= Pulse Width (sec)  ×1000×100<BR>* 
+*50/100=Pulse Width (sec)  ×1000<BR>*
+*0.5/1000=Pulse Width (sec)<BR>*  
+*500 microseconds=Pulse Width (sec)<BR>*
+
 The Default setting of 50% should be sufficient for most applications.
 
-## Pulse value
+**Pulse value**
 The pulse value setting sets what a pulse is worth.  
 When the output is set to volume the lowest volume a pulse can be set to is 00001 which is 0.1 ml.  
 If the output is set to amount the lowest amount a pulse can be set to is 00001 which is 0.0001 dollars.  
@@ -1709,9 +1592,73 @@ Any other setting would cause an error with rounding.
 
 ![image](6.3.1_GPIO_Pulse_screenshot_Pu.png)
 
-# Commissioning
+**Pulse Output Interface**
 
-# Electrical
+The pulse output is provided as an **isolated open-collector transistor output** via the following terminals:<BR>
+
+•	**OUT** – Open-collector pulse output<BR>
+•	**ISO_GND** – Isolated signal ground<BR>
+•	**+V** – Optional 5 V auxiliary output for pulse interface applications<BR>
+
+**Connection**<BR>
+
+The pulse output transistor switches the **OUT** terminal to **ISO_GND** when a pulse is generated.
+
+![image](6.3.2_GPIO_Pulse_output_if.png)
+
+**Using a Pull-Up Resistor**
+The pulse output is a current-sinking (open-collector) output. The receiving device must provide a pull-up voltage, or an external pull-up resistor must be fitted.
+
+Example:<BR>
+
+![image](6.3.3_GPIO_Pulse_pullup5v.png)
+
+![image](6.3.4_GPIO_Pulse_pullup12v.png)
+
+![image](6.3.5_GPIO_Pulse_pullup24v.png)
+
+**Recommended Pull-Up Resistor Values**
+
+|Pull-Up Voltage|Recommended Resistor|
+|---------------|--------------------|
+|5V |4.7 kΩ |
+|12V |4.7 kΩ |
+|24V |10 kΩ |
+
+**Pull-Up Resistor Rating**<BR>
+
+**Pull-up resistor:** Use a resistor rated at **¼ W (0.25 W) minimum**.<BR>
+Higher power ratings, such as **½ W** or **1 W**, may also be used and will not affect operation.
+
+**Operation**
+
+- **Transistor OFF:** OUT is open circuit and the pull-up resistor holds the signal HIGH.<BR>
+
+- **Transistor ON:** OUT is connected to ISO_GND and the signal is pulled LOW.<BR>
+
+- Each LOW transition corresponds to a pulse from the dispenser.<BR>
+
+**Notes**
+
+- The pulse output is an **open-collector output** and does not source current.<BR>
+
+- **ISO_GND** must be used as the signal return for the pulse output circuit.<BR>
+
+- The **+V** terminal provides an optional 5V supply for low-voltage pulse interfaces.<BR>
+
+- If the receiving device already provides an input pull-up or wetting voltage, no external pull-up resistor is required.<BR>
+
+- Where an external pull-up resistor is required, use the values listed above with a resistor rated at **¼ W or greater**.<BR>
+
+- Ensure the voltage applied to the pulse output does not exceed the maximum output rating specified for the device.
+
+<BR>
+<BR>
+
+
+# 7.0 Commissioning
+
+# 7.1 Electrical
 
 This procedure outlines how to perform an electrical operational test, making sure that the dispenser is functioning correctly. Check for any damage that may have occurred in transit. Check all terminals, plugs, and chips to make sure that they are securely in place. 
 
@@ -1734,7 +1681,7 @@ To perform an electrical operational test:
 5.	The diagnostic LED (K-factor board) flashes quickly when the start button is pushed, or the nozzle removed from the holster to initiate a fill. When the button is released or nozzle returned to the holster it will return to the normal state and flash slowly.
 6.	Verify solenoid operation by listening for a click, or by using a screwdriver tip or some other metallic tool to check for a magnetic field present on the solenoid coils.
 
-# Mechanical
+# 7.2 Mechanical
 The following mechanical commissioning instructions are for liquid fuel pumps and dispensers. If LPG, CNG, or AdBlue is being dispensed, refer to the specific manuals for these.
 Make sure that the electrical commissioning tests have been carried out and the solenoid operation has been verified before carrying out the following tests.
 Ensure the power supply to the dispenser is turned on, and lift the nozzle. Check all the dispenser fittings, solenoids and pipework for leaks.
@@ -1743,10 +1690,12 @@ Perform test transactions to ensure flow rate is within acceptable ranges and th
 If a preset is required, perform test transactions with presets and ensure they are working correctly.
 Calibrate the unit with the K-Factor
 
-# LED Diagnostics
+# 8.0 LED Diagnostics
 
 LEDs on the circuit boards can be used to diagnose faults in the unit.  
 View the LEDs and their corresponding tables to see the state of the board.
+
+# 8.1 CI501 comms board
 
 Note These instructions apply to the CI501 Comms interface board which is fitted to standard Pumps and Dispensers
 There is also a CI533 Comms board which is used in the PT1 Payment Terminal, Comfill and Fillmaster 
@@ -1762,7 +1711,7 @@ Tx and Rx|Er41, Er 41 or Error 41 means that there is a communication problem be
  
 <BR>
 
-# C5K Processor Board
+# 8.2 C5K Processor Board
 
 ![image](7.1.2_LED_Diagnostics_2.png)
 
@@ -1773,7 +1722,7 @@ Processor board LEDs       |Operation/Possible Cause|
 
 <BR>
 
-# K Factor board
+# 8.3 K Factor board
 
 ![image](7.1.3_LED_Diagnostics_3.png)
 
@@ -1784,7 +1733,7 @@ K Factor board LEDs       |Operation/Possible Cause|
 **Triac Output LEDs (T1-7)**| These LEDs correspond to side A and B motors and solenoids. <BR>  They will light up according to the hardware they represent. <BR> See the following table for the output LEDs for each application.
 **Receiving data/ Transmitting data**| In normal operation, these should be on when the Diagnostics light is on, and off when the diagnostics light is off. <BR> If the diagnostics light is on, and the TD/RD LEDs are off, this means these is an error. This could be due to cabling – check the bus system cables.
 
-# K Factor Board Output LEDs
+# 8.4 K Factor Board Output LEDs
 
 The following table describes what each output LED represents for each mode. The output LED will light up when the corresponding outlet is engaged. Outputs for both side A and B are shown.
 
@@ -1798,9 +1747,9 @@ The following table describes what each output LED represents for each mode. The
  <BR>
 
 
-# Troubleshooting Guide 
+# 9.0 Troubleshooting Guide 
 
-# Electrical problems
+# 9.1 Electrical problems
 
 |Symptom              | Possible  Cause                                         | 
 |---------------------|-----------------------------------------------| 
@@ -1816,7 +1765,7 @@ PIN Pad Not Working| Check that the unit is communicating with the controller us
 
 <BR>
 
-# Mechanical problems
+# 9.2 Mechanical problems
 
 |Symptom              | Cause                                         | 
 |---------------------|-----------------------------------------------| 
@@ -1825,9 +1774,9 @@ PIN Pad Not Working| Check that the unit is communicating with the controller us
 |Solenoid Valve Not Opening| Check the output LEDs on the K-Factor board. <BR> Check the electrical supply to the coil. Check that the C5000 output triac is switched on. There should be 220 – 240 volts across the solenoid coil. <BR> Put power on the solenoid and hold a screwdriver above the coil to feel the magnetic field pull. Because of the construction of the coil a resistance reading cannot be obtained.
 
 
-# Software Upgrade
+# 10.0 C5K Software Upgrade
 
-## **Dispenser Software Upgrade/Replacement**
+# 10.1 Dispenser Software Upgrade/Replacement
 You can upgrade the dispenser software via USB Stick. <BR> Make sure the USB stick is formatted as FAT32 and has the new dispenser software loaded on it. <BR> **CAUTION:** Before working on the dispenser electronics, take basic anti-static precautions by wearing a wristband with an earth strap.
 To record set-up data and tote information:
 -	Access the K-Factor board by opening the cover behind the main display. 
@@ -1846,7 +1795,7 @@ The following data is required from the K-Factor switch:
 
 -	Record the tote information by pressing the nozzle switch or start button quickly five times
 
-## To install the new C5000 software
+# 10.2 How to install new C5K software
 
 1.	Switch off the power supply to the dispenser.
 
@@ -1879,7 +1828,9 @@ DANGER: Never remove any electrical components without first switching off the p
 8.	Check the Dispenser operation.
 
 <BR>
-# Generator Power
+<BR>
+
+# 11.0 Generator Power
 
 The power output from onsite generators can cause power spikes that may damage electrical components within the cabinet.  
 Although generators are fitted with power regulators, most are not filtered sufficiently for powering sensitive electrical components.  
@@ -1892,43 +1843,346 @@ For units where the generator starts and stops on demand, install a delay timer 
 
 Isolate the unit before shutting down the generator.
 
-# Error Codes
+<BR>
+<BR>
 
-These are all the Error codes available in the C5000. Some are product specific so will not be found in all applications.
+# 12.0 CI533 COMMS connections and settings
 
+**Important note:**
+There are two types of Comms Interface boards used in the C5000
+
+CI501 - This is used in standard Pumps and Dispensers that are connected to either Compac or Third Party Contollers   
+CI533 - This is used when the C5K is acting as the controller such as in PT1, ComfillV2 and Fillmaster (eg Hybrid mode)
+
+**This section refers to the CI533 Comms board only**
+
+
+**CI533 Comms board**
+
+![image](2.1.4_CI533-Comms_board.png)
+
+The CI533 Comms interface PCB board is piggy-backed on top of the Processor Board
+
+A 15 core multicore loom connects the CI533 Comms board to the DIN Terminal Rail where all the  site connections are made.<BR>
+The DIN Rail which is clearly labelled.<BR>
+All site connections are made directly on the DIN rail.<BR>
+No site connections are required directly onto the CI533 Comms board.
+
+**CI533 COMMS board functions**
+
+The CI533 Comms board has two functions.
+
+1.	Enables the Compac Controller to communicate with Compac, Gilbarco and Wayne Pumps and Dispensers.
+
+2.	It has a Tank-gauging interface to connect to either 2x 4-20m Tank Probes or a 3rd party Tank controller ( Veeder-Root or Calibri) via RS232<BR>
+
+**CI533 COMMS channels**
+
+There are three Comms channels
+
+**Channel 1.** CH1 can be configured for the following protocol options using Switch SW1<BR>
+•	COMPAC standard current loop comms<BR>
+•	COMPAC Comms over RS485<BR>
+•	Wayne DART protocol over RS485<BR>
+
+If Compac Comms over RS485 for long distances is required (ie greater than 100 metres), set CH1 to RS485 and configure CH1 for Compac in the COMFILL settings. Refer to Local setup / Pumps / Comms
+
+For Wayne DART protocol, configure CH1 for RS485 and configure CH1 in  Local setup / Pumps / Comms for Wayne DART protocol
+
+There is an ENABLE switch SW_P1 to turn CH1 ON. A Green LED indicates that the CH1 is ON<BR>
+When communicating with a Pump or Dispenser, the Tx and Rx red LEDS will flash
+
+**SW_P1** is normally left in the ON position
+
+**Channel 2** CH2 can be configured for the following protocol options using Switch SW2<BR>
+•	COMPAC protocol over RS485<BR>
+•	GILBARCO protocol<BR>
+•	Wayne DART protocol over RS485<BR>
+
+If Compac Comms over RS485 for long distances is required (ie greater than 100 metres, set CH2 to RS485 and configure CH2 for Compac in the COMFILL settings. Refer to Local setup / Pumps / Comms
+
+For Wayne DART protocol, configure CH2 for RS485 and configure CH2 in  Local setup / Pumps / Comms for Wayne DART protocol
+
+There is an ENABLE switch SW_P2 to turn CH2 ON. A Green LED indicates that the CH2 is ON
+
+When communicating with a Pump or Dispenser, the Tx and Rx red LEDS will flash
+
+**SW_P2**
+This switch is normally left in the ON position
+
+**Channel 3** CH3 can be configured for either RS232 or RS485 using Switch S61<BR>
+CH3 is exclusively used for Tank Gauging Controllers eg Veeder-Root or Calibri<BR>
+Only RS232 is currently supported on CH3 so the Tank Controller should also be setup for RS232<BR>
+
+**CI533 Comms board Dipswitch settings**
+
+These are the Dip-switch settings for Compac, Gilbarco, Wayne DART and RS485 Comms
+
+**SW1 CH1 Channel 1**<BR>
+1 = Compac ( standard Current Loop) comms <BR>
+2 = RS485
+
+**SW2 CH2 Channel 2**<BR>
+1 = Gilbarco<BR>
+2 = RS485
+
+**S61 CH3 Channel 3 selector switch**<BR>
+ON = RS232
+OFF = RS485
+
+**SW62** This switch is used for current loop systems on channel 1 (e.g. Gilbarco, Wayne).<BR>
+Adjust the switch according to the current (mA) of the site protocol as required. There are three current options.
+
+Wayne = 45<BR>
+Gilbarco AUS = 30<BR>
+Gilbarco USA = 20<BR>
+
+**CH3 Term, SW1_R and SW2_R**<BR>
+These switches are used for an end of line termination resistor for RS485 applications.<BR>
+They are not currently supported and should be left in the OFF position
+
+# 12.1 COMPAC/PEC COMMS 
+V1.0 09-08-2021
+
+**Connections**
+
+The following are the connections and switch settings for Compac/PEC comms on the CI533A.<BR> 
+Note that Channel 2 is free to be used as Gilbarco or Dart
+
+
+![image](5.1.1_Compac_comms_1.png)
+
+
+Also, you need to make sure that the Channel that you are using is switched on.<BR>
+When the channel is on, the led indicator will be on.
+
+![image](5.1.2_Compac_comms_2.png)
+
+
+**Configuration / Setup**
+
+To set up pumps talking Gilbarco right click on the Site and the click on edit site.
+Then click on the pumps tab
+
+![image](5.1.3_Compac_comms_3.png)
+
+**Setup the pump as follows**
+
+Pump number: The number of the pump that you will select when prompted
+
+Pump ID: This is the ID set in the pump (normally set the same as the pump number)
+
+Channel: Compac/PEC is always on Channel 1
+
+Pump Type: Set the Pump type “Compac12 ”,“Compac24”, “PEC12” and “PEC12\_6digit” Depending on what the Dispenser is set to
+
+Flow timeout: This is the time in seconds after the C5000 says “Ready for delivery” before the c5000 times out and cannels the 
+authorisation
+
+Then, click the “Add” button
+
+![image](5.1.4_Compac_comms_4.png)
+
+### Setup the Hoses
+
+Assign grades to the hoses on the pump
+
+![image](5.1.5_Compac_comms_5.png)
+
+After the pump is setup in the admin tool, you have to flag the site to update the pump
+Setup. 
+
+To do this right click on the site and click “Flag status”. Then click “Update Pumps”
+
+![image](5.1.6_Compac_comms_6.png)
+
+You then can check the events to see if the pumps have been updated
+
+![image](5.1.7_Compac_comms_7.png)
+
+
+**Extra Compac/PEC settings**
+There are some pumps that need specific settings.<BR> 
+Below is the symptom and the pump type to use. <BR>
+If you are changing a setting, you MUST reset the C5000 after making the change<BR>
+
+
+Symptom|Setting to use
+------|------|
+The Dispenser seems to keep trying to price change or the price is displayed as $4.123 and it should be $1.234|If PEC12 change to Compac12 and if Compac12 change to PEC12
+Compac dispenser. When you enter the auth $10 the pump is stopping at 10 litres because some Compac dispensers only do litres preset|Add the setting below this makes the C5000 work out the litres equivalent and sends it to the pump
+
+![image](5.1.8_Compac_comms_8.png)|![image](5.1.9_Compac_comms_9.png)
+
+
+# 12.2 Gilbarco Comms
+V1.0 9/08/2021
+
+**Connections**
+
+The following are the connections and switch settings for Gilbarco on the CI533A.<BR>
+Note that Channel 1 is free to be used as Compac or Dart
+
+![image](5.2.1_Gilbarco_comms_1.png)
+
+Also need to make sure that the Channel that you are using is switched on. When the channel is on the led indicator will be on.
+
+![image](5.2.2_Gilbarco_comms_2.png)
+
+
+**Configuration / Setup**
+
+To set up pumps talking Gilbarco right click on the Site and the click on edit site.
+Then click on the pumps tab
+
+![image](5.2.3_Gilbarco_comms_3.png)
+
+**Setup the pump**
+
+Pump number: The number of the pump that you will select when prompted
+
+Pump ID: This is the ID set in the pump (normally set the same as the pump number)
+
+Channel: Gilbarco is always on Channel 2
+
+Pump Type: Set the Pump type “GILBARCO_V2_6D” or “GILBARCO_V2_5D” Depending on what the Dispenser is set to
+
+Flow timeout: This is the time in seconds after the C5000 says “Ready for delivery” before the C5000 times out and cancels the authorisation
+
+Then click the “Add” button
+
+![image](5.2.4_Gilbarco_comms_4.png)
+
+
+### Setup the Hoses
+Assign grades to the hoses on the pump
+
+![image](5.2.5_Gilbarco_comms_5.png)
+
+After the pump is setup in the admin tool yoy have to flag the site it update the pump
+Setup<BR>
+To do this, right click on the site and click “Flag status”. Then click “Update Pumps”
+
+![image](5.2.6_Gilbarco_comms_6.png)
+
+You then can check the events to see if the pumps have been updated
+
+![image](5.2.7_Gilbarco_comms_7.png)
+
+## Extra Gilbarco Settings
+
+The C5000 is setup to automatically set the correct Gilbarco protocol. But sometimes the dispenser is a little different.<BR>
+In these cases, we have special Gilbarco protocol versions.
+
+GILBARCO_V2_5D_Preset2D<BR>
+GILBARCO_V2_5D_Preset4D<BR>
+GILBARCO_V2_6D_Preset2D<BR>
+GILBARCO_V2_6D_Preset4D<BR>
+GILBARCO_V1_5D_Preset2D<BR>
+GILBARCO_V1_5D_Preset4D<BR>
+GILBARCO_V1_6D_Preset2D<BR>
+GILBARCO_V1_6D_Preset4D<BR>
+
+Compac Pumps Running Gilbarco need to be set to “GILBARCO_V1_5D_Preset2D” or “GILBARCO_V1_6D_Preset2D”
+ 
+ 
+# 12.3 Dart comms  
+V1.0 09-08-2021
+
+The following is the connections and switch setting for Dart on the CI533A Ch1 and Ch2
+
+![image](5.3.1_Dart_comms_1.png)
+
+Also need to make sure that the Channel that you are using is switched on. When the channel is on the led indicator will be on.
+
+![image](5.3.2_Dart_comms_2.png)
+
+
+**Configuration / Setup**
+
+To set up pumps talking Dart right click on the Site and the click on edit site.<BR>
+Then click on the pumps tab
+
+![image](5.3.3_Dart_comms_3.png)
+
+**Setup the pump**
+
+Pump number: The number of the pump that you will select when prompted
+
+Pump ID: This is the ID set in the pump (normally set the same as the pump number)
+
+Channel: The Channel that the pumps are connected to on the CI533 see above
+
+Pump Type: set the Pump type “DRESSER WAYNE DART”
+
+Flow timeout: This is the time in seconds after the C5000 says “Ready for delivery” before the C5000 times out and cancels the authorisation
+
+Then click the “Add” button
+
+![image](5.3.4_Dart_comms_4.png)
+
+**Setup the Hoses**
+
+Assign the grades to the hoses on the pump
+
+![image](5.3.5_Dart_comms_5.png)
+
+After the pump is setup in the admin tool you have to flag the site it update the pump
+Setup.to do this right click on the site and click “Flag status”. Then click “Update Pumps”
+
+![image](5.3.6_Dart_comms_6.png)
+
+You then can check the events to see if the pumps have been updated
+
+![image](5.3.7_Dart_comms_7.png)
+
+
+
+<BR>
+<BR>
+
+# 13.0 Error Codes and End of Sale Indicators
+
+These are all the Error codes available in the C5000.<BR>
+Some are product specific so will not be found in all applications.
 
 |Error Code      | Fuel specific | Possible causes                                | Suggested action  
 -----------------| --------------| -----------------------------------------------| ---------------- 
-**Er 3 <BR> Err 3**   |No             |Price not set in the Dispenser <BR> Pump number not set in the Dispenser                 |1. If the Dispenser is connected to a Site Controller, the price on the Dispenser should be set to 0.00 and the pricing should be sent from the Controller <BR> 2. If the Dispenser is not connected to a Site Controler (ie. it is operating in standalone mode), then the price must be set in the Dispenser. <BR> Set the hose number in the dispenser
-**Er 8 <BR> Err 8**   |No             |Excessive reverse flow                          |Check that product is not flowing back into the tank once the delivery has finished. This can occur if the non-return valves on site are leaking
-**Er 9 <BR> Err 9**   |No             |The Flow Meter is in an illegal state           |Re-power the Dispenser <BR> Check Meter cable for loose wires or bad connections <BR> Replace the Meter or the Encoder board on the Meter   
+**Er 3 or Err 3**   |No             |Price or Pump number not set in the Dispenser         |(a) If the Dispenser is connected to a Site Controller, the price on the Dispenser should be set to 0.00 and the pricing should be sent from the Controller.(b)If the Dispenser is not connected to a Site Controler (ie. it is operating in standalone mode), then the price must be set in the Dispenser. (c) Set the hose number in the dispenser
+**Er 8 or Err 8**   |No             |Excessive reverse flow                          |Check that product is not flowing back into the tank once the delivery has finished. This can occur if the non-return valves on site are leaking
+**Er 9 or Err 9**   |No             |The Flow Meter is in an illegal state           |(a)Re-power the Dispenser (b) Check Meter cable for loose wires or bad connections (c) Replace the Meter or the Encoder board on the Meter   
 **Err91**           |No             |Meter sequence error                            |If 3rd party Meter, check the wiring
-**Er 10 <BR> Err 10** |No             |Memory Error. Configuration data lost or corrupted|Re-configure Dispenser. If problem persists, replace Memory or Processor Board             
-**Er 12 <BR> Err 12** |No             |Display error                                   |Replace Display
+**Er 10 or Err 10** |No             |Memory Error. Configuration data lost or corrupted|Re-configure Dispenser. If problem persists, replace Memory or Processor Board             
+**Er 12 or Err 12** |No             |Display error                                   |Replace Display
 **Err 13**          |No             |Slave board has restarted                       |Power or Hardware failure
 **Err 14**          |No             |K Factor board offline                          |Check the Bus Connections and C5K Power Supply
 **Err 15**          |No             |K Factor board has restarted                    |Power or Hardware failure
-**Err 16**          |No             |K Factor board is not talking to the LCD Display|Check wiring <BR> Replace the K factor board or LCD Display       
+**Err 16**          |No             |K Factor board is not talking to the LCD Display|(a) Check wiring (b) Replace the K factor board or LCD Display       
 **Err 31**          |No             |Transaction has ended but fuel is still flowing |The Solenoid is leaking. Repair or replace solenoid
-**Er 41 <BR> Err 41** |No             | Pump not communicating with Controller          |1. If only one pump on the site is not communicating with the Controller, then the fault is likely to be in the pump. <BR> a. Check the comms wire connection on the comms board <BR> b. Check the diagnostic LEDs on the comms board in the Dispenser to diagnose cause <BR> c. Check the configuration and setup in the Dispenser <BR> 2. If all pumps are not communicating, check the comms wire connections on the comms board <BR> a. Check comms cables between the Dispenser and the Controller <BR> b. check setup and operation of the Controller
-**Er 50**           |NO               |Meter not communicating with Dispenser electronics|a. Check Meter connections <BR> b. Check Dispenser configuration <BR> c. Check that the Meter ID setup in the configuration matches the Meter ID
+**Er 41 or Err 41** |No             | Pump not communicating with Controller          |If only one pump on the site is not communicating with the Controller, then the fault is likely to be in the pump.(a) Check the comms wire connection on the comms board  (b) Check the diagnostic LEDs on the comms board in the Dispenser to diagnose cause (c) Check the configuration and setup in the Dispenser.
+|   |   |   |If all pumps are not communicating, check the comms wire connections on the comms board (a) Check comms cables between the Dispenser and the Controller (b) check setup and operation of the Controller
+**Er 50**           |NO               |Meter not communicating with Dispenser electronics|(a) Check Meter connections (b) Check Dispenser configuration (c) Check that the Meter ID setup in the configuration matches the Meter ID
 **Er 52**            | No             | Meter error | If the problem persists after repowering the unit, replace the meter.
 **Er 53**            | LPG / Adblue / DEF / CNG |Meter stopped ibrating | Repower the unit. This error might display when the dispenser is powered up. In this case it is normal. If the problem persists, replace the meter
 **Er 54**            | No           | Temperature sensor failure | Repower the unit. If the problem persists, replace the meter
 **Er 55**            | CNG          | Meter not ready.  | Wait for meter to calibrate itself. The KG100 meter is in startup mode. If the problem persists, repower the unit.
-**Er 61**            | LPG / Adblue / DEF / CNG | Error 61 happens because the Meter was not able to zero  This can be due to a leak in the line or crystals accumulated in the Meter. <BR> Check for leaks / crystallization. Purge the line. <BR> If that does not reset the Error 61, pull the Meter out and pour hot water on it to dissolve any crystals inside the Meter. <BR> If the problem persists, replace the Meter.
+**Er 61**            | LPG / Adblue / DEF / CNG | Error 61 happens because the Meter was not able to zero |(a) This can be due to a leak in the line or crystals accumulated in the Meter. (b) Check for leaks / crystallization. Purge the line. (c) If that does not reset the Error 61, pull the Meter out and pour hot water on it to dissolve any crystals inside the Meter. (d) If the problem persists, replace the Meter.
 **Er 62**            |LPG / Adblue / DEF / CNG | Meter could not reset the batch (Could not zero the transaction values when nozzle was lifted to start a new transaction)                                                                                                 | Try restarting the Meter. If the problem persists, Replace the meter.
 **Er 71**            |LPG / Adblue / DEF | V50 meter is set but variant is not selected  | Configure Device to either AdBlue / DEF or LPG
-**Abd**              |No             |Display offline / Display Fault | Check the connections to all displays. <BR> Check the configuration of the  slave boards (If slave displays are connected) Check and/or replace the display
+**Abd**              |No             |Display offline / Display Fault |(a) Check the connections to all displays.(b) Check the configuration of the  slave boards (If slave displays are connected) (c)Check and/or replace the display
+**CNG 154**          |CNG            |Target Fill Pressure was reached successfully | Not a fault condition 
+**CNG 155**          |CNG            |Target Fill Pressure was reached successfully | Not a fault condition  
+**CNG 156**          |CNG            |Fill stopped due to successful delivered Mass Target (compensated settled pressure) | Not a fault
 **CNG 157**          |CNG            |The Dispenser expected no flow. Potential Solenoid Valve leak                                    | Repair / rekit Solenoid
 **CNG 158**          |CNG            |Tank volume predictor uncertainty | Check for leaks in the Dispenser hose or fittings
 **CNG 159**          |CNG            |Temperature Probe out of range | Re-calibrate Temperature Probe
 **CNG 160**          |CNG            |Pressure Probe alignment error. There is more than 10bar difference between the two probes       | Re-calibrate Pressure Probes (Dispensers with two Pressure Probes per hose)
 **CNG 161**          |CNG            |Temperature Compensation calculation is uncertain |  No suggested action 
 **CNG 162**          |CNG            |Generic CNG error with a number of potential causes |  No suggested action 
+**CNG 163**          |CNG            |Fill ended on either low flow or was shut off by the operator | Successfull fill. Not a fault condition 
 **CNG 164**          |CNG            |Pressure Probe error|  Check / replace / re-calibrate Pressure Probe.
 **CNG 200**          |CNG            |The Dispenser is detecting unauthorised flow | Gas is flowing without the Start switch having been pressed to start a fill
-**hoLd**             |No             |There are two types of HOLD error. There is a “Soft” HOLD err or that resets after the unit is re-powered and a “Hard” HOLD error that does not reset after the unit is re-powered. Display may also show Error 14 on display     | Re-power the unit. Does the HOLD error reset? <BR> If the HOLD error resets but the problem persists, then the SD card may be corrupt and require replacement. Refer to the SD replacement procedure document. <BR> If the HOLD error did not reset, then there is a possible hardware fault in the Power Supply PCB / Processor PCB board / K factor PCB board / other PCB board or Bus cable.
+**hoLd**             |No             |There are two types of HOLD error. There is a “Soft” HOLD err or that resets after the unit is re-powered and a “Hard” HOLD error that does not reset after the unit is re-powered. Display may also show Error 14 on display     | Re-power the unit. Does the HOLD error reset? (a) If the HOLD error resets but the problem persists, then the SD card may be corrupt and require replacement. Refer to the SD replacement procedure document.(b) If the HOLD error did not reset, then there is a possible hardware fault in the Power Supply PCB / Processor PCB board / K factor PCB board / other PCB board or Bus cable.          
 **Calib c**          |No             | K-Factor data integrity failure, or the processor board has been replaced                       |  To reset, break the K factor switch seal and momentarily press
 **Calib p**          |No             |The K-Factor board has been swapped/replaced   |  To reset, break the K factor switch seal and momentarily press
 **Calib**            |No             |The unit needs calibration, usually due to a hardware change   | Check the K-Factor, temperature and density calibration
@@ -1977,9 +2231,6 @@ Note: This is a complete list of all the available END OF SALE Indicators and co
 |                             | 18                 | The Displays are not paired 
 |                             | 30                 | Controller initiated stop 
 **DENSITY**                      | 35                 | The Density was out of range 
-
-
-
 
 
 
