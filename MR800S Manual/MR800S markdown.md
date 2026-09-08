@@ -5,7 +5,7 @@
 
 # Compac Ultra MR800S Dispenser
 # Installation & Service Manual
-Updated 12 August, 2026
+Updated 9 September, 2026
 
 <BR>
 
@@ -184,6 +184,16 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 [**11.0 Software versions**](#110-software-versions)
 
 <font size ="3">
+
+<font size ="5">
+
+[**12.0 Approvals**](#120-approvals)
+
+<font size ="3">
+
+[12.1 Electrical Approval](#122-weights-and-measures-approval)
+
+[12.2 Weights and Measures Approval](#122-weights-and-measures-approval)
 
 # 1.0 Product Identification
 
@@ -744,5 +754,17 @@ The MR800S has special versions of software installed in both the C5K Processor 
 
 If ordering a replacement C5K Processor or K-factor board as a spare part, please quote the Dispenser serial number to ensure that the parts are supplied with the correct software installed. 
 
+# 12.0 Approvals
 
+Copies of the latest issues of these approvals can be downloaded from the Compac Website
+
+# 12.1 Electrical Approval
+
+Certiifcate of Conformity<BR> 
+ANZEx 19.4167X
+
+# 12.2 Weights and Measures Approval
+
+Certificate of Approval<BR>
+NMI 5/6B/208
 
