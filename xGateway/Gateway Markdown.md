@@ -4,35 +4,30 @@
 
 <font size ="6">
 
-# Comfill V2 and Comfill LITE
-# Installation and Service Manual
-Updated 9 September 2026
+# Gateway Manual
 
-Comfill V2
+Updated 8 September 2026
 
-![image](Comfill.png)
+Gateway
 
-
-Comfill LITE
-
-![image](ComfillLITE.png)
+![image](20.1.1_GW_image.png)
 
 
 **Conditions of Use**
 <font size ="3">
 
-- Read this manual completely before working on, or making adjustments to, the Compac equipment<BR>
+- Read this manual completely before working on, or making adjustments to, Compac equipment<BR>
 - Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.<BR> 
 - Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.<BR>
 - Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment<BR>
-- The major hazard involved with operating the Compac C5000 processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.<BR>
-- Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C5000 processor, or damages resulting from the inability to use the Compac C5000 processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.<BR> 
+- The major hazard involved with operating the Compac C5K processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.<BR>
+- Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C5000 processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.<BR> 
 - Compac Industries Limited reserves the right to change the specifications of its products or the information in this manual without necessarily notifying its users.<BR>
-- Variations in installation and operating conditions may affect the Compac C5000 processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C5000 processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.<BR>
+- Variations in installation and operating conditions may affect the Compac C5K processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C5K processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.<BR>
 - Compac Industries Limited has made every effort to explain all servicing procedures, warnings, and safety precautions as clearly and completely as possible. However, due to the range of operating environments, it is not possible to anticipate every issue that may arise. This manual is intended to provide general guidance. For specific guidance and technical support, contact your authorised Compac supplier, using the contact details in the Product Identification section.
 - Only parts supplied by or approved by Compac may be used and no unauthorised modifications to the hardware of software may be made. The use of non-approved parts or modifications will void all warranties and approvals. The use of non-approved parts or modifications may also constitute a safety hazard.
-- Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C5000 processor, please refer to the warranty provided by the supplier.
-- Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5000 processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how. 
+- Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C5K processor, please refer to the warranty provided by the supplier.
+- Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5K processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how. 
 - Every effort has been made to ensure the accuracy of this document. However, it may contain technical inaccuracies or typographical errors. Compac Industries Limited assumes no responsibility for and disclaims all liability of such inaccuracies, errors, or omissions in this publication.
 
 <font size ="5">
@@ -40,16 +35,14 @@ Comfill LITE
 **Validity**
 <font size ="3">
 
-This manual covers the following
-- Comfill V2
-- Comfill LITE
-
+This manual covers the following Compac products
+- Compac Gateway
 
 Compac Industries Limited reserves the right to revise or change product specifications at any time.<BR>
 This publication describes the state of the product at the time of publication and may not reflect the product at all times in the past or in the future.
 
 **Manufactured by:**<BR>
-The Comfill V2 and Comfill LITE are designed and manufactured by Compac Industries Limited<BR>
+The Gateway is designed and manufactured by Compac Industries Limited<BR>
 52 Walls Road, Penrose, Auckland 1061, New Zealand<BR>
 P.O. Box 12-417, Penrose, Auckland 1641, New Zealand<BR>
 Phone: + 64 9 579 2094<BR>
@@ -66,357 +59,325 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [**Safety**](#safety)
 
-[**Introduction to the Comfill models**](#introduction-to-the-comfill-models)
+[**2.0 Introduction to the Compac Gateway**](#20-introduction-to-the-compac-gateway)
 
 <font size ="3">
 
-[**Comfill V2**](#comfill-v2)
+[**2.1 Gateway**](#21-gateway)
 
-[**Comfill LITE**](#comfill-lite)
 
-[Comfill LITE Operation](#comfill-lite-operation)
-<font size ="6">
-
-[**Comfill Technical Drawings**](#comfill-technical-drawings)
+[**3.0 Gateway Technical Drawings**]()
 
 <font size ="3">
 
-[Comfill V2 Footprint and Layout](#comfill-v2-footprint-and-layout)
+[3.1 Gateway Footprint and Layout](#31-gateway-footprint-and-layout)
 
-[Comfill LITE Footprint and Layout](#comfill-lite-footprint-and-layout)
-
+[3.2 Gateway LITE Footprint and Layout](#32-gateway-lite-footprint-and-layout)
 
 
 <font size ="6">
 
-[**Pre-installation**](#pre-installation)
+[**4.0 Pre-installation**](#pre-installation)
 
 <font size ="3">
 
-[Zone requirements and Electrical Approvals](#zone-requirements-and-electrical-approvals)
+[4.1 Zone requirements and Electrical Approvals](#41-zone-requirements-and-electrical-approvals)
 
-[Static Electricity Precautions](#static-electricity-precautions)
+[4.2 Static Electricity Precautions](#42-static-electricity-precautions)
 
-[Tools](#tools)
+[4.3 Tools](#43-tools)
 
 <font size ="6">
 
-[**Installation**](#installation)
+[**5.0 Installation**](#50-installation)
 
 <font size ="3">
 
-[**Mechanical Installation**](#mechanical-installation)
+[**5.1 Mechanical Installation**](#51-mechanical-installation)
 
-[Mounting](#mounting)
+[5.1.1 Mounting](#511-mounting)
 
-[Glanding](#glanding)
+[5.1.2 Glanding](#512-glanding)
 
-[Perspex Guard removal](#perspex-guard-removal)
+[5.1.3 Perspex Guard](#513-perspex-guard)
 
-[**Connecting Power, Motors and Solenoids**](#connecting-power-motors-and-solenoids) 
+[**5.2 Connecting Power, Motors and Solenoids**](#52-connecting-power-motors-and-solenoids) 
 
-[Terminal Board 230V version Mains and Motor connections](#terminal-board-230v-version-mains-and-motor-connections)
+[5.2.1 Terminal Board 230V version Mains and Motor connections](#521-terminal-board-230v-version-mains-and-motor-connections)
 
-[Wiring in an Emergency Stop Switch or Overfill Protection System](#wiring-in-an-emergency-stop-switch-or-overfill-protection-system)
+[5.2.2 Wiring in an Emergency Stop Switch or Overfill Protection System](#522-wiring-in-an-emergency-stop-switch-or-overfill-protection-system)
 
-[Triac Wiring for Motors up to 1Kw](#triac-wiring-for-motors-up-to-1kw)
+[5.2.3 Triac Wiring for Motors up to 1Kw](#523-triac-wiring-for-motors-up-to-1kw)
 
-[Connecting Motors over 1KW](#connecting-motors-over-1kw)
+[5.2.4 Connecting Motors over 1KW](#524-connecting-motors-over-1kw)
 
-[Connecting External pumps such as Submersible or Transfer Pumps](#connecting-external-pumps-such-as-submersible-or-transfer-pumps)
+[5.2.5 Connecting External pumps such as Submersible or Transfer Pumps](#525-connecting-external-pumps-such-as-submersible-or-transfer-pumps)
 
-[Standard Solenoid connections for Comfill V2 and Comfill LITE](#standard-solenoid-connections-for-comfill-v2-and-comfill-lite)
+[5.2.6 Standard Solenoid connections for Comfill V2 and Comfill LITE](#526-standard-solenoid-connections-for-comfill-v2-and-comfill-lite)
 
-[Modulated Control Valve Solenoid connections](#modulated-control-valve-solenoid-connections) 
+[5.2.7 Modulated Control Valve Solenoid connections](#527-modulated-control-valve-solenoid-connections) 
 
-[C5000 Power Supply in flame-proof box](#c5000-power-supply-in-flame-proof-box)
+[5.2.8 C5000 Power Supply in flame-proof box](#528-c5000-power-supply-in-flame-proof-box)
 
-[Terminal Board 12 or 24 VDC version](#terminal-board-12-or-24-vdc-version)
+[**5.3 Connecting Meters and Encoders**](#53-connecting-meters-and-encoders)
 
-[Terminal Board 12 or 24 VDC version with Solar charged Battery](#terminal-board-12-or-24-vdc-version-with-solar-charged-battery)
+[5.3.1 DIN Rail Connections](#531-din-rail-connections)
 
-[**Connecting Meters and Encoders**](#connecting-meters-and-encoders)
+[5.3.2 Connecting a Compac Encoder](#532-connecting-a-compac-encoder)
 
-[DIN Rail Connections](#din-rail-connections)
+[5.3.3 Connecting a Compac V50 Meter](#533-connecting-a-compac-v50-meter)
 
-[Connecting a Compac Encoder](#connecting-a-compac-encoder)
+[5.3.4 Connecting a Piusi meter](#534-connecting-a-piusi-meter)
 
-[Connecting a Compac V50 Meter](#connecting-a-compac-v50-meter)
+[5.3.5 Connecting a Reed Switch Meter](#535-connecting-a-reed-switch-meter)
 
-[Connecting a Piusi meter](#connecting-a-piusi-meter)
+[5.3.6 Connecting a Veeder Root Pulser Meter](#536-connecting-a-veeder-root-pulser-meter)
 
-[Connecting a Reed Switch Meter](#connecting-a-reed-switch-meter)
+[5.3.7 Connecting a Macnaught meter](#537-connecting-a-macnaught-meter) 
 
-[Connecting a Veeder Root Pulser Meter](#connecting-a-veeder-root-pulser-meter)
+[5.3.8 Encoder interface for 3rd party encoders](#538-encoder-interface-for-3rd-party-encoders)
 
-[Connecting a Macnaught meter](#connecting-a-macnaught-meter) 
+[**5.4 Connecting Tank Gauging**](#54-connecting-tank-gauging) 
 
-[Encoder interface for 3rd party encoders](#encoder-interface-for-3rd-party-encoders)
+[5.4.1 Connecting a Tank Gauging Controller to a Comfill V2](#541-connecting-a-tank-gauging-controller-to-a-comfill-v2)
 
-[**Connecting Tank Gauging**](#connecting-tank-gauging) 
+[5.4.2 Connecting 4-20mA Tank Probes to a Comfill V2 or Comfill LITE](#542-connecting-4-20ma-tank-probes-to-a-comfill-v2-or-comfill-lite)
 
-[Connecting a Tank Gauging Controller to a Comfill V2](#connecting-a-tank-gauging-controller-to-a-comfill-v2)
+[**5.5 Connecting a C4000 FUTRA Pump to a Comfill V2 or Comfill LITE**](#55-connecting-a-c4000-futra-pump-to-a-comfill-v2-or-comfill-lite)
 
-[Connecting 4-20mA Tank Probes to a Comfill V2 or Comfill LITE](#connecting-4-20ma-tank-probes-to-a-comfill-v2-or-comfill-lite)
+[**5.6 SIM card and Modem antenna for Comfill V2 and Comfill LITE**](#56-sim-card-and-modem-antenna)
 
-[**Connecting a C4000 FUTRA Pump to a Comfill V2 or Comfill LITE**](#connecting-a-c4000-futra-pump-to-a-comfill-v2-or-comfill-lite)
+[5.6.1 SIM Card](#561-sim-card) 
 
-[**SIM card and Modem antenna for Comfill V2 and Comfill LITE**](#sim-card-and-modem-antenna)
+[5.6.2 Modem Antenna](#562-modem-antenna) 
 
-[SIM Card](#sim-card) 
+[**5.7 K Factor and PINPad board connections**](#57-k-factor-and-pinpad-board-connections)
 
-[Modem Antenna](#modem-antenna) 
+[5.7.1 K Factor board](#571-k-factor-board)
 
-[**K Factor and PINPad board connections**](#k-factor-and-pinpad-board-connections)
-
-[K Factor board](#k-factor-board)
-
-[PINPad board](#pinpad-board)
+[5.7.2 PINPad board](#572-pinpad-board)
 
 <font size ="6">
 
-[**CI533 Comms board settings**](#ci533-comms-board-settings)
+[**6.0 CI533 Comms board settings**](#60-ci533-comms-board-settings)
 
-[**System Software**](#system-software)
+[**7.0 System Software**](#70-system-software)
 
 <font size ="3">
 
-[Operational Cycle](#operational-cycle)
+[7.1 Operational Cycle](#71-operational-cycle)
 
-[Card Records](#card-records)
+[7.2 Card Records](#72-card-records)
 
-[Passcode](#passcode)
+[7.3 Passcode](#73-passcode)
 
-[Pumps](#pumps)  
+[7.4 Pumps](#74-pumps)  
 
-[Preset Cutoff and Rounding](#preset-cutoff-and-rounding)
+[7.5 Preset Cutoff and Rounding](#75-preset-cutoff-and-rounding)
 
-[Flow Range](#flow-range)
+[7.6 Flow Range](#76-flow-range)
 
-[Unit price and End of Sale](#unit-price-and-end-of-sale)
+[7.7 Unit price and End of Sale](#77-unit-price-and-end-of-sale)
 
-[Cards and Card Users](#cards-and-card-users)
+[7.8 Cards and Card Users](#78-cards-and-card-users)
 
-[Meters](#meters)
+[7.9 Meters](#79-meters)
 
-[K-Factor](#k-factor)
+[7.10 K-Factor](#710-k-factor)
 
-[Minimum Measurable Quantity MMQ](#minimum-measurable-quantity-mmq)
+[7.11 Minimum Measurable Quantity MMQ](#711-minimum-measurable-quantity-mmq)
 
-[Tank setup options](#tank-setup-options)
+[7.12 Tanks](#712-tanks)
 
-[Tank Gauging](#tank-gauging)
+[7.13 Tank Gauging](#713-tank-gauging)
 
-[Device](#device) 
+[7.14 Device](#714-device) 
 
 <font size ="6">
 
-[**Local Setup**](#local-setup) 
+[**8.0 Local Setup**](#80-local-setup) 
 
 <font size ="3">
 
-[**System**](#system)
+[**8.1 System**](#81-system)
 
-[Device ID](#device-id)
+[8.1.1 Device](#811-device)
 
-[Passcode](#passcode-1)
+[8.1.2 Passcode](#812-passcode)
 
-[Network](#network)
+[8.1.3 Network](#813-network)
 
-[Time](#time)
+[8.1.4 Time](#814-time)
 
-[Info](#info)
+[8.1.5 Info](#815-info)
 
-[**Hardware**](#hardware)
+[**8.2 Hardware**](#82-hardware)
 
-[Variant](#variant)
+[8.2.1 Variant](#821-variant)
 
-[Mode](#mode)
+[8.2.2 Mode](#822-mode)
 
-[Pump Type](#pump-type)
+[8.2.3 Pump Type](#823-pump-type)
 
-[Pump Config](#pump-config)
+[8.2.4 Pump Config](#824-pump-config)
 
-[Display](#display)
+[8.2.5 Display](#825-display)
 
-[Slave Display](#slave-display)
+[8.2.6 Slave Display](#826-slave-display)
 
-[Custom Display](#custom-display)
+[8.2.7 Custom Display](#827-custom-display)
 
-[**Pumps**](#pumps)
+[**8.3 Pumps**](#90-pumps)
 
-[Meter](#meter)
+[8.3.1 Meter](#831-meter)
 
-[Flow](#flow)
+[8.3.2 Flow](#832-flow)
 
-[Preset](#preset)
+[8.3.3 Preset](#833-preset)
 
-[Pump Mode](#pump-mode)
+[8.3.4 Pump Mode](#834-pump-mode)
 
-[Comms (Comfill V2 only)](#comms-comfill-v2-only)
+[8.3.5 Comms (Comfill V2 only)](#835-comms-comfill-v2-only)
 
-[Advanced](#advanced)
+[8.3.6 Advanced](#836-advanced)
 
-[**Auth**](#auth)
+[**8.4 Auth**](#84-auth)
 
-[Cards](#cards)
+[8.4.1 Cards](#841-cards)
 
-[Card Type](#card-type)
+[8.4.2 Card Type](#842-card-type)
 
-[Card Record](#card-record)
+[8.4.3 Card Record](#843-card-record)
 
-[Validation](#validation)
+[8.4.4 Validation](#844-validation)
 
-[Prompts](#prompts)
+[8.4.5 Prompts](#845-prompts)
 
-[Card User](#card-user)
+[8.4.6 Card User](#846-card-user)
 
-[Auth Mode](#auth-mode)
+[8.4.7 Auth Mode](#847-auth-mode)
 
-[Auth Time Out](#auth-time-out)
+[8.4.8 Auth Time Out](#848-auth-time-out)
 
-[**Product**](#product)
+[**8.5 Product**](#85-product)
 
-[**Tank menus**](#tank-menus)
+[**8.6 Tanks**](#86-tanks)
 
 <font size ="6">
 
-[**CompacOnsite for the Comfill LITE**](#compaconsite-for-the-comfill-lite)
+[**9.0 CompacOnsite for Comfill V2 and Comfill LITE**](#90-compaconsite-for-comfill-v2-and-comfill-lite)
 
 <font size ="3">
 
-[Login](#login)
+[9.1 Login](#91-login)
 
-[Users](#users)
+[9.2 Users](#92-users)
 
-[Standard User Options](#standard-user-options)
+[9.3 Standard User Options](#93-standard-user-options)
 
-[Transactions](#transactions)
+[9.4 Transactions](#94-transactions)
 
-[Tank products and volumes](#tank-products-and-volumes)
+[9.5 Tanks](#95-tanks)
 
-[Events](#events)
+[9.6 Events](#96-events)
 
-[Cards](#cards-1)
+[9.7 Cards](#97-cards)
 
-[User IDs](#user-ids)
+[9.8 User IDs](#98-user-ids)
 
-[CompacOnsite Logins](#compaconsite-logins)
+[9.9 CompacOnsite Logins](#99-compaconsite-logins)
 
-[Administrator Options](#administrator-options)
+[9.10 Administrator Options](#910-administrator-options)
 
-[Pricing](#pricing)
+[9.11 Pricing](#911-pricing)
 
-[Settings](#settings)
+[9.12 Settings](#912-settings)
 
-[Reboot](#reboot)
+[9.13 Reboot](#913-reboot)
 
-[Technician Options](#technician-options)
+[9.14 Technician Options](#914-technician-options)
 
-[Dispenser Setup](#dispenser-setup)
+[9.15 Dispenser Setup](#915-dispenser-setup)
 
-[FMS Setup](#fms-setup)
+[9.16 FMS Setup](#916-fms-setup)
 
-[Vega Tank Strapping](#vega-tank-strapping)
+[9.17 Vega Tank Strapping](#917-vega-tank-strapping)
 
 <font size ="6">
 
-[**Electronics**](#electronics)
+[**10.0 Electronics**](#100-electronics)
 
 <font size ="3">
 
-[Electrical Parameters](#electrical-parameters)
+[10.1 Electrical Parameters](#101-electrical-parameters)
 
 <font size ="6">
 
-[**Servicing**](#servicing)
+[**11.0 Servicing**](#110-servicing)
 
 <font size ="3">
 
-[Cleaning the Cabinet](#cleaning-the-cabinet)
+[11.1 Cleaning the Cabinet](#111-cleaning-the-cabinet)
 
-[Card Reader cleaning](#card-reader-cleaning)
+[11.2 Card Reader](#112-card-reader)
 
-[PIN Pad cleaning](#pin-pad-cleaning)
+[11.3 PIN Pad](#113-pin-pad)
 
-[Testing](#testing)
+[11.4 Testing](#114-testing)
 
-[Perspex Guard removal and replacement](#perspex-guard-removal-and-replacement)
+[11.5 Perspex Guard](#115-perspex-guard)
 
-[Modem or Router](#modem-or-router)
+[11.6 Modem or Router](#116-modem-or-router)
 
-[Display and K Factor boards](#display-and-k-factor-boards)
+[11.7 Display and K Factor boards](#117-display-and-k-factor-boards)
 
-[PIN pad Board replacement](#pin-pad-board-replacement)
+[11.8 PIN pad Board](#118-pin-pad-board)
 
-[Terminal Board](#terminal-board)
+[11.9 Terminal Board](#119-terminal-board)
 
-[Comms Board](#comms-board)
+[11.10 Comms Board](#1110-comms-board)
 
-[Processor Board replacement](#processor-board-replacement)
+[11.11 Processor Board](#1111-processor-board)
 
-[Baseboard](#baseboard)
+[11.12 Baseboard](#1112-baseboard)
 
-[PIN Pad replacement](#pin-pad-replacement)
+[11.13 PIN Pad](#1113-pin-pad)
 
-[Card Reader replacement](#card-reader-replacement)
+[11.14 Card Reader](#1114-card-reader)
 
-[HID Reader](#hid-reader)
+[11.15 HID Reader](#1115-hid-reader)
 
 <font size ="6">
 
-[**LED Diagnostics**](#led-diagnostics)
+[**12.0 LED Diagnostics**](#120-led-diagnostics)
 
 <font size ="3">
 
-[PINPad Board LEDs](#pinpad-board-leds) 
+[12.1 PINPad Board](#121-pinpad-board) 
 
 
-[K Factor board](#k-factor-board-1)
+[12.2 K Factor board](#122-k-factor-board)
 
-[Processor board diagnostics](#processor-board-diagnostics)
+[12.3 Processor board](#123-processor-board)
 
-[Base Board](#base-board)
+[12.4 Base Board](#124-base-board)
 
-[Modem LEDs](#)
+[12.5 Modem LEDs](#125-modem-leds)
 
 <font size ="6">
 
-[**Troubleshooting**](#troubleshooting)
+[**13.0 Troubleshooting**](#130-troubleshooting)
 
 <font size ="3">
 
 <font size ="6">
 
-[**Error Codes and EOS**](#error-codes-and-eos)
+[**14.0 Error Codes and EOS**](#140-error-codes-and-eos)
 
 <font size ="3">
 
 <font size ="6">
 
-[**Valve Modulation**](#valve-modulation)
-
-<font size ="3">
-
-[Core-functionality](#core-functionality)
-
-[C5000 Terminal board mapping](#c5000-terminal-board-mapping)
-
-[Solenoid truth table](#solenoid-truth-table)
-
-[Flow State table](#flow-state-table)
-
-[Ideal vs real flow rate graph](#ideal-vs-real-flow-rate-graph)
-
-[Modulated valve configurable settings](#modulated-valve-configurable-settings)
-
-[Pinpad Settings Navigation](#pinpad-settings-navigation)
-
-[Tuning to correctly hit a preset amount](#tuning-to-correctly-hit-a-preset-amount)
-
-[Advanced settings](#advanced-settings)
-
-[Valve Modulation Troubleshooting](#valve-modulation-troubleshooting)
 
 <font size ="3">
 
@@ -424,9 +385,9 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <BR>
 
-Please adhere to the following safety precautions at all times when working on the Compac Comfill V2.<BR>
-Failure to observe these safety precautions could result in damage to the Comfill V2, injury, or death.<BR>
-Ensure that you read and understand all safety precautions before installing, servicing or operating the Compac Comfill V2.
+Please adhere to the following safety precautions at all times when working on the Compac Gateway.<BR>
+Failure to observe these safety precautions could result in damage to the Compac Gateway, injury, or death.<BR>
+Ensure that you read and understand all safety precautions before installing, servicing or operating the Compac Gateway.
 
 **PRECAUTIONS**
 
@@ -454,120 +415,127 @@ These instructions are to be used as a guide only and may not cover all situatio
 
 **CAUTION**<BR>
 
-Always turn off the power to the Comfill V2 before removing the high voltage area Perspex guard. Never touch wiring or components inside the high voltage area with the power on.<BR>
+Always turn off the power to the Compac Gateway before removing the high voltage area Perspex guard. Never touch wiring or components inside the high voltage area with the power on.<BR>
 
-Always turn off the power to the Comfill V2 before removing or replacing software.<BR>
+Always turn off the power to the Compac Gateway before removing or replacing software.<BR>
 
 Always take basic anti-static precautions when working on the electronics, i.e., wearing a wristband with an earth strap.
 
 **240 Volts**<BR>
 
-The Comfill V2 is powered by 240 Volt AC mains power. The mains power enters the cabinet via a gland in the base and is connected to the terminal board. From the terminal board, the power supply goes to the power supply. The power supply steps down the 230 Volts AC to 12 volt DC to power the main electronic components.<BR>
+The Compac Gateway is powered by 240 Volt AC mains power. The mains power enters the cabinet via a gland in the base and is connected to the terminal board. From the terminal board, the power supply goes to the power supply. The power supply steps down the 230 Volts AC to 12 volt DC to power the main electronic components.<BR>
 
 Technicians should be able to safely operate and diagnose a Comfill V2 with the cabinet door open as long as they do not touch any of the 230 Volt powered components behind the Perspex cover or the 230 Volt terminals on the power supply.
 <BR>
 <BR>
 
-# Introduction to the Comfill models
+# 2.0 Introduction to the Compac Gateway
 
-# Comfill V2
+# 2.1 Gateway
 
-The Comfill V2 enables unattended refuelling at unmanned sites such as truck stops, marinas an aviation sites where the driver, skipper or pilot can pay for fuel by HID, Mifare Card / Tag, Distributor / White cards or with a PIN number.<BR>
-It is compact and suitable for outdoor installation. The Comfill V2 has two card bases that can be customised to allow specific distributor cards access. The unit can be set up from the unit itself or can be set up online from CompacOnline.<BR>
-The Comfill V2 is a versatile unit and supports both V50 and Encoder meters. Tank levels can be monitored with Compac, Fafnir, Vega, Veeder-Root and Virtual tank gauges. The Comfill V2 supports two configurations, both single and dual, and therefore can control either one or two pumps from one unit.<BR>
-The Comfill V2 can be used for different applications, as it is both a pump and a Fuel Management System (FMS). This means the Comfill V2 can be used to either authorise and control external pumps, or to dispense fuel using internal controlled pumps.
+The Compac **Gateway** is a lightweight forecourt controller designed to act as a digitisation layer (IoT device) for an entire retail or commercial forecourt.<BR>
 
-# Comfill LITE
+The **Gateway** captures all forecourt protocol communication and connects all forecourt devices to a simple cloud (Azure) backend and exposes this information through a simple REST API on CompacOnline.<BR>
 
-A lightweight option for dispensing and monitoring fuel, no extra bells and whistles.<BR>
-Comfill Lite is housed in durable plastic casing with a transparent lid, and can be mounted straight onto your tank.<BR>
-It is a more stripped-back, cost-effective solution.<BR>
+For example:
 
-**Comfill LITE has the following features and variations to the Comfill V2**
-1. Supports CompacOnsite 
-2. Comfill LITE provides Pump control for up to two hoses including high current triacs to switch Motors *but does not have a comms interface to connect to any other pumps via pump comms.*
-3. Supports both Compac COM meters and 3rd Party Meter
-4. Only comes with Mifare reader (does not support other authorisation options)
-5. Supports up to two 4-20mA tank probes but does not support Tank Controllers (eg Veederroot, Fafnit etc)
-6. There is no Backlit LCD Display to show Litres. Instead Litres are shown on the PINPad dot matrix display)
+- transactions (authorisation, completion, quantity, price),
 
-# Comfill LITE Operation
+- pump status,
 
-This section is specific to the Comfill LITE
+- tank levels,
 
-Viewing the Litres quantity
+- price sign status
 
-The last sale quantity (in Litres) will flash on the PINPad Display after the fill has been completed
+- checking fuel cards, discount cards, prepay cards or Compac cards
+
+- etc…
 
 
-Viewing the Tank levels
+The **Gateway** also permits commands to be pushed to forecourt devices:
 
+- reserving, authorising and cancelling pumps,
+
+- changing prices (price signs and pumps),
+
+- disabling devices
+
+- etc...
+
+The purpose of the Gateway is to enable an ecosystem of digital devices and services to have open and seamless access to all forecourt devices without the need to integrate with multiple vendors and integrates with all major forecourt controller brands.
+
+<font size ="6">
+
+**Gateway Architecture**
+
+<font size ="3">
+
+![image](20.1.3_GW_arch_image.png)
+
+
+
+# 2.2 Gateway LITE
 
 
 
 
 <BR>
 
-# Comfill Technical Drawings
+# 3.0 Gateway Technical Drawings
 
-# Comfill V2 Footprint and Layout
+# 3.1 Gateway Footprint and Layout
 
-![image](12.1.2_ComfillV2_footprint.png)
+![image]()
 
-![image](12.1.1_ComfillV2_layout.png)
-
-<BR>
-
-# Comfill LITE Footprint and Layout
-
-![image](12.99.0_LITE_footprint.png)
-
-![image](12.99.0_LITE_layout.png)
+![image]()
 
 <BR>
 
+# 3.2 Gateway LITE Footprint and Layout
+
+![image]()
+
+![image]()
+
+<BR>
 
 
 
-# Pre-installation
+# 4.0 Pre-installation
 
-# Zone requirements and Electrical Approvals
+
+# 4.1 Zone requirements and Electrical Approvals
 
 **Electrical Approvals**
 
-The Compac **Comfill V2** and **Comfill LITE** are **NOT** approved for installation in a hazardous area.<BR>
+The Compac **Gateway** and **Gateway LITE** are **NOT** approved for installation in a hazardous area.<BR>
 Please consult the site's zone drawings to find the exact positions of the hazardous areas for the particular site.**<BR>
-
-The Compac **Comfill V2 Ex** has **ATEX** and **IECEx** approvals for installation in a hazardous area<BR>
-Latest copies of these approvals can be downloaded from the Compac Website
-The IECEx Approval number is tamped on a label on the C5000 Flame proof box 
-
 
 For adequately ventilated fuel dispensing sites (not including CNG/NGV), in most cases the following will apply:<BR>
 - The unit is not designed to be constantly exposed to the elements. A shelter should be installed to protect it.<BR>
 - The card reader and PIN pad should face away from the prevailing wind especially in dusty or wet areas.<BR>
 - In areas experiencing extremes of weather (heat, cold, wind, rain, salt spray etc.) consideration should be given to installing additional shelter.<BR>
-- The Comfill V2 location or protection should be such as to minimise the possibility of damage from vehicles, trailers, boats, or the like.<BR>
+- The Gateway location or protection should be such as to minimise the possibility of damage from vehicles, trailers, boats, or the like.<BR>
 - On heavy vehicle sites, mounting the unit on a raised pad and/or installing bollards to help protect from damage should be considered.<BR>
 - If mounting on a post, the base needs to be attached to a smooth, level surface of sufficient strength to securely hold the retaining bolts or fasteners.<BR> 
-- The Comfill V2 should be placed at least 8 metres from any above ground flammable liquid storage or handling facility other than a dispenser.<BR>
-- The Comfill V2 should be placed at least 0.5 metres from any flammable liquid fuel dispensers and 1.5 metres from any LPG dispensers.<BR>
-- The Comfill V2 should be mounted so that the base of the cabinet is at least 1.2 metres above the ground.<BR> 
-- If the Comfill V2 is mounted on a post, and the post is within 4 metres of a dispenser or within 1 metre of the end of any fuel dispenser hose, then the entire interior of the post may be considered a hazardous area. Any cables running through, or electrical equipment mounted in the post should be suitable for that hazardous area (refer AS/NZS 2381).<BR>
+- The Gateway should be placed at least 8 metres from any above ground flammable liquid storage or handling facility other than a dispenser.<BR>
+- The Gateway should be placed at least 0.5 metres from any flammable liquid fuel dispensers and 1.5 metres from any LPG dispensers.<BR>
+- The Gateway should be mounted so that the base of the cabinet is at least 1.2 metres above the ground.<BR> 
+- If the Gateway is mounted on a post, and the post is within 4 metres of a dispenser or within 1 metre of the end of any fuel dispenser hose, then the entire interior of the post may be considered a hazardous area. Any cables running through, or electrical equipment mounted in the post should be suitable for that hazardous area (refer AS/NZS 2381).<BR>
 - Whenever running a cable through the post into the base of the cabinet always ensure that the cable entry into the cabinet uses a vapour tight gland.<BR> 
-- Generally, the area below the Comfill V2 may be a hazardous area and therefore some appropriate signage may be required e.g. no smoking.<BR> 
+- Generally, the area below the Gateway may be a hazardous area and therefore some appropriate signage may be required e.g. no smoking.<BR> 
 - Lighting should be provided during the hours of operation. Lighting should be sufficient to provide safe working conditions that include, but are not limited to, clear visibility of all markings on packages, signs, instruments and other necessary items. A minimum value of 50 lux is recommended.<BR>
 
 For more information and guidelines on classifications of hazardous zones, please refer to AS/NZS 60079-10.1 (Classification of Areas – Explosive gas atmospheres)<BR>
 These requirements do not apply to any specific site but are merely recommendations that will apply in most cases.<BR>
 The owner/installer must ensure that the installation complies with AS/NZS 3000, AS 1940, and any other applicable regulations.
-# Static Electricity Precautions
+# 4.2 Static Electricity Precautions
 Electronic components used are sensitive to static. Please take anti-static precautions.<BR>
 An anti-static wrist strap should be worn and connected correctly when working on any electronic equipment. If an anti-static wrist strap is unavailable, or in an emergency, hold onto an earthed part of the pump/dispenser frame whilst working on the equipment. This is not a recommended alternative to wearing an anti-static wrist strap.<BR>
 
 NOTE: Compac Industries Limited reserves the right to refuse to accept any circuit boards returned, if proper anti-static precautions have not been taken.
 
-# Tools
+# 4.3 Tools
 
 Having all the correct tools will make installation, upgrade and repair procedures easy and minimise the risk of damage to components.
 Before you arrive on site, make sure you have a minimum of all the tools listed here.
@@ -593,11 +561,11 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 - Multimeter
 - Laptop or smartphone with internet
 
-# Installation
+# 5.0 Installation
 
-# Mechanical Installation
+# 5.1 Mechanical Installation
 
-# Mounting
+# 5.1.1 Mounting
 
 The Comfill V2 can be mounted from the rear or the bottom of the unit. Refer to Footprints for locations of the mounting holes.<BR>
 To mount the unit, the following will be supplied:
@@ -613,7 +581,7 @@ The Comfill V2 is suitable for outdoor installation.<BR>
 M8x25 screws are recommended for mounting from the rear of the unit and are suitable for mounting to surfaces up to 10mm thick.<BR>
 M8x16 screws are recommended for mounting from the bottom of the unit and are suitable for mounting to surfaces up to 4mm thick.<BR>
 
-# Glanding
+# 5.1.2 Glanding
 
 The following grommets will be supplied with either the Comfill V2 and the Comfill LITE:
 
@@ -627,7 +595,7 @@ The gland access is as follows:
 
 ![image](12.1.3_ComfillV2_glands.png)
 
-# Perspex Guard removal
+# 5.1.3 Perspex Guard
 
 A Perspex guard is supplied with the Comfill V2 and Comfill LITE and will need to be removed to access the terminal board and baseboard.<BR>
 The location of the guard is as shown: 
@@ -645,11 +613,11 @@ An 8mm nut driver will be appropriate for removing and reattaching the Perspex g
 **NOTE:** *Always reattach fuse covers after working on the Comfill V2 unit.*
 <BR>
 
-# Connecting Power, Motors and Solenoids 
+# 5.2 Connecting Power, Motors and Solenoids 
 
 <BR>
 
-# Terminal Board 230V version Mains and Motor connections
+# 5.2.1 Terminal Board 230V version Mains and Motor connections
 
 The external incoming mains and motor connections will need to be connected onsite.<BR>
 The motor will need to be connected for both side A and side B as shown.
@@ -670,7 +638,7 @@ In case these are unclear, the colours are as follows:<BR>
 •	Incoming mains neutral: Blue<BR>
 •	Incoming mains earth: Green/Yellow<BR>
 
-# Wiring in an Emergency Stop Switch or Overfill Protection System
+# 5.2.2 Wiring in an Emergency Stop Switch or Overfill Protection System
 
 If wiring in an Emergency connection, it should be connected in place of the triac phase / mains phase loop. This will cut power to all outputs on the terminal board. 
 
@@ -679,7 +647,7 @@ If both an Emergency Stop Switch and Overfill Protection System are fitted, they
 
 ![image](12.4.2_ComfillV2_Estop.png)
 
-# Triac Wiring for Motors up to 1Kw
+# 5.2.3 Triac Wiring for Motors up to 1Kw
 
 Triac Wiring (For motors up to 1KW)(For motors up to 1KW)
 The triac wiring will be pre-installed and, in most cases, will not need to be changed.<BR>
@@ -700,12 +668,12 @@ Comfill V2 can support up to two 1KW single phase motors via the triac outputs.
 <BR>
 <BR>
 
-# Connecting Motors over 1KW
+# 5.2.4 Connecting Motors over 1KW
 The external pump connections are as shown below. Wire in the required side(s).
 
 ![image](12.4.4_ComfillV2_Motors_over_1KW.png)
 
-# Connecting External pumps such as Submersible or Transfer Pumps
+# 5.2.5 Connecting External pumps such as Submersible or Transfer Pumps
 
 For third party pump motors over 1KW, the contactor coil needs to be connected to the “MTR RELAY (LOW)” terminal and neutral terminal beside it.<BR>
 
@@ -713,19 +681,19 @@ The MTR relay (low) output is 230VAC and it can supply up to 0.5A. However, the 
 
 Connect the Nozzle and meter connections to the DIN rail as necessary (Refer to the “K-Factor board” for the DIN rail terminals diagram to connect nozzles and meters).
 
-# Standard Solenoid connections for Comfill V2 and Comfill LITE
+# 5.2.6 Standard Solenoid connections for Comfill V2 and Comfill LITE
 
 For 40lpm and 80lpm Comfill V2 and Comfill LITE units with solenoids, connect as shown   
 
 ![image](1.3.1_Typical_wiring_Dispensers.png)
 
-# Modulated Control Valve Solenoid connections 
+# 5.2.7 Modulated Control Valve Solenoid connections 
 
 For Comfill units connected to Modulated control Valves, connect the Upstream and Downstream Solenoids as shown 
 
 ![image](13.1.4_modulation_elec.schematic.png)
 
-# C5000 Power Supply in flame-proof box 
+# 5.2.8 C5000 Power Supply in flame-proof box 
 
 In the Comfill V2 Ex, the C5000 Power Supply with Processor board and Comms board in housed in the same flame-proof box as in a standard Pump or Dispenser.<BR>
 Power and Comms cable to be glanded into the flame proof box
@@ -734,64 +702,9 @@ Power and Comms cable to be glanded into the flame proof box
 
 <BR>
 
-# Terminal Board 12 or 24 VDC version
-Power Requirements for the 12V DC Comfill V2 are as follows:
+# 5.3 Connecting Meters and Encoders
 
-## Voltage requirements
-
-|Voltage requirement|Voltage|
-|-----|-----
-|Input Battery Voltage range|8-28V <BR>
-|Minimum supply voltage required at start-up (if Modem connected to Terminal Board)|13.5V <BR>
-|Minimum supply voltage required at start-up (if Modem connected directly to Battery)|11.5V <BR>
-|Minimum supply voltage once powered up and running|8V <BR>
-
-## Battery connection
-
-Connect the Battery to the Terminals marked **BATT+positve** and **BATT-negative**
-
-## 12 volt Solenoid connections
-
-|Solenoid|Negative Wire|Positive Wire
-|-----|-----|-----
-|Side A Solenoid|SOL1 -ve|SOL1 +ve
-|2nd Side A Solenoid (if fitted)|SOL2 -ve|SOL2 +ve
-|Side B Solenoid|SOL3 -ve|SOL3 +ve
-|2nd Side B Solenoid (if fitted)|SOL4 -ve|SOL4 +ve
-
-## F101 Fuse rating
-4 Amps
-
-## Emergency Stop Switch connection
-
-To connect an Emergancy Stop Switch:
-Remove the factory fitted link between the terminals marked **OUTPUTS+** and **BATT+**
-Connect the Emergency stop switch to the terminals marked **OUTPUTS+** and **BATT+**
-
-![image](12.4.5_ComfillV2_12_24_VDC_version.png)
-
-<BR>
-
-# Terminal Board 12 or 24 VDC version with Solar charged Battery
-
-|Voltage requirement|Voltage|
-|-----|-----
-|Input Battery Voltage range|8-28V <BR>
-|Minimum supply voltage required at start-up (if Modem connected to Terminal Board)|13.5V <BR>
-|Minimum supply voltage required at start-up (if Modem connected directly to Battery)|11.5V <BR>
-|Minimum supply voltage once powered up and running|8V <BR>
-
-If the COMFILL V2 is to be powered from a Battery that is charged from Solar panels,<BR>
-it is recommended that the Modem is wired directly to the battery as below to ensure that the <BR>
-COMFILL V2 and Modem have sufficient power and voltage to start up.     
-
-![image](12.4.6_ComfillV2_12_24_VDC_Solar_version.png)
-
-<BR>
-
-# Connecting Meters and Encoders
-
-# DIN Rail Connections
+# 5.3.1 DIN Rail Connections
 When the Comfill V2 arrives onsite, all internal wiring will already be connected. Incoming external cables will have to be inserted through the glands and then connected to the back of the DIN rail. The nozzle switch and meter will be connected to the DIN rail. The connections are as shown:
 
 ![image](12.1.7_ComfillV2_DIN_rail.png)
@@ -799,7 +712,7 @@ When the Comfill V2 arrives onsite, all internal wiring will already be connecte
 The Comfill V2 supports Compac encoders, Compac V50 Meters and most third-party meters.<BR>
 Some third-party meters require 10 kΩ resistors to be connected. In case of this, 6x 10kΩ resistors will be supplied with the Comfill V2 unit.
 
-# Connecting a Compac Encoder
+# 5.3.2 Connecting a Compac Encoder
 
 The Compac encoder connects to the DIN rail via a six-core (only five cores used) data cable.<BR>
 The five cores used are:<BR>
@@ -813,11 +726,11 @@ Where B0, B1 & B2 are the three opto-sensor connections. Not all of these may be
 
 To reverse the rotation of the encoder sensing, the B0 & B2 wires should be reversed. The error message for reverse rotation is Err 8.
 
-# Connecting a Compac V50 Meter
+# 5.3.3 Connecting a Compac V50 Meter
 
 V50 meters can be connected directly to the K-Factor board. Refer to K-Factor Board for the location of the meter plug.
 
-# Connecting a Piusi meter
+# 5.3.4 Connecting a Piusi meter
 
 A Piusi K700 Modular Pulse Meter has three data cores.<BR>
 
@@ -831,7 +744,7 @@ If connecting a Piusi meter, the data cores should be connected as following:<BR
 ![image](12.1.8_ComfillV2_Piusi_Meter.png)
 
 
-# Connecting a Reed Switch Meter
+# 5.3.5 Connecting a Reed Switch Meter
 
 If connecting a Reed switch type meter:<BR>
 Reed switch type meters require three signal connections and one earth connection as shown:
@@ -842,7 +755,7 @@ Reed switch type meters require three signal connections and one earth connectio
 
 <BR>
 
-# Connecting a Veeder Root Pulser Meter
+# 5.3.6 Connecting a Veeder Root Pulser Meter
 
 **Dual Channel:**
 
@@ -881,7 +794,7 @@ Dual channel overlapping signals are not supported.*
 <BR>
 <BR>
 
-# Connecting a Macnaught meter 
+# 5.3.7 Connecting a Macnaught meter 
 
 Macnaught meter is a Hall Effect single channel meter
 
@@ -901,7 +814,7 @@ Refer to section on **Encoder interface for 3rd party encoders** for further inf
 
 **NOTE:** *Ensure the wiring is shorted on the meter end, not the Comfill V2 end.*
 
-# Encoder interface for 3rd party encoders
+# 5.3.8 Encoder interface for 3rd party encoders
 
 ![image](12.1.17_ComfillV2_CI266A.png)
 
@@ -941,9 +854,9 @@ The pull-up resistors are internal to the pulser/meter.
 
 ![image](12.1.20_ComfillV2_3chCompac5vpulser.png)
 
-# Connecting Tank Gauging 
+# 5.4 Connecting Tank Gauging 
 
-# Connecting a Tank Gauging Controller to a Comfill V2
+# 5.4.1 Connecting a Tank Gauging Controller to a Comfill V2
 
 **Important note when installing Tankgauging:**
 If tank gauging is connected to the Comfill V2, then the LFD 485 option (refer to Custom settings in Local Setup section ) must be set to DISABLED, as they both use the same channel. <BR>
@@ -960,7 +873,7 @@ If connecting a Tank Gauging Controller, connected it to the terminal block mark
 
 <BR>
 
-# Connecting 4-20mA Tank Probes to a Comfill V2 or Comfill LITE
+# 5.4.2 Connecting 4-20mA Tank Probes to a Comfill V2 or Comfill LITE
 
 Connect the 4-20mA Probe for Tank 1 to the **+ve** and **-ve** Terminals marked **TANK #1 4-20mA**
 
@@ -969,7 +882,7 @@ Connect the 4-20mA Probe for Tank 1 to the **+ve** and **-ve** Terminals marked 
 If there are two Tanks, connect the second 4-20mA Probe to the **+ve** and **-ve** Terminals marked **TANK #2 4-20mA**
 
 
-# Connecting a C4000 FUTRA Pump to a Comfill V2 or Comfill LITE
+# 5.5 Connecting a C4000 FUTRA Pump to a Comfill V2 or Comfill LITE
 
 Installing a COMFILL V2 Fuel Management system on a Compac Pump / Dispenser with “FUTRA” Fuel Management system (2002 to 2010)
 
@@ -997,12 +910,11 @@ Refer to “Triac Wiring (For motors up to 1KW)” section to connect Motor to S
 
 <BR>
 
-# SIM card / eSIM and Modem antenna
+# 5.6 SIM card and Modem antenna
 
-**NOTE** The ComfillV2 or Comfill LITE may be configured with an eSIM in which case a physical SIM card is not required 
-# SIM Card 
+# 5.6.1 SIM Card 
 
-To install a SIM card, the modem needs to be removed from the gear plate.
+To install the sim card, the modem needs to be removed from the gear plate.
 
 ![image](12.1.6_ComfillV2_sim_card.png)
 
@@ -1012,7 +924,7 @@ Replace the modem and gear plate.<BR>
 Ensure that the modem is connected to the processor board.<BR>
 The LAN input on the modem should connect to the ethernet input on the processor board.
 
-# Modem Antenna
+# 5.6.2 Modem Antenna
 
 Depending on ordering and requirements, one of two options of modem antennae will be supplied.<BR>
 The installer will be required to attach this to the modem.<BR>
@@ -1025,9 +937,9 @@ An IP67 plastic rated gland will be supplied for optional antenna glanding.
 <BR>
 Connect the Nozzle and meter connections to the DIN rail as necessary (Refer to the “K-Factor board” for the DIN rail terminals diagram to connect nozzles and meters).
 
-# K Factor and PINPad board connections
+# 5.7 K Factor and PINPad board connections
 
-# K Factor board
+# 5.7.1 K Factor board
 
 **K-Factor Board connections**
 The K-Factor board connections shown are internal and will already be connected.<BR>
@@ -1038,7 +950,7 @@ If connecting a V50 meter, connect directly to the meter input instead of the DI
 <BR>
 <BR>
 
-# PINPad board
+# 5.7.2 PINPad board
 
 The PIN Pad board is wired to the PIN pad and the Wiegand or HID reader. These connections are internal and pre-installed.<BR>
 
@@ -1057,23 +969,62 @@ Switches 2 and 3 are not currently used.
 
 ![image](12.2.1_ComfillV2_Pinpad_board.png)
 
- 
+# 5.23 Terminal Board 12 or 24 VDC version
+Power Requirements for the 12V DC Comfill V2 are as follows:
 
-**Controller Setup** 
+## Voltage requirements
 
-For the C5000 Comfill Ex Register to Display on the Keypad the controller needs to have the pumps setup with a bay number and C5000 display enabled 
+|Voltage requirement|Voltage|
+|-----|-----
+|Input Battery Voltage range|8-28V <BR>
+|Minimum supply voltage required at start-up (if Modem connected to Terminal Board)|13.5V <BR>
+|Minimum supply voltage required at start-up (if Modem connected directly to Battery)|11.5V <BR>
+|Minimum supply voltage once powered up and running|8V <BR>
 
-This can done on the keypad or manually editing the PSC file  
+## Battery connection
 
+Connect the Battery to the Terminals marked **BATT+positve** and **BATT-negative**
 
+## 12 volt Solenoid connections
 
-Also need to set the pump coms type to compac96_7D. If there is other dispensers you might have to set the pump compac24_7D but bear in mind that the pinpad display will act slower on the Comfill Ex register. 
+|Solenoid|Negative Wire|Positive Wire
+|-----|-----|-----
+|Side A Solenoid|SOL1 -ve|SOL1 +ve
+|2nd Side A Solenoid (if fitted)|SOL2 -ve|SOL2 +ve
+|Side B Solenoid|SOL3 -ve|SOL3 +ve
+|2nd Side B Solenoid (if fitted)|SOL4 -ve|SOL4 +ve
 
+## F101 Fuse rating
+4 Amps
 
+## Emergency Stop Switch connection
+
+To connect an Emergancy Stop Switch:
+Remove the factory fitted link between the terminals marked **OUTPUTS+** and **BATT+**
+Connect the Emergency stop switch to the terminals marked **OUTPUTS+** and **BATT+**
+
+![image](12.4.5_ComfillV2_12_24_VDC_version.png)
 
 <BR>
 
-# CI533 Comms board settings  
+# 5.24 Terminal Board 12 or 24 VDC version with Solar charged Battery
+
+|Voltage requirement|Voltage|
+|-----|-----
+|Input Battery Voltage range|8-28V <BR>
+|Minimum supply voltage required at start-up (if Modem connected to Terminal Board)|13.5V <BR>
+|Minimum supply voltage required at start-up (if Modem connected directly to Battery)|11.5V <BR>
+|Minimum supply voltage once powered up and running|8V <BR>
+
+If the COMFILL V2 is to be powered from a Battery that is charged from Solar panels,<BR>
+it is recommended that the Modem is wired directly to the battery as below to ensure that the <BR>
+COMFILL V2 and Modem have sufficient power and voltage to start up.     
+
+![image](12.4.6_ComfillV2_12_24_VDC_Solar_version.png)
+
+<BR>
+
+# 6.0 CI533 Comms board settings  
 
 **Note:** 
 1. The CI533 Comms board is only used in the Comfill V2.
@@ -1150,9 +1101,9 @@ Gilbarco USA = 20<BR>
 These switches are used for an end of line termination resistor for RS485 applications.
 They are not currently supported and should be left in the OFF position 
 
-# System Software
+# 7.0 System Software
 
-# Operational Cycle
+# 7.1 Operational Cycle
 
 The following diagram shows a normal cycle of the Comfill V2 unit, and the displays at each point.
 
@@ -1161,7 +1112,7 @@ The following diagram shows a normal cycle of the Comfill V2 unit, and the displ
 This section details what options are available for the unit and what each setting means.<BR>
 Some settings may not be available for each specific unit.  
 
-# Card Records
+# 7.2 Card Records
 
 Before cards can be added, card records need to be set up from the Comfill V2 unit.<BR>
 When setting up card records, a PAN length, BIN range, and access number can be specified.<BR>
@@ -1189,7 +1140,7 @@ The prompts that are selected when entering a card will appear when that card is
 For example, if odometer is selected, the card holder will have to enter an odometer number to access the fuel pump.<BR>
 Cards can be enabled or disabled.
 
-# Passcode
+# 7.3 Passcode
 For security, the unit has a passcode. This can be used to access settings from the unit.<BR>
 For extra security, if the settings are accessed with the passcode, some options are not able to be changed, such as the K-Factor setting.<BR>
 These must be accessed by pressing the K-Factor switch.<BR>
@@ -1203,7 +1154,7 @@ The system can be set up from either CompacOnsite or from the unit itself.
 
 NOTE: If the unit is changed between Cardreader and HID configurations, it is important to change the dipswitch settings on the PIN pad board. See PIN pad board section.
 
-# Pumps
+# 7.4 Pumps
 
 The Comfill V2 supports two configurations, single and dual, enabling two pumps to be used simultaneously if one card is used.<BR>
 These pumps are assigned a side so that they may be individually customised.<BR>
@@ -1223,7 +1174,7 @@ Pumps have two solenoids for product flow. If the solenoids are unavailable, the
 Solenoid delay, the amount of time it takes the solenoids to turn on after lifting the nozzle, can be customised for each side.<BR>
 Auto authorisation can be enabled for a pump, allowing the pump to be authorised without lifting up the nozzle.
 
-# Preset Cutoff and Rounding
+# 7.5 Preset Cutoff and Rounding
 
 Preset cutoff is used to deliver an accurate amount of fuel.<BR>
  When dispensing fuel, two solenoids are used for fuel flow.<BR>
@@ -1235,7 +1186,7 @@ For example, if Preset Rounding is set to 89 and the preset is 40;
 - 40.08 is within .08 of 40 and would therefore be rounded down to 40.
 - 39.91 is within .09 of 40 and would therefore be rounded up to 40.
 
-# Flow Range
+# 7.6 Flow Range
 
 A flow range is needed for each pump to dispense an accurate amount of product.<BR>
 If too much or too little fuel is dispensed, the meter cannot accurately measure the dispensed fuel and therefore should cut off and display an end of sale message.<BR>
@@ -1245,13 +1196,13 @@ The flow range will vary for different products. Flow low should be the lower va
  
 A flow timeout can be set, which cuts off the motor after the set amount of time. The default is 000, which is 20 seconds.
 
-# Unit price and End of Sale
+# 7.7 Unit price and End of Sale
 
 For the Comfill V2, the unit price is always 1. If the setting is changed in the unit to something different, the unit price will remain as 1. 
 
 End of sale indicators show why the motor stopped during the last sale. Refer to End of Sale for the full list of these.
 
-# Cards and Card Users
+# 7.8 Cards and Card Users
 
 Card numbers must be added for a card to be valid. Card or HID numbers can be added.<BR>
 These numbers should correlate to the earlier card setup done in the system section.<BR>
@@ -1259,11 +1210,11 @@ These numbers should correlate to the earlier card setup done in the system sect
 Cards can also have User IDs, which are optional prompts for cards. If a User ID is asked for the customer dispensing fuel will have to enter a valid User ID.<BR>
 If a user ID is not required, and instead the retailer wants a different prompt (such as Fleet number) user ID can be configured to ask for different prompts.
 
-# Meters
+# 7.9 Meters
 
 The unit supports encoder or V50 Modbus meters. The encoder meters can be single, dual or triple channel. Single channel encoders measure the fuel dispensed. Dual channel encoders do this as well as determine the rotation of the meter (and therefore the direction of fuel flow). Triple channel meters can determine if the meter is correctly connected and functioning. 
 
-# K-Factor
+# 7.10 K-Factor
 
 The K-Factor is used to calibrate product flow. It is a ratio of litres dispensed per revolution of the meter. The K-Factor may need to be calibrated after periods of time. 
 To calibrate the pump, dispense fuel into a certified measuring container and compare the display value with the one dispensed.
@@ -1281,7 +1232,7 @@ To calculate the correct K-Factor from the information above; firstly record the
 See Using the Dispenser Menus to edit this setting.
 
 
-## Minimum Measurable Quantity MMQ
+## 7.11 Minimum Measurable Quantity MMQ
 
 Minimum measured quantity (MMQ) is the minimum amount of fuel that can be dispensed and measured. The MMQ is calculated with the following equation:
 
@@ -1317,11 +1268,11 @@ The MMQ sets the display suppression. When a transaction starts, the quantity di
 
 So the quantity dispensed will not show until more than 0.08L has been dispensed.
 
-# Tank setup options
+# 7.12 Tanks
 
 Tanks can be set up with their corresponding product, number and capacity
 
-# Tank Gauging
+# 7.13 Tank Gauging
 
 Tank gauging is used to determine how much fuel is left in a tank.<BR>
 The Comfill V2 supports four tank gauges;<BR>
@@ -1334,14 +1285,14 @@ To accurately gauge the volume of fuel, the tank number, safe fill level and cap
 If a Vega electronic dipstick is used, please note that more information will be required; the position of the probe in the tank is needed.<BR>
 A Tank Strapping table ID will be required to calculate volume. A Vega electronic dipstick may also be connected differently; the gauge channel may change depending on the connection to the Comms board.
 
-# Device
+# 7.14 Device
 
 As the C5000 electronics are used for a variety of units, the variant can be changed.<BR>
 For the Comfill V2, the variant should always be set to COMFILL V2. 
 The Comfill V2 does not have a slave display and the slave display setting should be set to none. To update the software, contact Compac.
 <BR>
 
-# Local Setup
+# 8.0 Local Setup
 
 To change settings from the unit you must either have access to the K-Factor switch, which is located on the inside of the unit on the K-Factor board or have the passcode to the unit.
 
@@ -1362,11 +1313,11 @@ The K-Factor switch must be sealed after servicing.
 
 NOTE: The system has a timeout of 15 seconds.
 
-# System
+# 8.1 System
 
 ![image](12.7.3_ComfillV2_screen_system.png)
 
-# Device ID
+# 8.1.1 Device
 
 ![image](12.7.4_ComfillV2_screen_device.png)
 
@@ -1379,7 +1330,7 @@ To change the device ID,
 2.	To change the Device ID, press #
 3.	Enter the new device ID and press enter 
 
-# Passcode
+# 8.1.2 Passcode
 
 ![image](12.7.5_ComfillV2_screen_passcode.png)
 
@@ -1388,7 +1339,7 @@ To Access this menu, select SYSTEM from the main menu and then select PASSCODE. 
 1.	From System, select Passcode
 2.	Enter the desired new passcode and press enter
 
-# Network
+# 8.1.3 Network
 
 ![image](12.7.6_ComfillV2_screen_network.png)
 
@@ -1397,7 +1348,7 @@ To Access this menu, select SYSTEM from the main menu and then select NETWORK.<B
 The IP address, subnet, gateway and DNS settings of the unit can be viewed or changed.<BR>
 Select the desired setting to be changed .Enter the new values and press enter.<BR>
 
-# Time
+# 8.1.4 Time
 
 ![image](12.7.7_ComfillV2_screen_time.png)
 
@@ -1408,7 +1359,7 @@ Select SYSTEM from the main menu and then select TIME from the system menu.
 3.	The offset is set by the time zone. 
 4.	Select DST to “yes” or “no” for daylight saving.
 
-# Info
+# 8.1.5 Info
 
 ![image](12.7.8_ComfillV2_screen_info.png)
 
@@ -1423,7 +1374,7 @@ To access Info, select SYSTEM from the main menu and then select INFO. The infor
 
 ![image](12.7.11_ComfillV2_screen_status.png)
 
-# Hardware
+# 8.2 Hardware
 
 ![image](12.8.1_ComfillV_screen_config.png)
 
@@ -1431,7 +1382,7 @@ This menu is available from the main menu. Select HARDWARE.<BR>
 Variant, mode, pump type, stop switch and display settings are available in Hardware configurations.<BR>
 The following section will explain how to configure hardware.
 
-# Variant
+# 8.2.1 Variant
 
  ![image](12.8.2_ComfillV2_screen_variant.png)
 
@@ -1441,7 +1392,7 @@ Select HARDWARE from the main menu and then select VARIANT. To change variant,
 2.	Chose the appropriate number to set the variant as a dispenser or a hybrid(controller and a dispenser).<BR>
 This will rarely need to be changed. 
 
-# Mode
+# 8.2.2 Mode
 
 ![image](12.8.3_ComfillV2_screen_mode.png)
 
@@ -1450,7 +1401,7 @@ Select HARDWARE from the main menu and then select MODE.
 The pump mode is a restricted menu and can only be accessed with the K-Factor switch.<BR>
 The pump mode can be changed by selecting the desired setting. 
 
-# Pump Type
+# 8.2.3 Pump Type
 
 ![image](12.8.4_ComfillV2_screen_pumptype.png)
 
@@ -1459,7 +1410,7 @@ Select HARDWARE from the main menu and then select PUMP TYP.
 Pump type is a restricted menu and can only be accessed with the K-Factor switch.<BR>
 Pump type can be changed by selecting the desired setting
 
-# Pump Config
+# 8.2.4 Pump Config
 
 ![image](12.8.5_ComfillV2_screen_config.png)
 
@@ -1469,7 +1420,7 @@ Select HARDWARE from the main menu and then select PUMP CFG.
 2.	STP SW is for sump stop switch. Stop switch can be changed between separate and combined 
 3.	PUSH ST is for push start button this option can be toggled between enabled and disabled.
 
-# Display
+# 8.2.5 Display
 
 ![image](12.8.6_ComfillV2_screen_display.png)
 
@@ -1479,7 +1430,7 @@ Select HARDWARE from the main menu and then select DISPLAY.
 2.	Slave display settings or custom display information can be accessed by selecting the desired option.<BR> 
 <BR>
 
-# Slave Display
+# 8.2.6 Slave Display
 
 ![image](12.8.7_ComfillV2_screen_Slave.png)
 
@@ -1490,7 +1441,7 @@ Select HARDWARE from the main menu, select DISPLAY and then select SLAVE from th
 Each connected slave display can be configured from this menu.<BR>
 Select the slave display to assign it to the appropriate side. 
 
-# Custom Display
+# 8.2.7 Custom Display
 
 ![image](12.8.9_ComfillV2_screen_custom.png)
 
@@ -1504,7 +1455,7 @@ LFD 485 is an option to allow a Large Format Display to be connected to the COMF
 
 **Note:** This option cannot be used if there is Tank Gauging connected to the COMFILL V2 as they both use the same RS485 port.
 
-# Pumps
+# 8.3 Pumps
 
 Select PUMPS from the main menu 
 
@@ -1530,7 +1481,7 @@ Select a pump to configure.
 
 ![image](12.9.6_ComfillV2_screen_pumpinfo.png)
 
-# Meter
+# 8.3.1 Meter
 
 Select PUMPS from the main menu and select  METER  will bring up the following menu.
 
@@ -1549,7 +1500,7 @@ These settings (SIDE A CONFIG 2) will be available after pressing # from the PUM
 
 ![image](12.9.9_ComfillV2_screen_config2.png)
 
-# Flow
+# 8.3.2 Flow
 
 Select PUMPS from the main menu and press # to go to the next page. Select FLOW
 
@@ -1558,7 +1509,7 @@ Select PUMPS from the main menu and press # to go to the next page. Select FLOW
 Each flow setting can be changed by selecting the setting and entering the new value.<BR>
 These settings are flow timeout, solenoid delay, high- and low-flow cut-off, and maximum flow (Qmax).
 
-# Preset
+# 8.3.3 Preset
 
 Select PUMPS from the main menu and press # to go to the next page. Select PRESET.
 
@@ -1571,7 +1522,7 @@ Select PUMPS from the main menu and press # to go to the next page. Select PRESE
 3.	Preset high, preset low, and present rounding high and low (on the next screen) can be changed<BR>
     by selecting the functionality and entering the new value.
 
-# Pump Mode
+# 8.3.4 Pump Mode
 
 Select PUMPS from the main menu and press # to go to the next page. Select PUMP MODE.
 
@@ -1579,7 +1530,7 @@ Select PUMPS from the main menu and press # to go to the next page. Select PUMP 
 
 Standalone mode, auto authorisation mode, and purge mode can be toggled between enabled and disabled by selecting the functionality
 
-# Comms (Comfill V2 only)
+# 8.3.5 Comms (Comfill V2 only)
 
 Select PUMPS from the main menu and press # to go to the next page. Select COMMS.
 
@@ -1590,7 +1541,7 @@ Select PUMPS from the main menu and press # to go to the next page. Select COMMS
 3.	The address can be set by entering a desired number. Usually pump number and address will be the same. 
 The display can be toggled between 5 and 6 digits by pressing 4.
 
-# Advanced
+# 8.3.6 Advanced
 
 Select PUMPS from the main menu and press # to go to the next page. Select ADVANCED.
 
@@ -1601,7 +1552,7 @@ Select PUMPS from the main menu and press # to go to the next page. Select ADVAN
 
 ![image](12.9.15_ComfillV2_screen_advanced.png)
 
-# Auth
+# 8.4 Auth
 
 **Note:** Auth is only available in hybrid mode
 
@@ -1611,7 +1562,7 @@ Select AUTH from the main menu.
 
 In Auth settings, cards, card user, authorisation mode and authorisation time out can be changed following section will explain how to configure each setting.
 
-# Cards
+# 8.4.1 Cards
 
 Select AUTH from the main menu and select CARDS.
 
@@ -1628,7 +1579,7 @@ To add or change a card,
 
 ![image](12.10.2_ComfillV2_screen_Cards2.png)
 
-# Card Type
+# 8.4.2 Card Type
 
 ![image](12.10.3_COmfillV2_screen_cardtype.png)
 
@@ -1638,7 +1589,7 @@ Card type can be toggled between comfil and Comfill V2 s.
 If desired, the card type can be changed to ‘Short Comfill V2’. This setting allows 1200 cards to be recorded, as opposed to 300.<BR>
 If this setting is implemented, only one owner detail can be saved to each card. To change this, press 1 and select the required card type.
 
-# Card Record
+# 8.4.3 Card Record
 
 To access card record, select AUTH from the main menu, select CARDS and then select CARD RECORD.<BR>
 Select the desired number to setup a new Card record. 
@@ -1657,14 +1608,14 @@ Select the desired number to setup a new Card record.
 1.	Press1 to Set the length of the PAN (card number).
 2.	Press 2 to set Validation. 
 
-# Validation
+# 8.4.4 Validation
 
 ![image](12.10.7_ComfillV2_screen_validate.png)
 
 1.	Enable hot list to accept all cards within bin low and bin high range.
 2.	Press 2 to enable or disable card expiry date.
 
-# Prompts
+# 8.4.5 Prompts
 
 ![image](12.10.8_ComfillV2_screen_prompts.png)
 
@@ -1673,7 +1624,7 @@ Use this menu to enable or disable prompts in authorization mode.
 - User ID
 - Odometer
 
-# Card User
+# 8.4.6 Card User
 
 ![image](12.10.9_ComfillV2_screen_userID.png)
 
@@ -1693,7 +1644,7 @@ To edit and change user IDs,
 
 ![image](12.10.11_ComfillV2_screen_userIDvalid.png)
 
-# Auth Mode
+# 8.4.7 Auth Mode
 
 To access auth mode, select AUTH from the main menu, select AUTH MODE.
 
@@ -1708,7 +1659,7 @@ To set or change the configuration:
 
 **NOTE:** *If the unit is changed between Cardreader and HID configurations, it is important to change the dipswitch settings on the PIN pad board.*
 
-# Auth Time Out
+# 8.4.8 Auth Time Out
 
 To access auth time out, select AUTH from the main menu, select ATH T/O.
 
@@ -1718,7 +1669,7 @@ Auth time out can be changed by pressing 4 and entering a new value.
 
 <BR>
 
-# Product
+# 8.5 Product
 
 **Note:**Product is only available in hybrid mode
 
@@ -1739,7 +1690,7 @@ Select any product to set a new product or change an existing product.
 
 <BR>
 
-# Tank menus
+# 8.6 Tanks
 
 **Note:** Tanks are only available in Hybrid Mode
 
@@ -1759,9 +1710,9 @@ Select TANKS from the main menu and select  TANK A or TANK B.
 5.	The product can be set by pressing 4 and selecting an established product. 
 6.	Safe fill level can be changed by pressing 1 and entering the new value in litres.<BR>
 
-# CompacOnsite for the Comfill LITE
+# 9.0 CompacOnsite for Comfill V2 and Comfill LITE
 
-# Login
+# 9.1 Login
 
 To access CompacOnsite, the device ID is needed. The following should be entered into an internet browser, replacing device ID with the specific ID of the unit. Refer to Local Setup for instructions on finding the Device ID.
 
@@ -1788,7 +1739,7 @@ After log in, the CompacOnsite home screen will appear.
 
 **NOTE:** *The side bar will look different depending on the access level of the user.*
 
-# Users
+# 9.2 Users
 
 There are three different user options when logging into Compac Onsite; standard, technician and administrator.<BR>
 Each user can access different functionalities. Standard users can access all basic functionalities, such as tanks, cards and transactions. <BR>
@@ -1797,10 +1748,10 @@ The technician can access all these options, as well as being able to access set
 
 ![image](12.13.1_ComfillV2_screen_homepage.png)
 
-# Standard User Options
+# 9.3 Standard User Options
 Users have access to all the following basic functionalities.
 
-# Transactions
+# 9.4 Transactions
 
 ![image](12.13.2_ComfillV2_screen_transactions.png)
 
@@ -1817,7 +1768,7 @@ Transactions that have not been exported will be viewed in the screen as default
 To show exported transactions untick ‘Only load new transactions’.<BR>
 <BR>
 
-# Tank products and volumes
+# 9.5 Tanks
 
 The Tanks section indicates product details and volume of fuel in the tank.
 
@@ -1831,7 +1782,7 @@ The data in this section can be downloaded by pressing Download. Select Refresh 
 
 **NOTE:** *A reboot is required for any changes to be applied.*
 
-# Events
+# 9.6 Events
 
 Events are notable events that occur with the pumps.<BR>
 The main event that should be examined is the Pump Snapshot event.<BR>
@@ -1840,7 +1791,7 @@ Select Download to download the list of events on screen. Select Refresh to load
 
 ![image](12.13.6_ComfillV2_screen_Events.png)
 
-# Cards
+# 9.7 Cards
 
 In this section, a new card can be created with Create New card. Decide on a card number, PIN and owner details, then select Submit.<BR>
 
@@ -1852,7 +1803,7 @@ Select the trash can icon if a card is not needed. The maximum Card storage is l
 ![image](12.13.7_ComfillV2_screen_Cards.png)
 
 
-# User IDs
+# 9.8 User IDs
 
 ![image](12.13.8_ComfillV2_screen_UserID1.png)
 
@@ -1870,7 +1821,7 @@ Import User IDs is another way of inserting new users. It may be easier for bulk
 
 ![image](12.13.9_ComfillV2_screen_UserID2.png)
 
-# CompacOnsite Logins
+# 9.9 CompacOnsite Logins
 
 For the security of the site, the standard passwords should be changed during set up of the unit.<BR>
 In case the passwords were not changed during installation, the process is outlined here.<BR>
@@ -1885,11 +1836,11 @@ Not all users may be shown depending on the access level of the user. To edit, s
 Enter the desired new password, confirm this and press Submit. <BR>
 <BR>
 
-# Administrator Options
+# 9.10 Administrator Options
 
 Administrators can access all the above options, as well as being able to access pricing, settings and reboot.
 
-# Pricing
+# 9.11 Pricing
 
 From pricing, the pricing for different products can be viewed and changed. 
 
@@ -1903,7 +1854,7 @@ Enter the new price for any product and select Change Price. This will change th
 However, the unit will continue to use the Active Price until Use New Prices is selected, under Price Change.<BR>
 Clicking this will change the Active Price and update them to the New Price.
 
-# Settings
+# 9.12 Settings
 
 Settings can be used to set site details. Enter the site details and press submit.
 
@@ -1911,7 +1862,7 @@ Settings can be used to set site details. Enter the site details and press submi
 
 Timezone can also be set. In some cases, timezone will be automatically synced. Enter the timezone and press submit.
 
-# Reboot
+# 9.13 Reboot
 
 Reboot is used to restart the application. Some settings require rebooting to update recent actions.<BR>
 The page needs to be refreshed after the Reboot process has been completed.<BR>
@@ -1921,12 +1872,12 @@ The page needs to be refreshed after the Reboot process has been completed.<BR>
 When someone is refuelling the C5000 unit cannot be rebooted.<BR>
 The pumps may stop fuelling as the transaction has been interrupted.
 
-# Technician Options
+# 9.14 Technician Options
 
 Technician users can access both administrator and standard user options.<BR>
 As well as this, they can access site setup options.
 
-# Dispenser Setup
+# 9.15 Dispenser Setup
 
 Dispenser Setup will bring up a setup menu with four options;
 
@@ -1979,7 +1930,7 @@ To download the tank strapping table, select download current strapping table.<B
 At the bottom of the page, tables can be uploaded and the table template can be downloaded.<BR>
 Use the table ID drop down menu to select the table ID.
 
-# FMS Setup
+# 9.16 FMS Setup
 
 When setting up the unit, the FMS setup tab can be used to set up card records.<BR>
 
@@ -1988,7 +1939,7 @@ To add a new card, fill in the required fields and check which prompts are desir
 Checking Enabled will enable the card. When the card is finished, press Submit.<BR>
 Current cards can be viewed in the Card Prefix Table.<BR>
 
-# Vega Tank Strapping
+# 9.17 Vega Tank Strapping
 
 If a Vega electronic dipstick is being used, a tank strapping table will need to be created to gauge the amount of liquid in a tank.<BR>
 To do this, the tank dipstick will need to be accessed. This is a ruler showing volume that is a component of tanks. 
@@ -2010,7 +1961,7 @@ After making a table, reinsert the dipstick into the tank and then read the volu
 **NOTE:** *The more readings done on the tank, the more accurate the tank gauging will be.*
 <BR>
 
-# Electronics
+# 10.0 Electronics
 
 The following diagram shows a standard configuration for the internal wiring of the Comfill V2 unit.<BR>
 Connections may change during ordering, production or customisation.<BR>
@@ -2028,7 +1979,7 @@ The K-Factor and PIN Pad board can be found on the inside of the Comfill V2 Box 
 **NOTE:** The optional comms board is not shown in these drawings.<BR>
 The comms board is located above the processor board.
 
-# Electrical Parameters
+# 10.1 Electrical Parameters
 
 |Paramater||Terminal|Min.|Max.|Unit
 |---------|-|--------|----|----|----
@@ -2050,7 +2001,7 @@ IIH (Ch2) input high current|VIH = 3V|P1: 3|0.1|0.15|mA|
 |IIL (Ch2) input low current|VIL = 0V|P1: 3|0|0|mA|
 ||VIL =0.8V||0|0.05|mA|
 
-# Servicing
+# 11.0 Servicing
 
 Having all the correct tools will make installation, upgrade and repair procedures easy and minimise the risk of damage to components.<BR>
 
@@ -2081,28 +2032,28 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 
 The Comfill V2 is a relatively simple unit with no moving parts and therefore needs minimal maintenance. 
 
-# Cleaning the Cabinet
+# 11.1 Cleaning the Cabinet
 
 The cabinet should be cleaned with a soft cloth and non-abrasive cleaner to remove dirt, grease, graffiti and unauthorised stickers.<BR>
 All instruction and branding decals should be replaced if damaged or faded.<BR>
 
 **NOTE:** Do not use buckets of water, hoses or water blasters to clean the cabinet as water may enter and damage delicate components. 
 
-# Card Reader cleaning
+# 11.2 Card Reader
 
 The card reader should be swiped through with a cleaner card wet with cleaner fluid.<BR>
 The card reader may need to be cleaned daily on dirty, dusty or wet sites.
 
-# PIN Pad cleaning
+# 11.3 PIN Pad
 
 The PIN pad should be cleaned to keep the printing legible. A soft dry rag should be used.<BR>
 Do not use a rag wet with solvent or petrol as the PIN pad printing may be damaged. 
 
-# Testing
+# 11.4 Testing
 
 Regular zero dollar tests with valid PINs, cards or HID readers (whichever applicable) should be undertaken to ensure the unit is operating correctly.  
 
-# Perspex Guard removal and replacement
+# 11.5 Perspex Guard
 
 The Perspex guard houses the 230V components and will need to be removed to repair or replace components such as the power supply and several of the circuit boards.
 
@@ -2115,12 +2066,12 @@ Do not repower the unit until the guard is back in place.
 To remove the Perspex guard, simply unscrew the M4x10 pozi screws holding the guard in place.<BR>
 Replacement is the opposite of removal.<BR>
 
-# Modem or Router
+# 11.6 Modem or Router
 The Modem or Router is not repairable on site and will need to be replaced with a new part.<BR>
 
 It can be removed simply by removing the screws securing it to the gear plate, and by removing any cables connecting it to other components.
 
-# Display and K Factor boards
+# 11.7 Display and K Factor boards
 
 The display can be found on the inside of the Comfill V2 box door.<BR>
 The display is connected to the K-Factor board. 
@@ -2145,7 +2096,7 @@ Replacement is the reverse of removal.
 
 **Important** If the K-Factor board is replaced, press and hold the parameter button and press the K-Factor button once to transfer the old settings to the new K-Factor board.
 
-# PIN pad Board replacement
+# 11.8 PIN pad Board
 
 The PIN Pad board can be found on the inside of the Comfill V2 box door.
 
@@ -2158,7 +2109,7 @@ Removal:
 
 Replacement is the reverse of removal.
 
-# Terminal Board
+# 11.9 Terminal Board
 
 Before removing the Terminal board, the Perspex guard must be removed. Refer to Perspex guard removal instructions. 
 
@@ -2172,7 +2123,7 @@ Removal:
 
 Replacement is the reverse of removal. Refer to Electronics for Terminal connections.
 
-# Comms Board
+# 11.10 Comms Board
 
 Before removing the Comms board, the Perspex guard must be removed. Refer to Perspex guard removal instructions.<BR>
 
@@ -2185,7 +2136,7 @@ Removal:
 
 Replacement is the reverse of removal. Refer to Electronics for Comms connections.
 
-# Processor Board replacement
+# 11.11 Processor Board
 
 Before removing the processor board, the Perspex guard and Comms board (if included) will need to be removed. Refer to removal instructions in Service.<BR>
 
@@ -2206,13 +2157,13 @@ Replacement is the opposite of removal.<BR>
 
 If the processor board is replaced, press the K-Factor button once to transfer settings to the processor board.
 
-# Baseboard
+# 11.12 Baseboard
 
 The Baseboard is located underneath the Perspex guard, below the Processor and Terminal boards.<BR>
 Remove these components before removing the baseboard.<BR> 
 The Baseboard can be removed simply by removing the screws securing it.
 
-# PIN Pad replacement
+# 11.13 PIN Pad
 
 The PIN Pad may need to be replaced if it gets worn or becomes faulty.<BR>
 The PIN Pad can be removed from the back to the Comfill V2 V2 door.<BR>
@@ -2223,7 +2174,7 @@ The PIN Pad can be removed from the back to the Comfill V2 V2 door.<BR>
 
 Replacement is the opposite of removal.
 
-# Card Reader replacement
+# 11.14 Card Reader
 
 To remove the card reader:<BR>
 
@@ -2235,7 +2186,7 @@ Replacement is the opposite of removal.<BR>
 
 Test the card reader by using a valid card to perform a zero-dollar transaction.
 
-# HID Reader
+# 11.15 HID Reader
 
 To remove the HID Reader:<BR>
 
@@ -2247,9 +2198,9 @@ Replacement is the reverse of removal.<BR>
 
 Test the HID reader by using a valid key to perform a zero dollar transaction.
 
-# LED Diagnostics
+#  12.0 LED Diagnostics
 
-# PINPad Board LEDs
+# 12.1 PINPad Board 
 
 LEDs on the circuit boards can be used to diagnose faults in the unit.<BR>
 View the LEDs and their corresponding tables to see the state of the board.
@@ -2269,7 +2220,7 @@ DIAG = Diagnostics
 ||In normal operation, these should be on when the Diagnostics light is on, and off when the diagnostics light is off.|
 Transmitting and Receiving data|If the diagnostics light is on, and the TD/RD LEDs are off, this means these is an error.<BR> This could be due to cabling – check the bus system cables.
 
-# K Factor board
+# 12.2 K Factor board
 
 ![image](12.16.2_ComfillV2_kfactorboard_LEDs.png)
 
@@ -2295,7 +2246,7 @@ Output table
 |T7|Side A high flow Solenoid|Side A high flow Solenoid|Side A high flow Solenoid|
 <BR>
 
-# Processor board diagnostics
+# 12.3 Processor board
 
 ![image](12.16.3_ComfillV2_processor_LEDs.png)
 
@@ -2310,7 +2261,7 @@ Output table
 
 <BR>
 
-# Base Board
+# 12.4 Base Board
 
 The baseboard LEDs will turn on when the respective power supplies are on
 
@@ -2322,7 +2273,7 @@ D103 = Power 9V
 
 <BR>
 
-# Modem LEDs
+# 12.5 Modem LEDs
 
 The COMFILL V2 comes with a Comset modem, which has indicating LEDs to display the status of the modem.<BR>
 Refer to the following tables to understand the modem LEDs.
@@ -2364,7 +2315,7 @@ Order of LEDs on the Modem is as follows:
 
 <BR>
 
-# Troubleshooting
+# 13.0 Troubleshooting
 
 
 |Problem|Possible cause|Recommended action|
@@ -2396,7 +2347,7 @@ Order of LEDs on the Modem is as follows:
 		
 <BR>
 
-# Error Codes and EOS
+# 14.0 Error Codes and EOS
 
 These are all the Error codes available in the C5000. Some are product specific so will not be found in all applications.
 
@@ -2486,185 +2437,6 @@ Note: This is a complete list of all the available END OF SALE Indicators and co
 **DENSITY**                      | 35                 | The Density was out of range 
 
 <BR>
-
-
-# Valve Modulation 
-
-# Core-functionality
-
-A Compac C5000 processor supports the control of up to 2 dual-solenoid driven diaphragm valves.
-
-Flow control through the main valve is achieved through height regulation of the valves diaphragm. This is indirectly controlled through solenoid valves linked upstream and downstream of the valve. These solenoids can increase, decrease or lock the diaphragm height depending on their states to respectively increase, decrease or hold the flow rate through the main valve steady.
- 
-Figure 1 Control Valve Schematic
-
-![image](17.0.2_MR800S_modvalve_pid.png)
-
-With solenoid valves configured as per figure 1 above, using a normally open solenoid upstream and a normally closed valve downstream, the valve will decrease flow when both solenoids are de-energized. This ensures a safe failure mode should power to the dispenser be lost during a fill. 
-
-With the main valve shut, the 2 solenoid valves are also used as a bypass circuit for bypass flow (trickle flow) to carefully reach a desired preset cutoff volume. The flow rate of this circuit is dependent on the size of piping and the solenoid valve used but is approximately 3-6 liters per minute.
-
-# C5000 Terminal board mapping
- 
-Solenoids should be wired to the following terminals on the C5000 terminal board. <BR>
-The mapping of these terminals cannot be changed.
-
-|Side A||Side B||
-|------|-|------|-|
-Terminal|	Controls|	Terminal|	Controls
-T2|	Upstream solenoid|	T5|	Upstream solenoid
-T3|	Downstream solenoid|	T6|	Downstream solenoid
-
-# Solenoid truth table
-
-Using a normally open upstream solenoid and a normally closed downstream solenoid, the terminal-solenoid truth table is as follows.
-
-|Terminal-Solenoid truth table| | | |
-|-----------------------------|-|-|-|
-Solenoid|	Polarity|	Terminal state|	Solenoid state
-|Upstream |Normally open |HIGH |CLOSED
-| | |LOW |OPEN
-|Downstream|Normally closed|HIGH |OPEN
-| | |LOW |CLOSED
-
-# Flow State table
- 
-Flow regulation through the valve using control of the solenoids is as follows.
-
-|Flow state table | | | | |
-|-----------------|-|-|-|-|
-|Flow state	|Upstream solenoid terminal |Downstream solenoid terminal |Upstream solenoid-valve state |Downstream solenoid-valve state
-|Increase flow |HIGH |HIGH |CLOSED |OPEN
-|Decrease flow |LOW |LOW |OPEN |CLOSED
-|Hold flow steady |HIGH |LOW |CLOSED |CLOSED
-|Bypass (trickle flow) |LOW |HIGH |OPEN |OPEN
-
-
-# Ideal vs real flow rate graph
-
-The system transitions through the following states during dispensing.
-
-1. Ramp to high flow
-2. Hold constant high flow
-3. Ramp down to medium flow
-4. Hold medium flow
-5. Switch to the bypass circuit (trickle flow)
-
-
-![image](17.0.3_MR800S_flowgraph.png)
-
-Figure 2 - Ideal vs real flow rate during dispensing
-
-Figure 2 shows an exaggerated example of the flow rate profile for a typical fill (orange) compared to the desired flow rate profile generated inside the C5000 (red). An internal PID controller is used to follow the desired flow-rate profile which has configurable settings dependent on the valve type used. For control of valves not supported by Compac, these control settings may need to be changed to ensure the following error from the desired flow profile is kept to a minimum.
-
-# Modulated valve configurable settings
-
-The following settings are applicable for setting up a modulated valve. <BR>
-Preset settings (change in pinpad or kfactor menu)
-|Setting |Unit |Recommend value (recommended range) |Notes
-|--------|-----|------------------------------------|-----
-|H Cut |Seconds |4 (4-10) |*Treated as a unit of time rather than volume as is standard.
-|P Cut |Litres |1.75 (1.5-3.5) |Remaining dispense volume before transitioning to the bypass (trickle flow) circuit
-
-Valve settings (requires a pinpad to change)
-|Setting |Unit |Recommend value (recommended range) |Notes
-|--------|-----|------------------------------------|-----
-|High flow rate target |Litres/min |400 (must be above medium)|	 
-|Medium flow rate target |Litres/min |110 (90-120) | |	 
-|Ramp up time |Seconds |8.00 (8.00-15.00) |	Ramp up time from no flow to the high flow rate target. increase for large valves|
-|Ramp down time |Seconds |11.00 (10.00-15.00) |	Ramp down time from high flow to the medium flow rate target. *(warning, if setting is too low, the PID controller may struggle resulting in an undershoot of the medium flow rate target)*|
-|kP |Unitless |90 (80-200) |Proportional gain. Increase if the system is slow to respond|
-|kI |Unitless |60 (30-100) |Integral gain. Increase if the system is not being pulled to the target high or medium flow rate target)
-|kD	|Unitless |60 (10-100) |Derivative gain. Increase to minimize undershooting/overshooting set point targets and dampen the system. May result in instability If a noisy flow meter is being used with little averaging.
-|Minimum pulse width |Seconds |0.01 (0.01-0.1) |Minimum time a solenoid valve should be pulsed for
-|PWM width |Seconds |1.4 (0.5-1.5) |PID update rate and the maximum time a solenoid valve will be turned on for. This is the rate at which the system re-evaluates the output drive/duty level.
-
-# Pinpad Settings Navigation
-
-Valve settings accessed via the pinpad can be found under Hardware -> Next page -> Modulated valve “MOD VALV”. <BR>
-The first page shown features commonly changed flow parameters whereas the second page shows less-frequently changed settings for the internal PID controller.
-
-![image](17.0.4_MR800S_PP1.png)
-
-![image](17.0.5_MR800S_PP2.png)
-
-![image](17.0.6_MR800S_PP3.png)
-
-![image](17.0.7_MR800S_PP4.png) 
-
-![image](17.0.8_MR800S_PP5.png)
-
-# Tuning to correctly hit a preset amount
- 
-The following settings are recommended to be tuned from their defaults during the commissioning process to correctly hit the preset and to minimize the time spent flowing through the bypass (trickle flow) circuit.
-
-- H Cut <BR>
-
-This is treated as a unit of time to account for lag in the system due to nonlinearities in controlling a diaphragm valve.<BR>
-For a 2” valve flowing at approximately 400LPM it can take many seconds before the valve starts to respond to a solenoid input. <BR>
-It is recommended that this setting be increased until stable flow rate at the medium flow rate target occurs for a few seconds before switching over to the bypass (trickle flow) circuit.
-
-- P Cut <BR>
-
-This is the remaining dispensing volume before the system switches over to the bypass (trickle flow) circuit.<BR>
-Once met, the valve will shut leaving the bypass circuit open. This should be increased until the valve is fully shut and running on the bypass circuit for the last 0.5L before reaching the preset. If this setting is too low, the system may over run the preset.<BR>
-If the setting is too low, the system may timeout due to the low flow rate.
-
-![image](17.0.9_MR800S_preset.png)
-
-Precautions when adjusting
- 
-The following settings affect the system stability and should be changed taking great precautions.
-
-- kP
-- kI
-- kD
-- Minimum pulse width
-- PWM width
-- Medium flow rate*
- 
-*The medium flow rate target should be treated with a minor precaution as if this is too low nonlinearities in the system make the valve difficult to control.<BR>
-For a 2” diaphragm valve this is approximately 80 L/min.
-
-# Advanced settings
-
-The Compac Ultra MR800S has default settings for the Modulated Valve installed at time of manufacture.
-In most installations, no changes will be required to the default advanced settings and the dispenser will operate correctly.
-
-The Advanced settings are in a separate menu that is not visible which needs to be enabled to allow changes to be made.
-
-If you enable advanced settings you will get extra settings after the modulated valve setting “nuCC".<BR>
-To enable this, you need to set the nuCC to XX21
-
-Advanced Modulated Valve settings
-
-|Setting             |Description       |Default              |
-|--------------------|------------------|---------------------| 
-nu nfl |	Medum flow rate  |	110
-nu ru.t|	Ramp up time	 |  8.00
-nu rd.t|	Ramp down time   |	11.00
-nu tP  |	PID P setting	 |  090
-nu ti  |    PID i setting	 |  060
-nu td  |	PID d setting	 |  060
-nu nP.u|	Minimum time a solenoid valve should be pulsed for |	0.01
-nu Pu.u|	PWM width        |	0.50
-
-<BR>
-
-# Valve Modulation Troubleshooting
-
-Refer to the Advance Modulated Valve settings in section 15.9 to access these parameters 
-
-|Symptom|Possible cause|Action
-|-------|--------------|-------
-|Valve keeps ticking and does not reach the target flow rate|The target flow rate may be too high, or the pump pressure may be insufficient.| Try decreasing the target flow rate.
-|Ramping too fast| The ramp-up time may be set too low. |Increase the ramp-up time (nu ru.t), or
-| | The PWM width (nu Puu) may be too large. |Reduce it.
-|Valve attempts to close (ticking) but responds slowly |The target flow rate may be too close to the maximum flow rate. |Reduce the target flow rate (nu HFr) by approximately 50 L/min.
-|Valve starts ramping too early |Check the time at low flow setting. |Ensure it is not set to 00. If a value is set, try reducing it.
-
-
- 
 
 
 
