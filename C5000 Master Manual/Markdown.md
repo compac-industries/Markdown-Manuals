@@ -479,11 +479,12 @@ Always replace fuses with genuine Compac spare parts
 
 **Troubleshooting** 
 
-|Symptom|Likely causes|Cause| Recommended action|
+|Symptom|Likely causes|Possible cause| Recommended action|
 |-------|-------------|------------------|------|
+Solenoids not energising or Motor not swtiching on but the electronics are working ie LEDS are on| F1 blown | Replace fuse |If problem persists, check Power Supply, Solenoids or Motor for electrical faults. Replace as required 
 |C5000 electronics are not working. NO LEDS on |Fuse F2 or F3 blown| Unacceptable voltage spikes causing fuses to blow. |Replace fuse and consider fitting a voltage-stabilising UPS to the dispenser.
 |C5000 electronics are not working. NO LEDs on|Fuse F2 or F3 blown|Fault in Power Supply| Replace C5000 Power Supply
-Solenoids not energising or Motor not swtiching on but the electronics are working ie LEDS are on| F1 blown | Replace fuse |If problem persists, check Power Supply, Solenoids or Motor for electrical faults. Replace as required 
+
 
 <BR>
 <BR>
