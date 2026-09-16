@@ -5,7 +5,7 @@
 <font size ="6">
 
 # C5000 Manual
-Updated 26 August 2026
+Updated 16 September 2026
 
 
 Laser 
@@ -93,6 +93,8 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 [2.3 Typical wiring](#23-typical-wiring)
 
 [2.4 Comms connection](#24-comms-connection)
+
+[2.5 Fuses](#25-fuses)
 
 <font size ="5">
 
@@ -453,6 +455,36 @@ Use the following table to configure these switches. Switch 300 is for channel 1
 
 ![image](9.3.1_CI501_Dip_Switches.png) 
 
+
+# 2.5 Fuses
+
+There are three replaceable fuses on the C5000 Power Supply:<BR>
+F1, F2, and F3.<BR>
+
+
+**Fuse specifications**
+
+|Fuse |Current rating|Voltage rating|Breaking capacity|Function |
+|-----------|--------------|--------------|-----------------|---------|
+|F1    |1.6A          |250Vac        |1500A            |low current triac outputs (Side A & B: PFS, SFS, MTR Relay, and AUX)        |
+|F2 and F3  |3.15A         |250Vac        |1500A            |power to 15V Supply for electronics 
+
+
+**Spare fuses**
+
+A spare set of fuses is supplied with every new Pump and Dispenser. <BR>
+They are located inside the flameproof box taped to the lid 
+
+Always replace fuses with genuine Compac spare parts 
+
+**Troubleshooting** 
+
+|Symptom|Likely causes|Cause| Recommended action|
+|-------|-------------|------------------|------|
+|C5000 electronics are not working. NO LEDS on |Fuse F2 or F3 blown| Unacceptable voltage spikes causing fuses to blow. |Replace fuse and consider fitting a voltage-stabilising UPS to the dispenser.
+|C5000 electronics are not working. NO LEDs on|Fuse F2 or F3 blown|Fault in Power Supply| Replace C5000 Power Supply
+Solenoids not energising or Motor not swtiching on but the electronics are working ie LEDS are on| F1 blown | Replace fuse |If problem persists, check Power Supply, Solenoids or Motor for electrical faults. Replace as required 
+
 <BR>
 <BR>
 
@@ -510,7 +542,7 @@ following pages for information on these settings.
 
 
 ![image](6.1.1_GPIO_screenshot_CA.png)
-
+\
 C-A and C-A are used to change the dispenser settings including the meter type, variant and minimum delivery.
 To get to the C-A and C-B, press the K-Factor switch once while the dispenser is in an idle state.
 The menu shown is for side A – if side B is required, continue depressing the K-Factor switch until the same menu for side B is reached and follow the same set up instructions.
