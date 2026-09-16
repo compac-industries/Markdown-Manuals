@@ -6,7 +6,7 @@
 
 # Comfill V2 and Comfill LITE
 # Installation and Service Manual
-Updated 9 September 2026
+Updated 16 September 2026
 
 Comfill V2
 
@@ -21,7 +21,7 @@ Comfill LITE
 **Conditions of Use**
 <font size ="3">
 
-- Read this manual completely before working on, or making adjustments to, the Compac equipment<BR>
+- Please read this manual completely before working on, or making adjustments to, Compac equipment<BR>
 - Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.<BR> 
 - Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.<BR>
 - Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment<BR>
@@ -66,7 +66,7 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [**Safety**](#safety)
 
-[**Introduction to the Comfill models**](#introduction-to-the-comfill-models)
+[**Comfill model specifications**](#introduction-to-the-comfill-models)
 
 <font size ="3">
 
@@ -74,7 +74,7 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [**Comfill LITE**](#comfill-lite)
 
-[Comfill LITE Operation](#comfill-lite-operation)
+
 <font size ="6">
 
 [**Comfill Technical Drawings**](#comfill-technical-drawings)
@@ -468,20 +468,36 @@ Technicians should be able to safely operate and diagnose a Comfill V2 with the 
 <BR>
 <BR>
 
-# Introduction to the Comfill models
+# Comfill model specifications
 
 # Comfill V2
 
 The Comfill V2 enables unattended refuelling at unmanned sites such as truck stops, marinas an aviation sites where the driver, skipper or pilot can pay for fuel by HID, Mifare Card / Tag, Distributor / White cards or with a PIN number.<BR>
-It is compact and suitable for outdoor installation. The Comfill V2 has two card bases that can be customised to allow specific distributor cards access. The unit can be set up from the unit itself or can be set up online from CompacOnline.<BR>
-The Comfill V2 is a versatile unit and supports both V50 and Encoder meters. Tank levels can be monitored with Compac, Fafnir, Vega, Veeder-Root and Virtual tank gauges. The Comfill V2 supports two configurations, both single and dual, and therefore can control either one or two pumps from one unit.<BR>
-The Comfill V2 can be used for different applications, as it is both a pump and a Fuel Management System (FMS). This means the Comfill V2 can be used to either authorise and control external pumps, or to dispense fuel using internal controlled pumps.
+It is compact and suitable for outdoor installation.<BR>
+Connects to CompacOnline.<BR>
+Is a versatile unit that supports both Compac V50 and Encoder meters as well as 3rd party meters/encoders.<BR>
+Tank levels can be monitored with Compac, Fafnir, Vega, Veeder-Root and Virtual tank gauges.<BR>
+Supports two configurations, both single and dual, and therefore can control either one or two pumps from one unit.<BR>
+Can be used for different applications, as it is both a pump and a Fuel Management System (FMS). This means the Comfill V2 can be used to either authorise and control external pumps, or to dispense fuel using internal controlled pumps.
 
 # Comfill LITE
 
-A lightweight option for dispensing and monitoring fuel, no extra bells and whistles.<BR>
-Comfill Lite is housed in durable plastic casing with a transparent lid, and can be mounted straight onto your tank.<BR>
-It is a more stripped-back, cost-effective solution.<BR>
+The purpose of the Comfill Lite is to provide a lower-cost version of the Comfill system.<BR>
+One of the key cost-saving measures is the removal of the dedicated litres and dollar display.<BR>
+Instead, volume information is shown on the dot matrix display.
+
+Main Benefits
+Reduced hardware cost by eliminating the dedicated litres and dollar display.
+Single dot matrix display used for authorization and dispensing information.
+Quick access to the last completed sale from the idle screen.
+Support for both single-hose and twin-hose dispensers.
+Ability to authorize a second hose without interrupting an active fill.
+Simultaneous display of both dispensing volumes during twin-hose operation.
+View tank levels at the press of a key
+
+Because the dot matrix display serves multiple purposes, it is used for both:
+1. Authorizing a sale.
+2. Displaying the current dispensed volume.
 
 **Comfill LITE has the following features and variations to the Comfill V2**
 1. Supports CompacOnsite 
@@ -490,28 +506,82 @@ It is a more stripped-back, cost-effective solution.<BR>
 4. Only comes with Mifare reader (does not support other authorisation options)
 5. Supports up to two 4-20mA tank probes but does not support Tank Controllers (eg Veederroot, Fafnit etc)
 6. There is no Backlit LCD Display to show Litres. Instead Litres are shown on the PINPad dot matrix display) **For this reason, the Comfill LITE does not have Weights and Measures Approval**
-
-# Comfill LITE Operation
-
-This section is specific to the Comfill LITE
-
-As there is no standard backlit LCD Display, the quantnity in Litres is displayed on the PINPAD key pad
-
-**Idle state** (no fill in progress):<BR>
-The Pinpad display will toggle every 3 seconds when at idle to either show the new display Quantity in litres (in idle state this will be the last sale), or the normal prompt. 
-
-**Transacting** (fill in progress):<BR>
-The Pinpad display will show the new display Quantity in litres when side A or side B is transacting
  
+**Idle Display**
+When the dispenser is idle, the dot matrix display shows the authorization prompt. Depending on the site configuration, this prompt may be:
+
+- Pass card
+- Pass HID
+- Enter Card Number
+The display remains on the authorization prompt until a sale is authorized.
+
+**Viewing the Last Sale**
+While the unit is idle and displaying the authorization prompt, the operator can press the # (Hash) key to view the details of the last completed sale.
+
+After viewing the last sale information, the display will return to the authorization prompt After timing out or the # (hash) key is pressed again.
+
+**Viewing the Tank levels**
+Press the ? key to display the tank level (up to two tanks)
+
+**Dispensing Display**
+Once dispensing begins, the dot matrix display changes from the authorization prompt to the dispensing screen and displays the current volume being dispensed.
+
+At the completion of the transaction:
+
+The last sale information is displayed automatically for 30 seconds.
+After 30 seconds, the display automatically returns to the authorization prompt.
+
+**Twin-Hose Operation**
+For twin-hose units, the display must also provide a method of authorizing the second hose while the first hose is dispensing.
+
+While one hose is dispensing:
+
+1. Press the # (Hash) key.
+2. The display returns to the authorization prompt.
+3. The second hose can then be authorized.
+
+Once the second hose has been authorized and both hoses are dispensing, the display is capable of showing the dispensing volumes for both hoses simultaneously.
+
+**Summary of Display Behaviour**
+
+|  |  |
+|--|--|
+State|	Display
+Idle |	Authorization Prompt
+Idle + # Pressed |	Last Sale Display
+Sale Authorized| Dispensing Volume
+End of Sale |	Last Sale Display (30 seconds)
+After 30 Seconds |	Authorization Prompt
+Single Hose Dispensing + # Pressed |   Authorization Prompt for Second Hose
+Both Hoses Dispensing|	Both dispensing volumes displayed simultaneously
 
 
+Main Benefits
+Reduced hardware cost by eliminating the dedicated litres and dollar display.
+Single dot matrix display used for authorization and dispensing information.
+Quick access to the last completed sale from the idle screen.
+Support for both single-hose and twin-hose dispensers.
+Ability to authorize a second hose without interrupting an active fill.
+Simultaneous display of both dispensing volumes during twin-hose operation.
+<BR>
 
-Viewing the Tank levels
+**Display prompts**
 
+Idle
 
+![image](12.99.2_COMFILL_LITE_pass_card.png)
 
+![image](12.99.3_COMFILL_LITE_pass_hid.png)
 
+![image](12.99.4_COMFILL_LITE_enter_card.png)
 
+Dispensing
+
+![image](12.99.5_COMFILL_LITE_pump1.png)
+
+![image](12.99.5_COMFILL_LITE_pump1and2.png)
+
+<BR>
 <BR>
 
 # Comfill Technical Drawings
