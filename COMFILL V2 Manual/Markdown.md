@@ -489,15 +489,21 @@ It is a more stripped-back, cost-effective solution.<BR>
 3. Supports both Compac COM meters and 3rd Party Meter
 4. Only comes with Mifare reader (does not support other authorisation options)
 5. Supports up to two 4-20mA tank probes but does not support Tank Controllers (eg Veederroot, Fafnit etc)
-6. There is no Backlit LCD Display to show Litres. Instead Litres are shown on the PINPad dot matrix display)
+6. There is no Backlit LCD Display to show Litres. Instead Litres are shown on the PINPad dot matrix display) **For this reason, the Comfill LITE does not have Weights and Measures Approval**
 
 # Comfill LITE Operation
 
 This section is specific to the Comfill LITE
 
-Viewing the Litres quantity
+As there is no standard backlit LCD Display, the quantnity in Litres is displayed on the PINPAD key pad
 
-The last sale quantity (in Litres) will flash on the PINPad Display after the fill has been completed
+**Idle state** (no fill in progress):<BR>
+The Pinpad display will toggle every 3 seconds when at idle to either show the new display Quantity in litres (in idle state this will be the last sale), or the normal prompt. 
+
+**Transacting** (fill in progress):<BR>
+The Pinpad display will show the new display Quantity in litres when side A or side B is transacting
+ 
+
 
 
 Viewing the Tank levels
