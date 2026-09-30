@@ -2,34 +2,42 @@
 ![image](Compac_front_page.png)
 
 
-<font size ="6">
+<font size ="7">
 
 # Comfill Ex
+
+<font size ="6">
+
 # Installation and Service Manual
-Updated 9 September 2026
+
+<font size ="3">
+
+Updated 30 September 2026
+
+
+<font size ="10">
 
 COMFILL Ex
 
-![image](ComfillV2Ex1.png)
+<font size ="3">
 
-
-
+![alt text](image.png)
 
 **Conditions of Use**
 <font size ="3">
 
-- Read this manual completely before working on, or making adjustments to, the Compac equipment<BR>
+- Read this manual completely before working on, or making adjustments to, the Compac Comfill Ex<BR>
 - Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.<BR> 
 - Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.<BR>
 - Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment<BR>
-- The major hazard involved with operating the Compac C5000 processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.<BR>
-- Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C5000 processor, or damages resulting from the inability to use the Compac C5000 processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.<BR> 
+- The major hazard involved with operating the Compac C5K processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.<BR>
+- Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C5K processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.<BR> 
 - Compac Industries Limited reserves the right to change the specifications of its products or the information in this manual without necessarily notifying its users.<BR>
-- Variations in installation and operating conditions may affect the Compac C5000 processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C5000 processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.<BR>
+- Variations in installation and operating conditions may affect the Compac C5K processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C5K processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.<BR>
 - Compac Industries Limited has made every effort to explain all servicing procedures, warnings, and safety precautions as clearly and completely as possible. However, due to the range of operating environments, it is not possible to anticipate every issue that may arise. This manual is intended to provide general guidance. For specific guidance and technical support, contact your authorised Compac supplier, using the contact details in the Product Identification section.
 - Only parts supplied by or approved by Compac may be used and no unauthorised modifications to the hardware of software may be made. The use of non-approved parts or modifications will void all warranties and approvals. The use of non-approved parts or modifications may also constitute a safety hazard.
 - Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C5000 processor, please refer to the warranty provided by the supplier.
-- Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5000 processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how. 
+- Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5K processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how. 
 - Every effort has been made to ensure the accuracy of this document. However, it may contain technical inaccuracies or typographical errors. Compac Industries Limited assumes no responsibility for and disclaims all liability of such inaccuracies, errors, or omissions in this publication.
 
 <font size ="5">
@@ -37,7 +45,7 @@ COMFILL Ex
 **Validity**
 <font size ="3">
 
-This manual covers the following
+This manual covers the following model(s)
 - Comfill Ex
 
 
@@ -63,10 +71,9 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [**Safety**](#safety)
 
-[**Introduction to the Comfill Ex**](#introduction-to-the-comfill-models)
+[**Introduction to the Comfill Ex**](#introduction-to-the-comfill-ex)
 
 <font size ="3">
-
 
 <font size ="6">
 
@@ -85,6 +92,8 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [Zone requirements and Electrical Approvals](#zone-requirements-and-electrical-approvals)
 
+[Electrical Approvals](#electrical-approvals)
+
 [Static Electricity Precautions](#static-electricity-precautions)
 
 [Tools](#tools)
@@ -95,69 +104,61 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
+<font size ="5">
+
 [**Mechanical Installation**](#mechanical-installation)
+
+<font size ="3">
 
 [Mounting](#mounting)
 
 [Glanding](#glanding)
 
-[Perspex Guard removal](#perspex-guard-removal)
+<font size ="5">
 
 [**Connecting Power, Motors and Solenoids**](#connecting-power-motors-and-solenoids) 
+
+<font size ="3">
 
 [Terminal Board 230V version Mains and Motor connections](#terminal-board-230v-version-mains-and-motor-connections)
 
 [Wiring in an Emergency Stop Switch or Overfill Protection System](#wiring-in-an-emergency-stop-switch-or-overfill-protection-system)
 
-[Connecting External pumps such as Submersible or Transfer Pumps](#connecting-external-pumps-such-as-submersible-or-transfer-pumps)
-
-[Standard Solenoid connections for Comfill V2 and Comfill LITE](#standard-solenoid-connections-for-comfill-v2-and-comfill-lite)
+[Connecting External pumps such as Submersible Turbine or Transfer Pumps](#connecting-external-pumps-such-as-submersible-turbine-or-transfer-pumps)
 
 [Modulated Control Valve Solenoid connections](#modulated-control-valve-solenoid-connections) 
 
 [C5000 Power Supply in flame-proof box](#c5000-power-supply-in-flame-proof-box)
 
+<font size ="5">
 
-[**Connecting 3rd Party Meters/Encoders and Comms to the GPIO Board**](#connecting-3rd-party-metersencoders-and-comms-to-the-gpio-board)
-
-[DIN Rail Connections](#din-rail-connections)
-
-[Connecting a Compac Encoder](#connecting-a-compac-encoder)
-
-[Connecting a Compac V50 Meter](#connecting-a-compac-v50-meter)
-
-[Connecting a Piusi meter](#connecting-a-piusi-meter)
-
-[Connecting a Reed Switch Meter](#connecting-a-reed-switch-meter)
-
-[Connecting a Veeder Root Pulser Meter](#connecting-a-veeder-root-pulser-meter)
-
-[Connecting a Macnaught meter](#connecting-a-macnaught-meter) 
-
-[Encoder interface for 3rd party encoders](#encoder-interface-for-3rd-party-encoders)
-
-
-[**K Factor and PINPad board connections**](#k-factor-and-pinpad-board-connections)
-
-[K Factor board](#k-factor-board)
-
-[PINPad board](#pinpad-board)
-
-<font size ="6">
-
-
-
-
-
-<font size ="6">
-
-[**Electronics**](#electronics)
+[**Connecting Flow Meters and Pulsers**](#connecting-flow-meters-encoders-and-pulsers) 
 
 <font size ="3">
 
-[Electrical Parameters](#electrical-parameters)
+[**Connecting Compac Encoders, COM50, COM125, COM50 and COM650 meters**](#connecting-compac-com50-com125-com50-and-com650-meters)
 
-<font size ="6">
+
+[**Connecting 3rd Party Flow Meters and Pulsers to the GPIO board**](#connecting-3rd-party-flow-meters-and-pulsers-to-the-gpio-board)
+
+[- Connecting a VeederRoot EMR4 Pulser](#--connecting-a-veederroot-emr4-pulser-to-the-gpio-board) 
+
+
+<font size ="5">
+
+[**Connecting Pump Comms**](#connecting-pump-comms)
+
+<font size ="3">
+
+[Connecting Pump Comms to a unit with a **Compac Flow Meter**](#connecting-pump-comms-to-a-unit-with-a-compac-flow-meter)
+
+[Connecting Pump Comms to a unit with a **Third Party Flow Meter**](#connecting-pump-comms-to-a-unit-with-a-third-party-flow-meter)
+
+<font size ="5">
+
+[**K Factor board**](#k-factor-board)
+
+
 
 [**Servicing**](#servicing)
 
@@ -171,27 +172,21 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [Testing](#testing)
 
-[Perspex Guard removal and replacement](#perspex-guard-removal-and-replacement)
-
-[Modem or Router](#modem-or-router)
-
 [Display and K Factor boards](#display-and-k-factor-boards)
 
 [PIN pad Board replacement](#pin-pad-board-replacement)
 
-[Terminal Board](#terminal-board)
-
-[Comms Board](#comms-board)
-
 [Processor Board replacement](#processor-board-replacement)
 
-[Baseboard](#baseboard)
+[Power Supply replacement](#power-supply-replacement)
+
+[Comms board replacement](#comms-board-replacement)
 
 [PIN Pad replacement](#pin-pad-replacement)
 
 [Card Reader replacement](#card-reader-replacement)
 
-[HID Reader](#hid-reader)
+
 
 <font size ="6">
 
@@ -201,13 +196,9 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [PINPad Board LEDs](#pinpad-board-leds) 
 
+[K Factor board LEDs](#k-factor-board-1)
 
-[K Factor board](#k-factor-board-1)
-
-[Processor board diagnostics](#processor-board-diagnostics)
-
-[Base Board](#base-board)
-
+[Processor board LEDs](#processor-board-diagnostics)
 
 <font size ="6">
 
@@ -251,9 +242,9 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 # Safety
 
-<BR>
 
-Please adhere to the following safety precautions at all times when working on the Compac Comfill V2.<BR>
+
+Please adhere to the following safety precautions at all times when working on the Compac Comfill Ex.<BR>
 Failure to observe these safety precautions could result in damage to the Comfill V2, injury, or death.<BR>
 Ensure that you read and understand all safety precautions before installing, servicing or operating the Compac Comfill V2.
 
@@ -283,9 +274,9 @@ These instructions are to be used as a guide only and may not cover all situatio
 
 **CAUTION**<BR>
 
-Always turn off the power to the Comfill V2 before removing the high voltage area Perspex guard. Never touch wiring or components inside the high voltage area with the power on.<BR>
+Always turn off the power to the Comfill Ex before removing the high voltage area Perspex guard. Never touch wiring or components inside the high voltage area with the power on.<BR>
 
-Always turn off the power to the Comfill V2 before removing or replacing software.<BR>
+Always turn off the power to the Comfill Ex before removing or replacing software.<BR>
 
 Always take basic anti-static precautions when working on the electronics, i.e., wearing a wristband with an earth strap.
 
@@ -293,52 +284,77 @@ Always take basic anti-static precautions when working on the electronics, i.e.,
 
 The Comfill V2 is powered by 240 Volt AC mains power. The mains power enters the cabinet via a gland in the base and is connected to the terminal board. From the terminal board, the power supply goes to the power supply. The power supply steps down the 230 Volts AC to 12 volt DC to power the main electronic components.<BR>
 
-Technicians should be able to safely operate and diagnose a Comfill V2 with the cabinet door open as long as they do not touch any of the 230 Volt powered components behind the Perspex cover or the 230 Volt terminals on the power supply.
+Technicians should be able to safely operate and diagnose a Comfill Ex with the cabinet door open as long as they do not touch any of the 230 Volt powered components behind the Perspex cover or the 230 Volt terminals on the power supply.
 <BR>
 <BR>
 
 # Introduction to the Comfill Ex
 
+The Comfill Ex can be distinguished from the standard Comfill V2 as the C5000 Power Supply is installed separately in a flame-proof.
+This makes it approved for installation in a hazardous area.
+
+The Comfill Ex can be configured for various applications.<BR>
+
+These will be added to this manual as they are developed
+
+**1. Volume Register in Bulk Metering Applications**<BR>
+
+In this application, there is no Controller functionality built into the Comfill Ex which is connected to a Communicator Controller, PT1, PT2 or PT3 using standard Compac pump comms.<BR>
+
+Authorisation by Cardreader is on each Comfill Ex rather than a single cardreader at the Controller. This configuration is known as Cardreader-on-pump.  
+
+The Comfill Ex can be used with either Compac or Third Party Meters / Pulsers / Encoders.
+
+**Comfill Ex with Compac COM meters**<BR>
+These are intrinsically safe ie COM50, COM125, COM250 or COM650, plug directly into the K Factor board which is located on the back of the Main Display in the Comfill Ex unit<BR>
+
+**Comfill Ex with Third Party Meters**<BR>
+These are not intrinsically safe so there is a Compac GPIO board installed in the C5000 Flame-proof box.<BR> 
+Third Party Meters connect directly to the GPIO obard
+
+**Comms connection to Comfill Ex with COM meters**<BR>
+Connect comms to the **CI501 Comms interface board** in the C5000 Flame-proof box<BR>
+
+**Comms connection to Comfill Ex with Third Party Meters**<BR>
+Connect comms to the **GPIO board** in the C5000 Flame-proof box<BR>
+
 <BR>
 
-# Comfill Ex Footprint and Layout Drawings
+# Comfill Ex Footprint 
 
-![image]()
+![image](12.88.0_COMFILL_Ex_footprint.png)
 
-![image]()
+# Comfill Ex Layout
+
+![image](12.88.1_COMFILL_Ex_layout.png)
 
 <BR>
-
 
 # Pre-installation
 
 # Zone requirements and Electrical Approvals
 
-**Electrical Approvals**
+# Electrical Approvals
 
 The Compac **Comfill V2 Ex** has **ATEX** and **IECEx** approvals for installation in a hazardous area<BR>
-Latest copies of these approvals can be downloaded from the Compac Website
-The IECEx Approval number is stamped on a label on the C5000 Flame proof box 
+
+Latest copies of these approvals can be downloaded from the Compac Website<BR>
+The IECEx Approval number is stamped on a label on the C5000 Power Supply Flame proof box 
 
 
 For adequately ventilated fuel dispensing sites (not including CNG/NGV), in most cases the following will apply:<BR>
 - The unit is not designed to be constantly exposed to the elements. A shelter should be installed to protect it.<BR>
 - The card reader and PIN pad should face away from the prevailing wind especially in dusty or wet areas.<BR>
 - In areas experiencing extremes of weather (heat, cold, wind, rain, salt spray etc.) consideration should be given to installing additional shelter.<BR>
-- The Comfill V2 location or protection should be such as to minimise the possibility of damage from vehicles, trailers, boats, or the like.<BR>
+- The Comfill Ex location or protection should be such as to minimise the possibility of damage from vehicles, trailers, boats, or the like.<BR>
 - On heavy vehicle sites, mounting the unit on a raised pad and/or installing bollards to help protect from damage should be considered.<BR>
 - If mounting on a post, the base needs to be attached to a smooth, level surface of sufficient strength to securely hold the retaining bolts or fasteners.<BR> 
-- The Comfill V2 should be placed at least 8 metres from any above ground flammable liquid storage or handling facility other than a dispenser.<BR>
-- The Comfill V2 should be placed at least 0.5 metres from any flammable liquid fuel dispensers and 1.5 metres from any LPG dispensers.<BR>
-- The Comfill V2 should be mounted so that the base of the cabinet is at least 1.2 metres above the ground.<BR> 
-- If the Comfill V2 is mounted on a post, and the post is within 4 metres of a dispenser or within 1 metre of the end of any fuel dispenser hose, then the entire interior of the post may be considered a hazardous area. Any cables running through, or electrical equipment mounted in the post should be suitable for that hazardous area (refer AS/NZS 2381).<BR>
-- Whenever running a cable through the post into the base of the cabinet always ensure that the cable entry into the cabinet uses a vapour tight gland.<BR> 
-- Generally, the area below the Comfill V2 may be a hazardous area and therefore some appropriate signage may be required e.g. no smoking.<BR> 
 - Lighting should be provided during the hours of operation. Lighting should be sufficient to provide safe working conditions that include, but are not limited to, clear visibility of all markings on packages, signs, instruments and other necessary items. A minimum value of 50 lux is recommended.<BR>
 
 For more information and guidelines on classifications of hazardous zones, please refer to AS/NZS 60079-10.1 (Classification of Areas – Explosive gas atmospheres)<BR>
 These requirements do not apply to any specific site but are merely recommendations that will apply in most cases.<BR>
-The owner/installer must ensure that the installation complies with AS/NZS 3000, AS 1940, and any other applicable regulations.
+The owner/installer must ensure that the installation complies with AS/NZS 3000, AS 1940, and any other applicable regulations.<BR>
+
 # Static Electricity Precautions
 Electronic components used are sensitive to static. Please take anti-static precautions.<BR>
 An anti-static wrist strap should be worn and connected correctly when working on any electronic equipment. If an anti-static wrist strap is unavailable, or in an emergency, hold onto an earthed part of the pump/dispenser frame whilst working on the equipment. This is not a recommended alternative to wearing an anti-static wrist strap.<BR>
@@ -377,7 +393,7 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 
 # Mounting
 
-The Comfill V2 can be mounted from the rear or the bottom of the unit. Refer to Footprints for locations of the mounting holes.<BR>
+The Comfill Ex can be mounted from the rear or the bottom of the unit. Refer to Footprints for locations of the mounting holes.<BR>
 To mount the unit, the following will be supplied:
 
 - 4x M8x25 button head hex drive stainless steel screws
@@ -387,13 +403,13 @@ To mount the unit, the following will be supplied:
 - 8x M8 stainless steel nuts
 
 Stainless steel is recommended due to the reduced risk of corrosion when exposed to weather conditions.<BR>
-The Comfill V2 is suitable for outdoor installation.<BR>
+The Comfill EX is suitable for outdoor installation.<BR>
 M8x25 screws are recommended for mounting from the rear of the unit and are suitable for mounting to surfaces up to 10mm thick.<BR>
 M8x16 screws are recommended for mounting from the bottom of the unit and are suitable for mounting to surfaces up to 4mm thick.<BR>
 
 # Glanding
 
-The following grommets will be supplied with either the Comfill V2 and the Comfill LITE:
+The following grommets will be supplied with the Comfill Ex:
 
 - 5x 16mm rubber grommets
 - 5x 19.1mm rubber grommets
@@ -401,107 +417,67 @@ The following grommets will be supplied with either the Comfill V2 and the Comfi
 Any unused gland access holes should be blanked with the supplied grommets.<BR>
 19.1mm grommets will fit the 20mm access holes.<BR>
 
-The gland access is as follows:
-
-![image](12.1.3_ComfillV2_glands.png)
-
-# Perspex Guard removal
-
-A Perspex guard is supplied with the Comfill V2 and Comfill LITE and will need to be removed to access the terminal board and baseboard.<BR>
-The location of the guard is as shown: 
-<BR>
-
-![image](12.1.4_ComfillV2_perspex.png)
-
-**DANGER:** The unit must be isolated before attempting to remove or reattach the Perspex guard.<BR>
-
-The Perspex guard is attached with 4x M4x10 pozi screws and M4 nylon washers.<BR>
-An 8mm nut driver will be appropriate for removing and reattaching the Perspex guard.
-
-**NOTE:** *Always reattach the Perspex guard after working on the Comfill V2 unit.*<BR>
-<BR>
-**NOTE:** *Always reattach fuse covers after working on the Comfill V2 unit.*
 <BR>
 
 # Connecting Power, Motors and Solenoids 
 
-<BR>
-
-# Terminal Board 230V version Mains and Motor connections
-
-The external incoming mains and motor connections will need to be connected onsite.<BR>
-The motor will need to be connected for both side A and side B as shown.
-
-|Motor|Phase terminal|Neutral Terminal|Earth 
-|-----|-----|-----|-----|
-|Motor Side A|TB7|Neutral|Earth Busbar
-|Motor Side B|TB6|Neutral|Earth busbar
-
-
-![image](12.4.1_ComfillV2_Motor.png)
-
-Wire the incoming mains into the terminal board.<BR>
-The incoming mains wiring is as follows. Wires have standard colours which are shown.<BR>
-In case these are unclear, the colours are as follows:<BR>
-
-•	Incoming mains phase: Brown<BR>
-•	Incoming mains neutral: Blue<BR>
-•	Incoming mains earth: Green/Yellow<BR>
-
+# 230V Mains connection
+![image](12.4.2_ComfillV2_Estop.png)
 # Wiring in an Emergency Stop Switch or Overfill Protection System
 
-If wiring in an Emergency connection, it should be connected in place of the triac phase / mains phase loop. This will cut power to all outputs on the terminal board. 
+If wiring in an Emergency connection, it should be connected in place of the triac phase / mains phase loop. This will cut power to all outputs on the terminal board when activated. 
 
 If both an Emergency Stop Switch and Overfill Protection System are fitted, they should be wired in series so that either being activated will isolate power to the outputs
 
+<BR>
 
-![image](12.4.2_ComfillV2_Estop.png)
+# Connecting Pump Motors <1kW 
 
+If the Motor is <1kW and to be switched directly by the High currrent Triac (if fitted) in the Comfill Ex, connect as follows.
 
-# Connecting External pumps such as Submersible or Transfer Pumps
-
-For third party pump motors over 1KW, the contactor coil needs to be connected to the “MTR RELAY (LOW)” terminal and neutral terminal beside it.<BR>
-
-The MTR relay (low) output is 230VAC and it can supply up to 0.5A. However, the total output from 7 triac outputs (T1-T7) must not exceed 1A.
-
-Connect the Nozzle and meter connections to the DIN rail as necessary (Refer to the “K-Factor board” for the DIN rail terminals diagram to connect nozzles and meters).
-
-# Standard Solenoid connections for Comfill V2 and Comfill LITE
-
-For 40lpm and 80lpm Comfill V2 and Comfill LITE units with solenoids, connect as shown   
-
-![image](1.3.1_Typical_wiring_Dispensers.png)
-
-# Modulated Control Valve Solenoid connections 
-
-For Comfill units connected to Modulated control Valves, connect the Upstream and Downstream Solenoids as shown 
-
-![image](13.1.4_modulation_elec.schematic.png)
-
-# C5000 Power Supply in flame-proof box 
-
-In the Comfill V2 Ex, the C5000 Power Supply with Processor board and Comms board in housed in the same flame-proof box as in a standard Pump or Dispenser.<BR>
-Power and Comms cable to be glanded into the flame proof box
-
-![image](2.1.1_Power_Supply_in_FPbox.png)
+|Motor|Phase terminal|Neutral Terminal|Earth 
+|-----|-----|-----|-----|
+|Motor |TB7 (1KW MAX)|Neutral|Earth Busbar
 
 <BR>
 
+# Connecting External pumps >1KW such as Submersible Turbine or Transfer Pumps
 
+For third party pump motors over 1KW, the **Contactor coil** needs to be connected to the **MTR RELAY (LOW)** terminal **T1** and neutral terminal beside it.<BR>
 
-# Connecting 3rd Party Meters/Encoders and Comms to the GPIO Board
+The MTR relay (low) output is 230VAC and it can supply up to 0.5A. However, the total output from 7 triac outputs (T1-T7) must not exceed 1A.
 
-This section is only relevant when 3rd Party Meters or Encoders are used which are not Intrinsically Safe
+<BR>
 
-In this case, a Compac GPIO Board is fitted as a barrier
+# Modulated Control Valve Solenoid connections 
 
-When there is a GPIO board, the pump comms are also connected through the GPIO Board (instead of directly off the C5000 Power Supply)
+For Comfill Ex units connected to Modulated control Valves, connect the Upstream and Downstream Solenoids as shown 
 
+![image](13.1.4_modulation_elec.schematic.png)<BR>
 
+<BR>
 
-# 6.1 GPIO board set up for Pulse Input from a Flow Meter 
+# C5000 Power Supply in flame-proof box 
 
-Overview 
+In the Comfill Ex, the C5000 Power Supply with Terminal Board, Processor board and Comms board (or GPIO board for Comfill Ex units with Third Party Meters ) is housed in the flame-proof box.<BR>
+Power and Comms cable to be glanded into the flame proof box
+
+![image](2.1.1_Power_Supply_in_FPbox.png)<BR>
+
+# Connecting Flow Meters, Encoders and Pulsers 
+
+# Connecting Compac Encoders, COM50, COM125, COM50 and COM650 meters
+
+As Compac COM Meters are intrinsically safe, they can be connected directly to the K Factor Board
+The K Factor board is mounted on the back of the Main Display Board behgind the cover
+
+Plug the COM meter into **METER A(1)** on the K Factor board 
+
+![image](2.1.3_Kfactor_board.png)
+
+# Connecting 3rd Party Flow Meters and Pulsers to the GPIO board
+
+Overview<BR> 
 The Pulse input is designed to interface the Compac dispenser to a third party meter.  
 The Pulse input can be up to 35 VDC.  
 There are 2 settings that need to be set to enable the C5000 for third party meter input.  
@@ -589,238 +565,78 @@ The below table shows details of all the options available for each setting.
 |                  |3 = 3 Channel Encoder             |
 |                  |4 = Switch Input                  |  
 
-
-**Third Party Meter wiring**
-
-There are different types of meters with different numbers of channels. The below is the meter type and how to wire them to the GPIO Board.
-
-**Single Channel Reed Switch Meter**
-When connecting to a reed switch type meter you connect the GPIO 5-volt to the reed switch and then all 3 inputs to the other terminal on the meter.
-
-![image](6.1.2_GPIO_3rd_party_meter_reed.png)
-
-<BR>
 <BR>
 
-**12 Volt Two Channel Meter**
-The two Channel 12 volt meter is not powered from the GPIO Board.  
-Instead it is powered by its own power supply. Depending on the meter, pullup resistors may need to be added
+# - Connecting a VeederRoot EMR4 Pulser to the GPIO board 
 
-![image](6.1.3_GPIO_3rd_party_meter_12v.png)
+Connection to the GPIO board
 
-<BR>
-<BR>
+Connect the cable from the EMR4 Pulser to plug <font size ="5">**J1** <font size ="3">on the GPIO board 
 
-**5 volt Two Channel Meter** 
-The 2 channel 5 volt meter is powered from the GPIO board.  
-This means that the meter doesn’t need power from an external source.  
-Depending on the meter, pullup resistors may need to be added.  
-For 5 volts the pull up resister should be 820Ω
+|GPIO|EMR4 Pulser|Function|
+|----|----|-|
+|+V|+5V|Power|
+|ISO_G1|GND|Ground|  
+|IN 2 + IN 3|CH B|CH B|
+|IN 1|CH A|CH A| 
 
 ![image](6.1.4_GPIO_3rd_party_meter_5v.png)
 
-<BR>
+![image](6.1.5_GPIO_VeederRoot_EMR4_Pulser.png)
 
+**Notes:**<BR>
 
+1. **1N2** and **IN3** need to be linked together **at the meter end** to provide cut-cable detection.<BR>
+Connect as shown
 
+2. Pull-up resistors are required:
+However, Compac does not supply them because they do not always know the Make, Model and Operating voltage of the meter being connected. The resistor value needs to be selected to suit the meter voltage.
+For 5 volts, the pull up resisters should be 820Ω.
 
-
-
-
-
-# DIN Rail Connections
-When the Comfill V2 arrives onsite, all internal wiring will already be connected. Incoming external cables will have to be inserted through the glands and then connected to the back of the DIN rail. The nozzle switch and meter will be connected to the DIN rail. The connections are as shown:
-
-![image](12.1.7_ComfillV2_DIN_rail.png)
-
-The Comfill V2 supports Compac encoders, Compac V50 Meters and most third-party meters.<BR>
-Some third-party meters require 10 kΩ resistors to be connected. In case of this, 6x 10kΩ resistors will be supplied with the Comfill V2 unit.
-
-# Connecting a Compac Encoder
-
-The Compac encoder connects to the DIN rail via a six-core (only five cores used) data cable.<BR>
-The five cores used are:<BR>
-Orange or White		-	5V terminal<BR>
-Yellow or Black		-	0V terminal (GND)<BR>
-Brown			-	B0 terminal (used for single, dual, and triple channel encoders)<BR>
-Blue			-	B1 terminal (used for dual and triple channel encoders)<BR>
-Red			-	B2 terminal (used for triple channel encoders)<BR>
-
-Where B0, B1 & B2 are the three opto-sensor connections. Not all of these may be used depending on the meter connected.<BR>
-
-To reverse the rotation of the encoder sensing, the B0 & B2 wires should be reversed. The error message for reverse rotation is Err 8.
-
-# Connecting a Compac V50 Meter
-
-V50 meters can be connected directly to the K-Factor board. Refer to K-Factor Board for the location of the meter plug.
-
-# Connecting a Piusi meter
-
-A Piusi K700 Modular Pulse Meter has three data cores.<BR>
-
-If connecting a Piusi meter, the data cores should be connected as following:<BR>
-|Colour|Terminal
-|-----|-----
-|White|		5V terminal (a resistor should be included)
-|Black|		0V terminal (GND)
-|Yellow| 	B2 terminal
-
-![image](12.1.8_ComfillV2_Piusi_Meter.png)
-
-
-# Connecting a Reed Switch Meter
-
-If connecting a Reed switch type meter:<BR>
-Reed switch type meters require three signal connections and one earth connection as shown:
-
-**NOTE:** Ensure the wiring is shorted on the meter end, not the Comfill V2 end.
-
-![image](12.1.9_ComfillV2_Reed_Meter.png)
+3.  If the count direction is reversed, simply swap Channel A and Channel B.
 
 <BR>
 
-# Connecting a Veeder Root Pulser Meter
+# Connecting Pump Comms
 
-**Dual Channel:**
+Connection point for the Compac pump comms depends on the type of Flow Meter connected to the unit
 
-![image](12.1.10_ComfillV2_Veeder_Root.png)
+# Connecting Pump Comms to a unit with a Compac Flow Meter
 
-**NOTE:** Ensure the wiring is shorted on the meter end, not the Comfill V2 end.
+On units fitted with a Compac Flow Meter, connect the pump comms to the **CI501 Comms interface board**
+This located in the flame-proof box
 
-<BR> 
+![image](2.1.5_CI501-Comms_board.png)
 
-**Single Channel:**
+Connect the comms cable to P300 **A/RED** and **B/BLK**<BR>
 
-![image](12.1.11_ComfillV2_Veeder_Root_1ch.png)
+When connected to a Compac Controller, ensure that the adjacent comms switch **SW300** is set to **[3] Compac** comms
 
-**NOTE:** Ensure the wiring is shorted on the meter end, not the Comfill V2 end.
+# Connecting Pump Comms to a unit with a Third Party Flow Meter
 
-## Comfill V2 Pulses for encoder( K-factor = 1)
+On units fitted with a Third Party Flow Meter, for example, a VeederRoot EMR4 Pulser,<BR> 
+connect the pump comms to the **GPIO board**
+This located in the flame-proof box
 
-|Channels|State changes|Volume 
-|-----|-----|----- 
-|1 channel| 50 state changes (high and low )|0.16 litres 
-|2 channel| 100 state changes (high and low)|0.25 litres
-|3 channel| 150 state changes (high and low)|0.50 litres
+![image](6.2.1_GPIO_Input_Switch_GPIO_board.png)
 
-<BR>
+Connect the comms cable to P300 **A/RED** and **B/BLK**<BR>
 
-**Veeder Root 7671 models**
-
-|767163-xxx|Bidirectional|Clockwise|Counter Clockwise|Pulse per rotation|C5000 rotations per litre. K factor = 1
-|-----|-----|-----|-----|-----|-----
-|Single Channel|-32x|-42x|-51x|100|1 rotation = 0.66 litres
-|Dual Channel (staggered)|-31x|-41x|-51|50|1 rotation = 0.66 litres
-|Dual channel (overlap)|-30x|-40x|-50x|50|1 rotation = 0.66 litres
-
-**NOTE:** *Comfill V2 only supports single channel and dual channel staggered signals.<BR>
-Dual channel overlapping signals are not supported.*
-<BR>
-<BR>
-
-# Connecting a Macnaught meter 
-
-Macnaught meter is a Hall Effect single channel meter
-
-The Compac CI266A Pulser/Encoder is an optional extra.<BR>
-If fitted, it provides detection if the Meter or a Channel is disconnected.
-Refer to section on **Encoder interface for 3rd party encoders** for further information<BR>
+When connected to a Compac Controller, ensure that the adjacent comms switch **SW300** is set to **[3] Compac** comms
 
 <BR>
 
-**Connection to a Macnaught Meter if a Pulser/Encoder I/F is installed (on the DIN Rail)**
+# K Factor board  
 
-![image](12.1.12_ComfillV2_CI266A_interface.png)
+This drawing shows the location of the following: <BR>
 
-**Connection to a Macnaught Meter if a Pulser/Encoder I/F is NOT installed**
+- Parameter Switch<BR>
+- K Factor Switch<BR> 
+- Where to plug a COMPAC COM50, COM125, COM250 or COM650 Meter<BR>
 
-![image](12.1.13_ComfillV2_Macnaught.png)
+![image](2.1.3_Kfactor_board.png)
 
-**NOTE:** *Ensure the wiring is shorted on the meter end, not the Comfill V2 end.*
-
-# Encoder interface for 3rd party encoders
-
-![image](12.1.17_ComfillV2_CI266A.png)
-
-**NOTE:** The interface board is not intrinsically safe therefore it should not be used in a hazardous area.
-
-Pulser/Encoder I/F is used to interface from third-party pulser/meter. This can be DIN rail mounted.
-12V source can be connected to the 12V and GND pin 1 and 2 of P2 terminal to provide a 12V supply on P1-8.<BR>
-The terminal must not exceed 0.25A. 
-
-If the 12V supply is not required, the I/F board will work without the 12V. The COM terminals on P1 are connected to the ground terminals of P2.<BR>
-Do not connect the COM to the pulser/meter frame and do not connect the common and frame together.
-
-The 5V power supply must be connected to the P2 terminal pin 4 and 8 to power up the I/F board.<BR>
-5V supply can also be used to power third-party meter from terminal P1 pins 5 & 1.
-
-P2 terminal Ch1, Ch2 and Ch3 (pins 5,6 and 7) are the signal outputs from the pulser/encoder
-which need to be wired into DIN rail Ch1, Ch2, and Ch3. If not wired correctly it will cause error 9.
-
-**P1 Terminals**<BR>
-
-Most third-party pulsers/meters have one or two channels and run on 12V.<BR>
-For error detection, at least two channels need to be wired from the pulser/meter.<BR>
-For single channel pulsers/ meters, two wires need to be connected together at the meter and the outputs need to be connected to Ch1 and Ch2 of the P1 terminal.
-
-Below are some examples of wiring to a third-party pulser/meter from the P1 terminal.<BR>
-The pull-up resistors are internal to the pulser/meter.  
-
-**Single channel third-party 12V pulser**
-
-![image](12.1.18_ComfillV2_1ch3rdparty12vpulser_1.png)
-
-**Single channel third-party 12V pulser**
-
-![image](12.1.19_ComfillV2_1ch3rdparty12vpulser_2.png)
-
-**Three channel Compac 5V pulser**
-
-![image](12.1.20_ComfillV2_3chCompac5vpulser.png)
-
-
-
-
-
-# Electronics
-
-The following diagram shows a standard configuration for the internal wiring of the Comfill V2 unit.<BR>
-Connections may change during ordering, production or customisation.<BR>
-These connections will be pre-installed and most likely will not need to be changed.
-
-![image](12.14.1_ComfillV2_screen_electronics.png)
-
-The following diagram shows the location of several of the C5000 circuit boards underneath the Perspex guard.<BR>
-The K-Factor and PIN Pad board can be found on the inside of the Comfill V2 Box cabinet door.
-
-![image](12.14.2_ComfillV2_screen_boards.png)
-
-**NOTE:** If using external pumps, there will be relays in place of triacs.<BR>
-
-**NOTE:** The optional comms board is not shown in these drawings.<BR>
-The comms board is located above the processor board.
-
-# Electrical Parameters
-
-|Paramater||Terminal|Min.|Max.|Unit
-|---------|-|--------|----|----|----
-|VIN (12V in)||P2: 1|9|24|V|
-|VCC (5V in) ||P2: 4|4.6|5.5|V|
-|VOH (Ch1, Ch2, Ch3) output high voltage||P2: 5, 6, 7|3|Vcc|V|
-|VOL (Ch1, Ch2, Ch3) output low voltage||P2: 5, 6, 7|0|0.8|V
-|VOUT (12V out) output current||P1: 8|0|100|mA|
-|5V output current||P1: 5|0|40|mA|
-|VIH (Ch1, Ch2, Ch3) input high voltage||P1: 4, 3, 2|2|24|V|
-|IIH (Ch1, Ch3) input high current|VIH = 3V|P1: 4, 2|-0.14|0|mA|
-||VIH > 5V||0|0.1|mA|
-IIH (Ch2) input high current|VIH = 3V|P1: 3|0.1|0.15|mA|
-||VIH = 5V||0.15|0.22|mA|
-||VIH =12V||0.45|0.55|mA|
-||VIH =24V||10|13|mA|
-|VIL (Ch1, Ch2, Ch3) input low voltage||P1: 4, 3, 2|-0.5|0.8|V
-|IIL (Ch1, Ch3) input low current||VIL = 0V	P1: 4, 2|-0.3|0.24|mA|
-|IIL (Ch2) input low current|VIL = 0V|P1: 3|0|0|mA|
-||VIL =0.8V||0|0.05|mA|
+<BR>
 
 # Servicing
 
@@ -851,7 +667,7 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 
 **Maintenance**<BR>
 
-The Comfill V2 is a relatively simple unit with no moving parts and therefore needs minimal maintenance. 
+The Comfill Ex is a relatively simple unit with no moving parts and therefore needs minimal maintenance. 
 
 # Cleaning the Cabinet
 
@@ -872,29 +688,12 @@ Do not use a rag wet with solvent or petrol as the PIN pad printing may be damag
 
 # Testing
 
-Regular zero dollar tests with valid PINs, cards or HID readers (whichever applicable) should be undertaken to ensure the unit is operating correctly.  
+Regular zero dollar tests with valid cards should be undertaken to ensure the unit is operating correctly.  
 
-# Perspex Guard removal and replacement
-
-The Perspex guard houses the 230V components and will need to be removed to repair or replace components such as the power supply and several of the circuit boards.
-
-**DANGER**
-
-Ensure the unit is isolated before attempting to remove the Perspex guard.<BR>
-The unit should remain isolated while removing or repairing any components underneath the Perspex guard.<BR>
-Do not repower the unit until the guard is back in place.
-
-To remove the Perspex guard, simply unscrew the M4x10 pozi screws holding the guard in place.<BR>
-Replacement is the opposite of removal.<BR>
-
-# Modem or Router
-The Modem or Router is not repairable on site and will need to be replaced with a new part.<BR>
-
-It can be removed simply by removing the screws securing it to the gear plate, and by removing any cables connecting it to other components.
 
 # Display and K Factor boards
 
-The display can be found on the inside of the Comfill V2 box door.<BR>
+The display can be found on the inside of the Comfill Ex box door.<BR>
 The display is connected to the K-Factor board. 
 
 **CAUTION**
@@ -902,7 +701,7 @@ The display is connected to the K-Factor board.
 Always take anti-static precautions when working with electronic components for example, wearing a wristband with an earth strap.
 
 Removal:
-1.	Unplug connections to the K-Factor board. Refer to Electronics for the K-Factor board connections
+1.	Unplug connections to the K-Factor board. 
 2.	Remove the screws holding the display in place
 3.	Gently remove the display
 
@@ -919,47 +718,26 @@ Replacement is the reverse of removal.
 
 # PIN pad Board replacement
 
-The PIN Pad board can be found on the inside of the Comfill V2 box door.
+The PIN Pad board can be found on the inside of the Comfill Ex box door.
 
 **CAUTION**<BR>
 
 Always take anti-static precautions when working with electronic components for example, wearing a wristband with an earth strap.
 Removal:
-1.	Unplug connections to the PIN Pad board. Refer to Electronics for the PIN Pad board connections
+1.	Unplug connections to the PIN Pad board. 
 2.	Remove the screws holding the board in place<BR>
 
 Replacement is the reverse of removal.
 
-# Terminal Board
-
-Before removing the Terminal board, the Perspex guard must be removed. Refer to Perspex guard removal instructions. 
-
-**CAUTION**
-Always take anti-static precautions when working with electronic components for example, wearing a wristband with an earth strap.
-Removal:
-1.	Unplug all connections to the Terminal board
-2.	Unscrew and remove the earth bar
-3.	Remove screws holding the Terminal board in place
-4.	The Terminal board is connected to the baseboard with a plug and socket connection. Remove the board with care<BR>
-
-Replacement is the reverse of removal. Refer to Electronics for Terminal connections.
-
-# Comms Board
-
-Before removing the Comms board, the Perspex guard must be removed. Refer to Perspex guard removal instructions.<BR>
-
-**CAUTION**
-Always take anti-static precautions when working with electronic components for example, wearing a wristband with an earth strap.
-Removal:
-1.	Disconnect any cables connected to the Comms board
-2.	Remove screws holding the Comms board in place
-3.	The Comms board is connected to the processor with a plug and socket connection. Remove the board with care<BR>
-
-Replacement is the reverse of removal. Refer to Electronics for Comms connections.
 
 # Processor Board replacement
 
-Before removing the processor board, the Perspex guard and Comms board (if included) will need to be removed. Refer to removal instructions in Service.<BR>
+**Note**<BR>
+
+The processor Board is located in the C5000 Power Supply Flame proof box
+
+
+Before removing the processor board, the GPIO or COmms interface board will need to be removed.<BR>
 
 **CAUTION**
 
@@ -972,24 +750,34 @@ The Processor board stores all transactions and data. Before replacing the proce
 Removal:
 1.	Disconnect any cables connected to the Processor
 2.	Remove screws securing the Processor
-3.	The Processor is connected to the Baseboard with a plug and socket connection. Remove the board with care
+3.	The Processor is connected to the Power Supply with a plug and socket connection. Remove the board with care
 
 Replacement is the opposite of removal.<BR>
 
 If the processor board is replaced, press the K-Factor button once to transfer settings to the processor board.
 
-# Baseboard
+# Power Supply replacement
 
-The Baseboard is located underneath the Perspex guard, below the Processor and Terminal boards.<BR>
-Remove these components before removing the baseboard.<BR> 
-The Baseboard can be removed simply by removing the screws securing it.
+The Power Supply is located inside the flame-proof box, below the Processor baord and GPIO or Comms board.<BR>
+Remove these components before removing the Power Supply.<BR> 
+The Power Supply can be removed simply by removing the screws securing it.
+
+# Comms board replacement
+
+The Comms interface board is located in the Flame proof box, piggy-backed on top of the Processor Board
+
+The type of Comms board will depend on whether the unit has a Compac or Third Party Flow Meter
+
+- If the unit has a Compac Meter, the comms board will be a CI501 board
+
+- If the Unit has a Third Party Flow Meter, the comms is part of the GPIO board
 
 # PIN Pad replacement
 
 The PIN Pad may need to be replaced if it gets worn or becomes faulty.<BR>
-The PIN Pad can be removed from the back to the Comfill V2 V2 door.<BR>
+The PIN Pad can be removed from the back to the Comfill EX door.<BR>
 
-1.	Remove any cables obstructing the PIN Pad. Refer to Electronics for the replacement of these cables
+1.	Remove any cables obstructing the PIN Pad. 
 2.	Remove the white plastic brackets by removing the screws securing them
 3.	Remove the PIN Pad unit<BR>
 
@@ -999,7 +787,7 @@ Replacement is the opposite of removal.
 
 To remove the card reader:<BR>
 
-1.	Disconnect cables going to the PIN pad board. Refer to Electronics for PIN pad board connections
+1.	Disconnect cables going to the PIN pad board. 
 2.	Remove the screws securing the card reader gear plate to the Comfill V2 V2 door
 3.	Slide the card reader out into the inside of the box<BR>
 
@@ -1007,17 +795,6 @@ Replacement is the opposite of removal.<BR>
 
 Test the card reader by using a valid card to perform a zero-dollar transaction.
 
-# HID Reader
-
-To remove the HID Reader:<BR>
-
-1.	Disconnect cables going to the PIN pad board. Refer to Electronics for PIN pad board connections
-2.	Remove cables connecting to the HID Reader
-3.	Remove screws securing the HID Reader to the Comfill V2 V2 door<BR>
-
-Replacement is the reverse of removal.<BR>
-
-Test the HID reader by using a valid key to perform a zero dollar transaction.
 
 # LED Diagnostics
 
@@ -1041,7 +818,9 @@ DIAG = Diagnostics
 ||In normal operation, these should be on when the Diagnostics light is on, and off when the diagnostics light is off.|
 Transmitting and Receiving data|If the diagnostics light is on, and the TD/RD LEDs are off, this means these is an error.<BR> This could be due to cabling – check the bus system cables.
 
-# K Factor board
+<BR>
+
+# K Factor board LEDs
 
 ![image](12.16.2_ComfillV2_kfactorboard_LEDs.png)
 
@@ -1054,20 +833,23 @@ Transmitting and Receiving data|If the diagnostics light is on, and the TD/RD LE
 ||If the diagnostics light is on, and the TD/RD LEDs are off, this means these is an error. This could be due to cabling – check the bus system cables.<BR>
 
 
-Output table
+Output table<BR>
+**Note:**<BR>
+For clarity, only the outputs that are relevant to the Compac Comfill Ex and shown
 
-|Output|Single|Dual|Dual 160|
-|------|------|----|--------|
-|T1|Side A Motor|Side A Motor|Sides A anb B motors|
-|T2|Side A Solenoids|Side A Solenoids|Side A Solenoids|
-|T3|Side A Solenoids|Side A Solenoids|Side A Solenoids|
-|T4|Side A high flow Solenoid|Side B Motor|Side B High Flow Solenoid|
-|T5|Not used|Side B Solenoids|Side B Solenoids|
-|T6|Not used|Side B Solenoids|Side B Solenoids|
-|T7|Side A high flow Solenoid|Side A high flow Solenoid|Side A high flow Solenoid|
+|Output|Comfill Ex|
+|------|------|
+|T1|External Submersible Turbine or Transfer Pump |
+|T2|Primary Solenoid or Upstream solenoid on Modulated Valves
+|T3|Secondary Solenoid or Downstream solenoid on Modulated Valves	 
+|T4|Not used|
+|T5|Not used|
+|T6|Not used|
+|T7|Not used|
+
 <BR>
 
-# Processor board diagnostics
+# Processor board LEDs
 
 ![image](12.16.3_ComfillV2_processor_LEDs.png)
 
@@ -1082,18 +864,6 @@ Output table
 
 <BR>
 
-# Base Board
-
-The baseboard LEDs will turn on when the respective power supplies are on
-
-![image](12.16.4_ComfillV2_baseboard_LEDs.png)
-
-D100 = Power 12V
-D101 = Power 5V
-D103 = Power 9V
-
-<BR>
-
 
 # Troubleshooting
 
@@ -1101,30 +871,23 @@ D103 = Power 9V
 |Problem|Possible cause|Recommended action|
 |-------|---------------|------------------|
 |No Power/No Lights|No power entering  unit|Ensure that power is entering unit, check external fuses and switches
-|                  |Faulty power supply|Replace the power supply
+|                  |Faulty power supply|Check Power Supply fuses . Replace the power supply
 |Will not read cards|Debris on card or magnetic head|Clean card or card reader’s magnetic head using head cleaning kit.
-|                   |Wrong system (with distributer / In-house cards)|Wrong card base (ISO, Access number) Check card base is loaded onto the Comfill V2	
+|                   |Wrong system (with distributer / In-house cards)|Wrong card base (ISO, Access number)Check CompacOnline	 <BR>
 |Pump Error on display|One of the linked pumps or dispensers has encountered an error.|Read the error message on the pump display to find out what is wrong.
-|Pumps will not dispense fuel|Wrong pump number selected|Ensure pump number set in pumps matches pump number set in controller and also pump number written on the pump.
+|Pumps will not dispense fuel|Wrong pump number set up|Ensure pump number set in pumps matches pump number set in controller and also pump number written on the pump.
 |                            |No fuel in tanks|Verify tanks have sufficient product 
 |                            |                |Try another pump to verify. Contact pump service agent 
 |                            |Pump fault	  |Have service agent check pumps
-|Unable to access Compac Onsite|Wrong username / passcode|Enter correct username / passcode into Compac Online software
-|                              |Internet connection down|Check with internet service provider for information on internet service quality
-|                              |Wrong device ID entered into browser|Enter correct Device ID
-|                              |No power entering unit|See No Power/No lights	
-|Wrong system on display|Card ISO number is not between card record BIN range|Refer to Compac Online > Technician Options > FMS Setup to set allowed BIN range
-|Card Declined on display|Card not in Card records|Refer to Compac Online > Technician Options > FMS Setup to set card records
-|Pump Buffer Full on display|Memory Full|Export transactions. Refer to Compac Online > User Options > Transactions
-|                           |           |Reboot Comfill V2; the unit will save transactions to SD card  
+|Wrong system on display|Card ISO number is not between card record BIN range|Refer to CompacOnline
+|Card Declined on display|Card not in Card records|Refer to CompacOnline
 |Expired Card on display|Card is expired|Use a valid card
 |No transactions recorded|Wrong date and time|Check date and time on CompacOnsite
 |                        |Pump in bypass mode|Take the pump out of bypass mode|
 |                        |Meter error|Check if error code is on display. Refer to Error Codes
 |                        |           |Replace meter   
 |                        |Pump Error|Use another pump and check if transactions are recorded; if so, contact pump service agent	
-|Tank gauging connection continuously drops out|LFD 485 option is set to ENABLED|Set LFD 485 to DISABLED. Refer to Custom Display settings in Local Setup	
-		
+
 <BR>
 
 # Error Codes and EOS
@@ -1223,7 +986,7 @@ Note: This is a complete list of all the available END OF SALE Indicators and co
 
 # Core-functionality
 
-A Compac C5000 processor supports the control of up to 2 dual-solenoid driven diaphragm valves.
+A Compac C5K processor supports the control of up to 2 dual-solenoid driven diaphragm valves.
 
 Flow control through the main valve is achieved through height regulation of the valves diaphragm. This is indirectly controlled through solenoid valves linked upstream and downstream of the valve. These solenoids can increase, decrease or lock the diaphragm height depending on their states to respectively increase, decrease or hold the flow rate through the main valve steady.
  
