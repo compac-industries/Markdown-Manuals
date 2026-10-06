@@ -116,7 +116,7 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 <font size ="3">
 
-[Pump specifications](#pump-specifications)
+[Pump specifications and Flow rate curve](#pump-specifications-and-flow-rate-curve)
 
 <font size ="5">
 
@@ -197,12 +197,12 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 # Pre-installation
 
-# Pump specifications
+# Pump specifications and Flow rate curve
 
 The AdBlue supply pump must be Adblue compatible.<BR>
 It must either have flooded suction or be fitted with an air separation device to eliminate air prior to the dispenser.<BR>
 Ensure the supply pump pressure does not exceed the rated pressure of the nozzle.<BR>
-Refer to the diagram below:
+Refer to the Flow Rate curve below:
 
 ![image](19.1.2_AdBlue_flow_rate_curve.png)
 
