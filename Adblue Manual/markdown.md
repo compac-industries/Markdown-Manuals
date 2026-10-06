@@ -1,14 +1,25 @@
 
 
-![image](Compac_IRS_front_page.png)
+![image](Compac_front_page.png)
 
+
+<font size="7">
+
+# AdBlue<BR>
+
+<font size="8">
+
+Installation and Service Manual  
 
 <font size="5">
 
-# Adblue Installation and Service Manual  
 
-updated 21 April 2026
+
 <font size="3">
+
+![alt text](image.png)
+
+Updated 6 October 2026
 
 # Conditions of Use  
 
@@ -20,19 +31,19 @@ Along with any warnings, instructions, and procedures in this manual, you should
 
 Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment
 
-The major hazard involved with operating the Compac C4000 processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.
+The major hazard involved with operating the Compac C5K processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.
 
-Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C4000 processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.
+Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C5K processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.
 
 Compac Industries Limited reserves the right to change the specifications of its products or the information in this manual without necessarily notifying its users.
 
-Variations in installation and operating conditions may affect the Compac C4000 processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C4000 processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.
+Variations in installation and operating conditions may affect the Compac C5K processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C5K processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.
 
 Compac Industries Limited has made every effort to explain all servicing procedures, warnings, and safety precautions as clearly and completely as possible. However, due to the range of operating environments, it is not possible to anticipate every issue that may arise. This manual is intended to provide general guidance. For specific guidance and technical support, contact your authorised Compac supplier, using the contact details in the Product Identification section.
 
 Only parts supplied by or approved by Compac may be used and no unauthorised modifications to the hardware of software may be made. The use of non-approved parts or modifications will void all warranties and approvals. The use of non-approved parts or modifications may also constitute a safety hazard.
 
-Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C4000 processor, please refer to the warranty provided by the supplier.
+Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C5K processor, please refer to the warranty provided by the supplier.
 
 Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5K processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how.
 
@@ -42,7 +53,36 @@ Every effort has been made to ensure the accuracy of this document. However, it 
 
 ## Models Covered
 
-> **Note:** Do not use this manual for earlier models. Contact Compac for archived manuals if required.
+**Adblue and Adblue/Diesel Dispensers**
+
+**MASTER**<BR>
+
+- MA30S<BR>
+- MMA30S<BR>
+- MMA30/40S<BR>
+- MMA30/80S<BR>
+- MMA30/160S<BR>
+
+**LASER**<BR>
+
+- LA30S<BR>
+- LA30SD<BR>
+- LLA30-80S<BR>
+- LLA30-80SQ<BR>
+- LLA30-160S<BR>
+- LLA30-16SQ<BR>
+
+**Adblue and Adblue/Diesel Tank Kits**
+
+**Adblue and Adblue/Diesel Custom Rack Dispensers**
+
+This Manual is an Adblue supplement with Adblue specific information<BR>
+Further information for the models above that also have Diesel hoses can be found in the C5000 Dispenser Installation Manual 
+
+
+**Note:** Do not use this manual for earlier models including those with V40 Meters.<BR>
+
+Contact Compac for archived manuals or additional information on V40 models if required.
 
 # Validity
 
@@ -66,104 +106,113 @@ Fax: + 64 9 579 0635
 
 Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
-# Document Control
 
-## Document Information
-
-**Manual Title:** Adblue Installation and Service Manual
-
-**Current Revision Author(s):** Trevor Watt
-
-**Original Publication Date:** 22 April 2026
-
-**Authorised By:** Emily Sione
-
-**File Name:** Adblue Installation and Service Manual v.1.0.5
 
 ## Table of Contents
 
 <font size ="5">
 
-[**1.0 Commissioning**](#10-commissioning)
+[**Pre-installation**](#pre-installation)
 
 <font size ="3">
 
-[**1.1 Adblue specific Dispenser settings**](#11-adblue-specific-dispenser-settings) 
-
-[1.1.1 Meter Settings](#111-meter-settings)
-
-[1.1.2 Variant Settings](#112-variant-settings)
-
-[1.1.3 Quantity Settings](#113-quantity-settings)
-
-[1.1.4 C-A and C-b Dispenser settings for Adblue](#114-c-a-and-c-b-dispenser-settings-for-adblue)
-
-[1.1.5 Changing the V50 Meter ID](#115-changing-the-v50-meter-id)
-
-[1.1.6 Changing the Temperature Calibration](#116-changing-the-temperature-calibration)
-
-[1.1.7 Changing the Density Calibration](#117-changing-the-density-calibration)
-
-[**1.2 Electrical**](#11-electrical)
-
-[**1.3 Mechanical**](#13-mechanical)
-
-[**1.4 Hydraulic System**](#14-hydraulic-system)
-
-[**1.5 Typical Cycle**](#15-typical-cycle)
-
-[**1.6 Hydraulic Layout**](#16-hydraulic-layout)
+[Pump specifications](#pump-specifications)
 
 <font size ="5">
 
-[**2.0 Servicing**](#20-servicing)
+[**Commissioning**](#commissioning)
 
 <font size ="3">
 
-[2.1 Tools](#21-tools)
+[**Adblue specific Dispenser settings**](#adblue-specific-dispenser-settings) 
 
-[2.2 Initial Servicing](#22-initial-servicing)
+[Meter Settings](#meter-settings)
 
-[2.3 Annual Servicing](#23-annual-servicing)
+[Variant Settings](#variant-settings)
 
-[2.4 **V50 Meter Servicing**](#24-v50-meter-servicing)
+[Quantity Settings](#quantity-settings)
 
-[2.4.1 Replacing the Electronic Module](#241-replacing-the-electronic-module)
+[C-A and C-b Dispenser settings for Adblue](#c-a-and-c-b-dispenser-settings-for-adblue)
 
-[2.4.2 Pairing the Electronic Module](#242-pairing-the-electronic-module)
+[Changing the V50 Meter ID](#changing-the-v50-meter-id)
 
-[2.4.3 Removing the V50 Meter](#243-removing-the-v50-meter)
+[Changing the Temperature Calibration](#changing-the-temperature-calibration)
 
-[2.4.4 Replacing the V50 Meter](#244-replacing-the-v50-meter)
+[Changing the Density Calibration](#changing-the-density-calibration)
 
-[2.4.5 Calibrating the V50 Meter K-Factor](#245-calibrating-the-v50-meter-k-factor)
+[**Electrical**](#electrical)
 
-[**2.5 Solenoid Servicing**](#25-solenoid-servicing)
+[**Mechanical**](#mechanical)
 
-[2.5.1 Removing Solenoid Valve Seals](#251-removing-solenoid-valve-seals)
+[Purging the system](#purging-the-system)
 
-[2.5.2 Replacing Solenoid Valve Seals](#252-replacing-solenoid-valve-seals)
+[Hydraulic System](#hydraulic-system)
 
-[2.5.3 Solenoid Valve diagram](#253-solenoid-valve-diagram)
+[Typical Cycle](#typical-cycle)
 
-[2.5.4 Replacing the Solenoid Coil](#254-replacing-the-solenoid-coil)
+[Hydraulic Layout](#hydraulic-layout)
 
-[2.5.5 Replacing the Solenoid](#255-replacing-the-solenoid)
+<font size ="5">
 
-[**2.6 AdBlue Instructions**](#26-adblue-instructions)
+[**Servicing**](#servicing)
 
-[2.6.1 Cleaning the AdBlue Nozzle](#261-cleaning-the-adblue-nozzle)
+<font size ="3">
 
-[2.6.2 ZVA AdBlue Nozzle](#262-zva-adblue-nozzle)
+[Tools](#tools)
+
+[Initial Servicing](#initial-servicing)
+
+[Annual Servicing](#annual-servicing)
+
+[**V50 Meter Servicing**](#v50-meter-servicing)
+
+[Replacing the Electronic Module](#replacing-the-electronic-module)
+
+[Pairing the Electronic Module](#pairing-the-electronic-module)
+
+[Removing the V50 Meter](#removing-the-v50-meter)
+
+[Replacing the V50 Meter](#replacing-the-v50-meter)
+
+[Calibrating the V50 Meter K-Factor](#calibrating-the-v50-meter-k-factor)
+
+[**Solenoid Servicing**](#solenoid-servicing)
+
+[Removing Solenoid Valve Seals](#removing-solenoid-valve-seals)
+
+[Replacing Solenoid Valve Seals](#replacing-solenoid-valve-seals)
+
+[Solenoid Valve diagram](#solenoid-valve-diagram)
+
+[Replacing the Solenoid Coil](#replacing-the-solenoid-coil)
+
+[Replacing the Solenoid](#replacing-the-solenoid)
+
+[**AdBlue Nozzle Instructions**](#adblue-nozzle-instructions)
+
+[Cleaning the AdBlue Nozzle](#cleaning-the-adblue-nozzle)
+
+[ZVA AdBlue Nozzle](#zva-adblue-nozzle)
 
 
+# Pre-installation
 
+# Pump specifications
 
+The AdBlue supply pump must be Adblue compatible.<BR>
+It must either have flooded suction or be fitted with an air separation device to eliminate air prior to the dispenser.<BR>
+Ensure the supply pump pressure does not exceed the rated pressure of the nozzle.<BR>
+Refer to the diagram below:
 
+![image](19.1.2_AdBlue_flow_rate_curve.png)
 
-# 1.0 Commissioning
+<font size ="6">
 
-# 1.1 Adblue specific Dispenser settings 
+# Commissioning
+
+<font size ="3">
+
+# Adblue specific Dispenser settings 
 
 The following diagram displays how to change the dispenser settings, such as the meter type, variant and minimum delivery.<BR>
 To get to the following menu, depress the K-Factor switch once when not in a transaction.
@@ -171,24 +220,24 @@ To get to the following menu, depress the K-Factor switch once when not in a tra
 
 These settings will likely be set in the factory. Only change the following settings if required. See following pages for information on these settings.
 
-# 1.1.1 Meter Settings
+# Meter Settings
 This setting corresponds to the type of meter plugged in to the dispenser. Options 1-3 are for an encoder meter and depend on the channel setting of this meter. This should be selected if a hose is using diesel. V50 meters (option 4) are used for AdBlue and should be selected for hoses using AdBlue. 
 Some settings (such as temperature and density calibration) are only available for V50 and therefore will not appear if the meter type is not set to V50. These will therefore not appear for hoses using diesel.
 
-<BR>
 
-# 1.1.2 Variant Settings
+
+# Variant Settings
 This setting should be changed depending on the product – set the variant to 0 for diesel. Set the variant to 4 for diesel emissions fluid (AdBlue). 
 
-<BR>
 
-# 1.1.3 Quantity Settings
+
+# Quantity Settings
 
 This setting is what quantity will be shown on the main display when fuel is being dispensed. This is only valid for V50 meters and is ignored for encoder meters which always display Litres uncompensated.
 
-<BR>
+>
 
-# 1.1.4 C-A and C-b Dispenser settings for Adblue
+# C-A and C-b Dispenser settings for Adblue
 
 ![image](3.1.1_Kfactor_Dispenser_C-A.png)
 
@@ -229,7 +278,7 @@ The specific settings for Adblue include the following
 |               |                  |5 = GPIO Meter input
 
 
-# 1.1.5 Changing the V50 Meter ID
+# Changing the V50 Meter ID
 All V50 meters have a specific ID which must match the ID recorded in the dispenser settings. This is a 6-digit number which can be found on the meter.
 If the IDs do not match, the dispenser will return an error.
 See Using the Dispenser Menus to edit these settings. Use the procedure for both side A and B.
@@ -238,7 +287,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 As meter IDs are only relevant for V50 operation, this option will not show if the meter is not set to V50. Therefore, it will not be shown for hoses dispensing diesel. 
 
-# 1.1.6 Changing the Temperature Calibration
+# Changing the Temperature Calibration
 
 The temperature calibration can be used to adjust the temperature being retrieved from the meter, if this is not the actual temperature of the product being dispensed.<BR>
 The actual temperature of product being dispensed should be entered in this menu. This will be used to adjust new temperatures returned from the meter.<BR> 
@@ -249,7 +298,7 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 As only V50 meters return temperature readings, this option is only for V50 operation and will not appear if the meter is not set to V50.<BR>
 Therefore, it will not be shown for hoses dispensing diesel.
 
-# 1.1.7 Changing the Density Calibration
+# Changing the Density Calibration
 The density calibration can be used to adjust the density being retrieved from the meter, if this is not the actual density of the product being dispensed.<BR>
 The actual density of product at 15 °C being dispensed should be entered in this menu.<BR>
 This will be used to adjust new densities returned from the meter. 
@@ -259,9 +308,9 @@ See Using the Dispenser Menus to edit these settings. Use the procedure for both
 
 As only V50 meters return density readings, this option is only for V50 operation and will not appear if the meter is not set to V50. Therefore, it will not be shown for hoses dispensing diesel.
 
-<BR>
 
-# 1.2 Electrical
+
+# Electrical
 
 This procedure outlines how to perform an electrical operational test, making sure that the dispenser is functioning correctly. Check for any damage that may have occurred in transit.<BR>
 Check all terminals, plugs, and chips to make sure that they are securely in place. 
@@ -286,7 +335,9 @@ Check that three output LEDs (T1-7) turn on, indicating a signal is being sent t
 
 6.	Verify solenoid operation by listening for a click, or by using a screwdriver tip or some other metallic tool to check for a magnetic field present on the solenoid coils.
 
-# 1.3 Mechanical
+# Mechanical
+
+# Purging the system
 
 Make sure that the electrical commissioning tests have been carried out and the solenoid operation has been verified before carrying out the following tests.<BR>
 
@@ -294,7 +345,9 @@ Slowly open the supply valves to the dispenser, checking for any leaks.<BR>
 
 Turn on the power supply to the dispenser.<BR>
 
-The dispenser should be in purge mode when it arrives onsite. If it is not, use the Parameter button to put the dispenser into purge mode by changing the b setting to ***1. Retail dispensers will display Purge in the Dollars display. The temperature and measured density will toggle in the $/L display. Wait for the C5000 to time out and return to the normal display.<BR>
+The dispenser should be in purge mode when it arrives onsite.<BR>
+If it is not, use the Parameter button to put the dispenser into purge mode by changing the b setting to ***1.<BR>
+Retail dispensers will display Purge in the Dollars display. The temperature and measured density will toggle in the $/L display.<BR> Wait for the C5000 to time out and return to the normal display.<BR>
 
 Lift the nozzle.<BR>
 
@@ -316,7 +369,7 @@ The dispenser can now be calibrated.<BR>
 Once the pump is connected on site, the final setup check and calibration to complete the installation must be carried out, using the Parameter Switch and Calibration (K-Factor) Switches on the C5000 K-Factor board.
 
 
-# 1.4 Hydraulic System
+# Hydraulic System
 
 Component|Function
 |-|-
@@ -326,27 +379,30 @@ Solenoid|Provides on/off flow control over the AdBlue through the dispenser.
 
 <BR>
 
-# 1.5 Typical Cycle
+# Typical Cycle
 
 The following describes a typical hydraulic cycle.
 
 Operator Action|What happens at the Dispenser
 |-|-
-Lift the nozzle|If there is no site controller, the C5000 activates the AdBlue pump and the display shows 88888 as the V50 meter checks the density of the AdBlue. If the density checks out, the display resets, the solenoid opens and the fill commences.
+Lift the nozzle|If there is no site controller, the C5000 activates the AdBlue pump and the display shows 88888 as the V50 meter checks the density of the AdBlue.<BR> If the density is within the allowable range, the display resets, the solenoid opens and the fill commences.
 ||If there is a site controller the AdBlue dispenser must be off hold before the nozzle is lifted. The nozzle must be hung up for 3 seconds before lifting and placing in the vehicle.
 Nozzle lever opened.|	AdBlue flows through the dispenser and is metered.
 Nozzle lever closed and nozzle is hung up.|	The solenoid closes and pump stops after the fill has ended.
 
 <BR>
 
-# 1.6 Hydraulic Layout
+# Hydraulic Layout
 
-![image](14.1_Adblue_hydraulic.png)
+![image](19.1.1_AdBlue_hyd_module.png)
 
+<font size ="6">
 
-# 2.0 Servicing
+# Servicing
 
-# 2.1 Tools
+<font size ="3">
+
+# Tools
 
 Servicing the dispenser does not require any specialised tools but to undertake comprehensive servicing, repairs and calibration the following equipment is required.<BR>
 Before attending the site, read the manual and establish the equipment that you will need to take to site.
@@ -357,9 +413,8 @@ Before attending the site, read the manual and establish the equipment that you 
 - A multimeter
 - An earthing strap<BR>
 
-<BR>
 
-# 2.2 Initial Servicing
+# Initial Servicing
 
 Contamination of the fuel supply from dirty pipework is the prime cause of meter and solenoid problems.<BR>
 Two weeks and three months after commissioning a new site the strainer should be cleaned.
@@ -369,9 +424,8 @@ Two weeks and three months after commissioning a new site the strainer should be
 - Make sure the doors are correctly in place and all panels are secure.
 - Check the operation.
 
-<BR>
 
-# 2.3 Annual Servicing
+# Annual Servicing
 
 Every twelve months:
 - Do a calibration check. Adjust if necessary.
@@ -381,13 +435,16 @@ Every twelve months:
 - Check the condition of the AdBlue Hose. Replace if necessary.
 - Check the operation.
 
-# 2.4 V50 Meter Servicing
+<font size ="6">
 
-The V50 meter is field serviceable, and its electronic module can be removed and replaced.
+# V50 Meter Servicing
 
-<BR>
+<font size ="3">
 
-# 2.4.1 Replacing the Electronic Module <BR>
+The V50 meter is field serviceable. Its electronic module can be removed and replaced.
+
+
+# Replacing the Electronic Module <BR>
 
 The electronic module can be replaced without draining the dispenser.
 
@@ -399,9 +456,8 @@ The electronic module can be replaced without draining the dispenser.
 - Fit the new electronic module to the meter.  Feed the cable up to the C5000 K-Factror board and plug it into the same socket as the old module (the clips face outwards).
 - Cable-tie the new cable in place and fix the module in place with screws and new anti-tamper seals.
 
-<BR>
 
-# 2.4.2 Pairing the Electronic Module <BR>
+# Pairing the Electronic Module <BR>
 
 The new module needs to be paired to the C5000 processor board using the K-Factor switch.
 
@@ -415,7 +471,7 @@ Failure to do this is one of the prime causes of setup problems.
 
 You will now need to calibrate the new module.
 
-# 2.4.3 Removing the V50 Meter
+# Removing the V50 Meter
 
 The entire V50 meter is available as a spare part complete with electronic module.
 
@@ -424,7 +480,7 @@ The entire V50 meter is available as a spare part complete with electronic modul
 - Snip any cable ties and noting where it is plugged in; unplug the meter from the C5000 K-Factror board. 
 - Undo the four screws holding the meter in place and remove the meter.
 
-# 2.4.4 Replacing the V50 Meter
+# Replacing the V50 Meter
 
 - Make sure the O rings are in place and ensure the meter is in the correct orientation by checking the ‘IN’ and ‘OUT’ labels on the base of the meter.
 - Using the four screws, fasten the new meter in place.
@@ -435,23 +491,28 @@ The entire V50 meter is available as a spare part complete with electronic modul
 - Restart the dispenser and pair the new meter to the C5000 unit.
 - Calculate and enter the temperature and density offsets and then calibrate the meter.
 
-# 2.4.5 Calibrating the V50 Meter K-Factor
+# Calibrating the V50 Meter K-Factor
 
 The calibration factor is a proportional factor of calculated litres dispensed compared to actual litres dispensed. A calibration factor must be set for each meter in the dispenser.
 
 **Volumetric Method:**
 
-	Place an empty test pail near the dispenser.
-	Remove the nozzle from the nozzle holder.
-	Wait for the displays on the dispenser to go through its 88888's and return to 0.00.
-	Using the nozzle, fill your test pail to the 20L mark.
-	Hang up the nozzle.
-	Record the litres delivered on the dispenser
-	If the calibration is out adjust the K Factor using the following formula: New K Factor = Existing K Factor x Volume dispensed/Volume displayed.
+- Place an empty test pail near the dispenser. 
+- Remove the nozzle from the nozzle holder. 
+- Wait for the displays on the dispenser to go through its 88888's and return to 0.00.
+- Using the nozzle, fill your test pail to the 20L mark.
+- Hang up the nozzle.
+- Record the litres delivered on the dispenser
+-If the calibration is out adjust the K Factor using the following formula: <BR>
+New K Factor = Existing K Factor x Volume dispensed/Volume displayed.
 
-# 2.5 Solenoid Servicing
+<font size ="6">
 
-# 2.5.1 Removing Solenoid Valve Seals
+# Solenoid Servicing
+
+<font size ="3">
+
+# Removing Solenoid Valve Seals
 
 - Drain the dispenser.
 - Switch off the power supply to the dispenser.
@@ -475,7 +536,7 @@ Failure to turn off the power could result in an electric shock.
 
 <BR>
 
-# 2.5.2 Replacing Solenoid Valve Seals
+# Replacing Solenoid Valve Seals
 
 - Place the new valve seal and seal retainer on the cap screw.
 - Taking care not to damage the piston, hold the flat part of the piston to prevent rotation, and then screw the M6 cap screw into the bottom of the piston.
@@ -490,15 +551,17 @@ Failure to turn off the power could result in an electric shock.
 
 <BR>
 
-# 2.5.3 Solenoid Valve diagram
+# Solenoid Valve diagram
 
-![image](14.2_Adblue_solenoid.png) 
+![image](19.3.1_AdBlue_solenoid.png) 
+
+# Solenoid Piston assembly
 
 ![image](14.3_Adblue_piston.png)
 
 <BR>
 
-# 2.5.4 Replacing the Solenoid Coil
+# Replacing the Solenoid Coil
 
 - Drain the dispenser
 - Switch off and isolate the power supply to the dispenser.
@@ -516,7 +579,7 @@ Never remove any electrical components without first switching off the power to 
 
 <BR>
 
-# 2.5.5 Replacing the Solenoid
+# Replacing the Solenoid
 
 - Drain the dispenser.
 - Switch off the power supply to the dispenser.
@@ -534,9 +597,13 @@ Never remove any electrical components without first switching off the power to 
 
 Cleanliness is essential. When working on the open pipes and solenoids, cover the openings with a clean, lint-free cloth to prevent dust and dirt from entering.
 
-# 2.6 AdBlue Instructions
+<font size ="6">
 
-# 2.6.1 Cleaning the AdBlue Nozzle
+# AdBlue Nozzle Instructions
+
+<font size ="3">
+
+# Cleaning the AdBlue Nozzle
 
 If AdBlue evaporates it may form crystals around the dispenser nozzle.<BR>
 A build up of crystals can block the air passage causing the nozzle to continuously trip off.<BR>
@@ -547,13 +614,13 @@ To avoid contamination of the AdBlue, thoroughly dry the nozzle after rinsing.<B
 
 <BR>
 
-# 2.6.2 ZVA AdBlue Nozzle
+# ZVA AdBlue Nozzle
 
 The ZVA AdBlue nozzle with a magnetic safety catch is commonly used on AdBlue dispensers. The following image is included for reference. For further information refer to ZVA direct.
 
 <BR>
 
-![image](14.4_Adblue_nozzle.png)
+![image](19.4.1_AdBlue_ZVA_adblue_nozzle.png)
 
 Automatic nozzle ZVA AdBlue for the refuelling of the “AdBlue” urea solution tanks.<BR>
 
