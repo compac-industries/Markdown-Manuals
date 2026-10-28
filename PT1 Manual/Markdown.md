@@ -1,48 +1,51 @@
 
-![image](Compac_IRS_front_page.png)
+![image](Compac_front_page.png)
 
+<font size="6">
 
-<font size="5">
+# COM5 PT1 Payment Terminal 
 
-# COM5 PT1 Installation and Service Manual  
+<font size="8">
 
-updated 21 April 2026
+Installation & Service Manual 
+
+<font size="3">
+
+updated 28 October 2026
+
+<font size="65">
+
+PT1 Payment Terminal
+
+![alt text](image.png)
+
 <font size="3">
 
 # Conditions of Use  
 
+- Please read this manual completely before working on, or making adjustments to, Compac equipment<BR>
+- Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.<BR> 
+- Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.<BR>
+- Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment<BR>
+- The major hazard involved with operating the Compac C5K processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.<BR>
+- Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C5K processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.<BR> 
+- Compac Industries Limited reserves the right to change the specifications of its products or the information in this manual without necessarily notifying its users.<BR>
+- Variations in installation and operating conditions may affect the Compac C5K processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C5K processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.<BR>
+- Compac Industries Limited has made every effort to explain all servicing procedures, warnings, and safety precautions as clearly and completely as possible. However, due to the range of operating environments, it is not possible to anticipate every issue that may arise. This manual is intended to provide general guidance. For specific guidance and technical support, contact your authorised Compac supplier, using the contact details in the Product Identification section.
+- Only parts supplied by or approved by Compac may be used and no unauthorised modifications to the hardware of software may be made. The use of non-approved parts or modifications will void all warranties and approvals. The use of non-approved parts or modifications may also constitute a safety hazard.
+- Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C5000 processor, please refer to the warranty provided by the supplier.
+- Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5K processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how. 
+- Every effort has been made to ensure the accuracy of this document. However, it may contain technical inaccuracies or typographical errors. Compac Industries Limited assumes no responsibility for and disclaims all liability of such inaccuracies, errors, or omissions in this publication.<BR>
 
-Please read this manual completely before working on, or making adjustments to Compac equipment
-
-Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.
-
-Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.
-
-Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment
-
-The major hazard involved with operating the Compac C4000 processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.
-
-Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C4000 processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.
-
-Compac Industries Limited reserves the right to change the specifications of its products or the information in this manual without necessarily notifying its users.
-
-Variations in installation and operating conditions may affect the Compac C4000 processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C4000 processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.
-
-Compac Industries Limited has made every effort to explain all servicing procedures, warnings, and safety precautions as clearly and completely as possible. However, due to the range of operating environments, it is not possible to anticipate every issue that may arise. This manual is intended to provide general guidance. For specific guidance and technical support, contact your authorised Compac supplier, using the contact details in the Product Identification section.
-
-Only parts supplied by or approved by Compac may be used and no unauthorised modifications to the hardware of software may be made. The use of non-approved parts or modifications will void all warranties and approvals. The use of non-approved parts or modifications may also constitute a safety hazard.
-
-Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C4000 processor, please refer to the warranty provided by the supplier.
-
-Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5K processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how.
-
-Every effort has been made to ensure the accuracy of this document. However, it may contain technical inaccuracies or typographical errors. Compac Industries Limited assumes no responsibility for and disclaims all liability of such inaccuracies, errors, or omissions in this publication.
+<BR>
 
 # Specifications
 
 ## Models Covered
 
-> **Note:** Do not use this manual for earlier models. Contact Compac for archived manuals if required.
+**Compac COM5 PT1 Payment Terminal**
+
+**Note:** Do not use this manual for earlier or other models. Contact Compac for archived manuals if required.
 
 # Validity
 
@@ -50,7 +53,7 @@ Compac Industries Limited reserves the right to revise or change product specifi
 
 # Manufactured By
 
-The Compac PT1 Payment Terminal is designed and manufactured by Compac Industries Limited
+The Compac COM5 PT1 Payment Terminal is designed and manufactured by Compac Industries Limited
 
 52 Walls Road, Penrose, Auckland 1061, New Zealand
 
@@ -66,179 +69,179 @@ Fax: + 64 9 579 0635
 
 Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
-# Document Control
-
-## Document Information
-
-**Manual Title:** COM5 PT1 Installation and Service Manual
-
-**Current Revision Author(s):** Trevor Watt
-
-**Original Publication Date:** 20 September 2021
-
-**Authorised By:** Emily Sione
-
-**File Name:** COM5 PT1 Installation and Service Manual v.1.0.5
-
 ## Table of Contents
 
 <font size ="5">
 
-[**1.0 Installation and Zoning**](#installation-and-zoning)
+[**Installation and Zoning**](#installation-and-zoning)
 
 <font size ="3">
 
 <font size ="5">
 
-[**2.0 Safety**](#safety)
+[**Safety**](#safety)
 
 <font size ="3">
 
-[2.1 Site Safety](#21-site-safety)
+[Site Safety](#site-safety)
 
-[2.2 Electrical Safety](#22-electrical-safety)
+[Electrical Safety](#electrical-safety)
 
 <font size ="5">
 
-[**3.0 Footprint Drawings**](#30-footprint-drawings)
+[**Footprint Drawings**](#footprint-drawings)
 
 <font size ="3">
 
-[3.1 PT1 Dimensions](#31-pt1-dimensions)
+[PT1 Dimensions](#pt1-dimensions)
 
-[3.2 PT1 Footprint](#32-pt1-footprint)
+[PT1 Footprint](#pt1-footprint)
 
-[3.3 PT1 Components](#33-pt1-components)
+[PT1 Components](#pt1-components)
 
 <font size ="5">
 
-[**4.0 Tools Checklist**](#40-tools-checklist)
+[**Tools Checklist**](#tools-checklist)
 
 <font size ="3">
 
-[4.1 Biannual Service](#41-biannual-service)
+[Biannual Service](#biannual-service)
 
-[4.2 Annual Service](#42-annual-service)
+[Annual Service](#annual-service)
 
 <font size ="5">
 
-[**5.0 Mechanical Installation**](#50-mechanical-installation)
+[**Mechanical Installation**](#mechanical-installation)
 
 <font size ="3">
 
-[5.1 Mounting the PT1 Payment Terminal on a Post](#51-mounting-the-pt1-payment-terminal-on-a-post)
+[Mounting the PT1 Payment Terminal on a Post](#mounting-the-pt1-payment-terminal-on-a-post)
 
 <font size ="5">
 
-[**6.0 Electrical Installation**](#60-electrical-installation)
+[**Electrical Installation**](#electrical-installation)
 
 <font size ="3">
 
-[6.1 Cable Requirements](#61-cable-requirements)
+[Cable Requirements](#cable-requirements)
 
 <font size ="5">
 
-[**7.0 Electrical connections**](#71-incoming-mains)
+[**Electrical connections**](#electrical-connections)
 
 <font size ="3">
 
-[7.1 Incoming Mains](#71-incoming-mains)
+[Incoming Mains](#incoming-mains)
 
-[7.2 CI533 C5K COMMS Driver Board switches](#72-ci533-c5k-comms-driver-board-switches)
+[CI533 C5K COMMS Driver Board switches](#ci533-c5k-comms-driver-board-switches)
 
-[7.3 Side DIN Rail Terminals](#73-side-din-rail-terminals)
+[Side DIN Rail Terminals](#side-din-rail-terminals)
 
-[7.4 Modem and Network connections](#74-modem-and-network-connections)
+[Modem and Network connections](#modem-and-network-connections)
 
-[7.5 Glanding](#75-glanding)
+[Glanding](#glanding)
 
 <font size ="5">
 
-[**8.0 COMMS connections**](#80-comms-connections)
+[**COMMS connections**](#comms-connections)
 
 <font size ="3">
+
+[COMPAC/PEC COMMS](#compacpec-comms) 
+
+[Gilbarco Comms](#gilbarco-comms) 
+
+[Dart Comms](#dart-comms)
 
 <font size ="5">
 
-[**9.0 Electrical Testing**](#90-electrical-testing)
+[**Electrical Testing**](#electrical-testing)
 
 <font size ="3">
 
-[9.1 Tank Gauging Setup](#91-tank-gauging-setup)
+[Tank Gauging Setup](#tank-gauging-setup)
 
-[9.2 System and Transaction Tests](#92-system-and-transaction-tests)
+[System and Transaction Tests](#system-and-transaction-tests)
 
-[9.3 Changing the IP address on a PT1](#93-changing-the-ip-address-on-a-pt1) 
+[Changing the IP address on a PT1](#93-changing-the-ip-address-on-a-pt1) 
  
 <font size ="5">
 
-[**10.0 Installation Checklist**](#100-installation-checklist)
+[**Installation Checklist**](#installation-checklist)
 
 <font size ="3">
 
 <font size ="5">
 
-[**11.0 PT1 Operation and Servicing**](#110-pt1-operation-and-servicing)
+[**PT1 Operation and Servicing**](#pt1-operation-and-servicing)
 
 <font size ="3">
 
-[11.1 Operation](#111-operation)
+[Operation](#operation)
 
-[11.2 Downloading COM5 PT1 Transaction Data](#112-downloading-com5-pt1-transaction-data)
+[Downloading COM5 PT1 Transaction Data](#downloading-com5-pt1-transaction-data)
 
-[11.3 Components](#113-components)
+[Components](#components)
 
 <font size ="5">
 
-[**12.0 Servicing and Maintenance**](#120-servicing-and-maintenance)
+[**Servicing and Maintenance**](#servicing-and-maintenance)
 
 <font size ="3">
 
-[12.1 Regular Testing](#121-regular-testing)
+[Regular Testing](#regular-testing)
 
-[12.2 Card Reader](#122-card-reader)
+[Card Reader](#card-reader)
 
-[12.3 PIN Pad](#123-pin-pad)
+[PIN Pad](#pin-pad)
 
-[12.4 Receipt Printer](#124-receipt-printer)
+[Receipt Printer](#receipt-printer)
 
-[12.5 Electronic Module Replacement](#125-electronic-module-replacement)
+[Electronic Module Replacement](#electronic-module-replacement)
 
-[12.6 Power Supply Replacement](#126-power-supply-replacement)
+[Power Supply Replacement](#power-supply-replacement)
 
-[12.7 UPS Motherboard Connections](#127-ups-motherboard-connections)
+[UPS Motherboard Connections](#ups-motherboard-connections)
 
-[12.8 Power Loss](#128-power-loss)
+[Power Loss](#power-loss)
 
-[12.9 Battery](#129-battery)
+[Battery](#battery)
 
-[12.10 COMMS Board Replacement](#1210-comms-board-replacement)
+[COMMS Board Replacement](#comms-board-replacement)
 
-[12.11 C5K Processor Board Replacement](#1211-c5k-processor-board-replacement)
+[C5K Processor Board Replacement](#c5k-processor-board-replacement)
 
-[12.12 UPS Motherboard replacement](#1212-ups-motherboard-replacement)
+[UPS Motherboard replacement](#ups-motherboard-replacement)
 
-[12.13 PIN Pad Replacement](#1213-pin-pad-replacement) 
+[PIN Pad Replacement](#pin-pad-replacement) 
 
-[12.14 Card Reader Replacement](#1214-card-reader-replacement)
+[Card Reader Replacement](#card-reader-replacement)
 
-[12.15 Fan & Filter](#1215-fan--filter)
-
-[12.16 Modem LEDs](#1216-modem-leds)
+[Fan & Filter](#fan--filter)
 
 <font size ="5">
 
-[**13.0 Troubleshooting**](#130-troubleshooting)
+[**Modem LEDs**](#modem-leds)
+
+<font size ="3">
+
+[COMSET Router](#comset-router)
+
+[TELTONIKA RUT241 Router](#teltonika-rut241-router)
+
+<font size ="5">
+
+[**Troubleshooting**](#troubleshooting)
 
 <font size ="3">
 
 <font size ="5">
 
-[**14.0 Spare Parts**](#140-spare-parts)
+[**Spare Parts**](#spare-parts)
 
 <font size ="3">
 
-# 1.0 Installation and Zoning
+# Installation and Zoning
 
 **DANGER:** The Compac PT1 Payment Terminal is NOT suitable for mounting in any hazardous area.
 
@@ -250,7 +253,7 @@ The Site Zonal drawings consider all the equipment on site, not just the Compac 
 
 As a guide, PT1 Payment Terminal installations should comply with all the following requirements.
 
-> **Important Note:** The following are guidelines only
+**Important Note:** The following are guidelines only
 
 If in doubt, consult a Hazardous Area specialist.
 
@@ -282,15 +285,15 @@ For adequately ventilated fuel dispensing sites (not including CNG/NGV), in most
 
 - Lighting should be provided during the hours of operation. Lighting should be sufficient to provide safe working conditions that include, but are not limited to, clear visibility of all markings on packages, signs, instruments and other necessary items.
 
-> **Note:** A minimum value of 50 lux is recommended.
+**Note:** A minimum value of 50 lux is recommended.
 
 These requirements do not apply to any specific site but are merely recommendations that will apply in most cases. The owner/installer must ensure that the installation complies with AS/NZS 3000, AS 1940, and any other applicable regulations.
 
-# 2.0 Safety
+# Safety
 
-You must adhere to the following safety precautions at all times when working on the Compac COM5 PT1. Failure to observe these safety precautions could result in damage to the COM5 PT1, injury, or death. Make sure that you read and understand all safety precautions before installing, servicing, or operating the Compac COM5 PT1.
+Please adhere to the following safety precautions at all times when working on the Compac COM5 PT1. Failure to observe these safety precautions could result in damage to the COM5 PT1, injury, or death. Make sure that you read and understand all safety precautions before installing, servicing, or operating the Compac COM5 PT1.
 
-## PRECAUTIONS
+# PRECAUTIONS
 
 Always follow safe operating procedures, any national or local regulations and site-specific instructions.
 
@@ -298,7 +301,7 @@ Make sure that the service area is thoroughly clean when servicing. Dust and dir
 
 Some components have sharp edges and corners. Wear gloves whenever practicable while working inside the cabinet.
 
-# 2.1 Site Safety
+# Site Safety
 
 Comply with all safe site regulations for the site you are working on and any additional instructions from the site manager.
 
@@ -312,7 +315,7 @@ When working near any flammable goods area, take all precautions to avoid all po
 
 These instructions are to be used as a guide only and may not cover all situations. It is the responsibility of yourself and the site manager to take appropriate health and safety precautions.
 
-## 2.2 Electrical Safety
+# Electrical Safety
 
 **CAUTION:**
 
@@ -322,7 +325,7 @@ Always turn off the power to the COM5 PT1 using the mains switch and the battery
 
 Always take basic anti-static precautions when working on the electronics, i.e., wearing a wristband with an earth strap.
 
-### 240 Volt
+# 240 Volt
 
 The COM5 PT1 is powered by 240-volt AC mains power. The mains power enters the cabinet via a gland in the base and is connected into the main circuit breaker on the DIN rail. From the circuit breaker, power goes to a connector block where it is split with wires running to the thermostat/heater and to the power supply mounted on the back of the electronic module. The power supply steps down the 230 Volts AC to 16-volt DC to power the main electronic components.
 
@@ -336,7 +339,7 @@ The 2 DIN rails hold 230 Volt components. The 230 Volt components (230 Volt conn
 
 The cabinet heater operates when the temperature inside the cabinet drops below a pre-set level. In cold weather the heater can start without warning and may get hot enough to cause skin burns if touched (105°C).
 
-### 12 Volt
+# 12 Volt
 
 The COM5 PT1 runs on 16 Volts DC and has an internal 12 Volt battery to supply power in the case of mains failure. When the mains power is turned off, the unit will still be powered by the battery. Turn off the battery isolation switch or turn off the mains power before working on any electronic components.
 
@@ -348,29 +351,31 @@ When removing the battery, take care not to short the positive terminal on the c
 
 The power supply converts the 230 Volt AC power to 16 Volt DC power. It is located behind the electronics module and has exposed terminals. Do not place your hand in the gap between the left-hand side of the electronics module and the cabinet side unless you have isolated the mains power.
 
-# 3.0 Footprint Drawings
+# Footprint Drawings
 
-# 3.1 PT1 Dimensions
+# PT1 Dimensions
 
 ![image](13.1_PT1_dimensions.png)
 
-# 3.2 PT1 Footprint
+# PT1 Footprint
 
 ![image](13.2_PT1_footprint.png)
 
-# 3.3 PT1 Components
+# PT1 Components
 
 ![image](13.3_PT1_front1.png)
 
 ![image](13.4_PT1_front2.png)
 
-# 4.0 Tools Checklist
+<BR>
+
+# Tools Checklist
 
 Having all the correct tools will make installation, upgrade and repair procedures easy and minimise the risk of damage to components.
 
 Before you arrive on site, make sure you have a minimum of all the tools listed here:
 
-> **Note:** Make sure your cell phone and laptop are fully charged.
+**Note:** Please ensure that your cell phone and laptop are fully charged.
 
 - 5.5mm nut driver
 
@@ -422,7 +427,7 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 
 - Flat Precision screwdriver 0.23 x 1.5 mm tip
 
-# 4.1 Biannual Service
+# Biannual Service
 
 - Clean or replace the ventilation filter.
 
@@ -432,13 +437,13 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 
 - Ensure the printer has sufficient paper.
 
-# 4.2 Annual Service
+# Annual Service
 
 - Check the seals on the COM5 PT1 door are not damaged or worn and that the COM5 PT1 base is secure.
 
-# 5.0 Mechanical Installation
+# Mechanical Installation
 
-## Prior to Installation
+# Prior to Installation
 
 Read the relevant parts of this manual and make sure you have the following information:
 
@@ -454,11 +459,9 @@ Read the relevant parts of this manual and make sure you have the following info
 
 - Contact details for help desk
 
-> **Note:** For ADSL sites, check that the broadband account is set up.
+**Note:** For wireless sites check that the SIM card or eSim is registered to a valid account.
 
-> **Note:** For wireless sites check that the SIM card is registered to a valid account.
-
-> **Note:** It is advisable to book an installation time with the help desk at least 24 hours before going to site. This will ensure that help desk staff will be prepared for your inquiries. Help desk hours are currently Monday to Friday 8.00am to 7pm NZ Standard Time.
+**Note:** It is advisable to book an installation time with the help desk at least 24 hours before going to site. This will ensure that help desk staff will be prepared for your inquiries. Help desk hours are currently Monday to Friday 8.00am to 7pm NZ Standard Time.
 
 Bring the following equipment:
 
@@ -474,11 +477,11 @@ Bring the following equipment:
 
 - A charged cell phone
 
-- OPT spares kit
+- PT1 spares kit
 
 - SIM cards for wireless sites (if not supplied with unit)
 
-## Position
+# Position
 
 Refer to the Site Audit document for location.
 
@@ -492,15 +495,15 @@ Situate the OPT so the PIN pad display will not be in direct sunlight at any tim
 
 Make sure that you position the PT1 Payment Terminal to ensure you can open the cabinet door. If mounted on a post, you must also allow clearance be able to remove and replace the access panel on the post.
 
-# 5.1 Mounting the PT1 Payment Terminal on a Post
+# Mounting the PT1 Payment Terminal on a Post
 
 If a post is part of the installation, the post must be securely attached to the ground using appropriate fastenings.
 
-> **Note:** Due to the variability in sites, Compac does not supply ground fastenings with the post. The base plate has 4 x 19mm holes for fastenings, select appropriate fastenings according to the surface and location where the OPT is to be mounted.
+**Note:** Due to the variability in sites, Compac does not supply ground fastenings with the post. The base plate has 4 x 19mm holes for fastenings, select appropriate fastenings according to the surface and location where the OPT is to be mounted.
 
 **CAUTION:** Take care when opening the PT1 cabinet door before the cabinet is securely mounted. The door holds several heavy components that will cause the cabinet to tip when opened.
 
-## To mount the post onto the base:
+# To mount the post onto the base:
 
 - Place the post over the base with the opening facing away from where the front of the PT1 will be.
 
@@ -508,7 +511,7 @@ If a post is part of the installation, the post must be securely attached to the
 
 - Standard PT1s do not have the bolt covers. Fasten using the supplied galvanised bolts with the rounded head facing out and a flat washer under the nut.
 
-## To mount the PT1 onto the post:
+# To mount the PT1 onto the post:
 
 - PT1s with the extra security upgrade use special keyed machine screws. The head of the bolts face out. Standard PT1s use four M10 bolts, nuts, flat and spring washers.
 
@@ -520,17 +523,17 @@ If a post is part of the installation, the post must be securely attached to the
 
 - Fit the cover plate on the back of the post using the supplied M6 Security Torx head screws or security keyed M6 machine screws for the extra security models.
 
-> **Note:** Use only the Compac supplied 4 bolt mounting plate to secure the OPT to the post.
+**Note:** Use only the Compac supplied 4 bolt mounting plate to secure the OPT to the post.
 
-> **Note:** Security Torx or Security Keyed head screws must be used on the cover plate of the post to prevent unauthorised access to the wiring.
+**Note:** Security Torx or Security Keyed head screws must be used on the cover plate of the post to prevent unauthorised access to the wiring.
 
 **CAUTION:** Any unused holes in the bottom of the PT1 cabinet must be blanked. No open holes in the base of the PT1 cabinet are permitted.
 
-# 6.0 Electrical Installation
+# Electrical Installation
 
-# 6.1 Cable Requirements
+# Cable Requirements
 
-## Power Cable
+# Power Cable
 
 3 Core Steel Wire Armour Cable 2.5mm². 230 Volts, 10A, 50 Hz. Connect the incoming mains as follows:
 
@@ -540,38 +543,38 @@ If a post is part of the installation, the post must be securely attached to the
 
 - Earth - Connect to the busbar.
 
-## Pump Comms
+# Pump Comms
 
 2 Core Steel Wire Armour Cable 1.5mm². Total cable length in the comms circuit should not exceed 100 metres.
 
 Terminals will be labelled depending on the brand of pump on site. Correct polarity must be observed.
 
-> **Note:** For pump comms, tank gauging and ADSL connections it is suggested that the wires are crimped to a ferrule to provide a greater contact area for the screw fastener.
+**Note:** For pump comms, tank gauging and ADSL connections it is suggested that the wires are crimped to a ferrule to provide a greater contact area for the screw fastener.
 
-> **Note:** Make sure the clamping screw contacts the terminal and not the insulation.
+**Note:** Make sure the clamping screw contacts the terminal and not the insulation.
 
-## Tank Gauging
+# Tank Gauging
 
 Connect the wires from the tank gauging unit to the terminals on the Din rail marked Tx, Rx and G. The Tx wire from the tank gauging unit connects to the Rx terminal. Refer to the Side DIN Rail Terminal drawing
 
 Cable length should be less than 3 metres. Cable length can be extended up to 10 metres if an opto-isolator is used.
 
-> **Note:** Site electrical and magnetic interference can reduce transmission distance.
+**Note:** Site electrical and magnetic interference can reduce transmission distance.
 
 
-# 7.0 Electrical connections
+# Electrical connections
 
 Note: The following drawings can also be found on a label inside the PT1 cabinet
 
 <BR>
 
-# 7.1 Incoming Mains
+# Incoming Mains
 
 ![image](13.5_PT1_incoming.png)
 
 <BR>
 
-# 7.2 CI533 C5K COMMS Driver Board switches
+# CI533 C5K COMMS Driver Board switches
 
 Refer to COMMS Wiring and Setup section for more detailed information
 
@@ -579,13 +582,13 @@ Refer to COMMS Wiring and Setup section for more detailed information
 
 <BR>
 
-# 7.3 Side DIN Rail Terminals
+# Side DIN Rail Terminals
 
 ![image](13.7_PT1_sidedinrail.png)
 
 <BR>
 
-# 7.4 Modem and Network connections
+# Modem and Network connections
 
 4G & 5G Aerial/Antennae Installation
 
@@ -600,7 +603,7 @@ When installing the spring-loaded aerial, it is essential to leave enough loose 
 
 The aerial plugs into the wireless router. Neatly cable-tie the aerial cable to existing wiring and feed any excess into the base where it can be coiled and cable tied out of the way. Make sure the aerial cable does not interfere with the paper roll when the door is closed.
 
-# 7.5 Glanding
+# Glanding
 
 Gland the mains power, pumps comms, tank gauging and Antenna/Network SWA cables up through the post into the 20mm holes provided in the bottom of the cabinet.
 
@@ -614,9 +617,9 @@ Ensure the Perspex terminal cover is refitted after the cables are connected
 
 **NOTE:** Due to varying customer requirements, connections may change from what is shown above.
 
-# 8.0 COMMS connections
+# COMMS connections
 
-## CI533 Comms board
+# CI533 Comms board
 
 In the PT1, the CI533 Comms interface PCB board is piggy-backed on top of the Processor Board
 
@@ -628,7 +631,7 @@ No site connections are required directly onto the CI533 Comms board.
 
 ![image](12.4.7_ComfillV2_CI533Comms_board.png)
 
-### CI533 COMMS board functions
+# CI533 COMMS board functions
 
 The CI533 Comms board has two functions.
 
@@ -636,7 +639,7 @@ The CI533 Comms board has two functions.
 
 2.	It has a Tank-gauging interface to connect to either 2x 4-20m Tank Probes or a 3rd party Tank controller ( Veeder-Root or Calibri)  via RS232
 
-### CI533 COMMS channels
+# CI533 COMMS channels
 
 There are three Comms channels
 
@@ -656,7 +659,7 @@ There is an ENABLE switch SW_P1 to turn CH1 ON. A Green LED indicates that the C
 
 When communicating with a Pump or Dispenser, the Tx and Rx red LEDS will flash
 
-### SW_P1 
+# SW_P1 
 This switch is normally left in the ON position
 
 Channel 2 CH2 can be configured for the following protocol options using Switch SW2
@@ -675,7 +678,7 @@ There is an ENABLE switch SW_P2 to turn CH2 ON. A Green LED indicates that the C
 
 When communicating with a Pump or Dispenser, the Tx and Rx red LEDS will flash
 
-### SW_P2
+# SW_P2
 This switch is normally left in the ON position
 
 Channel 3 CH3 can be configured for either RS232 or RS485 using Switch S61
@@ -688,28 +691,28 @@ CI533 Comms board Dipswitch settings
 
 These are the Dip-switch settings for Compac, Gilbarco, Wayne DART and RS485 Comms
 
-### SW1 
+# SW1 
 CH1 Channel 1
 
 1 = Compac ( standard Current Loop) comms
 
 2 = RS485
 
-### SW2 
+# SW2 
 CH2 Channel 2
 
 1 = Gilbarco
 
 2 = RS485
 
-### S61 
+# S61 
 – CH3 Channel 3 selector switch
 
 ON = RS232
 
 OFF = RS485
 
-### SW62 
+# SW62 
 This switch is used for current loop systems on channel 1 (e.g. Gilbarco, Wayne). Adjust the switch according to the current (mA) of the site protocol as required. There are three current options.
 
 Wayne = 45
@@ -724,9 +727,11 @@ These switches are used for an end of line termination resistor for RS485 applic
 
 They are not currently supported and should be left in the OFF position
 
-# COMPAC/PEC COMMS V1.0 09-08-2021
+# COMPAC/PEC COMMS 
 
-## Connections
+V1.0 09-08-2021
+
+# Connections
 
 The following are the connections and switch settings for Compac/PEC comms on the CI533A. 
 
@@ -741,14 +746,14 @@ Also, you need to make sure that the Channel that you are using is switched on. 
 ![image](5.1.2_Compac_comms_2.png)
 
 
-## Configuration / Setup
+# Configuration / Setup
 
 To set up pumps talking Gilbarco right click on the Site and the click on edit site.
 Then click on the pumps tab
 
 ![image](5.1.3_Compac_comms_3.png)
 
-### Setup the pump as follows
+# Setup the pump as follows
 
 Pump number: The number of the pump that you will select when prompted
 
@@ -765,7 +770,7 @@ Then, click the “Add” button
 
 ![image](5.1.4_Compac_comms_4.png)
 
-### Setup the Hoses
+# Setup the Hoses
 
 Assign the grades and the hoses on the pump
 
@@ -783,7 +788,7 @@ You then can check the events to see if the pumps have been updated
 ![image](5.1.7_Compac_comms_7.png)
 
 
-## Extra Compac/PEC settings
+# Extra Compac/PEC settings
 There are some pumps that need specific settings. 
 
 Below is the symptom and the pump type to use. 
@@ -799,9 +804,11 @@ Compac dispenser. When you enter the auth $10 the pump is stopping at 10 litres 
 ![image](5.1.8_Compac_comms_8.png)|![image](5.1.9_Compac_comms_9.png)
 
 
-# Gilbarco Comms V1.0 9/08/2021
+# Gilbarco Comms 
 
-## Connections
+V1.0 9/08/2021
+
+# Connections
 
 The following is the connections and switch setting for Gilbarco on the CI533A. Note that Channel 1 is free to be used as Compac or Dart
 
@@ -812,14 +819,14 @@ Also need to make sure that the Channel that you are using is switched on. When 
 ![image](5.2.2_Gilbarco_comms_2.png)
 
 
-## Configuration / Setup
+# Configuration / Setup
 
 To set up pumps talking Gilbarco right click on the Site and the click on edit site.
 Then click on the pumps tab
 
 ![image](5.2.3_Gilbarco_comms_3.png)
 
-### Setup the pump
+# Setup the pump
 
 Pump number: The number of the pump that you will select when prompted
 
@@ -836,7 +843,7 @@ Then click the “Add” button
 ![image](5.2.4_Gilbarco_comms_4.png)
 
 
-### Setup the Hoses
+# Setup the Hoses
 Assign the grades the hoses on the pump
 
 ![image](5.2.5_Gilbarco_comms_5.png)
@@ -850,7 +857,7 @@ You then can check the events to see if the pumps have been updated
 
 ![image](5.2.7_Gilbarco_comms_7.png)
 
-## Extra Gilbarco Settings
+# Extra Gilbarco Settings
 
 The C5000 is setup to automatically set the correct Gilbarco protocol. But sometimes the dispenser is a little different. In these cases, we have special Gilbarco protocol versions.
 
@@ -873,7 +880,9 @@ GILBARCO_V1_6D_Preset4D
 Compac Pumps Running Gilbarco need to be set to “GILBARCO_V1_5D_Preset2D” or “GILBARCO_V1_6D_Preset2D”
  
  
-# Dart Connections V1.0 09-08-2021
+# Dart Comms
+
+V1.0 09-08-2021
 
 The following is the connections and switch setting for Dart on the CI533A Ch1 and Ch2
 
@@ -884,7 +893,7 @@ Also need to make sure that the Channel that you are using is switched on. When 
 ![image](5.3.2_Dart_comms_2.png)
 
 
-## Configuration / Setup
+# Configuration / Setup
 
 To set up pumps talking Dart right click on the Site and the click on edit site.
 
@@ -892,7 +901,7 @@ Then click on the pumps tab
 
 ![image](5.3.3_Dart_comms_3.png)
 
-### Setup the pump
+# Setup the pump
 
 Pump number: The number of the pump that you will select when prompted
 
@@ -908,7 +917,7 @@ Then click the “Add” button
 
 ![image](5.3.4_Dart_comms_4.png)
 
-### Setup the Hoses
+# Setup the Hoses
 
 Assign the grades to the hoses on the pump
 
@@ -924,7 +933,7 @@ You then can check the events to see if the pumps have been updated
 ![image](5.3.7_Dart_comms_7.png)
 
 
-# 9.0 Electrical Testing
+# Electrical Testing
 
 This procedure outlines how to perform an electrical operations test on the PT1 before carrying out a full site test.
 
@@ -946,7 +955,7 @@ System Power Up
 
 - Check the green power led on the right side of the Compac Box is on. If not, check the switch on the left-hand side of the box is turned on.
 
-## Communications
+# Communications
 
 Check that the ATG and Pump Communications LEDs on the CI533 Comms board are lit.
 
@@ -957,7 +966,7 @@ LED|Colours|Comment
 | ATG (NZ) | Green Red | Toggles Red Green = Normal |
 | ATC (Aus) | Green Red | Toggles Red Green = Normal |
 
-# 9.1 Tank Gauging Setup
+# Tank Gauging Setup
 
 Tank gauging is wired into the terminals marked Tx, Rx and G.
 
@@ -970,7 +979,7 @@ The tank gauging unit will have to be set up with the correct outputs to communi
 The Compac settings for the tank gauge are usually either set at the factory or sent via CompacOnline.
 
 
-# 9.2 System and Transaction Tests
+# System and Transaction Tests
 
 When you are happy that the PT1 is powered up and communicating, contact the Compac Help Desk. The COmpac Help Desk will check that the PT1 is communicating correctly and will ask you to perform various checks to confirm this.
 
@@ -1040,7 +1049,7 @@ Do the same for the subnet mask, gateway and the DNS
 
 Now, REPOWER the unit. The Unit MUST be repowered to take the new settings
 
-# 10.0 Installation Checklist
+# Installation Checklist
 
 Before leaving site, ensure the installation checklist is completed. If any of the following tests fail, please contact Helpdesk.
 
@@ -1094,7 +1103,7 @@ Check that door switch alarm has cleared.
 
 Tidy up all rubbish and clean the PT1 before leaving.
 
-# 11.0 PT1 Operation and Servicing
+# PT1 Operation and Servicing
 
 The Online Payment Terminal (COM5 PT1) enables unattended refuelling at unmanned sites such as truck stops, marinas, aviation sites and supermarkets where the driver, skipper or pilot can pay for fuel by credit card, distributor card or on enabled sites, by EFTPOS. The COM5 PT1 can accept multiple card bases simultaneously through Compac's EFTPOS partner, WindCave.
 
@@ -1104,7 +1113,7 @@ Card are authorised online in real time. Offline mode can be enabled. Card bases
 
 The COM5 PT1 has a backup power supply to allow communications and receipts to be printed in the event of a power failure. For an overview of the backup battery operation refer to Power Loss.)
 
-## 11.1 Operation
+# Operation
 
 - Following the instructions displayed on the COM5 PT1, the user inserts and removes their card.
 
@@ -1116,14 +1125,14 @@ The COM5 PT1 has a backup power supply to allow communications and receipts to b
 
 - After fuel has been taken and the pump nozzle hung up a receipt can be obtained by the customer by re-inserting and removing their card. This can be done up to 20 minutes after the transaction
 
-## 11.2 Downloading COM5 PT1 Transaction Data
+# Downloading COM5 PT1 Transaction Data
 
 EFTPOS and credit card transactions are handled by banks and transaction processing entities.
 
 Distributor card transactions are sent to the CompacOnline website www.compaconline.com.in real time via the Internet. 
 Instructions for using the CompacOnline website are contained in the CompacOnline User Guide.
 
-## 11.3 Components
+# Components
 
 The unit has the following main components:
 
@@ -1158,11 +1167,11 @@ Note: This manual covers both the PT1 and PT1 with 7” TFT Display
 ![image](13.15_PT1_upsassembly.png)
 
 
-# 12.0 Servicing and Maintenance
+# Servicing and Maintenance
 
 The COM5 PT1 is designed for trouble free operation if the following regular maintenance is performed. Depending on the environmental conditions and usage of the site, maintenance may be required more frequently than stated.
 
-# 12.1 Regular Testing
+# Regular Testing
 
 For trouble free operation, the COM5 PT1 should be regularly tested by performing zero value transactions with a known working card.
 
@@ -1174,21 +1183,21 @@ Swipe card and check that a receipt prints out.
 
 Perform this task weekly or more frequently if customers have trouble with the COM5 PT1 operation.
 
-## 12.2 Card Reader
+# Card Reader
 
 Card reader should be swiped through with a cleaner card wet with cleaner fluid. The card reader may need to be cleaned daily on dirty, dusty, or wet sites.
 
-## 12.3 PIN Pad
+# PIN Pad
 
 The PIN pad keys should be inspected and cleaned to keep the printing legible. A soft cloth should be used. Do not use a cloth moistened with solvent or petrol as the keys may be damaged.
 
-## 12.4 Receipt Printer
+# Receipt Printer
 
 Check for foreign matter in the receipt box. Any dust or dirt should be cleaned away with a clean dry fine bristled brush. Perform this task weekly or more frequently in dusty or harsh environments.
 
 Ensure printer has sufficient paper. Remote sites should have a new roll installed at every visit. If there is a local site contact, leave part rolls with them.
 
-## Changing Paper
+# Changing Paper
 
 CAUTION
 
@@ -1208,7 +1217,7 @@ To change the paper:
 
 - 	The paper will automatically feed into the printer.
 
-## Clearing Jam
+# Clearing Jam
 
 If the receipt paper is jammed, try to clear it using the following technique:
 
@@ -1227,7 +1236,7 @@ If the printer roll appears wet or damaged, replace it.
 ![image](13.16_PT1_printer1.png)
 
 
-## Removal
+# Removal
 
 - 	Isolate the COM5 PT1
 
@@ -1241,7 +1250,7 @@ If the printer roll appears wet or damaged, replace it.
 
 - 	Unplug the paper low sensor from the printer
 
-## Replacement
+# Replacement
 
 - 	Fasten the old paper roll arm onto the new printer in the same position as it was on the old printer
 
@@ -1255,7 +1264,7 @@ If the printer roll appears wet or damaged, replace it.
 
 - 	Perform a test transaction.
 
-# 12.5 Electronic Module Replacement
+# Electronic Module Replacement
 
 To replace the power supply or for easier access to components, the electronic module can be removed from the cabinet.
 
@@ -1272,7 +1281,7 @@ Always take anti-static precautions when working with electronic components for 
 
 **NOTE:** If the module is still functioning, contact the Technical Help Desk to ensure all data has been retrieved before disconnecting.
 
-## Disconnecting the Electronic Module
+# Disconnecting the Electronic Module
 
 **CAUTION**
 
@@ -1290,7 +1299,7 @@ Cut any cable ties that may be securing the wires to the chassis or wires that a
 
 NOTE: The module is heavy. Make sure it is well supported and no wires are pulled as you remove it.
 
-## Electronic Module Removal
+# Electronic Module Removal
 
 - 	Turn off the mains switch and the Battery Isolation switch before commencing this procedure.
 
@@ -1300,7 +1309,7 @@ NOTE: The module is heavy. Make sure it is well supported and no wires are pulle
 
 - 	Using both hands pull the Module forward off the studs.
 
-## Replacement
+# Replacement
 
 - 	Reconnect all the cables that were removed.
 
@@ -1310,7 +1319,7 @@ NOTE: The module is heavy. Make sure it is well supported and no wires are pulle
 
 - 	Re-power and test.
 
-# 12.6 Power Supply Replacement
+# Power Supply Replacement
 
 The power supply is a modular unit and repair is not recommended except by an experienced power supply repair technician.
 
@@ -1321,7 +1330,7 @@ The power supply is a modular unit and repair is not recommended except by an ex
 - 	Remove the power supply.
 
 
-# 12.7 UPS Motherboard Connections
+# UPS Motherboard Connections
 
 Connector|Use|Wire Colours|Comment
 |-----|-----|-----|-----|
@@ -1344,7 +1353,7 @@ Use the above table as a guide only as wire colours can change during production
 
 Take care to observe correct polarity as there are components that can be permanently damaged if connected incorrectly.
 
-# 12.8 Power Loss
+# Power Loss
 
 ![image](13.20_PT1_powerloss.png) 
 
@@ -1370,7 +1379,7 @@ G = 30 minutes after battery reaching the threshold level, transactions can now 
 
 - 	If the battery voltage does not dip below the threshold level while the mains power is disconnected, normal operation can resume as soon as mains power has been restored.
 
-# 12.9 Battery
+# Battery
 
 The backup battery has an expected life of 5 years in ideal conditions. If the COM5 PT1 stays on for less than 20 minutes during a power failure, then the battery may need replacing.
 
@@ -1406,7 +1415,7 @@ Please ensure the used battery is disposed of in accordance with local environme
 
 
 
-# 12.10 COMMS Board Replacement
+# COMMS Board Replacement
 
 **CAUTION:**
 
@@ -1420,7 +1429,7 @@ Always take anti-static precautions when working with electronic components. i.e
 
 Always take precautions to avoid arcs and short circuits that may damage sensitive components.
 
-### Removal
+# Removal
 
 - 	Turn off the mains switch and the Battery Isolation switch.
 
@@ -1430,7 +1439,7 @@ Always take precautions to avoid arcs and short circuits that may damage sensiti
 
 - 	Pull the COMMS board out to remove the board from the electronic module.
 
-### Replacement
+# Replacement
 
 - 	Align the COMMS board 32pin DIN connector with the COM5 Processor board DIN connector
 
@@ -1442,7 +1451,7 @@ Always take precautions to avoid arcs and short circuits that may damage sensiti
 
 - 	Test for correct operation.
 
-# 12.11 C5K Processor Board Replacement
+# C5K Processor Board Replacement
 
 ![image](C5KProcessor.png) 
 
@@ -1456,7 +1465,7 @@ Always take precautions to avoid arcs and short circuits that may damage sensiti
 
 **NOTE:** Before replacing the processor board, contact the Compac Help Desk to ensure all data has been uploaded. Do not unplug the board until this has been done.
 
-### Removal
+# Removal
 
 - 	Turn off the mains switch and the Battery Isolation switch.
 
@@ -1470,7 +1479,7 @@ Always take precautions to avoid arcs and short circuits that may damage sensiti
 
 **NOTE:** The COM5 Processor board MUST be installed the right way round. Installing Processor board the wrong way will destroy them and will void any warranty.
 
-### Replacement
+# Replacement
 
 - 	Reconnect the COM5 Processor board to the UPS motherboard making sure that the 2 connectors are connected properly.
 
@@ -1485,7 +1494,8 @@ Always take precautions to avoid arcs and short circuits that may damage sensiti
 - 	Repower the unit.
 
 - 	Contact the Help Desk and follow their instructions to re-install site parameters.
-# 12.12 UPS Motherboard replacement
+
+# UPS Motherboard replacement
 
 ![image](13.23_PT1_ups.png)
 
@@ -1499,7 +1509,7 @@ Always take precautions to avoid arcs and short circuits that may damage sensiti
 
 **NOTE:** Before replacing the board, contact the Compac Help Desk to ensure all data has been uploaded. Do not unplug the board until this has been done.
 
-### Removal
+# Removal
 
 - 	Turn off the mains switch and the Battery Isolation switch.
 
@@ -1513,7 +1523,7 @@ Always take precautions to avoid arcs and short circuits that may damage sensiti
 
 **NOTE:** The COM5 Processor board MUST be installed the right way round. Installing Processor board the wrong way will destroy them and will void any warranty.
 
-### Replacement
+# Replacement
 
 - 	Bolt in the UPS motherboard to the chassis of the COM5 PT1.
 
@@ -1541,13 +1551,13 @@ Printer out| Printer COMMS| Black, White, Red| Printer cable
 
 Use the above table as a guide only as wire colours can change during production and after servicing.
 
-# 12.13 PIN Pad Replacement
+# PIN Pad Replacement
 
 **CAUTION:**
 
 Removal of the PIN pad or any of its covers will permanently disable it. Do not remove the PIN pad unless you have a new replacement on hand.
 
-### Removal & Replacement
+# Removal & Replacement
 
 - 	Turn off the mains switch and the Battery Isolation switch.
 
@@ -1561,19 +1571,19 @@ Removal of the PIN pad or any of its covers will permanently disable it. Do not 
 
 - 	Replace.
 
-### Anti-tamper Protection
+# Anti-tamper Protection
 
 A unit that has been disabled will display the message: "Secure Link Fail - Terminal Locked".
 
 ***NOTE:*** The PIN pad is equipped with an anti-removal and anti-tamper protection. Once the unit has been powered up the protection devices are armed. After this, removal of the unit or any of its covers or subjecting it to mechanical force, extremes of temperature or voltage will disable it requiring return to the factory for testing and resetting.
 
-# 12.14 Card Reader Replacement
+# Card Reader Replacement
 
 CAUTION
 
 Removal of the Card Reader or any of its covers will permanently disable it. Do not remove the Card Reader unless you have a new replacement on hand.
 
-### Removal & Replacement
+# Removal & Replacement
 
 - 	Turn off the mains switch and the Battery Isolation switch.
 
@@ -1585,21 +1595,21 @@ Removal of the Card Reader or any of its covers will permanently disable it. Do 
 
 - 	Replace
 
-### Anti-tamper Protection
+# Anti-tamper Protection
 
 A unit that has been disabled will display the message: "Secure Link Fail - Terminal Locked".
 
 NOTE: The card reader is equipped with an anti-removal and anti-tamper protection. Once the unit has been powered up the protection devices are armed. After this, removal of the unit or any of its covers or subjecting it to mechanical force, extremes of temperature or voltage will disable it requiring return to the factory for testing and resetting.
 
-# 12.15 Fan & Filter
+# Fan & Filter
 
 The Filter element can become blocked up in dusty environments and may be removed from the ducting and cleaned with a vacuum cleaner or compressed air. If the filter is excessively dirty or damaged it can be replaced with a new filter.
 
 The Fan has a Life expectancy of 100,000 hours in ideal conditions. If the fan fails or becomes excessively noisy it should be replaced.
 
-### Filter Replacement
+# Filter Replacement
 
-### Removal & Replacement
+# Removal & Replacement
 
 - 	Unclip the fan connector or turn off the COM5 PT1
 
@@ -1611,9 +1621,9 @@ The Fan has a Life expectancy of 100,000 hours in ideal conditions. If the fan f
 
 **NOTE:** The filter element can be cleaned with a vacuum or compressed air.
 
-### Fan Replacement
+# Fan Replacement
 
-### Removal & Replacement
+# Removal & Replacement
 
 - 	Unclip the fan connector.
 
@@ -1624,11 +1634,15 @@ The Fan has a Life expectancy of 100,000 hours in ideal conditions. If the fan f
 ![image](Filterlocation.png)
 
 
-# 12.16 Modem LEDs
+# Modem LEDs
+
+Comset and Teltonika routers are currently used in the COM5 PT1. The LEDs can be used to diagnose problems with the routers.
+
+# COMSET Router 
+
+The LEDs of the Comset Router are as follows.
 
 ![image](12.16.5_ComfillV2_modem_LEDs.png)
-
-Comset modems are currently used in the COM5 PT1. The LEDs can be used to diagnose problems with the modems. The LEDs of these modems are as follows.
 
 Refer to the accompanying table to understand the modem LEDs.
 
@@ -1664,7 +1678,55 @@ Signal|	Off| No signal, or signal checking is not ready
 
 <BR>
 
-# 13.0 Troubleshooting
+# TELTONIKA RUT241 Router
+
+![image](12.16.6_Teltonika_router_LEDs.png) 
+
+**Power LED**. The **power LED** is located on the bottom left corner of the front panel, just under the power connector:
+
+**Ethernet port LEDs**. The **Ethernet port LEDs** are located on the router's front panel, under each respective Ethernet port:
+
+**Connection status LEDs**. The **connection status LEDs** are located on the left side of the front panel, between the power connector and the signal strength indication LEDs:
+
+**Signal strength LEDs**. The signal strength LEDs are located in the center of the front panel, to the right of the connection status LEDs:
+
+|LED|Action|Description|
+|---|------|-----------|
+|POWER|ON|Router is powered up
+|     |OFF|Router is not powered up
+|Ethernet port LEDs|ON|Operating as a 10/100 Mbps connection|
+|                  |OFF|No link established|
+|                  |LEDs light up and turn OFF in sequence from WAN port to LAN1 port|The router is in the bootloader menu state|
+|Connection status LEDs|2G, 3G and 4G LEDs blinking every 1 second|No SIM or bad PIN|
+|                      |Blinking from 2G LED to 4G LED repeatedly|Attempting to connect to a mobile network operator
+|                      |2G/3G/4G LED blinking every 1 sec|Connected to 2G/3G/4G, no data session established|
+|                      |2G/3G/4G LED turned on|	Connected to 2G/3G/4G with data session|
+|                      |2G/3G/4G LED blinking rapidly|	Connected to 2G/3G/4G with data session and data is being transferred
+
+|Signal strength LEDs|No of Lit up LEDs|Signal strength value|
+|--------------------|-----------------|---------------------|
+|                    |0|≤ -111 dBm|
+|                    |1|-110 dBm to -97 dBm|
+|                    |2|-96 dBm to -82 dBm|
+|                    |3|-81 dBm to -67 dBm|
+|                    |4|-66 dBm to -52 dBm|
+|                    |5|≥ -51 dBm|
+
+The signal strength LEDs can also be used as a **time indicator for holding the reset button.**<BR>
+When you press and hold the reset button, if there is a User's default configuration configured on the device, you have to hold it pressed for 6 seconds (by default) to initiate a **User's default** configuration reset and 12 seconds (by default) to initiate a **Factory reset.**<BR>
+Otherwise, it is only necessary to hold the reset button for 6 seconds to trigger a Factory reset.<BR>
+If the button was held down longer than 20 seconds (by default) no action will be taken.
+
+While holding the reset button each lit up signal strength LED indicate that a period of two seconds has passed.<BR>
+When all 5 signal strength LEDs are lit up, they represent that 10 (LED number multiplied by 2) seconds have passed since you pressed down on the reset button.
+
+After releasing the button at one of the reset periods, all 5 LEDs will start blinking every 1 second. This signifies that the router **has begun the reset.**
+
+After the router gets powered up, all signal strength LEDs will turn ON and stay ON for about 40 seconds or until the router's modem registers on a network - after this, the LEDs will start displaying the router's current signal strength
+
+<BR>
+
+# Troubleshooting
 
 |Problem|Possible Cause|Recommended Action
 |-----|-----|-----
@@ -1699,7 +1761,7 @@ Signal|	Off| No signal, or signal checking is not ready
 |COM5 PT1 is beeping constantly and displays System Not Ready message when card transaction is attempted.|Unit lost Mains power, Low Battery.|Check the internal screen to confirm if there is No Mains or Battery Low messages on the screen and get the electrician to investigate if there is a power or battery issue.
 
 
-# 14.0 Spare Parts
+# Spare Parts
 
 |Description|Part number
 |-|-
@@ -1709,20 +1771,20 @@ F series BRF210F PayWave Reader|F-BA-PWV-ABFSV
 NLV3101 Barcode Scanner|F-BA-BCS-NLV3101
 Magtek Card Reader|F-BA-CDR-MT-TTL2
 STM32 7" TFT Display|F-BL-CGLCD-DSP7P
-Custom VKP80III Receipt Printer|F-BA_PRT-VKP80
+Custom VKP80III Receipt Printer|F-BA-PRT-VKP80
 UPS Motherboard|F-CP-C5K-UPS
-COM5 processor Board|F-CP-C5K-CMPGIL
-COMMS Board|F-CP-C5K-CG485FM
+COM5 processor Board|F-CP-C5K-PROCES
+COMMS Board|F-CP-C5K-CGIL485
 12V-12V DC-DC converter|F-BA-PWR-40S1203
 12V-24V DC-DC converter|F-BA-PWR-12S2410|
-COMSET Modem Telstra AUS|FO-MDM-CMST4GXTA
-COMSET Modem Vodafone NZ|FO-MDM-CMST4GXVN
-COMSET Modem Spark NZ|FO-MDM-CMST4GXXT
+COMSET Router|FO-MDM-COMST4GXM
+TELTONIKA Router|FO-RTR-RUT241
 16VDC power supply module|F-BA-PWRLRS35015
 Thermostat|FD-BA-TEMP-STAT
 230V main ISO Switch|FD-BS-2P-ISO-SW
 Heater|FD-BA-HEATER-45W
-Fan|F-CU-MXFAN-KT
+Fan|FO-FAN-0001
+Battery|FO-BATT-0001
 Camlock with keys|F-KEYS-418HSL
 
 
