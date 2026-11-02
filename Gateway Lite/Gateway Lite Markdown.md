@@ -12,7 +12,7 @@ Installation Manual
 
 <font size ="3">
 
-Updated 28 October 2026
+Updated 3 November 2026
 
 <font size ="65">
 
@@ -81,6 +81,7 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [Remote Authorisation mode](#remote-authorisation-mode) 
 
+[Tank Gauging](#tank-gauging)
 
 <font size ="6">
 
@@ -126,6 +127,9 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 
 [Pump setup](#pump-setup)
 
+[Tank Probe connection](#tank-probe-connection)
+
+[Internet connection](#internet-connection) 
 
 <font size ="6">
 
@@ -136,6 +140,12 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 <font size ="6">
 
 [**Maintenance**](#maintenance)
+
+<font size ="3">
+
+<font size ="6">
+
+[**LED diagnostics**](#led-diagnostics)
 
 <font size ="3">
 
@@ -187,13 +197,13 @@ These instructions are to be used as a guide only and may not cover all situatio
 Always turn off the power to the Compac Gateway Lite before removing the lid.<BR>
 Never touch wiring or components inside the high voltage area with the power on.<BR>
 
-Always turn off the power to the Compac Gateway Lite before installingreplacing any components .<BR>
+Always turn off the power to the Compac Gateway Lite before installing or replacing any components .<BR>
 
 Always take basic anti-static precautions when working on the electronics, i.e., wearing a wristband with an earth strap.
 
 **240 Volts**<BR>
 
-The Compac Gateway is powered by 240 Volt AC mains power. The mains power enters the cabinet via a gland in the box and is connected to the power supply. The power supply steps down the 230 Volts AC to 12 volt DC to power the main electronic components.<BR>
+The Compac Gateway is powered by 240 Volt AC mains power. The mains power enters the cabinet via a gland in the box and is connected to the power supply. The power supply steps down the 230 Volts AC to 12 volt DC to power the main electronic components.
 
 <BR>
 
@@ -203,24 +213,31 @@ The Compac Gateway is powered by 240 Volt AC mains power. The mains power enters
 
 <font size ="3">
 
-The Gateway Lite can be operated in one of the following modes
+The Gateway Lite can be operated in any of the following modes.
 
 # Standalone mode
 - The Dispensers on the site are connected to the pump comms on the Gateway Lite<BR>
-- They work in standalone mode so do not require authorization.<BR> 
-- The Customer or Operator just lifts the nozzle and dispenses fuel<BR>
-- The Gateway Lite records the transaction and sends it up to cloud based CompacOnline<BR>    
+- The Dispensers are configured to be in standalone mode so do not require authorization to start a fill.<BR> 
+  The Customer or Operator just lifts the nozzle and dispenses fuel<BR>
+- The Gateway Lite records the transaction and sends the transaction record up to cloud based CompacOnline<BR>    
 
 # Listening mode 
-- The dispensers on site are connected to another Point of Sale or Site Controller which authorizes them<BR>
+- The Dispensers on the site are connected to another Point of Sale or Site Controller which authorizes them<BR>
 - The comms channel of the Gateway Lite is connected in parallel with the Pump comms to the Dispensers<BR>
-- The Gateway Lite listens to the transactions on the pump comms, records them and sends them up to cloud based CompacOnline<BR>
+- The Gateway Lite listens to the transactions on the pump comms, records them and sends the transaction up to cloud based CompacOnline<BR>
 
 # Remote Authorisation mode 
 - The Dispensers on the site are connected to the pump comms on the Gateway Lite<BR>
-- They work in controller mode so require authorization.<BR> 
-- Dispensers are authorized from CompacOnline using the Compac Refuel App or other device.<BR> 
+- They work in controller mode so require authorization to allow a fill to start.<BR> 
+- The Dispensers are authorized from CompacOnline using the Compac Refuel App or other device via the CompacOnline API.<BR> 
 - The Gateway Lite records the transaction and sends it up to cloud based CompacOnline<BR>    
+
+# Tank Gauging
+
+There are Tank Gauging inputs for 4-20mA Tank Probes on the Gateway Lite (up to a maximum of two tank probes)
+This gives visibility of fuel levels in the tanks on CompacOnline.
+
+On CompacOnline, there is the ability to reconcile tank fuel inventory against the transaction amounts.
 
 <BR>
 <font size ="5">
@@ -264,7 +281,7 @@ The Gateway Lite can be operated in one of the following modes
 
 **Electrical Approvals**
 
-**DANGER: 
+**NOTE: 
 the Compac Gateway Lite is NOT approved for installation in a hazardous area.<BR>
 Please consult the site's zone drawings to find the exact positions of the hazardous areas for the particular site.**<BR>
 
@@ -300,12 +317,12 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 
 # Mounting
 
-If the Gateway Lite needs to be wall mounted, fix through the corners holes (same hols as the lid screws into) to avoid compromising the integrity of the box.<BR>
+If the Gateway Lite needs to be wall mounted, fix through the corners holes (same holes as the lid screws into) to avoid compromising the integrity of the box.<BR>
 
 
 # Glanding
 
-16 and 20mm flexi-glands are provided wit the Gateway Lite
+16 and 20mm flexi-glands are provided with the Gateway Lite
 
 Any unused gland access holes should be blanked with grommets.
 
@@ -319,23 +336,50 @@ Scope of Electrical installation of the Gateway is as follows:
 
 2. Connect the Pump Comms<BR>
 
+3. Connect the Router<BR>
+
+4. Connect the Tank Probes (if part of the installation)
+
+5. Setup the Gateway Lite on CompacOnline
 
 # 230V Mains connection
 
-Connect the 230V incoming Mains to the temrinal on the Power Supply
-
+Connect the 230V incoming Mains to the terminals on the Power Supply
 
 # Pump comms connection
 
 Connect pump comms to the CI533 Comms board
 
 
+
+
+
+<BR>
+
+# Tank Probe connection
+
+
+<BR>
+
+# Internet connection 
+
+Plug the cable from the router into the RJ45 connector on the C5K Processor board
+
+**Note:** If the IP address needs to be changed in the Gateway Lite, this must be carried out on CompacOnline
+
+<BR>
+
 # Pump setup
 
-Pumps may have already been set up on CompacOnline during provisioning of the Gateway Lite unit during manufacure at the Compac Factory so it may not ususally necessary to do this as part of the installation.
+All setup must be carried out on CompacOnine. There is no provision to do this on the Gateway Lite.
+
+The Dispensers may have already been set up in the GateWay Lite during provisioning of the Gateway Lite unit during manufacture at the Compac Factory so it may not be necessary to do this as part of the installation.
 
 If not set up, this must be done from CompacOnline
 
+Please refer to the CompacOnline V2 User Manual. This manual is available on the Compac website in the Documentation section of the CompacOnline Fluid Management Product page
+
+<BR>
 
 # Servicing
 
@@ -369,6 +413,10 @@ Before you arrive on site, make sure you have a minimum of all the tools listed 
 # Maintenance
 
 The Gateway is a relatively simple unit with no moving parts and therefore needs minimal maintenance. 
+
+<BR>
+
+# LED diagnostics
 
 <BR>
 
