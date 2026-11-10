@@ -1,110 +1,85 @@
-
 ![image](Compac_front_page.png)
 
+<font size="7">
 
-<font size="5">
+# C5000 CNG Dispenser
 
-# C5000 CNG Dispenser Installation and Service Manual  
+<font size="8">
 
-updated 16 June 2026
+Installation and Service Manual  
+
 <font size="3">
 
-# Conditions of Use  
+Updated 10 November 2026
 
-Please read this manual completely before working on, or making adjustments to Compac equipment
+<font size ="65">
 
-Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.
+Compac C5K CNG Dispenser (Legend model shown)
 
-Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.
+![image](15.2.0_CNG_Legend.png)
 
-Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment
+<font size="3">
 
-The major hazard involved with operating the Compac C4000 processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.
+**Conditions of Use**  
 
-Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C4000 processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.
+- Please read this manual completely before working on, or making adjustments to the Compac C5000 CNG Dispenser<BR>
+- Compac Industries Limited accepts no liability for personal injury or property damage resulting from working on or adjusting the equipment incorrectly or without authorization.<BR> 
+- Along with any warnings, instructions, and procedures in this manual, you should also observe any other common sense procedures that are generally applicable to equipment of this type.<BR>
+- Failure to comply with any warnings, instructions, procedures, or any other common sense procedures may result in injury, equipment damage, property damage, or poor performance of the Compac equipment<BR>
+- The major hazard involved with operating the Compac C5K processor is electrical shock. This hazard can be avoided if you adhere to the procedures in this manual and exercise all due care.<BR>
+- Compac Industries Limited accepts no liability for direct, indirect, incidental, special, or consequential damages resulting from failure to follow any warnings, instructions, and procedures in this manual, or any other common sense procedures generally applicable to equipment of this type. The foregoing limitation extends to damages to person or property caused by the Compac C5K processor, or damages resulting from the inability to use the Compac C5K processor, including loss of profits, loss of products, loss of power supply, the cost of arranging an alternative power supply, and loss of time, whether incurred by the user or their employees, the installer, the commissioner, a service technician, or any third party.<BR> 
+- Compac Industries Limited reserves the right to change the specifications of its products or the information in this manual without necessarily notifying its users.<BR>
+- Variations in installation and operating conditions may affect the Compac C5K processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C5K processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.<BR>
+- Compac Industries Limited has made every effort to explain all servicing procedures, warnings, and safety precautions as clearly and completely as possible. However, due to the range of operating environments, it is not possible to anticipate every issue that may arise. This manual is intended to provide general guidance. For specific guidance and technical support, contact your authorised Compac supplier, using the contact details in the Product Identification section.
+- Only parts supplied by or approved by Compac may be used and no unauthorised modifications to the hardware of software may be made. The use of non-approved parts or modifications will void all warranties and approvals. The use of non-approved parts or modifications may also constitute a safety hazard.
+- Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C5K processor, please refer to the warranty provided by the supplier.
+- Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5K processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how. 
+- Every effort has been made to ensure the accuracy of this document. However, it may contain technical inaccuracies or typographical errors. Compac Industries Limited assumes no responsibility for and disclaims all liability of such inaccuracies, errors, or omissions in this publication.
 
-Compac Industries Limited reserves the right to change the specifications of its products or the information in this manual without necessarily notifying its users.
+**Validity**
 
-Variations in installation and operating conditions may affect the Compac C4000 processor's performance. Compac Industries Limited has no control over each installation's unique operating environment. Hence, Compac Industries Limited makes no representations or warranties concerning the performance of the Compac C4000 processor under the actual operating conditions prevailing at the installation. A technical expert of your choosing should validate all operating parameters for each application.
-
-Compac Industries Limited has made every effort to explain all servicing procedures, warnings, and safety precautions as clearly and completely as possible. However, due to the range of operating environments, it is not possible to anticipate every issue that may arise. This manual is intended to provide general guidance. For specific guidance and technical support, contact your authorised Compac supplier, using the contact details in the Product Identification section.
-
-Only parts supplied by or approved by Compac may be used and no unauthorised modifications to the hardware of software may be made. The use of non-approved parts or modifications will void all warranties and approvals. The use of non-approved parts or modifications may also constitute a safety hazard.
-
-Information in this manual shall not be deemed a warranty, representation, or guarantee. For warranty provisions applicable to the Compac C4000 processor, please refer to the warranty provided by the supplier.
-
-Unless otherwise noted, references to brand names, product names, or trademarks constitute the intellectual property of the owner thereof. Subject to your right to use the Compac C5K processor, Compac does not convey any right, title, or interest in its intellectual property, including and without limitation, its patents, copyrights, and know-how.
-
-Every effort has been made to ensure the accuracy of this document. However, it may contain technical inaccuracies or typographical errors. Compac Industries Limited assumes no responsibility for and disclaims all liability of such inaccuracies, errors, or omissions in this publication.
-
-# Specifications
-
-## C5000 CNG Dispenser Models Covered
+This Manual covers the following C5K CNG Dispenser Models:
 
 |Models covered|Standard|High Flow|Ultra-High Flow
 |--------------|--------|---------|---------------
-|Laser |L-CNG15 |L-CNG50 |L-CNG80 
-|      |L-CNGD15 |L-CNGD50 |L-CNGD80 
-|      |         |L-CNG50-15 |L-CNG80-15
-Legend |LGDCNG15 |LGDCNG50 |LGDCNG80-15
-|      |LGDCNGD15 |LGDCNGD50 |LGDCNGD80
-|      |         |LGDCNG50-15 |LGDCNG80-15
+|Laser |L-CNG15 C5K|L-CNG50 C5K |L-CNG80 C5K 
+|      |L-CNGD15 C5K |L-CNGD50 C5K |L-CNGD80 C5K 
+|      |         |L-CNG50-15 C5K|L-CNG80-15 C5K
+Legend |LGDCNG15 C5K|LGDCNG50 C5K |LGDCNG80-15 C5K
+|      |LGDCNGD15 C5K|LGDCNGD50 C5K |LGDCNGD80 C5K
+|      |         |LGDCNG50-15 C5K|LGDCNG80-15 C5K
 
-> **Note:** Do not use this manual for earlier models or Compac CNG Dispensers with C4000 electronics.<BR>
+
+> **Note:** Please do not use this manual for earlier models or Compac CNG Dispensers with C4000 electronics.<BR>
 Contact Compac for archived manuals if required.
-
-# Validity
 
 Compac Industries Limited reserves the right to revise or change product specifications at any time. This publication describes the state of the product at the time of publication and may not reflect the product at all times in the past or in the future.
 
-# Manufactured By
+**Manufactured by:**
 
-The Compac C5000 CNG Dispenser is designed and manufactured by Compac Industries Limited
-
-52 Walls Road, Penrose, Auckland 1061, New Zealand
-
-P.O. Box 12-417, Penrose, Auckland 1641, New Zealand
-
-Phone: + 64 9 579 2094
-
-Fax: + 64 9 579 0635
-
-**Email:** [techsupport@compac.co.nz](mailto:techsupport@compac.co.nz)
-
-**Website:** [http://www.compac.co.nz](http://www.compac.co.nz)
-
+The Compac C5K CNG Dispenser is designed and manufactured by Compac Industries Limited<BR>
+52 Walls Road, Penrose, Auckland 1061, New Zealand<BR>
+P.O. Box 12-417, Penrose, Auckland 1641, New Zealand<BR>
+Phone: + 64 9 579 2094<BR>
+Fax: + 64 9 579 0635<BR>
+Email: techsupport@compac.co.nz<BR>
+Website: www.compac.co.nz<BR>
 Copyright ©2015 Compac Industries Limited, All Rights Reserved
-
-# Document Control
-
-## Document Information
-
-**Manual Title:** C5000 CNG Installation and Service Manual
-
-**Current Revision Author(s):** Trevor Watt
-
-**Original Publication Date:** 22 April 2026
-
-**Authorised By:** Emily Sione
-
-**File Name:** C5000 CNG Installation and Service Manual v.1.0.5
-
-
 
 
 ## Table of Contents
 
 <font size ="5">
 
-[**1.0 Safety**](#10-safety)
+[**Safety**](#safety)
 
 <font size ="3">
 
-[1.1 System Design](#11-system-design)
+[Site System Design](#site-system-design)
 
-[1.2 Mechanical Safety](#12-mechanical-safety)
+[Mechanical Safety](#mechanical-safety)
 
-[1.3 Electrical Safety](#13-electrical-safety)
+[Electrical Safety](#electrical-safety)
 
 
 <font size ="5">
@@ -355,23 +330,52 @@ Copyright ©2015 Compac Industries Limited, All Rights Reserved
 [10.3 Ambient Temperature Sensor Calibration](#103-ambient-temperature-sensor-calibration)
 
 
-# 1.0 Safety
+Spare Parts
+
+When ordering spare parts, please quote the serial number of the Dispenser
+
+C5K Processor Board
+C5K Powers Supply Board
+C5K Comms Board
+C5K K Factor board
+C5K Slave Display board
+C5K TP Slave KG100 Mass FLow Meter
+
+
+
+|Seal kits for -25C rated C5K CNG Dispensers|Compac part number|
+|-----------------------------------|------------------|
+|Filter                             |F                 | 
+|Solenoid Seal Kit                  |F                 |                 
+|Regulator Seal kit                 |F                 |
+
+|Seal kits for -40C rated C5K CNG Dispensers|Compac part number|
+|-----------------------------------|------------------|
+|Filter                             |F                 | 
+|Solenoid Seal Kit                  |F                 |                 
+|Regulator Seal kit                 |F                 |
+
+
+
+
+
+# Safety
 
 **DANGER PRECAUTIONS**<BR>
 
-You must adhere to the following safety precautions at all times when working on the Compac equipment.<BR>
+Please adhere to the following safety precautions at all times when working on the Compac C5K CNG Dispenser.<BR>
 Failure to observe these safety precautions could result in damage to the dispenser, injury, or death.<BR>
-Make sure that you read and understand all safety precautions before operating the Compac equipment<BR>
+Make ensure that you read and understand all safety precautions before operating the Compac C5K CNG Dispenser<BR>
 Failure to take adequate safety precautions could result in explosion, injury and loss of life.
 
-# 1.1 System Design
-Ensure the system design does not allow the dispenser inlet pressure to exceed its rating.<BR>
+# Site System Design
+Ensure that the Site System design does not allow the dispenser inlet pressure to exceed its maximum rating.<BR>
 The dispenser does not include any safeties to protect against excessive inlet pressure.<BR>
 If necessary, suitable protective devices should be fitted prior to the dispenser inlet.
 
-# 1.2 Mechanical Safety
+# Mechanical Safety
 
-Observe the following mechanical precautions:<BR>
+Please observe the following mechanical precautions:<BR>
 
 - Never tighten a fitting under pressure, even if a fitting or joint is leaking. Always depressurise the line first.
 - Never disassemble a fitting under pressure. Always depressurise the line first.
@@ -380,7 +384,7 @@ Observe the following mechanical precautions:<BR>
 - Make sure that all internal surfaces are cleaned and that sliding surfaces are lightly greased with O-ring lubricant before reassembly. Dust and dirt entering components reduce the life span of the components and can affect operation.
 - Ensure the service area is thoroughly cleaned before initiating service on CNG components. Dust and dirt entering the components reduce the life span of the component and affect future operations. 
 
-# 1.3 Electrical Safety
+# Electrical Safety
 
 Observe the following electrical precautions:<BR>
 
@@ -389,16 +393,24 @@ Observe the following electrical precautions:<BR>
 - Always turn off the power to the dispenser before upgrading software or replacing components.
 - Always take basic anti-static precautions when working on the electronics, i.e., wearing a wristband with an earth strap. 
 
-# 2.0 Introduction
+# 2.0 Features of the Compac C5K CNG Dispenser
 
-The Compac CNC dispenser is designed to provide safe and reliable dispensing of CNG fuels.<BR>
-They are available in either single or dual hose configurations and with different flow rates.<BR> 
+Compac C5K CNG dispensers are designed to provide safe and reliable dispensing of CNG fuels.<BR>
+They are available as:<BR> 
+- Single or Dual Hose<BR>
+- One, two or three line<BR>
+- Flow rates from 15 to 100kg/min<BR>
+- Choice of communication protocols or MODBUS
 
-Compac CNG dispensers are controlled by a C5000 board which has many programmable features to suit your individual operation.<BR>
+Compac C5K CNG dispensers are controlled by the C5K Processor which has many advanced programmable features to suit your individual operation.<BR>
 
-This manual contains the information required to operate and maintain your dispenser. Due to ongoing improvements and customised designs, there may be software features that are not available on your particular unit.<BR>
+This manual contains the information required to operate and maintain your dispenser.<BR>
+Due to ongoing development and customised designs, some features are not available in every Dispenser model.<BR>
 
-For clarity, this manual will refer to the "Dollars" display. If you do not use dollars please substitute this for your local currency. 
+For clarity, this manual will refer to the amount dispay as the "Dollars" display. <BR>
+If you do not use dollars please substitute this for your local currency. 
+
+**Laser C5K CNG Dispenser**
 
 ![image](15.2.1_CNG_Laser.png)
 
